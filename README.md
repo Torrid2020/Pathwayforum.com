@@ -1,4 +1,6 @@
-# Torrid Courts
+# Pathway Forum
+
+A free scholarship and study-guide site by [Rise & Reasons](https://www.youtube.com/@torridcourts) on YouTube.
 
 Scholarships, affordable online degrees, and study abroad guides for BYU-Pathway and online students.
 
@@ -47,4 +49,4 @@ Near the bottom of `index.html`:
 - `NEWSLETTER_ENDPOINT` — a form endpoint that accepts an `email` field (e.g. Buttondown's embed-subscribe URL). Until it's set, the form tells visitors sign-ups aren't open yet.
 - `WHATSAPP_URL` — the WhatsApp group (or channel) invite link behind the join button. Clear it to hide the button. If the invite link is ever reset in WhatsApp, update it here.
 
-Independent education platform. Not officially affiliated with BYU-Pathway Worldwide, Brigham Young University, or BYU-Idaho.
+Pathway Forum by Rise & Reasons. Independent education platform, not officially affiliated with BYU-Pathway Worldwide, Brigham Young University, or BYU-Idaho.

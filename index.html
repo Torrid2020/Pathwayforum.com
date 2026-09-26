@@ -1048,7 +1048,7 @@
           <p>Prefer WhatsApp? Get deadline alerts on your phone.</p>
           <a class="btn whatsapp-btn" id="whatsapp-link" target="_blank" rel="noopener">
             <svg aria-hidden="true" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 11.5a8.4 8.4 0 0 1-12.4 7.4L3 21l2.1-5.4A8.4 8.4 0 1 1 21 11.5z"/></svg>
-            Join our WhatsApp channel
+            Join our WhatsApp group
           </a>
         </div>
       </div>
@@ -1182,12 +1182,12 @@
     // Community links. Each feature switches on once its value is filled in.
     // NEWSLETTER_ENDPOINT: a form endpoint that accepts an "email" field, e.g. for Buttondown
     //   "https://buttondown.com/api/emails/embed-subscribe/YOUR-USERNAME"
-    // WHATSAPP_CHANNEL_URL: your channel's invite link, e.g. "https://whatsapp.com/channel/..."
+    // WHATSAPP_URL: a WhatsApp group or channel invite link
     const NEWSLETTER_ENDPOINT = "";
-    const WHATSAPP_CHANNEL_URL = "";
+    const WHATSAPP_URL = "https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce";
 
-    if (WHATSAPP_CHANNEL_URL) {
-      document.querySelector("#whatsapp-link").href = WHATSAPP_CHANNEL_URL;
+    if (WHATSAPP_URL) {
+      document.querySelector("#whatsapp-link").href = WHATSAPP_URL;
       document.querySelector("#whatsapp").hidden = false;
     }
 

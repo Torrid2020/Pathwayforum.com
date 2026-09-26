@@ -431,24 +431,53 @@
       font-weight: 850;
     }
 
-    .closed {
-      display: inline-block;
-      margin-left: 6px;
-      padding: 2px 8px;
-      border-radius: 999px;
-      color: #5b667a;
-      background: #eef1f6;
+    .sch-title a:hover { text-decoration: underline; }
+
+    .checked {
+      margin-top: 4px;
+      color: var(--muted);
       font-size: 12px;
-      font-weight: 800;
     }
 
-    .view-more {
-      display: block;
-      padding: 22px;
-      text-align: center;
+    .badge {
+      display: inline-block;
+      margin: 4px 0 0;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .badge.closed {
+      color: #5b667a;
+      background: #eef1f6;
+    }
+
+    .badge.soon {
+      color: #8a2c0d;
+      background: #fdebe3;
+    }
+
+    .row .ext {
       color: var(--blue);
+      font-size: 18px;
       font-weight: 900;
-      background: #fff;
+      text-align: center;
+    }
+
+    .finder-note {
+      margin: 0;
+      padding: 18px 22px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+      background: #f8fbff;
+    }
+
+    .finder-note a {
+      color: var(--blue);
+      font-weight: 800;
     }
 
     .stats {
@@ -688,6 +717,11 @@
       border-top: 1px solid #edf1f7;
     }
 
+    footer a {
+      color: var(--muted);
+      text-decoration: underline;
+    }
+
     @media (max-width: 980px) {
       .menu-toggle { display: inline-flex; }
       nav {
@@ -737,7 +771,7 @@
       }
       .row { gap: 6px; }
       .row.header,
-      .row .chev { display: none; }
+      .row .ext { display: none; }
       .stat { border-right: 0; }
     }
 
@@ -856,18 +890,13 @@
         <label class="sr-only" for="country">Country</label>
         <select id="country">
           <option value="">All Countries</option>
-          <option>United Kingdom</option>
-          <option>Germany</option>
-          <option>European Union</option>
-          <option>Australia</option>
-          <option>Japan</option>
         </select>
         <label class="sr-only" for="level">Study level</label>
         <select id="level">
           <option value="">All Levels</option>
+          <option>Bachelor's</option>
           <option>Master's</option>
           <option>PhD</option>
-          <option>Certificate</option>
         </select>
         <label class="sr-only" for="funding">Funding type</label>
         <select id="funding">
@@ -892,15 +921,15 @@
           <span></span>
         </div>
         <div id="rows" aria-live="polite"></div>
-        <a class="view-more" href="#">View More Scholarships →</a>
+        <p class="finder-note">Every deadline is checked against the provider's official website on the date shown. Rules can change, so confirm on the official site before applying. We never charge fees, and you should never pay to apply for a scholarship. <a href="about.html#how-we-check">How we check</a> · <a href="about.html#scams">Spot a scam</a></p>
       </div>
     </section>
 
     <section class="stats" aria-label="Why students use Torrid Courts">
       <div class="stat"><span class="icon" aria-hidden="true">✓</span><div><strong>Free</strong><span>Every guide and tool, no sign-up</span></div></div>
       <div class="stat"><span class="icon" aria-hidden="true">▣</span><div><strong>Online-first</strong><span>Built for BYU-Pathway and online learners</span></div></div>
-      <div class="stat"><span class="icon" aria-hidden="true">$</span><div><strong>Fully funded</strong><span>Awards that cover tuition and living costs</span></div></div>
-      <div class="stat"><span class="icon" aria-hidden="true">◎</span><div><strong>Global</strong><span>Opportunities in the UK, Europe, Australia and Japan</span></div></div>
+      <div class="stat"><span class="icon" aria-hidden="true">$</span><div><strong>Verified</strong><span>Deadlines checked against official sources</span></div></div>
+      <div class="stat"><span class="icon" aria-hidden="true">◎</span><div><strong>Global</strong><span>Awards across Europe, the US, Australia and Japan</span></div></div>
     </section>
 
     <section class="blog-page" id="blog">
@@ -926,7 +955,7 @@
             <span class="post-category">Featured Guide</span>
             <h3>Can online degree graduates apply for fully funded master's scholarships?</h3>
             <p>Learn what scholarship committees usually check, how to prepare your documents, and how BYU-Pathway or other online graduates can present their education strongly.</p>
-            <a class="read-link" href="#">Read the full guide →</a>
+            <a class="read-link" href="guides/online-graduates-scholarships.html">Read the full guide →</a>
           </div>
         </article>
 
@@ -934,38 +963,38 @@
           <article class="post-card" data-category="BYU-Pathway">
             <span class="post-category">BYU-Pathway</span>
             <h3>What is BYU-Pathway Worldwide?</h3>
-            <p>A beginner-friendly explanation of PathwayConnect, certificates, online degrees, tuition, and how the program works.</p>
-            <a class="read-link" href="#">Read article →</a>
+            <p>A beginner-friendly explanation of PathwayConnect, certificates, online degrees, and how the program works.</p>
+            <a class="read-link" href="guides/what-is-byu-pathway.html">Read article →</a>
           </article>
-          <article class="post-card" data-category="Scholarships">
-            <span class="post-category">Scholarships</span>
-            <h3>20 scholarships with deadlines ahead</h3>
-            <p>A curated list of opportunities for international students, including funding type, country, and official application links.</p>
-            <a class="read-link" href="#">Read article →</a>
+          <article class="post-card" data-category="BYU-Pathway">
+            <span class="post-category">BYU-Pathway</span>
+            <h3>How much does BYU-Pathway cost?</h3>
+            <p>How tuition is priced by country, the guaranteed tuition discount, course materials, and how to estimate your own cost.</p>
+            <a class="read-link" href="guides/byu-pathway-cost.html">Read article →</a>
           </article>
           <article class="post-card" data-category="Online Degrees">
             <span class="post-category">Online Degrees</span>
-            <h3>Best affordable online degree options</h3>
-            <p>Compare online certificates and degree pathways that can help students build career-ready skills while studying flexibly.</p>
-            <a class="read-link" href="#">Read article →</a>
+            <h3>Affordable online degree options, compared</h3>
+            <p>How BYU-Pathway, University of the People, and WGU charge for degrees, plus a checklist for comparing any program.</p>
+            <a class="read-link" href="guides/affordable-online-degrees.html">Read article →</a>
           </article>
           <article class="post-card" data-category="Study Abroad">
             <span class="post-category">Study Abroad</span>
-            <h3>Countries that welcome online graduates</h3>
-            <p>Understand how universities review online degrees and what documents can strengthen your application abroad.</p>
-            <a class="read-link" href="#">Read article →</a>
+            <h3>How universities abroad evaluate online degrees</h3>
+            <p>What credential evaluators look at, and the documents that make your application abroad stronger.</p>
+            <a class="read-link" href="guides/online-degrees-abroad.html">Read article →</a>
           </article>
           <article class="post-card" data-category="Career Tips">
             <span class="post-category">Career Tips</span>
             <h3>How to build a strong student LinkedIn profile</h3>
             <p>Simple steps to make your profile more professional for scholarships, internships, remote jobs, and graduate programs.</p>
-            <a class="read-link" href="#">Read article →</a>
+            <a class="read-link" href="guides/linkedin-profile.html">Read article →</a>
           </article>
           <article class="post-card" data-category="Scholarships">
             <span class="post-category">Applications</span>
             <h3>How to write a scholarship statement of purpose</h3>
             <p>A clear writing structure for telling your story, explaining your goals, and connecting your background to the award.</p>
-            <a class="read-link" href="#">Read article →</a>
+            <a class="read-link" href="guides/statement-of-purpose.html">Read article →</a>
           </article>
         </div>
       </div>
@@ -974,10 +1003,10 @@
     <section class="content-band">
       <div class="article-list">
         <h2>Latest BYU-Pathway Guides</h2>
-        <a href="#">What Is BYU-Pathway Worldwide?</a>
-        <a href="#">How Much Does BYU-Pathway Cost?</a>
-        <a href="#">Is a BYU-Pathway Degree Recognized?</a>
-        <a href="#">Can Online Graduates Apply for Master's Abroad?</a>
+        <a href="guides/what-is-byu-pathway.html">What Is BYU-Pathway Worldwide?</a>
+        <a href="guides/byu-pathway-cost.html">How Much Does BYU-Pathway Cost?</a>
+        <a href="guides/byu-pathway-degree-recognized.html">Is a BYU-Pathway Degree Recognized?</a>
+        <a href="guides/online-graduates-scholarships.html">Can Online Graduates Apply for Master's Abroad?</a>
       </div>
       <div class="newsletter">
         <h2>Get Scholarship Alerts</h2>
@@ -993,17 +1022,80 @@
   </main>
 
   <footer>
-    Independent education platform. Not officially affiliated with BYU-Pathway Worldwide, Brigham Young University, or BYU-Idaho.
+    Independent education platform. Not officially affiliated with BYU-Pathway Worldwide, Brigham Young University, or BYU-Idaho. <a href="about.html">About and editorial policy</a>
   </footer>
 
   <script>
-    // closes: ISO date of the application deadline, or null when it varies / is rolling.
+    // closes: ISO deadline date, or null when there's no single date (deadlineNote explains).
+    // checked: when the entry was last verified against its official page (url).
     const scholarships = [
-      { name: "Chevening Scholarships", summary: "Fully funded master's scholarships for future leaders.", country: "United Kingdom", closes: "2026-10-06", funding: "Fully Funded", level: "Master's" },
-      { name: "Erasmus+ Joint Master Degrees", summary: "Study in multiple European countries with generous support.", country: "European Union", closes: null, deadlineNote: "Varies by programme (mostly Oct–Jan)", funding: "Fully Funded", level: "Master's" },
-      { name: "DAAD Development-Related Courses", summary: "Postgraduate funding for development-focused programs.", country: "Germany", closes: null, deadlineNote: "Varies by course (mostly Aug–Nov)", funding: "Fully Funded", level: "Master's" },
-      { name: "Australia Awards Scholarships", summary: "Long-term awards for study and leadership in developing countries.", country: "Australia", closes: null, deadlineNote: "Opens Feb 2027; varies by country", funding: "Fully Funded", level: "Master's" },
-      { name: "MEXT Scholarship", summary: "Japanese government funding for international graduate students.", country: "Japan", closes: null, deadlineNote: "Varies by embassy", funding: "Fully Funded", level: "Master's" }
+      {
+        name: "Chevening Scholarships", country: "United Kingdom", closes: "2026-10-06",
+        funding: "Fully Funded", levels: ["Master's"], checked: "2026-09-26",
+        summary: "UK government awards for a one-year master's. Requires two years' work experience after your degree.",
+        url: "https://www.chevening.org/scholarships/"
+      },
+      {
+        name: "Commonwealth Master's Scholarships", country: "United Kingdom", closes: "2026-10-20",
+        funding: "Fully Funded", levels: ["Master's"], checked: "2026-09-26",
+        summary: "For citizens of eligible Commonwealth countries. Apply through a national nominating body, not directly.",
+        url: "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/"
+      },
+      {
+        name: "Erasmus Mundus Joint Masters", country: "European Union", closes: null,
+        deadlineNote: "Varies by programme (mostly Oct–Jan)",
+        funding: "Fully Funded", levels: ["Master's"], checked: "2026-09-26",
+        summary: "Study in multiple European countries. Each programme sets its own deadline and selects its own scholars.",
+        url: "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters"
+      },
+      {
+        name: "DAAD Development-Related Postgraduate Courses (EPOS)", country: "Germany", closes: null,
+        deadlineNote: "Varies by course (mostly Aug–Nov)",
+        funding: "Fully Funded", levels: ["Master's", "PhD"], checked: "2026-09-26",
+        summary: "For applicants from developing countries. Apply directly to your chosen course, not to DAAD.",
+        url: "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777"
+      },
+      {
+        name: "Swedish Institute Scholarships for Global Professionals", country: "Sweden", closes: null,
+        deadlineNote: "Expected Jan–Feb 2027 (two steps)",
+        funding: "Fully Funded", levels: ["Master's"], checked: "2026-09-26",
+        summary: "Apply to an eligible Swedish master's programme first, then to the Swedish Institute.",
+        url: "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/"
+      },
+      {
+        name: "VLIR-UOS Scholarships", country: "Belgium", closes: null,
+        deadlineNote: "2027–28 call opens mid-Nov 2026",
+        funding: "Fully Funded", levels: ["Bachelor's", "Master's"], checked: "2026-09-26",
+        summary: "Study in Flanders for applicants from 29 eligible countries in Africa, Asia and Latin America.",
+        url: "https://www.vliruos.be/en/scholarships"
+      },
+      {
+        name: "Fulbright Foreign Student Program", country: "United States", closes: null,
+        deadlineNote: "Varies by country",
+        funding: "Varies by country", levels: ["Master's", "PhD"], checked: "2026-09-26",
+        summary: "Graduate study in the US. Apply through the Fulbright commission or US embassy in your country.",
+        url: "https://foreign.fulbrightonline.org/"
+      },
+      {
+        name: "Australia Awards Scholarships", country: "Australia", closes: null,
+        deadlineNote: "Opens Feb 2027; varies by country",
+        funding: "Fully Funded", levels: ["Master's"], checked: "2026-09-26",
+        summary: "Long-term awards for study and leadership in developing countries.",
+        url: "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships"
+      },
+      {
+        name: "MEXT Scholarship (Research Students)", country: "Japan", closes: null,
+        deadlineNote: "Embassy round usually Apr–May; varies by country",
+        funding: "Fully Funded", levels: ["Master's", "PhD"], checked: "2026-09-26",
+        summary: "Japanese government funding for graduate study. Apply through the Japanese embassy in your country.",
+        url: "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/"
+      },
+      {
+        name: "BYU Pathway to WGU Scholarship", country: "United States", closes: "2027-06-30",
+        funding: "Partial Funding", levels: ["Bachelor's", "Master's"], checked: "2026-09-26",
+        summary: "Up to $4,000 toward an online WGU degree for PathwayConnect graduates. US citizens and eligible noncitizens only.",
+        url: "https://www.wgu.edu/financial-aid-tuition/scholarships/partner/byu-pw.html"
+      }
     ];
 
     const DAY = 86400000;
@@ -1030,6 +1122,9 @@
       ["search", "country", "level", "funding", "deadline"].map((id) => [id, document.querySelector("#" + id)])
     );
 
+    const countries = [...new Set(scholarships.map((item) => item.country))].sort();
+    controls.country.append(...countries.map((name) => new Option(name, name)));
+
     function deadlineMatches(item, window) {
       const days = daysLeft(item);
       if (!window) return true;
@@ -1041,7 +1136,13 @@
     function deadlineCell(item) {
       if (!item.closes) return escapeHTML(item.deadlineNote || "Rolling");
       const label = escapeHTML(formatDate.format(Date.parse(item.closes)));
-      return daysLeft(item) < 0 ? `${label}<span class="closed">Closed</span>` : label;
+      const days = daysLeft(item);
+      if (days < 0) return `${label}<br><span class="badge closed">Closed</span>`;
+      if (days <= 30) {
+        const text = days === 0 ? "Closes today" : `Closes in ${days} day${days === 1 ? "" : "s"}`;
+        return `${label}<br><span class="badge soon">${text}</span>`;
+      }
+      return label;
     }
 
     function render() {
@@ -1054,7 +1155,7 @@
         .filter((item) =>
           (!search || `${item.name} ${item.summary} ${item.country}`.toLowerCase().includes(search)) &&
           (!country || item.country === country) &&
-          (!level || item.level === level) &&
+          (!level || item.levels.includes(level)) &&
           (!funding || item.funding === funding) &&
           deadlineMatches(item, deadline))
         .sort((a, b) => sortKey(a) - sortKey(b));
@@ -1062,13 +1163,16 @@
       rows.innerHTML = filtered.map((item) => `
         <div class="row">
           <div>
-            <div class="sch-title">${escapeHTML(item.name)}</div>
+            <div class="sch-title">
+              <a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.name)}<span class="sr-only"> (official site, opens in a new tab)</span></a>
+            </div>
             <div class="sch-summary">${escapeHTML(item.summary)}</div>
+            <div class="checked">${escapeHTML(item.levels.join(" · "))} · Checked ${escapeHTML(formatDate.format(Date.parse(item.checked)))}</div>
           </div>
           <span>${escapeHTML(item.country)}</span>
           <span>${deadlineCell(item)}</span>
           <span class="funding">${escapeHTML(item.funding)}</span>
-          <span class="chev" aria-hidden="true">›</span>
+          <a class="ext" href="${escapeHTML(item.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">↗</a>
         </div>
       `).join("") || `<div class="row empty"><strong>No scholarships found</strong>Try another filter.</div>`;
     }

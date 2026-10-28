@@ -60,6 +60,121 @@ async function getJson(url, options = {}) {
   return response.json();
 }
 
+async function getHtml(url) {
+  const response = await fetch(url, {headers: {"User-Agent": "PathwayForum-Uganda-Jobs/1.0"}, signal: AbortSignal.timeout(30000)});
+  if (!response.ok) throw new Error(response.status + " from " + url);
+  return response.text();
+}
+
+function endOfUgandaDay(value) {
+  const match = String(value || "").trim().match(/(\d{1,2})-([A-Za-z]{3})-(\d{4})/);
+  if (!match) return value || null;
+  const months = {Jan:0,Feb:1,Mar:2,Apr:3,May:4,Jun:5,Jul:6,Aug:7,Sep:8,Oct:9,Nov:10,Dec:11};
+  const month = months[match[2]];
+  if (month === undefined) return value;
+  return new Date(Date.UTC(Number(match[3]), month, Number(match[1]), 20, 59, 59)).toISOString();
+}
+function endOfUgandaHumanDay(value) {
+  const match = text(value).match(/(\d{1,2})\s*(?:st|nd|rd|th)?\s+([A-Za-z]+)\s+(\d{4})/i);
+  if (!match) return null;
+  const months = {january:0,february:1,march:2,april:3,may:4,june:5,july:6,august:7,september:8,october:9,november:10,december:11};
+  const month = months[match[2].toLowerCase()];
+  if (month === undefined) return null;
+  return new Date(Date.UTC(Number(match[3]), month, Number(match[1]), 20, 59, 59)).toISOString();
+}
+
+function officialJob({id, source, title, employer, location, employmentType, publishedAt, closesAt, summary, sourceUrl, applicationUrl}) {
+  const body = text(summary);
+  const closing = deadline(closesAt);
+  const flags = [];
+  if (!sourceUrl || !applicationUrl) flags.push("Missing official source or application link");
+  if (unsafe.test(title + " " + body)) flags.push("Potential payment or messaging-only language");
+  if (closing.label === "Expired") flags.push("Expired");
+  return {
+    id,
+    source,
+    sourceType: "official-employer",
+    title: text(title),
+    employer,
+    location: text(location || "Uganda"),
+    district: text(location || "Uganda").split(",")[0],
+    workplace: /remote/i.test(title + " " + body) ? "Remote or hybrid - confirm" : "On-site or field-based",
+    employmentType: employmentType || "Not stated",
+    category: category(text(title), body),
+    education: "See official listing",
+    experience: "See official listing",
+    publishedAt: publishedAt || null,
+    deadline: closing.value,
+    deadlineStatus: closing.label,
+    summary: body.slice(0, 380) || "Open the official employer listing for the complete description.",
+    indicators: indicators(text(title), body),
+    verification: {status: flags.length ? "review" : "official-source", label: flags.length ? "Needs review" : "Official employer source", checkedAt: now.toISOString(), flags},
+    sourceUrl,
+    applicationUrl,
+    lastCheckedAt: now.toISOString()
+  };
+}
+
+async function fetchDfcu() {
+  const home = "https://careers.dfcugroup.com/";
+  const html = await getHtml(home);
+  const articles = [...html.matchAll(/<article>([\s\S]*?)<\/article>/gi)].map(match => match[1]);
+  const jobs = [];
+  for (const article of articles) {
+    const titleMatch = article.match(/<h2 class="title">[\s\S]*?<a href="([^"]+)"[^>]*>([\s\S]*?)<\/a>/i);
+    if (!titleMatch) continue;
+    const posted = article.match(/Posted:\s*([^<]+)/i)?.[1]?.trim() || null;
+    const closes = article.match(/Deadline:\s*([^<]+)/i)?.[1]?.trim() || null;
+    const detailUrl = titleMatch[1];
+    const detailHtml = await getHtml(detailUrl);
+    const description = detailHtml.match(/<meta property="og:description" content="([^"]*)"/i)?.[1] || "";
+    const detailCloses = detailHtml.match(/<strong>Deadline:<\/strong>\s*<strong>([\s\S]*?)<\/strong>/i)?.[1] || null;
+    jobs.push(officialJob({
+      id: "dfcu:" + new URL(detailUrl).pathname.replace(/\W+/g, "-"),
+      source: "dfcu Bank Careers",
+      title: titleMatch[2],
+      employer: "dfcu Bank",
+      location: /all regions/i.test(titleMatch[2] + " " + description) ? "All regions, Uganda" : (description.match(/Duty Station:\s*([^.<]+)/i)?.[1] || "Uganda"),
+      employmentType: "See official listing",
+      publishedAt: endOfUgandaDay(posted),
+      closesAt: endOfUgandaHumanDay(detailCloses) || endOfUgandaDay(closes),
+      summary: description,
+      sourceUrl: detailUrl,
+      applicationUrl: home
+    }));
+  }
+  return jobs;
+}
+
+async function fetchNssf() {
+  const home = "https://www.nssfug.org/opportunities/careers/";
+  const html = await getHtml(home);
+  const links = [...html.matchAll(/href="(\/specials\/featured-jobs\/[^"]+)"[\s\S]{0,350}?>([\s\S]*?)<\/a>/gi)];
+  const unique = new Map();
+  for (const match of links) unique.set(match[1], text(match[2]));
+  const jobs = [];
+  for (const [path, listedTitle] of unique) {
+    const detailUrl = new URL(path, home).href;
+    const detailHtml = await getHtml(detailUrl);
+    const title = text(detailHtml.match(/<strong>JOB TITLE:<\/strong>([\s\S]*?)<\/p>/i)?.[1] || listedTitle);
+    const location = text(detailHtml.match(/<strong>DUTY STATION:<\/strong>([\s\S]*?)<\/p>/i)?.[1] || "Uganda");
+    const purpose = detailHtml.match(/<strong>Job Purpose:<\/strong>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "";
+    jobs.push(officialJob({
+      id: "nssf:" + path.replace(/\W+/g, "-"),
+      source: "NSSF Uganda Careers",
+      title,
+      employer: "NSSF Uganda",
+      location: /headquarters/i.test(location) ? "Kampala, Uganda" : location,
+      employmentType: "See official listing",
+      publishedAt: null,
+      closesAt: null,
+      summary: purpose,
+      sourceUrl: detailUrl,
+      applicationUrl: detailUrl
+    }));
+  }
+  return jobs;
+}
 async function fetchWorldVision() {
   const search = await getJson(SEARCH_URL, {
     method: "POST",
@@ -106,14 +221,29 @@ function normalizeWorldVision(info) {
 }
 
 async function main() {
-  const collected = (await fetchWorldVision()).map(normalizeWorldVision);
-  const jobs = collected.filter(job => job.verification.status === "official-source");
-  const review = collected.filter(job => job.verification.status === "review");
+  const sources = [
+    {name: "World Vision Careers", run: async () => (await fetchWorldVision()).map(normalizeWorldVision)},
+    {name: "dfcu Bank Careers", run: fetchDfcu},
+    {name: "NSSF Uganda Careers", run: fetchNssf}
+  ];
+  const results = await Promise.allSettled(sources.map(source => source.run()));
+  const sourceStatus = Object.fromEntries(results.map((result, index) => [sources[index].name, result.status === "fulfilled" ? "ok" : String(result.reason)]));
+  const failed = results.map((result, index) => result.status === "rejected" ? sources[index].name + ": " + result.reason : null).filter(Boolean);
+  if (failed.length) throw new Error("Official source update failed; existing feed retained. " + failed.join(" | "));
+  const collected = results.flatMap(result => result.value);
+  const unique = new Map();
+  for (const job of collected) {
+    const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
+    if (!unique.has(key)) unique.set(key, job);
+  }
+  const deduped = [...unique.values()];
+  const jobs = deduped.filter(job => job.verification.status === "official-source");
+  const review = deduped.filter(job => job.verification.status === "review");
   const feed = {
     generatedAt: now.toISOString(),
     country: "Uganda",
     jobCount: jobs.length,
-    sources: {"World Vision Careers": "ok"},
+    sources: sourceStatus,
     methodology: "Jobs come directly from approved official employer sources and are checked for expiry, duplicates and common scam language.",
     jobs
   };

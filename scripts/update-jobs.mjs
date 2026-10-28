@@ -56,8 +56,9 @@ function normalizeHimalayas(j){
 async function main(){
   const sourceStatus={}, collected=[];
   const jobicyGeos=["anywhere","apac","latam","emea"];
-  const jobicy=await Promise.allSettled(jobicyGeos.map(g=>get("https://jobicy.com/api/v2/remote-jobs?count=200&geo="+g)));
-  jobicy.forEach((result,i)=>{sourceStatus["Jobicy "+jobicyGeos[i]]=result.status==="fulfilled"?"ok":String(result.reason);if(result.status==="fulfilled")collected.push(...(result.value.jobs||[]).map(normalizeJobicy))});
+  const jobicyRequests=jobicyGeos.flatMap(geo=>[{geo,tag:null},...["intern","junior","graduate"].map(tag=>({geo,tag}))]);
+  const jobicy=await Promise.allSettled(jobicyRequests.map(({geo,tag})=>get("https://jobicy.com/api/v2/remote-jobs?count=200&geo="+geo+(tag?"&tag="+encodeURIComponent(tag):""))));
+  jobicy.forEach((result,i)=>{const request=jobicyRequests[i],name="Jobicy "+request.geo+(request.tag?" "+request.tag:"");sourceStatus[name]=result.status==="fulfilled"?"ok":String(result.reason);if(result.status==="fulfilled")collected.push(...(result.value.jobs||[]).map(normalizeJobicy))});
   const himQueries=["worldwide=true&sort=recent&page=1","worldwide=true&type=intern&sort=recent&page=1","worldwide=true&type=part-time&sort=recent&page=1","worldwide=true&experience=entry-level&sort=recent&page=1"];
   const him=await Promise.allSettled(himQueries.map(q=>get("https://himalayas.app/jobs/api/search?"+q)));
   him.forEach((result,i)=>{sourceStatus["Himalayas "+(i+1)]=result.status==="fulfilled"?"ok":String(result.reason);if(result.status==="fulfilled")collected.push(...(result.value.jobs||[]).map(normalizeHimalayas))});
@@ -71,6 +72,14 @@ async function main(){
   if(!jobs.length)throw new Error("No publishable jobs returned; existing feed left untouched.");
   const payload={generatedAt:now.toISOString(),targetRegions:["Africa","South America","Asia"],jobCount:jobs.length,sources:sourceStatus,methodology:"Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",jobs};
   if(process.argv.includes("--dry-run")){console.log(JSON.stringify({generatedAt:payload.generatedAt,jobCount:jobs.length,sources:sourceStatus},null,2));return}
+  let previous=null;
+  try{previous=JSON.parse(await fs.readFile(OUTPUT,"utf8"))}catch{}
+  const stable=list=>JSON.stringify((list||[]).map(({lastSeenAt,...job})=>job));
+  if(previous&&stable(previous.jobs)===stable(payload.jobs)){
+    console.log("No job content changes; existing public feed retained.");
+    if(process.env.GITHUB_OUTPUT)await fs.appendFile(process.env.GITHUB_OUTPUT,"job_count="+jobs.length+"\n");
+    return;
+  }
   await fs.writeFile(OUTPUT,JSON.stringify(payload,null,2)+"\n");
   console.log("Saved "+jobs.length+" jobs to data/remote-jobs.json");
   if(process.env.GITHUB_OUTPUT)await fs.appendFile(process.env.GITHUB_OUTPUT,"job_count="+jobs.length+"\n");

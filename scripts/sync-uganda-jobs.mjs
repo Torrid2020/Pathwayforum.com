@@ -252,12 +252,16 @@ async function main() {
     return;
   }
   let previous = null;
+  let previousReview = null;
   try { previous = JSON.parse(await fs.readFile(OUTPUT, "utf8")); } catch {}
+  try { previousReview = JSON.parse(await fs.readFile(REVIEW, "utf8")); } catch {}
   const stable = list => JSON.stringify((list || []).map(({lastCheckedAt, verification, ...job}) => ({...job, verification: {...verification, checkedAt: undefined}})));
   if (!previous || stable(previous.jobs) !== stable(feed.jobs)) {
     await fs.writeFile(OUTPUT, JSON.stringify(feed, null, 2) + "\n");
   }
-  await fs.writeFile(REVIEW, JSON.stringify({generatedAt: now.toISOString(), jobCount: review.length, jobs: review}, null, 2) + "\n");
+  if (!previousReview || stable(previousReview.jobs) !== stable(review)) {
+    await fs.writeFile(REVIEW, JSON.stringify({generatedAt: now.toISOString(), jobCount: review.length, jobs: review}, null, 2) + "\n");
+  }
   console.log("Published " + jobs.length + " Uganda jobs; held " + review.length + " for review.");
   if (process.env.GITHUB_OUTPUT) await fs.appendFile(process.env.GITHUB_OUTPUT, "job_count=" + jobs.length + "\nreview_count=" + review.length + "\n");
 }

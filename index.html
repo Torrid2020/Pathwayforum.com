@@ -3,12 +3,13 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Pathway Forum — Scholarships and study abroad for online students</title>
-  <meta name="description" content="Scholarships, affordable online degrees, and study abroad guides for BYU-Pathway and online students." />
+  <title>Pathway Forum — BYU-Pathway guides, scholarships and verified jobs</title>
+  <meta name="description" content="Independent BYU-Pathway guides, Rise & Reasons videos, scholarships and verified opportunities for online students." />
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='14' fill='white' stroke='%23071f4d' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='13' fill='none' stroke='%23075bea' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23075bea'/%3E%3C/svg%3E" />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400..900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="assets/site-shell.css" />
   <style>
     :root {
       --navy: #071f4d;
@@ -831,40 +832,52 @@
       .people { transform: scale(.82); }
       .laptop { width: 340px; }
     }
+
+    .hero-copy .trust-note { margin: 18px 0 0; color: var(--muted); font-size: 12px; }
+    .journey { padding: 76px 5vw; background: var(--navy); color: white; }
+    .journey-head { display: flex; justify-content: space-between; gap: 30px; max-width: 1180px; margin: 0 auto 34px; }
+    .journey-head h2 { max-width: 620px; margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.05; }
+    .journey-head p { max-width: 450px; margin: 0; color: #c7d5e9; line-height: 1.7; }
+    .journey-grid { display: grid; grid-template-columns: repeat(4,1fr); gap: 14px; max-width: 1180px; margin: auto; }
+    .journey-card { padding: 25px; border: 1px solid #ffffff26; border-radius: 16px; background: #ffffff0b; }
+    .journey-card span { display: grid; place-items: center; width: 38px; height: 38px; margin-bottom: 26px; border-radius: 50%; color: var(--navy); background: #ffd978; font-weight: 900; }
+    .journey-card h3 { margin: 0 0 9px; font-size: 18px; }
+    .journey-card p { margin: 0; color: #b8c8df; font-size: 13px; line-height: 1.6; }
+    .channel-section { padding: 80px 5vw; background: #fff; }
+    .channel-wrap { display: grid; grid-template-columns: .8fr 1.2fr; gap: 50px; align-items: center; max-width: 1180px; margin: auto; }
+    .channel-copy .kicker { color: #b42318; font-size: 12px; font-weight: 900; letter-spacing: .16em; }
+    .channel-copy h2 { margin: 12px 0 18px; color: var(--navy); font-size: clamp(34px, 4vw, 50px); line-height: 1.06; }
+    .channel-copy p { color: var(--muted); line-height: 1.7; }
+    .video-grid { display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 14px; }
+    .video-card { overflow: hidden; border: 1px solid var(--line); border-radius: 16px; background: white; box-shadow: 0 14px 40px rgba(7,31,77,.09); }
+    .video-card:first-child { grid-column: 1/-1; display: grid; grid-template-columns: 1.15fr .85fr; }
+    .video-thumb { position: relative; display: block; min-height: 170px; background: #dfe8f6 center/cover no-repeat; }
+    .video-thumb:after { content: "Play"; position: absolute; left: 18px; bottom: 16px; padding: 9px 13px; border-radius: 999px; color: white; background: #e62117; font-size: 12px; font-weight: 900; }
+    .video-body { padding: 20px; }
+    .video-body small { color: var(--gold); font-weight: 850; }
+    .video-body h3 { margin: 8px 0 0; color: var(--navy); font-size: 17px; line-height: 1.35; }
+    @media(max-width:900px){.journey-head,.channel-wrap{display:block}.journey-head p,.channel-copy{margin-top:20px}.journey-grid{grid-template-columns:1fr 1fr}.video-grid{margin-top:30px}}
+    @media(max-width:620px){.hero{padding-top:42px}.hero h1{font-size:clamp(40px,12vw,54px);overflow-wrap:anywhere}.hero p{font-size:17px}.actions .btn{width:100%}.student-visual{min-height:330px}.journey,.channel-section{padding:58px 20px}.journey-grid,.video-grid{grid-template-columns:1fr}.video-card:first-child{grid-column:auto;display:block}.journey-head h2,.channel-copy h2{font-size:34px}}
   </style>
 </head>
 <body>
-  <header class="site-header">
-    <a class="brand" href="#">
-      <span class="mark" aria-hidden="true">◎</span>
-      <span>PATHWAY<small>FORUM</small></span>
-    </a>
-    <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">
-      <span aria-hidden="true">☰</span> Menu
-    </button>
-    <nav id="primary-nav" aria-label="Primary navigation">
-      <a href="#">Home</a>
-      <a href="#blog" data-filter="BYU-Pathway">BYU-Pathway</a>
-      <a href="#scholarships">Scholarships</a>
-      <a href="jobs.html">Remote Jobs</a>
-      <a href="#blog" data-filter="Online Degrees">Online Degrees</a>
-      <a href="uganda-jobs.html">Jobs in Uganda</a>
-      <a href="#blog" data-filter="Study Abroad">Study Abroad</a>
-      <a href="#blog" data-filter="all">Blog</a>
-      <a href="#blog" data-filter="Career Tips">Career Tips</a>
-    </nav>
+  <header class="pf-header">
+    <a class="pf-brand" href="./"><span class="pf-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/></svg></span><span>PATHWAY<small>FORUM</small></span></a>
+    <nav class="pf-nav" id="primary-nav" data-pf-nav aria-label="Primary navigation"><a href="./" aria-current="page">Home</a><a href="#blog" data-filter="BYU-Pathway">BYU-Pathway</a><a href="#scholarships">Scholarships</a><a href="jobs.html">Remote Jobs</a><a href="uganda-jobs.html">Uganda Jobs</a><a href="#blog" data-filter="all">Guides</a><a href="about.html">About</a></nav>
+    <div class="pf-actions"><a class="pf-youtube" href="https://www.youtube.com/@torridcourts" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M23 12s0-4.1-.5-6.1c-.3-1.1-1.2-2-2.3-2.3C18.2 3 12 3 12 3s-6.2 0-8.2.6C2.7 3.9 1.8 4.8 1.5 5.9 1 7.9 1 12 1 12s0 4.1.5 6.1c.3 1.1 1.2 2 2.3 2.3 2 .6 8.2.6 8.2.6s6.2 0 8.2-.6c1.1-.3 2-1.2 2.3-2.3.5-2 .5-6.1.5-6.1ZM9.8 15.9V8.1l6.5 3.9-6.5 3.9Z"/></svg>Rise &amp; Reasons</a><button class="pf-menu" data-pf-menu type="button" aria-expanded="false" aria-controls="primary-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button></div>
   </header>
 
   <main>
     <section class="hero">
-      <div>
-        <p class="goldline">Study Online. Go Far.</p>
-        <h1>Your pathway from online study to global opportunities.</h1>
-        <p>We help BYU-Pathway and online students discover scholarships, affordable online degrees, and life-changing study abroad opportunities to reach their goals.</p>
+      <div class="hero-copy">
+        <p class="goldline">Independent guidance for online students</p>
+        <h1>Navigate BYU-Pathway. Build skills. Find opportunities.</h1>
+        <p>Practical guides, Rise &amp; Reasons videos, scholarships and verified career opportunities for students moving from online education to meaningful work.</p>
         <div class="actions">
-          <a class="btn primary" href="#scholarships">Find Scholarships</a>
-          <a class="btn secondary" href="#blog">Explore Guides</a>
+          <a class="btn primary" href="#blog">Explore BYU-Pathway</a>
+          <a class="btn secondary" href="#rise-and-reasons">Watch Rise &amp; Reasons</a>
         </div>
+        <p class="trust-note">Independent student resource. Not an official BYU-Pathway Worldwide website.</p>
       </div>
       <div class="student-visual" aria-hidden="true">
         <div class="globe"></div>
@@ -876,6 +889,15 @@
           <div class="laptop"></div>
         </div>
       </div>
+    </section>
+
+    <section class="journey" aria-labelledby="journey-title">
+      <div class="journey-head"><h2 id="journey-title">One place for the journey from education to employment.</h2><p>The channel helps you understand the choices. Pathway Forum gives you the written guides, official links and verified opportunities to take the next step.</p></div>
+      <div class="journey-grid"><article class="journey-card"><span>1</span><h3>Understand</h3><p>Start with clear, independent explanations of BYU-Pathway and online study.</p></article><article class="journey-card"><span>2</span><h3>Choose</h3><p>Compare programmes, costs, certificates and degree pathways.</p></article><article class="journey-card"><span>3</span><h3>Succeed</h3><p>Use practical study guides, scholarships and student support.</p></article><article class="journey-card"><span>4</span><h3>Progress</h3><p>Discover verified remote roles and opportunities in Uganda.</p></article></div>
+    </section>
+
+    <section class="channel-section" id="rise-and-reasons" aria-labelledby="channel-title">
+      <div class="channel-wrap"><div class="channel-copy"><p class="kicker">VIDEO GUIDES FROM RISE &amp; REASONS</p><h2 id="channel-title">Watch the explanation. Keep the practical guide.</h2><p>Our public video channel covers BYU-Pathway, student technology, career preparation and the realities of online study. New public uploads appear here automatically.</p><a class="btn primary" href="https://www.youtube.com/@torridcourts?sub_confirmation=1" target="_blank" rel="noopener">Visit the YouTube channel</a></div><div class="video-grid" id="video-grid" aria-live="polite"><div class="video-card"><div class="video-body"><small>Loading channel</small><h3>Getting the latest Rise &amp; Reasons videos…</h3></div></div></div></div>
     </section>
 
     <section class="category-strip" aria-label="Popular categories">
@@ -1057,11 +1079,10 @@
     </section>
   </main>
 
-  <footer>
-    Pathway Forum by <a href="https://www.youtube.com/@torridcourts" target="_blank" rel="noopener">Rise &amp; Reasons</a>. Independent education platform, not officially affiliated with BYU-Pathway Worldwide, Brigham Young University, or BYU-Idaho. <a href="about.html">About and editorial policy</a>
-  </footer>
+  <footer class="pf-footer"><div><strong>Pathway Forum</strong><p>The practical resource platform from Rise &amp; Reasons—helping online students understand their education, find support and move toward credible opportunities.</p></div><nav aria-label="Footer navigation"><a href="#blog">BYU-Pathway guides</a><a href="#scholarships">Scholarships</a><a href="jobs.html">Remote jobs</a><a href="uganda-jobs.html">Jobs in Uganda</a><a href="https://www.youtube.com/@torridcourts" target="_blank" rel="noopener">Rise &amp; Reasons</a><a href="about.html">About and editorial policy</a></nav><p class="pf-disclaimer">Independent education platform. Pathway Forum is not owned, operated or officially endorsed by BYU-Pathway Worldwide, Brigham Young University or BYU-Idaho.</p></footer>
 
   <script src="data/scholarships.js"></script>
+  <script src="assets/site-shell.js" defer></script>
   <script>
     // Loaded from data/scholarships.js, which the daily deadline check keeps current.
     const scholarships = window.SCHOLARSHIPS || [];
@@ -1159,27 +1180,19 @@
 
     tabs.forEach((tab) => tab.addEventListener("click", () => filterPosts(tab.dataset.filter)));
 
-    // Mobile menu
-    const header = document.querySelector(".site-header");
-    const menuToggle = document.querySelector(".menu-toggle");
-
-    function setMenu(open) {
-      header.classList.toggle("open", open);
-      menuToggle.setAttribute("aria-expanded", String(open));
-    }
-
-    menuToggle.addEventListener("click", () => setMenu(!header.classList.contains("open")));
-    document.addEventListener("keydown", (event) => {
-      if (event.key === "Escape" && header.classList.contains("open")) {
-        setMenu(false);
-        menuToggle.focus();
-      }
-    });
-
     document.querySelectorAll("#primary-nav a").forEach((link) => link.addEventListener("click", () => {
       if (link.dataset.filter) filterPosts(link.dataset.filter);
-      setMenu(false);
     }));
+
+    const videoGrid = document.querySelector("#video-grid");
+    fetch("data/youtube-videos.json", { cache: "no-store" })
+      .then((response) => { if (!response.ok) throw new Error("Video feed unavailable"); return response.json(); })
+      .then((feed) => {
+        const videos = (feed.videos || []).slice(0, 3);
+        if (!videos.length) throw new Error("No videos available");
+        videoGrid.innerHTML = videos.map((video, index) => `<article class="video-card"><a class="video-thumb" href="${escapeHTML(video.url)}" target="_blank" rel="noopener" style="background-image:url('${escapeHTML(video.thumbnail)}')"><span class="sr-only">Play ${escapeHTML(video.title)} on YouTube</span></a><div class="video-body"><small>${index === 0 ? "Featured from the channel" : "Rise &amp; Reasons"}</small><h3><a href="${escapeHTML(video.url)}" target="_blank" rel="noopener">${escapeHTML(video.title)}</a></h3></div></article>`).join("");
+      })
+      .catch(() => { videoGrid.innerHTML = '<div class="video-card"><div class="video-body"><small>Rise &amp; Reasons</small><h3><a href="https://www.youtube.com/@torridcourts" target="_blank" rel="noopener">Browse the latest videos on YouTube</a></h3></div></div>'; });
 
     // Community links. Each feature switches on once its value is filled in.
     // NEWSLETTER_ENDPOINT: a form endpoint that accepts an "email" field, e.g. for Buttondown

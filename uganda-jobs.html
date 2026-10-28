@@ -6,6 +6,7 @@
   <title>Verified jobs in Uganda | Pathway Forum</title>
   <meta name="description" content="Current physical, field and hybrid jobs in Uganda collected from official employer sources and checked for deadlines and common scam language.">
   <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='4' y='4' width='56' height='56' rx='14' fill='white' stroke='%23071f4d' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='13' fill='none' stroke='%23075bea' stroke-width='5'/%3E%3Ccircle cx='32' cy='32' r='5' fill='%23075bea'/%3E%3C/svg%3E">
+  <link rel="stylesheet" href="assets/site-shell.css">
   <style>
     :root{--navy:#071f4d;--blue:#075bea;--gold:#9b6d0c;--ink:#10213f;--muted:#62718a;--line:#dce5f2;--soft:#f4f7fc;--green:#13764a;--green-soft:#e9f7ef;--amber:#8a5a00;--amber-soft:#fff6df;--white:#fff}
     *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",sans-serif;color:var(--ink);background:var(--soft)}a{color:inherit;text-decoration:none}button,input,select{font:inherit}:focus-visible{outline:3px solid #0f74ff;outline-offset:3px}
@@ -14,21 +15,20 @@
     .main{padding:34px 6vw 80px}.search{display:grid;grid-template-columns:1.5fr repeat(3,minmax(145px,.6fr));gap:10px;margin:-58px auto 34px;padding:13px;max-width:1180px;border:1px solid var(--line);border-radius:16px;background:#fff;box-shadow:0 18px 46px #031b3b25}.field{display:block;padding:7px 11px;color:var(--muted);font-size:10px;font-weight:800}.field input,.field select{display:block;width:100%;margin-top:5px;padding:5px 0;border:0;color:var(--navy);background:#fff;font-size:14px;font-weight:800}.field:not(:last-child){border-right:1px solid var(--line)}
     .toolbar{display:flex;align-items:end;justify-content:space-between;gap:20px;max-width:1180px;margin:auto}.toolbar h2{margin:4px 0 0;color:var(--navy);font-family:Georgia,serif;font-size:36px}.toolbar p{margin:0;color:var(--muted);font-size:12px}.notice{max-width:1180px;margin:18px auto;padding:13px 16px;border:1px solid #efd28c;border-radius:10px;color:#684a09;background:var(--amber-soft);font-size:12px;line-height:1.5}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;max-width:1180px;margin:18px auto}.card{position:relative;padding:23px;border:1px solid var(--line);border-radius:15px;background:#fff;box-shadow:0 8px 25px #0b2a5210}.card:hover{border-color:#aabddd;box-shadow:0 14px 32px #0b2a521b}.company{display:flex;align-items:center;gap:11px}.logo{display:grid;place-items:center;flex:0 0 44px;height:44px;border-radius:11px;color:var(--blue);background:#eaf1ff;font-weight:900}.company small{display:block;margin-top:3px;color:var(--green);font-size:10px;font-weight:850}.save{margin-left:auto;width:44px;height:44px;border:1px solid var(--line);border-radius:50%;background:#fff;color:var(--navy);cursor:pointer}.save.on{color:#fff;background:var(--blue)}.card h3{margin:18px 0 10px;color:var(--navy);font-family:Georgia,serif;font-size:24px}.meta,.tags{display:flex;flex-wrap:wrap;gap:7px}.tag{padding:6px 8px;border-radius:5px;color:#3e4f6d;background:#f0f4fa;font-size:10px}.verified{margin:16px 0;padding:11px;border-left:3px solid var(--green);color:#315c45;background:var(--green-soft);font-size:12px}.foot{display:flex;align-items:center;justify-content:space-between;gap:12px;color:var(--muted);font-size:11px}.view{border:0;background:none;color:var(--blue);font-weight:900;cursor:pointer}.empty{grid-column:1/-1;padding:42px;border:1px dashed #9daec6;border-radius:14px;background:#fff;text-align:center}.ad{display:grid;place-items:center;min-height:96px;max-width:850px;margin:28px auto;border:1px dashed #aeb9c9;border-radius:11px;color:#707c8e;background:#edf1f6;text-align:center}.ad small{display:block;font-size:9px;letter-spacing:.16em}
     .detail{max-width:1180px;margin:auto}.detail[hidden]{display:none}.back{margin-bottom:15px;border:0;background:none;color:var(--blue);font-weight:850;cursor:pointer}.detail-layout{display:grid;grid-template-columns:minmax(0,2fr) minmax(260px,.8fr);gap:25px}.article,.panel{padding:28px;border:1px solid var(--line);border-radius:15px;background:#fff}.article h2{margin:19px 0 12px;color:var(--navy);font-family:Georgia,serif;font-size:42px}.article h3,.panel h3{color:var(--navy);font-family:Georgia,serif}.apply{display:inline-flex;align-items:center;justify-content:center;min-height:50px;margin:19px 0 4px;padding:0 22px;border-radius:9px;color:#fff;background:var(--blue);font-weight:900}.micro{color:var(--muted);font-size:10px}.section{margin-top:25px;padding-top:22px;border-top:1px solid var(--line)}.section p,.section li{line-height:1.7}.check label{display:block;margin:11px 0}.check button{border:0;border-radius:8px;padding:11px 15px;color:#fff;background:var(--blue);font-weight:850}.ready{color:var(--green);font-weight:800}.panel{align-self:start;position:sticky;top:88px}.panel dl{display:grid;grid-template-columns:1fr 1fr;margin:0}.panel dt,.panel dd{padding:11px 0;border-bottom:1px solid var(--line);font-size:11px}.panel dt{color:var(--muted)}.panel dd{text-align:right;font-weight:850}.source{margin-top:15px;color:#fff;background:var(--navy)}.source p{color:#c9d6e8;font-size:12px;line-height:1.6}.source a{color:#ffd878;font-weight:850}.footer{display:flex;justify-content:space-between;gap:20px;padding:32px 6vw;color:#fff;background:var(--navy)}.footer p{margin:0;color:#afbdd2;font-size:11px}
-    @media(max-width:880px){.menu{display:block}.nav{display:none;position:absolute;left:0;right:0;top:71px;flex-direction:column;align-items:stretch;padding:18px 6vw;background:#fff;border-bottom:1px solid var(--line)}.nav.open{display:flex}.saved{margin-left:auto}.search{grid-template-columns:1fr 1fr;margin-top:-35px}.field{border-right:0!important;border-bottom:1px solid var(--line)}.grid,.detail-layout{grid-template-columns:1fr}.panel{position:static;order:-1}}@media(max-width:560px){.search{grid-template-columns:1fr}.toolbar{display:block}.grid{grid-template-columns:1fr}.hero{padding-top:45px}.article h2{font-size:34px}.footer{display:block}.footer p{margin-top:8px}.brand small{display:none}}
+    @media(max-width:880px){.search{grid-template-columns:1fr 1fr;margin-top:-35px}.field{min-width:0;border-right:0!important;border-bottom:1px solid var(--line)}.grid,.detail-layout{grid-template-columns:1fr}.panel{position:static;order:-1}}@media(max-width:560px){.search{grid-template-columns:1fr;margin-left:0;margin-right:0}.toolbar{display:block}.grid{grid-template-columns:1fr}.hero{padding:45px 20px 48px}.hero h1{font-size:clamp(40px,12vw,56px);overflow-wrap:anywhere}.main{padding-left:20px;padding-right:20px}.article{padding:22px}.article h2{font-size:34px}.proof{gap:10px 16px}}
   </style>
 </head>
 <body>
-<header class="header">
-  <a class="brand" href="./"><span class="mark" aria-hidden="true">�</span><span>PATHWAY<small>FORUM</small></span></a>
-  <button class="menu" id="menu" type="button" aria-expanded="false" aria-controls="nav">0 Menu</button>
-  <nav class="nav" id="nav" aria-label="Primary navigation"><a href="./">Home</a><a href="./#scholarships">Scholarships</a><a href="jobs.html">Remote Jobs</a><a href="uganda-jobs.html" aria-current="page">Jobs in Uganda</a><a href="./#blog">Guides</a><a href="about.html">About</a></nav>
-  <button class="saved" id="saved-toggle" type="button">a Saved <span id="saved-count">0</span></button>
+<header class="pf-header">
+  <a class="pf-brand" href="./"><span class="pf-mark" aria-hidden="true"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="7"/><circle cx="12" cy="12" r="2"/></svg></span><span>PATHWAY<small>FORUM</small></span></a>
+  <nav class="pf-nav" id="primary-nav" data-pf-nav aria-label="Primary navigation"><a href="./">Home</a><a href="./#blog">BYU-Pathway</a><a href="./#scholarships">Scholarships</a><a href="jobs.html">Remote Jobs</a><a href="uganda-jobs.html" aria-current="page">Uganda Jobs</a><a href="./#blog">Guides</a><a href="about.html">About</a></nav>
+  <div class="pf-actions"><button class="pf-saved" id="saved-toggle" type="button" aria-pressed="false">Saved <span id="saved-count">0</span></button><button class="pf-menu" data-pf-menu type="button" aria-expanded="false" aria-controls="primary-nav"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 7h16M4 12h16M4 17h16"/></svg><span>Menu</span></button></div>
 </header>
 <section class="hero">
-  <p class="eyebrow">OFFICIAL SOURCES � DIRECT APPLICATION LINKS</p>
+  <p class="eyebrow">OFFICIAL SOURCES · DIRECT APPLICATION LINKS</p>
   <h1>Find work <em>across Uganda.</em></h1>
   <p>Physical, field and hybrid vacancies collected from approved employer career pages and checked before publication.</p>
-  <div class="proof"><span> No account required</span><span? Employer source shown</span><span? Expired jobs removed</span><span> Never pay to apply</span></div>
+  <div class="proof"><span>✓ No account required</span><span>✓ Employer source shown</span><span>✓ Expired jobs removed</span><span>✓ Never pay to apply</span></div>
 </section>
 <main class="main">
   <section class="search" aria-label="Job filters">
@@ -38,31 +38,32 @@
     <label class="field">Work type<select id="type"><option value="">All work types</option></select></label>
   </section>
   <section id="listing">
-    <div class="toolbar"><div><p class="eyebrow" style="color:var(--gold)">CURRENT VACANCIES</p><h2>Verified opportunities</h2></div><p><strong id="count">0</strong> jobs � <span id="updated">Loading latest feed&</span></p></div>
-    <div class="notice">A listing marked Official employer source was found on the employer's own recruitment system. Always confirm the deadline and requirements before sharing documents. No legitimate employer should charge you to apply.</div>
-    <div class="grid" id="grid"><div class="empty">Loading current Uganda jobs&</div></div>
+    <div class="toolbar"><div><p class="eyebrow" style="color:var(--gold)">CURRENT VACANCIES</p><h2>Verified opportunities</h2></div><p><strong id="count">0</strong> jobs · <span id="updated">Loading latest feed…</span></p></div>
+    <div class="notice">A listing marked “Official employer source” was found on the employer's own recruitment system. Always confirm the deadline and requirements before sharing documents. No legitimate employer should charge you to apply.</div>
+    <div class="grid" id="grid"><div class="empty">Loading current Uganda jobs…</div></div>
     <aside class="ad" aria-label="Advertisement placeholder"><div><small>ADVERTISEMENT</small><b>Reserved responsive ad space</b><div>Clearly separated from job listings</div></div></aside>
   </section>
   <section class="detail" id="detail" hidden>
-    <button class="back" id="back" type="button"?� Back to Uganda jobs</button>
+    <button class="back" id="back" type="button">← Back to Uganda jobs</button>
     <div class="detail-layout">
       <article class="article">
         <div class="company"><div class="logo" id="detail-logo">PF</div><div><b id="detail-employer">Employer</b><small id="detail-verified">Official source</small></div></div>
         <h2 id="detail-title">Job title</h2><div class="tags" id="detail-tags"></div>
         <div class="verified"><strong id="detail-deadline"></strong><div id="detail-check"></div></div>
-        <a class="apply" id="apply" href="#" target="_blank" rel="noopener">Apply on the official employer site!�</a>
+        <a class="apply" id="apply" href="#" target="_blank" rel="noopener">Apply on the official employer site ↗</a>
         <p class="micro">You will leave Pathway Forum. We never collect application fees.</p>
         <section class="section"><h3>Opportunity summary</h3><p id="detail-summary"></p></section>
         <section class="section"><h3>Student and early-career indicators</h3><ul id="detail-indicators"></ul></section>
         <aside class="ad"><div><small>ADVERTISEMENT</small><b>Reserved content ad space</b></div></aside>
         <section class="section check"><h3>Application checklist</h3><label><input type="checkbox"> I read the complete official advert</label><label><input type="checkbox"> I meet the education and experience requirements</label><label><input type="checkbox"> I prepared the requested documents</label><button id="ready" type="button">Check readiness</button><p class="ready" id="ready-message"></p></section>
       </article>
-      <aside><div class="panel"><h3>At a glance</h3><dl><dt>Location</dt><dd id="side-location"></dd><dt>Arrangement</dt><dd id="side-workplace"></dd><dt>Type</dt><dd id="side-type"></dd><dt>Category</dt><dd id="side-category"></dd><dt>Experience</dt><dd id="side-experience"></dd></dl></div><div class="panel source"><h3>Source transparency</h3><p id="source-copy"></p><a id="source-link" href="#" target="_blank" rel="noopener">View original source!�</a></div></aside>
+      <aside><div class="panel"><h3>At a glance</h3><dl><dt>Location</dt><dd id="side-location">—</dd><dt>Arrangement</dt><dd id="side-workplace">—</dd><dt>Type</dt><dd id="side-type">—</dd><dt>Category</dt><dd id="side-category">—</dd><dt>Experience</dt><dd id="side-experience">—</dd></dl></div><div class="panel source"><h3>Source transparency</h3><p id="source-copy"></p><a id="source-link" href="#" target="_blank" rel="noopener">View original source ↗</a></div></aside>
     </div>
   </section>
 </main>
-<footer class="footer"><b>PATHWAY FORUM</b><p>Independent opportunity platform. Applications remain with the original employer.</p></footer>
-<script>
+<footer class="pf-footer"><div><strong>Pathway Forum</strong><p>Independent guides and verified opportunities for online students, from the creator of Rise &amp; Reasons.</p></div><nav aria-label="Footer navigation"><a href="./#blog">BYU-Pathway guides</a><a href="./#scholarships">Scholarships</a><a href="jobs.html">Remote jobs</a><a href="https://www.youtube.com/@torridcourts" target="_blank" rel="noopener">Rise &amp; Reasons</a></nav><p class="pf-disclaimer">Independent education platform. We are not owned, operated or officially endorsed by BYU-Pathway Worldwide. Applications remain with the original employer.</p></footer>
+<script src="assets/site-shell.js"></script>
+<script type="text/plain" id="legacy-uganda-script">
 let jobs=[],active=null,showSaved=false,saved=new Set(JSON.parse(localStorage.getItem("pf-uganda-saved")||"[]"));
 const $=selector=>document.querySelector(selector);
 const esc=value=>String(value??"").replace(/[&<>"']/g,char=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[char]));
@@ -82,5 +83,6 @@ $("#menu").addEventListener("click",event=>{const open=$("#nav").classList.toggl
 addEventListener("popstate",()=>{const id=new URLSearchParams(location.search).get("job");id?openJob(id,false):closeDetail(false)});
 fetch("data/uganda-jobs.json",{cache:"no-store"}).then(response=>{if(!response.ok)throw Error("Feed unavailable");return response.json()}).then(data=>{jobs=data.jobs||[];$("#updated").textContent="Updated "+age(data.generatedAt);options("#district",jobs.map(job=>job.district));options("#category",jobs.map(job=>job.category));options("#type",jobs.map(job=>job.employmentType));saveState();render();const id=new URLSearchParams(location.search).get("job");if(id)openJob(id,false)}).catch(()=>{$("#grid").innerHTML='<div class="empty"><h3>The Uganda jobs feed is temporarily unavailable.</h3><p>Please try again later. We do not display unverified fallback listings.</p></div>';$("#updated").textContent="Update unavailable"});
 </script>
+<script src="assets/uganda-jobs.js"></script>
 </body>
 </html>

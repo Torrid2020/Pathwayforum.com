@@ -1,0 +1,54 @@
+name: Update verified Uganda jobs
+on:
+  schedule:
+    - cron: "37 */3 * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+  pages: write
+concurrency:
+  group: update-uganda-jobs
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch, verify and normalize Uganda jobs
+        id: jobs
+        run: node scripts/sync-uganda-jobs.mjs
+      - name: Publish changed feeds
+        run: |
+          if git diff --quiet -- data/uganda-jobs.json data/uganda-jobs-review.json; then
+            echo "The Uganda jobs feed has not changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/uganda-jobs.json data/uganda-jobs-review.json
+          git commit -m "Refresh verified Uganda jobs"
+          git push
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" --silent || true
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Summarize run
+        run: |
+          echo "### Uganda jobs update" >> "$GITHUB_STEP_SUMMARY"
+          echo "Published jobs: ${{ steps.jobs.outputs.job_count }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Held for review: ${{ steps.jobs.outputs.review_count }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Official sources only; duplicates, expiry and common scam language checked." >> "$GITHUB_STEP_SUMMARY"
+      - name: Report update failures
+        if: failure()
+        run: |
+          gh label create uganda-jobs-feed --color D93F0B --description "Automated Uganda jobs feed" 2>/dev/null || true
+          existing=$(gh issue list --label uganda-jobs-feed --state open --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            gh issue create --title "Uganda jobs feed update failed" --label uganda-jobs-feed --body "The scheduled Uganda jobs workflow failed. The existing public feed was left untouched."
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

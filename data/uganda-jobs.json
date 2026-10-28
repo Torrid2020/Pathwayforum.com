@@ -1,0 +1,39 @@
+{
+  "generatedAt": "2026-10-28T14:53:48.217Z",
+  "country": "Uganda",
+  "jobCount": 1,
+  "sources": {
+    "World Vision Careers": "ok"
+  },
+  "methodology": "Jobs come directly from approved official employer sources and are checked for expiry, duplicates and common scam language.",
+  "jobs": [
+    {
+      "id": "world-vision:JR53357",
+      "source": "World Vision Careers",
+      "sourceType": "official-employer",
+      "title": "Integrated Project Officer",
+      "employer": "World Vision",
+      "location": "Busakira, Uganda",
+      "district": "Busakira",
+      "workplace": "On-site or field-based",
+      "employmentType": "Full time",
+      "category": "Project & Programme",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-21",
+      "deadline": "2026-10-29T00:00:00.000Z",
+      "deadlineStatus": "Closes in 1 day",
+      "summary": "With 75 years of experience, our focus is on helping the most vulnerable children overcome poverty and experience fullness of life. We help children of all backgrounds, even in the most dangerous places, inspired by our Christian faith. Come join our 31,000+ staff working in nearly 100 countries and share the joy of transforming vulnerable children’s life stories! Employee Cont",
+      "indicators": [],
+      "verification": {
+        "status": "official-source",
+        "label": "Official employer source",
+        "checkedAt": "2026-10-28T14:53:48.217Z",
+        "flags": []
+      },
+      "sourceUrl": "https://worldvision.wd1.myworkdayjobs.com/WorldVisionInternational/job/Busakira-Uganda/Integrated-Project-Officer_JR53357",
+      "applicationUrl": "https://worldvision.wd1.myworkdayjobs.com/WorldVisionInternational/job/Busakira-Uganda/Integrated-Project-Officer_JR53357",
+      "lastCheckedAt": "2026-10-28T14:53:48.217Z"
+    }
+  ]
+}

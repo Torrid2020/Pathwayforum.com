@@ -1,0 +1,182 @@
+{
+  "generatedAt": "2026-10-28T13:30:55.042Z",
+  "targetRegions": [
+    "Africa",
+    "South America",
+    "Asia"
+  ],
+  "jobCount": 4,
+  "sources": {
+    "Jobicy anywhere": "ok",
+    "Jobicy apac": "ok",
+    "Jobicy latam": "ok",
+    "Jobicy emea": "ok",
+    "Himalayas 1": "ok",
+    "Himalayas 2": "ok",
+    "Himalayas 3": "ok",
+    "Himalayas 4": "ok"
+  },
+  "methodology": "Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",
+  "jobs": [
+    {
+      "id": "jobicy:149520",
+      "source": "Jobicy",
+      "sourceId": "149520",
+      "title": "Junior Linux Kernel Engineer - Ubuntu",
+      "company": "Canonical",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+      "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT.",
+      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1200+ colleagues in 75+ countries and very few office-based roles. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder-led, profitable, and growing. Every year we select new junior professionals into the Canonical Kernel Team, to work on the Linux kernel for Ubuntu. If you’ve enjoyed operating systems in your coursework or current role, you are confident in your ability to write high quality C and possibly Rust, and are ready to take the plunge and see how it all works, then this would be a great place to pursue your next career stage. We are a global team working to ship the world's most widely used Linux kernel, across the very latest silicon and cloud, where you can apply and grow your software engineering skills. The Canonical Kernel Team builds and maintains all supported Ubuntu Linux kernels for a variety of platforms and architectures from small embedded devices to standard desktop/server systems to large-scale cloud environments. In your first year you will tackle serious initiatives, which include but are not limited to: Optimized solutions for key Silicon and Cloud partner platforms Developer platforms such as Raspberry Pi and RISC-V Enabling Ubuntu on a wide range of embedded systems Security hardening and exploit mitigation Third-party driver integration and distribution, such as graphics Expanded driver support for bleeding-edge PC platforms We select candidates that are recent university graduates or early career professionals who are enthusiastic to develop kernel-level software in multiple areas including security updates, patching, and testing. The successful candidate will have a background in software engineering, be motivated to work in a distributed team and willing and able to travel globally twice a year for company engineering events. These are full-time positions available to prospective or recently graduated students. Location: We have home-based Kernel Teams in every timezone. The role entails Collaborate regularly and proactively with a globally distributed team Learn from senior mentors to demystify the inner workings of the Linux kernel and how it is distributed Work closely with external silicon, cloud, or hardware manufacturer delivery teams on bleeding-edge platforms Diagnose and resolve issues in the kernel reported by customers, the community, and discovered by your own rigorous testing Take personal responsibility for the delivery of various flavors of the Ubuntu Linux kernel Improve tooling and automation for delivery and test of Ubuntu Linux kernels Submit, review, and apply kernel patches, working with both internal and external upstream maintainers What we are looking for in you Well-organized and motivated self-starter able to thrive in a remote work environment Professional manner with colleagues, business partners, and the open-source community Ability to communicate effectively in English, both written and verbal Programming experience in C and/or Rust Familiarity with version control practices, ideally with git Understanding of operating system kernel fundamentals Ability to travel twice a year for company events of up to two weeks length Nice-to-have skills Interest and experience in Rust Python and Bash scripting ability Prior experience with Ubuntu/Debian/Snap packaging Demonstrated experience with kernel patching and debugging Strong grasp of device drivers, BSP’s, and other low level system engineering What we offer colleagues We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognize outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally. Distributed work environment with twice-yearly team sprints in person Personal learning and development budget of USD 2,000 per year Annual compensation review Recognition rewards Annual holiday leave Maternity and paternity leave Team Member Assistance Program Wellness Platform Opportunity to travel to new locations to meet colleagues Priority Pass and travel upgrades for long-haul company events About Canonical Canonical is a pioneering tech firm at the forefront of the global move to open source. As the company that pub",
+      "employmentType": "Full-Time",
+      "level": "Entry-Level, Junior",
+      "salary": null,
+      "eligibility": {
+        "label": "Anywhere",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "publishedAt": "2026-10-25T04:15:04+00:00",
+      "expiresAt": null,
+      "applicationUrl": "https://jobicy.com/jobs/149520-junior-linux-kernel-engineer-ubuntu",
+      "sourceUrl": "https://jobicy.com/jobs/149520-junior-linux-kernel-engineer-ubuntu",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-28T13:30:55.042Z"
+    },
+    {
+      "id": "jobicy:149523",
+      "source": "Jobicy",
+      "sourceId": "149523",
+      "title": "Cloud Field Engineer",
+      "company": "Canonical",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+      "summary": "Help global companies embrace the latest private cloud infrastructure, Linux and cloud native operations, and open source applications. Our team applies expert insights to real-world customer problems, enabling the enterprise adoption of Linux Ubuntu, OpenStack, Kubernetes and a ",
+      "description": "Help global companies embrace the latest private cloud infrastructure, Linux and cloud native operations, and open source applications. Our team applies expert insights to real-world customer problems, enabling the enterprise adoption of Linux Ubuntu, OpenStack, Kubernetes and a wide range of associated technology. This role has very diverse responsibilities. The team members are Linux and cloud solutions architects for our customers, designing private and public cloud solutions fitting their workload needs. They are the cloud consultants who work hands-on with the technologies by deploying, testing and handing over the solution to our support or managed services team at the end of a project. They are also software engineers who use Python to develop Kubernetes operators and Linux open source infrastructure-as-code. The people who love this role are developers who like to solve customer problems through architecture, presentations and training. Location: This role will be home based. What your day will look like Work across the entire Linux stack, from kernel, networking, storage, to applications Work in Python to design and deliver open source code Architect cloud infrastructure solutions like OpenStack, Kubernetes, Ceph, Hadoop and Spark either On-Premises or in Public Cloud (AWS, Azure, Google Cloud) Coach and develop your colleagues where you have insights Grow a healthy, collaborative engineering culture in line with the company values Work from the comfort of your home Global travel up to 25% of time for internal and external events What we are looking for in you University degree in Computer Science or related software engineering expertise You have sound knowledge of cloud computing concepts technologies, such as Kubernetes, OpenStack, AWS, GCP, Azure, Ceph, etc. You have practical knowledge of Linux and networking You have Intermediate to Advanced level of Python programming skills You are a dynamic person who loves to jump in new projects and interact with people You have a demonstrated drive for continual learning Excellent communication and presentation skills (English) You have great organisational skills and follow-up reliably on commitments (Optional) You speak a second language What you’ll learn OpenStack and Kubernetes infrastructure Linux Ubuntu and networking knowledge Wide range of open source applications and skills Work directly with customers in a range of different businesses Real-life and hands-on exposure to a wide range of emerging technologies and tools What we offer you We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognise outstanding performance. In addition to base pay, we offer a performance-driven quarterly bonus. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally. Distributed work environment with twice-yearly team sprints in person - we’ve been working remotely since 2004! Personal learning and development budget of USD 2,000 per year Annual compensation review Recognition rewards 40 days annual leave per annum, including public holidays and our All Company holiday periods Maternity and paternity leave Employee Assistance Programme Opportunity to travel to new locations to meet colleagues from your team and others Priority Pass for travel and travel upgrades for long haul company events About Canonical Canonical is a pioneering tech firm that is at the forefront of the global move to open source. As the company that publishes Ubuntu, one of the most important open source projects and the platform for AI, IoT and the cloud, we are changing the world on a daily basis. We recruit on a global basis and set a very high standard for people joining the company. We expect excellence - in order to succeed, we need to be the best at what we do. Canonical has been a remote-first company since its inception in 2004.​ Work at Canonical is a step into the future, and will challenge you to think differently, work smarter, learn new skills, and raise your game. Canonical provides a unique window into the world of 21st-century digital business. Canonical is an equal opportunity employer We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration. #LI-Remote #stack",
+      "employmentType": "Full-Time",
+      "level": "Entry-Level, Junior",
+      "salary": null,
+      "eligibility": {
+        "label": "Anywhere",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "publishedAt": "2026-10-24T03:45:31+00:00",
+      "expiresAt": null,
+      "applicationUrl": "https://jobicy.com/jobs/149523-cloud-field-engineer",
+      "sourceUrl": "https://jobicy.com/jobs/149523-cloud-field-engineer",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-28T13:30:55.042Z"
+    },
+    {
+      "id": "jobicy:149555",
+      "source": "Jobicy",
+      "sourceId": "149555",
+      "title": "Graduate Sales Development Representative",
+      "company": "Canonical",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+      "summary": "Canonical is a global software company that publishes Ubuntu and open-source enterprise solutions for cloud, developer, IoT and AI. Ubuntu is the fastest growing Linux distribution and ranks as the number #1 OS in the cloud.In partnership with Google, Amazon, IBM and Microsoft, C",
+      "description": "Canonical is a global software company that publishes Ubuntu and open-source enterprise solutions for cloud, developer, IoT and AI. Ubuntu is the fastest growing Linux distribution and ranks as the number #1 OS in the cloud. In partnership with Google, Amazon, IBM and Microsoft, Canonical helps companies become more agile, productive and adopt new technologies faster. Examples of customer success include AI, Blockchain, IoT, Advanced Robotics and self-driving cars, where Ubuntu is the preferred development platform. The role of a Sales Development Representative at Canonical Canonical is profitable and growing. We consider our sales development organization to be the best technology sales academy in the market, and as such, we select exceptional and ambitious candidates to join our team. You will enjoy this role if you are organized, persistent, charismatic, and hard-working. You will need to be interested in tech and its business implications. In this role, you will collaborate with a regional sales and marketing team, and your primary objective is to find customer projects that fit our product lines and spread the good name of Canonical across multiple different industries and geographies. Click HERE to watch our SDR team discuss their role in Canonical What your day will look like Handle inbound customer inquiries across email, phone and chat Execute outbound sales marketing campaigns Travel to events and conferences worldwide, presenting on booths and driving face-to-face marketing and sales opportunities Collaborate across multiple teams and senior stakeholders to drive results Work directly with marketing on campaigns Research information about prospective customers Generate a multi-million pound pipeline Identify prospects and market trends Help define the processes and policies for the team Liaise with new and existing customers, setting up and attending meetings whilst actively mapping accounts to identify new opportunities Accurately create, update, maintain and nurture leads on global opportunities What we are looking for in you Excellent academic results at school and university Passion for business and technology Commitment to continuous learning and improvement - curious, flexible, scientific Creative problem solving and cross team collaboration Verbal and written communication skills Result driven with an over-achiever spirit Persistence perseverance What we offer you Your base pay will depend on various factors including your geographical location, level of experience, knowledge and skills. In addition to the benefits above, certain roles are also eligible for additional benefits and rewards including annual bonuses and sales incentives based on revenue or utilisation. Our compensation philosophy is to ensure equity right across our global workforce. In addition to a competitive base pay, we provide all team members with additional benefits, which reflect our values and ideals. Please note that additional benefits may apply depending on the work location and, for more information on these, please ask your Talent Partner. Personal learning and development budget of 2,000USD per year Annual compensation review Recognition rewards Annual holiday leave Parental Leave Employee Assistance Programme Opportunity to travel to new locations to meet colleagues at ‘sprints’ Priority Pass for travel and travel upgrades for long haul company events Canonical is an equal opportunity employer We are proud to foster a workplace free from discrimination. Diversity of experience, perspectives, and background create a better work environment and better products. Whatever your identity, we will give your application fair consideration. #LI-remote",
+      "employmentType": "Full-Time",
+      "level": "Entry-Level, Junior",
+      "salary": null,
+      "eligibility": {
+        "label": "Anywhere",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "publishedAt": "2026-10-24T03:45:29+00:00",
+      "expiresAt": null,
+      "applicationUrl": "https://jobicy.com/jobs/149555-graduate-sales-development-representative",
+      "sourceUrl": "https://jobicy.com/jobs/149555-graduate-sales-development-representative",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-28T13:30:55.042Z"
+    },
+    {
+      "id": "jobicy:149545",
+      "source": "Jobicy",
+      "sourceId": "149545",
+      "title": "Ubuntu Sales Engineer (Entry-Level)",
+      "company": "Canonical",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+      "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. ",
+      "description": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. Our customers include the world's leading public cloud and silicon providers, and industry leaders in many sectors. The company is a pioneer of global distributed collaboration, with 1000+ colleagues in 70+ countries and very few roles based in offices. Teams meet two to four times yearly in person, in interesting locations around the world, to align on strategy and execution. The company is founder led, profitable and growing. We are hiring an Ubuntu Pro Sales Engineer to help global companies embrace the latest and greatest Linux and open source applications. Our team applies expert insights to real-world customer problems, enabling the enterprise adoption of Ubuntu Pro, OpenStack and Canonical Microcloud, Kubernetes and a wide range of associated technology. The people who love this role are software engineers who enjoy customer conversations and solving customer problems during the presales cycle. Ubuntu is used by pretty much every enterprise in the world, in every industry. This is a fantastic opportunity to learn about the open source technology landscape and develop your business technology insights. You will see first hand in various industries how Linux - and Ubuntu in particular - is shaping innovation and changing the world for the better. This role is particularly suited to candidates with a technical background who are business minded and driven by commercial success. This role is on our global Field Engineering team and will work closely with enterprise sales leads. Location: Most of our colleagues work from home. We are growing teams in EMEA, Americas and APAC time zones, so can accommodate candidates from almost any country. What your day will look like The Ubuntu Pro Sales Engineer is a key player in our efforts to facilitate and drive the adoption of Ubuntu Pro in the very large Ubuntu enterprise user base. Collect customer business requirements and advise them on Ubuntu and relevant open source applications Identify customer challenges with open source and articulate how Ubuntu Pro could help solve them Deliver presentations and demonstrations of Ubuntu Pro to prospective and current clients Liaise with product teams to give them feedback on requirements to influence roadmap Work collaboratively with your sales team to reach our common targets Global travel up to 25% of time for internal and external events and 25% to customer meetings What we are looking for in you Exceptional academic track record from both high school and university Undergraduate degree in a technical subject or a compelling narrative about your alternative chosen path Confidence to respectfully speak up, exchange feedback, and share ideas without hesitation Track record of going above-and-beyond expectations to achieve outstanding results Demonstrated personal interest in continuous learning and development Practical knowledge of Linux, virtualisation, containers and networking Business-minded technology thinker and problem solver Knowledge of cloud computing concepts leaders, such as Kubernetes, AWS, Azure, GCP Interest in large-scale enterprise open source - private clouds, machine learning and AI, data and analytics Intermediate level Python programming skills Passion for technology evidenced by personal projects and initiatives The work ethic and confidence to shine alongside motivated colleagues Professional written and spoken English with excellent presentation skills Experience with Linux (Debian or Ubuntu preferred) Excellent interpersonal skills, curiosity, flexibility, and accountability A dynamic person who loves to jump in new projects and interact with people Appreciative of diversity, polite and effective in a multi-cultural, multi-national organisation Thoughtfulness and self-motivation Result-oriented, with a personal drive to follow up and meet commitments Ability to travel internationally, for company events up to two weeks long, and customer or industry meetings What we offer colleagues We consider geographical location, experience, and performance in shaping compensation worldwide. We revisit compensation annually (and more often for graduates and associates) to ensure we recognise outstanding performance. In addition to base pay, we offer a performance-driven annual bonus or commission. We provide all team members with additional benefits, which reflect our values and ideals. We balance our programs to meet local needs and ensure fairness globally. Distributed work environment with twice-yearly team sprints in person Personal learning and development budget of USD 2,000 per year Annual compensation review Recognition rewards Annual holiday leave Maternity and paternity leave Employee Assistance Programme Opportunity to tr",
+      "employmentType": "Full-Time",
+      "level": "Entry-Level, Junior",
+      "salary": null,
+      "eligibility": {
+        "label": "Anywhere",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "publishedAt": "2026-10-24T03:30:11+00:00",
+      "expiresAt": null,
+      "applicationUrl": "https://jobicy.com/jobs/149545-ubuntu-sales-engineer-entry-level",
+      "sourceUrl": "https://jobicy.com/jobs/149545-ubuntu-sales-engineer-entry-level",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-28T13:30:55.042Z"
+    }
+  ]
+}

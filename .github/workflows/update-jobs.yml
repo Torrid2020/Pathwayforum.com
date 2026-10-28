@@ -1,0 +1,53 @@
+name: Update verified remote jobs
+on:
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+permissions:
+  contents: write
+  issues: write
+  pages: write
+concurrency:
+  group: update-remote-jobs
+  cancel-in-progress: false
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - name: Fetch, screen and normalize jobs
+        id: jobs
+        run: node scripts/update-jobs.mjs
+      - name: Publish changed feed
+        run: |
+          if git diff --quiet -- data/remote-jobs.json; then
+            echo "The normalized feed has not changed."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
+          git add data/remote-jobs.json
+          git commit -m "Refresh verified remote jobs"
+          git push
+          gh api -X POST "repos/${{ github.repository }}/pages/builds" --silent || true
+        env:
+          GH_TOKEN: ${{ github.token }}
+      - name: Summarize run
+        run: |
+          echo "### Remote jobs update" >> "$GITHUB_STEP_SUMMARY"
+          echo "Published jobs: ${{ steps.jobs.outputs.job_count }}" >> "$GITHUB_STEP_SUMMARY"
+          echo "Screened for target-region eligibility, student fit, duplicates and scam language." >> "$GITHUB_STEP_SUMMARY"
+      - name: Report update failures
+        if: failure()
+        run: |
+          gh label create jobs-feed --color D93F0B --description "Automated remote jobs feed" 2>/dev/null || true
+          existing=$(gh issue list --label jobs-feed --state open --json number --jq '.[0].number // empty')
+          if [ -z "$existing" ]; then
+            gh issue create --title "Remote jobs feed update failed" --label jobs-feed --body "The hourly workflow failed. Review the latest Actions run before changing the existing public feed."
+          fi
+        env:
+          GH_TOKEN: ${{ github.token }}

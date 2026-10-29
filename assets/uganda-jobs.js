@@ -44,6 +44,7 @@ function render() {
       <div class="verified">✓ Source checked ${esc(age(job.lastCheckedAt))} · ${esc(job.deadlineStatus)}</div>
       <div class="foot"><span>${esc(job.workplace)}</span><button class="view" type="button" data-open="${esc(job.id)}">View details →</button></div>
     </article>`).join("") : '<div class="empty"><h3>No matching jobs right now.</h3><p>Clear a filter or check again after the next automatic update.</p></div>';
+  if(!jobs.length){$("#count").parentElement.hidden=true;$("#grid").innerHTML='<div class="empty"><p>New jobs are checked daily. Join our WhatsApp group to hear first.</p><a class="button" href="https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce">Join WhatsApp</a></div>';}
   document.querySelectorAll("[data-save]").forEach((button) => button.addEventListener("click", () => {
     saved.has(button.dataset.save) ? saved.delete(button.dataset.save) : saved.add(button.dataset.save);
     saveState();

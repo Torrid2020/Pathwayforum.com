@@ -4,17 +4,14 @@
           <input id="newsletter-email" name="email" type="email" autocomplete="email" placeholder="Enter your email address" required />
           <button class="btn primary" type="submit">Subscribe</button>
           <p class="form-note" id="newsletter-note" role="status"></p>
-        </form><p id="whatsapp" hidden><a id="whatsapp-link">WhatsApp community</a></p></div></section><section class="section creator"><div class="creator-symbol"><svg viewBox="0 0 64 48" aria-hidden="true"><path d="M7 41V7h14c16 0 16 21 0 21H7m14 0 12 13" fill="none" stroke="#075bea" stroke-width="7"/><path d="M33 41V7h12c16 0 16 21 0 21H33m12 0 12 13" fill="none" stroke="#b34408" stroke-width="7"/></svg></div><div><p class="eyebrow">Meet the creator</p><h2>James Ocora, creator of Rise &amp; Reasons</h2><p>A BYU-Pathway graduate sharing what I've learned so other online students can succeed.</p><a href="about.html">Read my story →</a></div></section></main><footer class="pf-footer"><div><strong>Pathway Forum by Rise &amp; Reasons</strong><p>Independent resource. Not affiliated with BYU-Pathway Worldwide, Brigham Young University or BYU-Idaho.</p></div><nav aria-label="Footer navigation"><a href="guides.html">Guides</a><a href="scholarships.html">Scholarships</a><a href="jobs.html">Remote jobs</a><a href="uganda-jobs.html">Jobs in Uganda</a><a href="trust.html">How we check information</a><a href="about.html">About</a><a href="https://www.youtube.com/@torridcourts">Rise &amp; Reasons on YouTube</a><a href="https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce">WhatsApp community</a></nav></footer><script src="assets/site-shell.js"></script><script src="data/scholarships.js"></script><script src="assets/home.js"></script><script>// Community links. Each feature switches on once its value is filled in.
+        </form></div></section><section class="section creator"><div class="creator-symbol"><svg viewBox="0 0 64 48" aria-hidden="true"><path d="M7 41V7h14c16 0 16 21 0 21H7m14 0 12 13" fill="none" stroke="#075bea" stroke-width="7"/><path d="M33 41V7h12c16 0 16 21 0 21H33m12 0 12 13" fill="none" stroke="#b34408" stroke-width="7"/></svg></div><div><p class="eyebrow">Meet the creator</p><h2>James Ocora, creator of Rise &amp; Reasons</h2><p>A BYU-Pathway graduate sharing what I've learned so other online students can succeed.</p><a href="about.html">Read my story →</a></div></section></main><footer class="pf-footer"><div><strong>Pathway Forum by Rise &amp; Reasons</strong><p>Independent resource. Not affiliated with BYU-Pathway Worldwide, Brigham Young University, BYU–Idaho or Ensign College.</p></div><nav aria-label="Footer navigation"><a href="guides.html">Guides</a><a href="scholarships.html">Scholarships</a><a href="jobs.html">Remote jobs</a><a href="uganda-jobs.html">Jobs in Uganda</a><a href="trust.html">How we check information</a><a href="about.html">About</a><a href="https://www.youtube.com/@torridcourts">Rise &amp; Reasons on YouTube</a><a href="https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce">WhatsApp community</a></nav></footer><script src="assets/site-shell.js"></script><script src="data/scholarships.js"></script><script src="assets/home.js"></script><script>// Community links. Each feature switches on once its value is filled in.
     // NEWSLETTER_ENDPOINT: a form endpoint that accepts an "email" field, e.g. for Buttondown
     //   "https://buttondown.com/api/emails/embed-subscribe/YOUR-USERNAME"
     // WHATSAPP_URL: a WhatsApp group or channel invite link
     const NEWSLETTER_ENDPOINT = "";
     const WHATSAPP_URL = "https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce";
 
-    if (WHATSAPP_URL) {
-      document.querySelector("#whatsapp-link").href = WHATSAPP_URL;
-      document.querySelector("#whatsapp").hidden = false;
-    }
+
 
     const newsletterForm = document.querySelector("#newsletter-form");
     const newsletterNote = document.querySelector("#newsletter-note");

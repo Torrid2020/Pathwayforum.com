@@ -36,3 +36,6 @@ body .hero h1,body .detail h2,body .article h2,body .toolbar h2,body .section-he
 .portrait-card{margin:0;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:14px;max-width:440px;width:100%;justify-self:center}.portrait-card img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}.portrait-card figcaption{padding:18px 20px;font-size:14px;line-height:1.5;font-weight:600}.portrait-card a{text-decoration:none}.portrait-card picture{display:block}
 
 .creator-square{display:block;width:100%;height:auto;border-radius:18px;aspect-ratio:1;object-fit:cover}
+
+/* YouTube frames crop the letterboxing in hqdefault thumbnails. */
+.video-frame{position:relative;overflow:hidden;aspect-ratio:16/9;background:var(--soft)}.video-card .video-frame img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover}.is-regular .video-frame img{transform:scale(1.02)}.is-short .video-frame{aspect-ratio:9/16}.is-short .video-frame img.thumbnail-fallback{transform:scale(2.42)}#video-grid{align-items:start}

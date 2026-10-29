@@ -47,7 +47,7 @@
     const DAY = 86400000;
     const now = new Date();
     const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
-    const formatDate = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+    const formatDate = new Intl.DateTimeFormat("en-GB", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
 
     const escapeHTML = (value) => String(value).replace(/[&<>"']/g, (c) => (
       { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]

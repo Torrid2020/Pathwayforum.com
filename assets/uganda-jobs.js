@@ -38,6 +38,7 @@ function filtered() {
 function render() {
   const list = filtered();
   $("#count").textContent = list.length;
+  $("#count-noun").textContent=list.length===1?"job":"jobs";
   $("#grid").innerHTML = list.length ? list.map((job) => `
     <article class="card">
       <div class="company"><div class="logo">${esc(initials(job.employer))}</div><div><b>${esc(job.employer)}</b><small>✓ ${esc(job.verification.label)}</small></div><button class="save ${saved.has(job.id) ? "on" : ""}" type="button" data-save="${esc(job.id)}" aria-pressed="${saved.has(job.id)}" aria-label="Save ${esc(job.title)}">${saved.has(job.id) ? "Saved" : "Save"}</button></div>

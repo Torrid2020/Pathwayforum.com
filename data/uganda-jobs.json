@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-10-28T19:47:10.295Z",
+  "generatedAt": "2026-10-29T01:11:38.555Z",
   "country": "Uganda",
-  "jobCount": 5,
+  "jobCount": 2,
   "sources": {
     "World Vision Careers": "ok",
     "dfcu Bank Careers": "ok",
@@ -9,34 +9,6 @@
   },
   "methodology": "Jobs come directly from approved official employer sources and are checked for expiry, duplicates and common scam language.",
   "jobs": [
-    {
-      "id": "world-vision:JR53357",
-      "source": "World Vision Careers",
-      "sourceType": "official-employer",
-      "title": "Integrated Project Officer",
-      "employer": "World Vision",
-      "location": "Busakira, Uganda",
-      "district": "Busakira",
-      "workplace": "On-site or field-based",
-      "employmentType": "Full time",
-      "category": "Project & Programme",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-10-21",
-      "deadline": "2026-10-29T00:00:00.000Z",
-      "deadlineStatus": "Closes in 1 day",
-      "summary": "With 75 years of experience, our focus is on helping the most vulnerable children overcome poverty and experience fullness of life. We help children of all backgrounds, even in the most dangerous places, inspired by our Christian faith. Come join our 31,000+ staff working in nearly 100 countries and share the joy of transforming vulnerable children’s life stories! Employee Cont",
-      "indicators": [],
-      "verification": {
-        "status": "official-source",
-        "label": "Official employer source",
-        "checkedAt": "2026-10-28T19:47:10.295Z",
-        "flags": []
-      },
-      "sourceUrl": "https://worldvision.wd1.myworkdayjobs.com/WorldVisionInternational/job/Busakira-Uganda/Integrated-Project-Officer_JR53357",
-      "applicationUrl": "https://worldvision.wd1.myworkdayjobs.com/WorldVisionInternational/job/Busakira-Uganda/Integrated-Project-Officer_JR53357",
-      "lastCheckedAt": "2026-10-28T19:47:10.295Z"
-    },
     {
       "id": "dfcu:-careers-agent-banking-consultant-open-positions-all-regions-",
       "source": "dfcu Bank Careers",
@@ -52,74 +24,18 @@
       "experience": "See official listing",
       "publishedAt": "2026-10-27T20:59:59.000Z",
       "deadline": "2026-10-30T20:59:59.000Z",
-      "deadlineStatus": "Closes in 3 days",
+      "deadlineStatus": "Closes in 2 days",
       "summary": "Reporting to the Branch Operations Manager/ Officer, the role is responsible for growing the dfcu agent Banking channel, monitor the agent network and enforce compliance with the Bank Of Uganda Agent Banking guidelines. Duty Station: All Regions KEY ACCOUNTABILITIES: KNOWLEDGE, SKILLS, AND EXPERIENCE REQUIRED: INVITATION If you believe you meet the requirements as noted above, ",
       "indicators": [],
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-28T19:47:10.295Z",
+        "checkedAt": "2026-10-29T01:11:38.555Z",
         "flags": []
       },
       "sourceUrl": "https://www.dfcugroup.com/careers/agent-banking-consultant-open-positions-all-regions/",
       "applicationUrl": "https://careers.dfcugroup.com/",
-      "lastCheckedAt": "2026-10-28T19:47:10.295Z"
-    },
-    {
-      "id": "dfcu:-careers-fleet-administration-manager-1-position-",
-      "source": "dfcu Bank Careers",
-      "sourceType": "official-employer",
-      "title": "Fleet & Administration Manager (1 Position)",
-      "employer": "dfcu Bank",
-      "location": "Uganda",
-      "district": "Uganda",
-      "workplace": "On-site or field-based",
-      "employmentType": "See official listing",
-      "category": "Administration",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-10-20T20:59:59.000Z",
-      "deadline": "2026-10-28T20:59:59.000Z",
-      "deadlineStatus": "Closes in 1 day",
-      "summary": "Reporting to the Head of Corporate Services, the role is responsible for overseeing the Bank’s fleet and administrative operations, ensuring efficient service delivery, optimal resource utilisation, cost management and compliance with the Bank’s policies, internal controls and applicable laws and regulations, while providing reliable support services that enable business contin",
-      "indicators": [],
-      "verification": {
-        "status": "official-source",
-        "label": "Official employer source",
-        "checkedAt": "2026-10-28T19:47:10.295Z",
-        "flags": []
-      },
-      "sourceUrl": "https://www.dfcugroup.com/careers/fleet-administration-manager-1-position/",
-      "applicationUrl": "https://careers.dfcugroup.com/",
-      "lastCheckedAt": "2026-10-28T19:47:10.295Z"
-    },
-    {
-      "id": "dfcu:-careers-senior-security-officer-df7-1-position-",
-      "source": "dfcu Bank Careers",
-      "sourceType": "official-employer",
-      "title": "Senior Security Officer (DF7; 1 Position)",
-      "employer": "dfcu Bank",
-      "location": "Uganda",
-      "district": "Uganda",
-      "workplace": "On-site or field-based",
-      "employmentType": "See official listing",
-      "category": "Project & Programme",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-10-20T20:59:59.000Z",
-      "deadline": "2026-10-28T20:59:59.000Z",
-      "deadlineStatus": "Closes in 1 day",
-      "summary": "Reporting to the Head of Corporate Services, the role is responsible for supporting the effective implementation and oversight of the Bank’s security framework by safeguarding employees, customers, visitors, premises, assets, cash-handling environments, and other Bank resources against security threats, loss, damage, and unauthorised access. The role is responsible for monitori",
-      "indicators": [],
-      "verification": {
-        "status": "official-source",
-        "label": "Official employer source",
-        "checkedAt": "2026-10-28T19:47:10.295Z",
-        "flags": []
-      },
-      "sourceUrl": "https://www.dfcugroup.com/careers/senior-security-officer-df7-1-position/",
-      "applicationUrl": "https://careers.dfcugroup.com/",
-      "lastCheckedAt": "2026-10-28T19:47:10.295Z"
+      "lastCheckedAt": "2026-10-29T01:11:38.555Z"
     },
     {
       "id": "nssf:-specials-featured-jobs-senior-manager-partnerships-business-development-mdas-",
@@ -142,12 +58,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-28T19:47:10.295Z",
+        "checkedAt": "2026-10-29T01:11:38.555Z",
         "flags": []
       },
       "sourceUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
       "applicationUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
-      "lastCheckedAt": "2026-10-28T19:47:10.295Z"
+      "lastCheckedAt": "2026-10-29T01:11:38.555Z"
     }
   ]
 }

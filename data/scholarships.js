@@ -7,7 +7,9 @@ window.SCHOLARSHIPS = [
     "country": "United Kingdom",
     "closes": "2026-10-06",
     "funding": "Fully Funded",
-    "levels": ["Master's"],
+    "levels": [
+      "Master's"
+    ],
     "checked": "2026-09-26",
     "summary": "UK government awards for a one-year master's. Requires two years' work experience after your degree.",
     "url": "https://www.chevening.org/scholarships/",
@@ -22,14 +24,16 @@ window.SCHOLARSHIPS = [
     "country": "United Kingdom",
     "closes": "2026-10-20",
     "funding": "Fully Funded",
-    "levels": ["Master's"],
-    "checked": "2026-09-26",
+    "levels": [
+      "Master's"
+    ],
+    "checked": "2026-10-29",
     "summary": "For citizens of eligible Commonwealth countries. Apply through a national nominating body, not directly.",
     "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
     "watch": {
-      "type": "date",
-      "pattern": "for the (?<year>\\d{4})/\\d{2} academic year[^.]*\\.\\s*The closing date for applications is [^.]*?(?<date>\\d{1,2} [A-Z][a-z]+)\\s*\\.",
-      "yearOffset": -1
+      "type": "text",
+      "pattern": "(?<text>2027/28 academic year are now closed)",
+      "expect": "2027/28 academic year are now closed"
     }
   },
   {
@@ -38,7 +42,9 @@ window.SCHOLARSHIPS = [
     "closes": null,
     "deadlineNote": "Varies by programme (mostly Oct–Jan)",
     "funding": "Fully Funded",
-    "levels": ["Master's"],
+    "levels": [
+      "Master's"
+    ],
     "checked": "2026-09-26",
     "summary": "Study in multiple European countries. Each programme sets its own deadline and selects its own scholars.",
     "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
@@ -54,7 +60,10 @@ window.SCHOLARSHIPS = [
     "closes": null,
     "deadlineNote": "Varies by course (mostly Aug–Nov)",
     "funding": "Fully Funded",
-    "levels": ["Master's", "PhD"],
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
     "checked": "2026-09-26",
     "summary": "For applicants from developing countries. Apply directly to your chosen course, not to DAAD.",
     "url": "https://www2.daad.de/deutschland/stipendium/datenbank/en/21148-scholarship-database/?detail=50076777",
@@ -66,33 +75,38 @@ window.SCHOLARSHIPS = [
   {
     "name": "Swedish Institute Scholarships for Global Professionals",
     "country": "Sweden",
-    "closes": null,
-    "deadlineNote": "Expected Jan–Feb 2027 (two steps)",
+    "closes": "2027-02-24",
+    "deadlineNote": "Apply to a programme by 15 Jan 2027; SI portal 8–24 Feb 2027",
     "funding": "Fully Funded",
-    "levels": ["Master's"],
-    "checked": "2026-09-26",
+    "levels": [
+      "Master's"
+    ],
+    "checked": "2026-10-29",
     "summary": "Apply to an eligible Swedish master's programme first, then to the Swedish Institute.",
     "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
     "watch": {
       "type": "text",
       "pattern": "Key dates: (?<text>.+?): Apply to Swedish master",
-      "expect": "16 October 2025 – 15 January 2026"
+      "expect": "16 October 2026 – 15 January 2027"
     }
   },
   {
     "name": "VLIR-UOS Scholarships",
     "country": "Belgium",
     "closes": null,
-    "deadlineNote": "2027–28 call opens mid-Nov 2026",
+    "deadlineNote": "2027–28 call open; deadline varies by programme",
     "funding": "Fully Funded",
-    "levels": ["Bachelor's", "Master's"],
-    "checked": "2026-09-26",
+    "levels": [
+      "Bachelor's",
+      "Master's"
+    ],
+    "checked": "2026-10-29",
     "summary": "Study in Flanders for applicants from 29 eligible countries in Africa, Asia and Latin America.",
     "url": "https://www.vliruos.be/en/scholarships",
     "watch": {
       "type": "text",
-      "pattern": "The call for the (?<text>\\d{4}.\\d{4} academic year is expected to open in [^.]+)\\.",
-      "expect": "2027–2028 academic year is expected to open in mid-November 2026"
+      "pattern": "(?<text>call for the 2027[–-]2028 academic year is open)",
+      "expect": "call for the 2027–2028 academic year is open"
     }
   },
   {
@@ -101,7 +115,10 @@ window.SCHOLARSHIPS = [
     "closes": null,
     "deadlineNote": "Varies by country",
     "funding": "Varies by country",
-    "levels": ["Master's", "PhD"],
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
     "checked": "2026-09-26",
     "summary": "Graduate study in the US. Apply through the Fulbright commission or US embassy in your country.",
     "url": "https://foreign.fulbrightonline.org/",
@@ -117,7 +134,9 @@ window.SCHOLARSHIPS = [
     "closes": null,
     "deadlineNote": "Next round expected Feb 2027; varies by country",
     "funding": "Fully Funded",
-    "levels": ["Master's"],
+    "levels": [
+      "Master's"
+    ],
     "checked": "2026-09-26",
     "summary": "Long-term awards for study and leadership in developing countries.",
     "url": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships",
@@ -134,7 +153,10 @@ window.SCHOLARSHIPS = [
     "closes": null,
     "deadlineNote": "Embassy round usually Apr–May; varies by country",
     "funding": "Fully Funded",
-    "levels": ["Master's", "PhD"],
+    "levels": [
+      "Master's",
+      "PhD"
+    ],
     "checked": "2026-09-26",
     "summary": "Japanese government funding for graduate study. Apply through the Japanese embassy in your country.",
     "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/",
@@ -150,7 +172,10 @@ window.SCHOLARSHIPS = [
     "country": "United States",
     "closes": "2027-06-30",
     "funding": "Partial Funding",
-    "levels": ["Bachelor's", "Master's"],
+    "levels": [
+      "Bachelor's",
+      "Master's"
+    ],
     "checked": "2026-09-26",
     "summary": "Up to $4,000 toward an online WGU degree for PathwayConnect graduates. US citizens and eligible noncitizens only.",
     "url": "https://www.wgu.edu/financial-aid-tuition/scholarships/partner/byu-pw.html",

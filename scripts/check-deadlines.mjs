@@ -50,7 +50,8 @@ function htmlToText(html) {
     .replace(/&rsquo;/g, "’")
     .replace(/&quot;/g, '"')
     .replace(/&amp;/g, "&")
-    .replace(/\s+/g, " ");
+    .replace(/\s+/g, " ")
+    .replace(/(\d) (?=\d\b)/g, "$1");
 }
 
 async function fetchText(url) {

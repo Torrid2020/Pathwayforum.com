@@ -1,0 +1,297 @@
+    .finder {
+      margin: 0 5vw 34px;
+      padding: 34px;
+      color: white;
+      background: linear-gradient(145deg, #061b45, #082b68);
+      border-radius: 12px;
+      box-shadow: 0 24px 50px rgba(6, 27, 69, .22);
+    }
+
+    .finder h2 {
+      margin: 0 0 4px;
+      font-size: 32px;
+      line-height: 1.1;
+    }
+
+    .finder > p {
+      margin: 0 0 22px;
+      color: #dbe8ff;
+    }
+
+    .filters {
+      display: grid;
+      grid-template-columns: minmax(220px, 1.6fr) repeat(4, minmax(120px, .7fr));
+      gap: 12px;
+      padding: 14px;
+      background: white;
+      border-radius: 8px;
+      color: var(--ink);
+    }
+
+    input,
+    select {
+      width: 100%;
+      min-height: 50px;
+      border: 1px solid var(--line);
+      border-radius: 7px;
+      padding: 0 14px;
+      color: #263859;
+      background: white;
+      font: inherit;
+      font-size: 14px;
+    }
+
+    .scholarships {
+      margin-top: 20px;
+      overflow: hidden;
+      border-radius: 8px;
+      background: white;
+      color: var(--ink);
+    }
+
+    .row {
+      display: grid;
+      grid-template-columns: minmax(260px, 1.7fr) .85fr .8fr .75fr 34px;
+      gap: 16px;
+      align-items: center;
+      padding: 18px 22px;
+      border-bottom: 1px solid #edf1f7;
+      font-size: 14px;
+    }
+
+    .row.header {
+      background: #f8fbff;
+      color: #3b4d6b;
+      font-size: 13px;
+      font-weight: 850;
+    }
+
+    .row.empty {
+      display: block;
+      text-align: center;
+      color: var(--muted);
+    }
+
+    .row.empty strong {
+      display: block;
+      margin-bottom: 4px;
+      color: var(--navy);
+    }
+
+    .row:last-child { border-bottom: 0; }
+
+    .sch-title {
+      color: var(--blue);
+      font-weight: 850;
+      font-size: 15px;
+    }
+
+    .sch-summary {
+      margin-top: 3px;
+      color: var(--muted);
+      line-height: 1.35;
+    }
+
+    .funding {
+      color: #8f5e00;
+      font-weight: 850;
+    }
+
+    .sch-title a:hover { text-decoration: underline; }
+
+    .checked {
+      margin-top: 4px;
+      color: var(--muted);
+      font-size: 12px;
+    }
+
+    .badge {
+      display: inline-block;
+      margin: 4px 0 0;
+      padding: 2px 8px;
+      border-radius: 999px;
+      font-size: 12px;
+      font-weight: 800;
+      white-space: nowrap;
+    }
+
+    .badge.closed {
+      color: #5b667a;
+      background: #eef1f6;
+    }
+
+    .badge.soon {
+      color: #8a2c0d;
+      background: #fdebe3;
+    }
+
+    .row .ext {
+      color: var(--blue);
+      font-size: 18px;
+      font-weight: 900;
+      text-align: center;
+    }
+
+    .finder-note {
+      margin: 0;
+      padding: 18px 22px;
+      color: var(--muted);
+      font-size: 14px;
+      line-height: 1.5;
+      background: #f8fbff;
+    }
+
+    .finder-note a {
+      color: var(--blue);
+      font-weight: 800;
+    }
+
+
+    .blog-page {
+      padding: 58px 5vw 68px;
+      background: white;
+    }
+
+    .section-head {
+      display: flex;
+      align-items: end;
+      justify-content: space-between;
+      gap: 24px;
+      margin-bottom: 26px;
+    }
+
+    .section-head h2 {
+      margin: 0;
+      color: var(--navy);
+      font-size: 38px;
+      line-height: 1.1;
+    }
+
+    .section-head p {
+      max-width: 520px;
+      margin: 8px 0 0;
+      color: var(--muted);
+      font-size: 17px;
+      line-height: 1.5;
+    }
+
+    .blog-tabs {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .blog-tabs button {
+      min-height: 40px;
+      padding: 0 14px;
+      border: 1px solid var(--line);
+      border-radius: 8px;
+      color: #385071;
+      background: white;
+      font: inherit;
+      font-size: 14px;
+      font-weight: 800;
+      cursor: pointer;
+    }
+
+    .blog-tabs button[aria-pressed="true"] {
+      color: white;
+      border-color: var(--blue);
+      background: var(--blue);
+    }
+
+    .blog-layout {
+      display: grid;
+      grid-template-columns: minmax(320px, 1.08fr) minmax(320px, 1.62fr);
+      gap: 24px;
+    }
+
+    .featured-post {
+      min-height: 520px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: linear-gradient(180deg, #f8fbff, #ffffff);
+      box-shadow: 0 18px 34px rgba(7,31,77,.08);
+    }
+
+    .post-image {
+      position: relative;
+      min-height: 230px;
+      background:
+        linear-gradient(135deg, rgba(7,91,234,.16), rgba(201,147,34,.16)),
+        radial-gradient(circle at 24% 28%, rgba(255,255,255,.95) 0 8%, transparent 9%),
+        radial-gradient(circle at 70% 42%, rgba(7,91,234,.22) 0 14%, transparent 15%),
+        linear-gradient(145deg, #dceaff, #f8f1de);
+    }
+
+    .post-image:after {
+      content: "";
+      position: absolute;
+      left: 44px;
+      right: 44px;
+      bottom: 38px;
+      height: 82px;
+      border-radius: 8px;
+      background: rgba(255,255,255,.9);
+      box-shadow: 0 18px 40px rgba(7,31,77,.16);
+    }
+
+    .post-body {
+      padding: 24px;
+    }
+
+    .post-category {
+      display: inline-block;
+      margin-bottom: 12px;
+      color: var(--gold);
+      font-size: 13px;
+      font-weight: 900;
+      text-transform: uppercase;
+      letter-spacing: .08em;
+    }
+
+    .featured-post h3,
+    .post-card h3 {
+      margin: 0 0 10px;
+      color: var(--navy);
+      line-height: 1.18;
+    }
+
+    .featured-post h3 { font-size: 30px; }
+    .post-card h3 { font-size: 20px; }
+
+    .post-body p,
+    .post-card p {
+      margin: 0 0 18px;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .read-link {
+      color: var(--blue);
+      font-weight: 900;
+    }
+
+    .post-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 18px;
+      align-content: start;
+    }
+
+    .post-card {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 10px;
+      background: white;
+      transition: transform .18s ease, box-shadow .18s ease;
+    }
+
+    .post-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 16px 30px rgba(7,31,77,.09);
+    }
+
+
+@media(max-width:800px){.filters,.row,.post-grid{grid-template-columns:1fr}.row.header,.row .ext{display:none}.blog-layout{display:block}.blog-tabs{flex-wrap:wrap}}

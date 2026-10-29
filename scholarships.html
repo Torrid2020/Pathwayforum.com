@@ -1,0 +1,129 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Scholarships | Pathway Forum</title><link rel="icon" href="assets/favicon.svg"><link rel="stylesheet" href="assets/site-shell.css"><link rel="stylesheet" href="assets/listings.css"></head><body><header class="pf-header"><a class="pf-brand" href="index.html"><span class="pf-mark"><svg viewBox="0 0 64 48" aria-hidden="true"><path d="M7 41V7h14c16 0 16 21 0 21H7m14 0 12 13" fill="none" stroke="#075bea" stroke-width="7"/><path d="M33 41V7h12c16 0 16 21 0 21H33m12 0 12 13" fill="none" stroke="#b34408" stroke-width="7"/></svg></span><span>Pathway Forum<small>by Rise &amp; Reasons</small></span></a><nav class="pf-nav" id="primary-nav" data-pf-nav aria-label="Primary navigation"><a href="guides.html">BYU-Pathway</a><a href="scholarships.html">Scholarships</a><details class="jobs-menu"><summary>Jobs</summary><div><a href="jobs.html">Remote jobs</a><a href="uganda-jobs.html">Jobs in Uganda</a></div></details><a href="https://www.youtube.com/@torridcourts">Videos</a><a href="about.html">About</a></nav><div class="pf-actions"><button class="pf-menu" data-pf-menu aria-controls="primary-nav" aria-expanded="false" type="button">Menu</button></div></header><main><div class="page-intro"><p class="eyebrow">Your next step after Pathway</p><h1>Scholarships, checked carefully.</h1></div><section class="finder" id="scholarships">
+      <h2>Scholarship Finder</h2>
+      <p>Search and filter scholarships to find the best matches for your goals.</p>
+      <div class="filters">
+        <label class="sr-only" for="search">Search scholarships</label>
+        <input id="search" type="search" placeholder="Search scholarships by name or keyword..." />
+        <label class="sr-only" for="country">Country</label>
+        <select id="country">
+          <option value="">All Countries</option>
+        </select>
+        <label class="sr-only" for="level">Study level</label>
+        <select id="level">
+          <option value="">All Levels</option>
+          <option>Bachelor's</option>
+          <option>Master's</option>
+          <option>PhD</option>
+        </select>
+        <label class="sr-only" for="funding">Funding type</label>
+        <select id="funding">
+          <option value="">All Funding Types</option>
+          <option>Fully Funded</option>
+          <option>Partial Funding</option>
+        </select>
+        <label class="sr-only" for="deadline">Deadline</label>
+        <select id="deadline">
+          <option value="">All Deadlines</option>
+          <option value="3">Next 3 Months</option>
+          <option value="6">Next 6 Months</option>
+          <option value="rolling">Rolling / Varies</option>
+        </select>
+      </div>
+      <div class="scholarships">
+        <div class="row header" aria-hidden="true">
+          <span>Scholarship</span>
+          <span>Country</span>
+          <span>Deadline</span>
+          <span>Funding</span>
+          <span></span>
+        </div>
+        <div id="rows" aria-live="polite"></div>
+        <p class="finder-note">Every deadline is checked against the provider's official website on the date shown. Rules can change, so confirm on the official site before applying. We never charge fees, and you should never pay to apply for a scholarship. <a href="trust.html#how-we-check">How we check</a> · <a href="trust.html#scams">Spot a scam</a></p>
+      </div>
+    </section></main><footer class="pf-footer"><div><strong>Pathway Forum by Rise &amp; Reasons</strong><p>Independent resource. Not affiliated with BYU-Pathway Worldwide, Brigham Young University or BYU-Idaho.</p></div><nav aria-label="Footer navigation"><a href="guides.html">Guides</a><a href="scholarships.html">Scholarships</a><a href="jobs.html">Remote jobs</a><a href="uganda-jobs.html">Jobs in Uganda</a><a href="trust.html">How we check information</a><a href="about.html">About</a><a href="https://www.youtube.com/@torridcourts">Rise &amp; Reasons on YouTube</a><a href="https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce">WhatsApp community</a></nav></footer><script src="assets/site-shell.js"></script><script src="data/scholarships.js"></script><script>
+    // Loaded from data/scholarships.js, which the daily deadline check keeps current.
+    const scholarships = window.SCHOLARSHIPS || [];
+
+    const DAY = 86400000;
+    const now = new Date();
+    const today = Date.UTC(now.getFullYear(), now.getMonth(), now.getDate());
+    const formatDate = new Intl.DateTimeFormat("en-US", { month: "short", day: "numeric", year: "numeric", timeZone: "UTC" });
+
+    const escapeHTML = (value) => String(value).replace(/[&<>"']/g, (c) => (
+      { "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]
+    ));
+
+    // Days until the deadline; null for rolling, negative once closed.
+    const daysLeft = (item) => item.closes ? Math.round((Date.parse(item.closes) - today) / DAY) : null;
+
+    // Open deadlines soonest first, then rolling, then closed.
+    const sortKey = (item) => {
+      const days = daysLeft(item);
+      if (days === null) return 1e6;
+      return days < 0 ? 2e6 - days : days;
+    };
+
+    const rows = document.querySelector("#rows");
+    const controls = Object.fromEntries(
+      ["search", "country", "level", "funding", "deadline"].map((id) => [id, document.querySelector("#" + id)])
+    );
+
+    const countries = [...new Set(scholarships.map((item) => item.country))].sort();
+    controls.country.append(...countries.map((name) => new Option(name, name)));
+
+    function deadlineMatches(item, window) {
+      const days = daysLeft(item);
+      if (!window) return true;
+      if (window === "rolling") return days === null;
+      const limit = window === "3" ? 92 : 183;
+      return days !== null && days >= 0 && days <= limit;
+    }
+
+    function deadlineCell(item) {
+      if (!item.closes) return escapeHTML(item.deadlineNote || "Rolling");
+      const label = escapeHTML(formatDate.format(Date.parse(item.closes)));
+      const days = daysLeft(item);
+      if (days < 0) return `${label}<br><span class="badge closed">Closed</span>`;
+      if (days <= 30) {
+        const text = days === 0 ? "Closes today" : `Closes in ${days} day${days === 1 ? "" : "s"}`;
+        return `${label}<br><span class="badge soon">${text}</span>`;
+      }
+      return label;
+    }
+
+    function render() {
+      const search = controls.search.value.trim().toLowerCase();
+      const { country, level, funding, deadline } = Object.fromEntries(
+        Object.entries(controls).map(([id, control]) => [id, control.value])
+      );
+
+      const filtered = scholarships
+        .filter((item) =>
+          (!search || `${item.name} ${item.summary} ${item.country}`.toLowerCase().includes(search)) &&
+          (!country || item.country === country) &&
+          (!level || item.levels.includes(level)) &&
+          (!funding || item.funding === funding) &&
+          deadlineMatches(item, deadline))
+        .sort((a, b) => sortKey(a) - sortKey(b));
+
+      rows.innerHTML = filtered.map((item) => `
+        <div class="row">
+          <div>
+            <div class="sch-title">
+              <a href="${escapeHTML(item.url)}" target="_blank" rel="noopener">${escapeHTML(item.name)}<span class="sr-only"> (official site, opens in a new tab)</span></a>
+            </div>
+            <div class="sch-summary">${escapeHTML(item.summary)}</div>
+            <div class="checked">${escapeHTML(item.levels.join(" · "))} · Checked ${escapeHTML(formatDate.format(Date.parse(item.checked)))}</div>
+          </div>
+          <span>${escapeHTML(item.country)}</span>
+          <span>${deadlineCell(item)}</span>
+          <span class="funding">${escapeHTML(item.funding)}</span>
+          <a class="ext" href="${escapeHTML(item.url)}" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">↗</a>
+        </div>
+      `).join("") || `<div class="row empty"><strong>No scholarships found</strong>Try another filter.</div>`;
+    }
+
+    Object.values(controls).forEach((control) => control.addEventListener("input", render));
+    render();
+
+    </script></body></html>

@@ -45,7 +45,7 @@ window.SCHOLARSHIPS = [
     "levels": [
       "Master's"
     ],
-    "checked": "2026-09-26",
+    "checked": "2026-10-29",
     "summary": "Study in multiple European countries. Each programme sets its own deadline and selects its own scholars.",
     "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
     "watch": {
@@ -119,7 +119,7 @@ window.SCHOLARSHIPS = [
       "Master's",
       "PhD"
     ],
-    "checked": "2026-09-26",
+    "checked": "2026-10-29",
     "summary": "Graduate study in the US. Apply through the Fulbright commission or US embassy in your country.",
     "url": "https://foreign.fulbrightonline.org/",
     "watch": {
@@ -157,7 +157,7 @@ window.SCHOLARSHIPS = [
       "Master's",
       "PhD"
     ],
-    "checked": "2026-09-26",
+    "checked": "2026-10-29",
     "summary": "Japanese government funding for graduate study. Apply through the Japanese embassy in your country.",
     "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/",
     "watch": {
@@ -176,7 +176,7 @@ window.SCHOLARSHIPS = [
       "Bachelor's",
       "Master's"
     ],
-    "checked": "2026-09-26",
+    "checked": "2026-10-29",
     "summary": "Up to $4,000 toward an online WGU degree for PathwayConnect graduates. US citizens and eligible noncitizens only.",
     "url": "https://www.wgu.edu/financial-aid-tuition/scholarships/partner/byu-pw.html",
     "watch": {

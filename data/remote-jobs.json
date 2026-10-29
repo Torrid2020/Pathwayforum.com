@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-29T17:44:05.803Z",
+  "generatedAt": "2026-10-29T23:18:28.277Z",
   "targetRegions": [
     "Africa",
     "South America",
@@ -111,7 +111,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:sigma-growth-specialists:https://himalayas.app/companies/sigma-growth-specialists/jobs/media-and-content-intern",
@@ -191,7 +191,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:landor:https://himalayas.app/companies/landor/jobs/prospective-next-gen-intern",
@@ -271,7 +271,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:contactlink-solutions:https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy",
@@ -351,7 +351,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/postal-clerk",
@@ -431,7 +431,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:coconut:https://himalayas.app/companies/coconut/jobs/coconut-va-philippine-talent-pool",
@@ -511,7 +511,86 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+    },
+    {
+      "id": "himalayas:sigitek-software-services:https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive",
+      "title": "IT/SOFTWARE SALES EXECUTIVE",
+      "company": "Sigitek Software Services",
+      "logo": "https://cdn-images.himalayas.app/jo155ulfj24ft382xy2rrxmk9d0v",
+      "summary": "Job Type: Full-Time Experience: Fresher Qualification: Recent Postgraduate (MBA in Marketing, Business Administration, or a related field preferred) Department: Sales & Business Development Job SummaryWe are looking for enthusiastic, confident, and result-oriented freshers to joi",
+      "description": "Job Type: Full-Time Experience: Fresher Qualification: Recent Postgraduate (MBA in Marketing, Business Administration, or a related field preferred) Department: Sales Business Development Job Summary We are looking for enthusiastic, confident, and result-oriented freshers to join our IT/Software Sales team. The ideal candidate should have excellent verbal and written communication skills, strong email drafting and professional correspondence skills, and an interest in IT solutions and software sales. The candidate will be responsible for identifying potential customers, generating leads, communicating with clients through emails and calls, following up on business opportunities, and supporting the sales team in achieving business targets. Key Responsibilities Identify and research potential customers and generate leads for IT and software solutions. Reach out to prospective clients through professional emails, telephone calls, and LinkedIn. Draft clear, professional, and effective business emails, including introductory emails, follow-ups, meeting requests, and sales proposals. Communicate with clients to understand their business requirements and introduce relevant software solutions. Schedule client meetings, product demonstrations, and follow-up discussions. Maintain regular communication with prospects and follow up on sales opportunities. Prepare and maintain lead databases, customer records, and sales reports using MS Excel and other CRM tools. Coordinate with internal technical and sales teams to understand product offerings and address client queries. Assist in preparing sales presentations, quotations, commercial proposals, and other client-facing documents. Track sales opportunities and support the team in converting leads into business. Maintain professional relationships with existing and prospective customers. Required Skills Competencies Excellent English Communication: Strong verbal and written communication skills with confidence in speaking to clients. Email Writing Expertise: Good knowledge of professional email drafting, email etiquette, follow-ups, CC/BCC, attachments, subject lines, and business correspondence. Computer Proficiency: Working knowledge of MS Word, MS Excel, PowerPoint, Outlook, and internet research. Sales Aptitude: Willingness to learn sales techniques, lead generation, client handling, and business development. Research Skills: Ability to identify target companies, decision-makers, and potential business opportunities. Interpersonal Skills: Confidence, a positive attitude, professionalism, and the ability to build client relationships. Learning Mindset: Willingness to learn about IT services, software products, and technology-based business solutions. Organizational Skills: Ability to manage multiple leads, maintain follow-up schedules, and meet deadlines. Eligibility Criteria Recent postgraduate candidates are preferred. Freshers with a strong interest in IT sales and business development are encouraged to apply. Excellent English communication and professional email-writing skills are mandatory. Candidates must be comfortable communicating with clients over calls and emails. Candidates should have a basic understanding of computers, MS Office, and internet-based research. Prior IT or software sales experience is not mandatory. What We Offer Opportunity to build a career in IT and software sales. Training on software products, sales processes, and client communication. Exposure to corporate clients and business development activities. Opportunities for professional growth and skill development. A collaborative and learning-oriented work environment. Ideal Candidate: A confident and proactive postgraduate fresher who can communicate professionally, write excellent business emails, conduct client follow-ups, and is eager to build a career in IT/software sales. Originally posted on Himalayas",
+      "employmentType": "Full Time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-29T19:34:41.000Z",
+      "expiresAt": "2026-12-28T19:34:39.000Z",
+      "applicationUrl": "https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/food-delivery-ai-response-evaluator",
@@ -595,7 +674,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "jobicy:149520",
@@ -635,7 +714,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "jobicy:149523",
@@ -675,7 +754,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "jobicy:149555",
@@ -715,7 +794,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "jobicy:149545",
@@ -755,7 +834,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-lawyer",
@@ -834,7 +913,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/evaluation-specialist-recent-grad-6119027108",
@@ -913,7 +992,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
@@ -992,7 +1071,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:vectra:https://himalayas.app/companies/vectra/jobs/join-our-talent-community",
@@ -1071,7 +1150,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding-8442281333",
@@ -1150,7 +1229,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:terac:https://himalayas.app/companies/terac/jobs/recruiting-coordinator-6142591339",
@@ -1234,7 +1313,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/consumer-reviewer",
@@ -1313,7 +1392,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/video-data-annotator-966806508",
@@ -1392,7 +1471,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:gsa-capital:https://himalayas.app/companies/gsa-capital/jobs/digital-competition-spark-2026",
@@ -1471,7 +1550,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:valnet-tech-sites:https://himalayas.app/companies/valnet-tech-sites/jobs/thetravel-junior-editor",
@@ -1550,7 +1629,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:vapaus:https://himalayas.app/companies/vapaus/jobs/general-application",
@@ -1629,7 +1708,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:prologa:https://himalayas.app/companies/prologa/jobs/bewerberpool",
@@ -1708,7 +1787,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/customer-success-expression-of-interest-form",
@@ -1787,7 +1866,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/product-design-expression-of-interest-form",
@@ -1866,7 +1945,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/marketing-expression-of-interest-form",
@@ -1945,7 +2024,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/legal-expression-of-interest-form",
@@ -2024,7 +2103,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/ux-researcher-expression-of-interest-form",
@@ -2103,86 +2182,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
-    },
-    {
-      "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/security-engineer-expression-of-interest-form",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/gitlab-com/jobs/security-engineer-expression-of-interest-form",
-      "title": "Security Engineer Expression of Interest Form",
-      "company": "GitLab",
-      "logo": "https://cdn-images.himalayas.app/db8hi5pbq465o6fk7po3c93u6ii5",
-      "summary": "GitLab is an open-core software company that develops the most comprehensive AI-powered DevSecOps Platform, used by more than 100,000 organizations.",
-      "description": "GitLab is an open-core software company that develops the most comprehensive AI-powered DevSecOps Platform, used by more than 100,000 organizations. Our mission is to enable everyone to contribute to and co-create the software that powers our world. When everyone can contribute, consumers become contributors, significantly accelerating human progress. Our platform unites teams and organizations, breaking down barriers and redefining what's possible in software development. Thanks to products like Duo Enterprise and Duo Agent Platform, customers get AI benefits at every stage of the SDLC. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software This is a future opportunity that may not be immediately available, but we're proactively building our pipeline of exceptional talent. At GitLab , we believe in connecting with outstanding professionals before we have an urgent need, allowing us to move quickly when the right moment arises. If you are excited about co-creating the future as we're building the most comprehensive AI-powered DevSecOps platform, we want to hear from you. We'll keep your information on file and reach out when a position becomes available that matches your skills and interests. Country Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process. Privacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us. GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab ’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab ’s EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know during the recruiting process. Originally posted on Himalayas",
-      "employmentType": "Full Time",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-10-05T17:44:31.000Z",
-      "expiresAt": "2026-12-04T17:44:31.000Z",
-      "applicationUrl": "https://himalayas.app/companies/gitlab-com/jobs/security-engineer-expression-of-interest-form?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/gitlab-com/jobs/security-engineer-expression-of-interest-form",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-10-29T17:44:05.803Z"
+      "lastSeenAt": "2026-10-29T23:18:28.277Z"
     }
   ]
 }

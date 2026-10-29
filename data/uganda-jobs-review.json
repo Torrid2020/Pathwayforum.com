@@ -1,5 +1,102 @@
 {
-  "generatedAt": "2026-10-28T19:48:10.455Z",
-  "jobCount": 0,
-  "jobs": []
+  "generatedAt": "2026-10-29T22:23:23.894Z",
+  "jobCount": 3,
+  "jobs": [
+    {
+      "id": "stanbic:744000158026749",
+      "source": "Stanbic Bank Uganda Careers",
+      "sourceId": "stanbic",
+      "sourceType": "official-employer",
+      "sector": "Banking",
+      "title": "Finance & Value Management Officer, Personal & Private Banking",
+      "employer": "Stanbic Bank Uganda",
+      "location": "Kampala, Central Region, Uganda",
+      "district": "Kampala",
+      "workplace": "On-site",
+      "employmentType": "Full-time",
+      "category": "Graduate & Internship",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-27T11:52:58.671Z",
+      "deadline": null,
+      "deadlineStatus": "Not published",
+      "summary": "Standard Bank Group is a leading Africa-focused financial services group, and an innovative player on the global stage, that offers a variety of career-enhancing opportunities – plus the chance to work alongside some of the sector’s most talented, motivated professionals. Our clients range from individuals, to businesses of all sizes, high net worth families and large multinati",
+      "indicators": [],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-10-29T22:23:27.574Z",
+        "flags": [
+          "Entry-level suitability needs review"
+        ]
+      },
+      "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking",
+      "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking?oga=true",
+      "lastCheckedAt": "2026-10-29T22:23:27.574Z"
+    },
+    {
+      "id": "stanbic:744000157751189",
+      "source": "Stanbic Bank Uganda Careers",
+      "sourceId": "stanbic",
+      "sourceType": "official-employer",
+      "sector": "Banking",
+      "title": "Head, Internal Control",
+      "employer": "Stanbic Bank Uganda",
+      "location": "Kampala, Central Region, Uganda",
+      "district": "Kampala",
+      "workplace": "On-site",
+      "employmentType": "Full-time",
+      "category": "Graduate & Internship",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-26T09:06:22.236Z",
+      "deadline": null,
+      "deadlineStatus": "Not published",
+      "summary": "Standard Bank Group is a leading Africa-focused financial services group, and an innovative player on the global stage, that offers a variety of career-enhancing opportunities – plus the chance to work alongside some of the sector’s most talented, motivated professionals. Our clients range from individuals, to businesses of all sizes, high net worth families and large multinati",
+      "indicators": [],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-10-29T22:23:27.576Z",
+        "flags": [
+          "Entry-level suitability needs review"
+        ]
+      },
+      "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-",
+      "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-?oga=true",
+      "lastCheckedAt": "2026-10-29T22:23:27.576Z"
+    },
+    {
+      "id": "one-acre-fund:7692994",
+      "source": "One Acre Fund Careers",
+      "sourceId": "one-acre-fund",
+      "sourceType": "official-employer",
+      "sector": "NGO & Humanitarian",
+      "title": "Uganda Finance Associate",
+      "employer": "One Acre Fund",
+      "location": "Jinja, Kampala Uganda",
+      "district": "Jinja",
+      "workplace": "On-site or field-based",
+      "employmentType": "See official listing",
+      "category": "NGO & Humanitarian",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-03-10T11:06:11-04:00",
+      "deadline": null,
+      "deadlineStatus": "Not published",
+      "summary": "About One Acre Fund Founded in 2006, One Acre Fund equips 5.5 million smallholder farmers to make their farms more productive. Across nine countries that together are home to two-thirds of Africa's farmers, we provide high-quality farm supplies, tree seedlings, accessible credit, modern agronomic training, and a wide range of other agricultural services. On average, this model ",
+      "indicators": [],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-10-29T22:23:32.823Z",
+        "flags": [
+          "Entry-level suitability needs review"
+        ]
+      },
+      "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
+      "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
+      "lastCheckedAt": "2026-10-29T22:23:32.823Z"
+    }
+  ]
 }

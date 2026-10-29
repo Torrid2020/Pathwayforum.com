@@ -1,4 +1,6 @@
 import fs from "node:fs/promises";
+import {employerSources} from './uganda-source-registry.mjs';
+import {collectExtraSources,collectReliefWeb,seniorTitle} from './uganda-extra-sources.mjs';
 
 const OUTPUT = new URL("../data/uganda-jobs.json", import.meta.url);
 const REVIEW = new URL("../data/uganda-jobs-review.json", import.meta.url);
@@ -226,31 +228,56 @@ async function main() {
     {name: "dfcu Bank Careers", run: fetchDfcu},
     {name: "NSSF Uganda Careers", run: fetchNssf}
   ];
-  const results = await Promise.allSettled(sources.map(source => source.run()));
+  const [results,extra,relief] = await Promise.all([
+    Promise.allSettled(sources.map(source => source.run())),
+    collectExtraSources(),
+    collectReliefWeb().catch(error=>({jobs:[],status:'unavailable',message:error.message}))
+  ]);
   const sourceStatus = Object.fromEntries(results.map((result, index) => [sources[index].name, result.status === "fulfilled" ? "ok" : String(result.reason)]));
   const failed = results.map((result, index) => result.status === "rejected" ? sources[index].name + ": " + result.reason : null).filter(Boolean);
-  if (failed.length) throw new Error("Official source update failed; existing feed retained. " + failed.join(" | "));
-  const collected = results.flatMap(result => result.value);
+  if(failed.length)console.warn('Source update warnings: '+failed.join(' | '));
+  let previousFeed={jobs:[]};try{previousFeed=JSON.parse(await fs.readFile(OUTPUT,'utf8'))}catch{}
+  const collected = results.flatMap((result,index) => {
+    const source=employerSources.find(s=>s.name===sources[index].name);
+    return result.status==='fulfilled'?result.value.map(job=>({...job,sourceId:source?.id,sector:source?.sector||'Other'})):[];
+  });
+  for(const item of extra){sourceStatus[item.source.name]=item.status;collected.push(...item.jobs)}
+  sourceStatus.ReliefWeb=relief.status;collected.push(...relief.jobs);
+  // Short outages retain only recently checked, unexpired records, with the original check date.
+  const failedNames=new Set([...failed.map(x=>x.split(':')[0]),...extra.filter(x=>x.status==='unavailable').map(x=>x.source.name)]);
+  collected.push(...(previousFeed.jobs||[]).filter(job=>failedNames.has(job.source)&&Date.now()-Date.parse(job.lastCheckedAt)<72*3600000&&(!job.deadline||Date.parse(job.deadline)>Date.now())));
+  let approved=[];try{approved=JSON.parse(await fs.readFile(new URL('../data/employer-jobs-approved.json',import.meta.url),'utf8')).jobs||[]}catch{}
+  for(const entry of approved){
+    if(entry.status!=='approved'||!entry.approvedBy||!Number.isFinite(Date.parse(entry.approvedAt))||!entry.closesAt||Date.parse(entry.closesAt)<Date.now())continue;
+    if(!/^https:\/\//.test(entry.sourceUrl||'')||!/^https:\/\//.test(entry.applicationUrl||''))continue;
+    const job=officialJob({...entry,id:'employer:'+entry.id,source:'Employer submission reviewed by Pathway Forum'});
+    collected.push({...job,sourceId:'employer-reviewed',sector:entry.sector||'Other',sourceType:'employer-reviewed',verification:{...job.verification,label:'Employer listing reviewed'}});
+  }
   const unique = new Map();
   for (const job of collected) {
     const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
     if (!unique.has(key)) unique.set(key, job);
   }
   const deduped = [...unique.values()];
-  const jobs = deduped.filter(job => job.verification.status === "official-source" && !/\b(?:senior|manager|director|head\s+of|chief|lead|principal)\b/i.test(job.title));
+  const jobs = deduped.filter(job => job.verification.status === "official-source" && !seniorTitle.test(job.title) && (!job.deadline||Date.parse(job.deadline)>Date.now()));
   const review = deduped.filter(job => job.verification.status === "review");
   const feed = {
     generatedAt: now.toISOString(),
     country: "Uganda",
     jobCount: jobs.length,
     sources: sourceStatus,
-    methodology: "Jobs come directly from approved official employer sources and are checked for expiry, duplicates and common scam language.",
+    methodology: "Official employer feeds, reviewed employer submissions and configured humanitarian APIs. Senior titles and expired vacancies are excluded; source checks do not guarantee suitability or hiring.",
     jobs
   };
   if (process.argv.includes("--dry-run")) {
     console.log(JSON.stringify({jobCount: jobs.length, reviewCount: review.length, jobs: jobs.map(job => ({title: job.title, location: job.location, deadline: job.deadlineStatus}))}, null, 2));
     return;
   }
+  const directory={updatedAt:now.toISOString(),policy:'Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.',sources:employerSources.map(source=>{
+    const result=extra.find(x=>x.source.id===source.id),existing=sourceStatus[source.name];
+    return {...source,status:result?.status||(existing==='ok'?'connected':'unavailable'),message:result?.message||(existing==='ok'?'Official employer source checked.':existing||'Check required'),checkedAt:now.toISOString()};
+  }),aggregators:[{id:'reliefweb',name:'ReliefWeb',url:'https://reliefweb.int/jobs',status:relief.status,message:relief.message}]};
+  await fs.writeFile(new URL('../data/uganda-job-sources.json',import.meta.url),JSON.stringify(directory,null,2)+'\n');
   let previous = null;
   let previousReview = null;
   try { previous = JSON.parse(await fs.readFile(OUTPUT, "utf8")); } catch {}

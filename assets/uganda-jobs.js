@@ -28,6 +28,7 @@ function filtered() {
   const query = $("#query").value.trim().toLowerCase();
   return jobs.filter((job) =>
     (!showSaved || saved.has(job.id)) &&
+    (!$("#sector").value || ($("#sector").value==="NGO & Humanitarian" ? job.sector==="NGO & Humanitarian" : job.sector!=="NGO & Humanitarian")) &&
     (!query || `${job.title} ${job.employer} ${job.summary}`.toLowerCase().includes(query)) &&
     (!$("#district").value || job.district === $("#district").value) &&
     (!$("#category").value || job.category === $("#category").value) &&
@@ -76,7 +77,7 @@ function openJob(id, push) {
   $("#side-type").textContent = active.employmentType;
   $("#side-category").textContent = active.category;
   $("#side-experience").textContent = active.experience;
-  $("#source-copy").textContent = `Imported directly from ${active.source}. Pathway Forum does not handle the hiring decision.`;
+  $("#source-copy").textContent = `Listed via ${active.source}. Confirm the employer, requirements and application instructions on the linked source. Pathway Forum does not handle the hiring decision.`;
   $("#source-link").href = active.sourceUrl;
   $("#apply").href = active.applicationUrl;
   if (push) history.pushState({ job: id }, "", `?job=${encodeURIComponent(id)}`);
@@ -91,7 +92,7 @@ function closeDetail(push = true) {
   scrollTo(0, 0);
 }
 
-["query", "district", "category", "type"].forEach((id) => $("#" + id).addEventListener(id === "query" ? "input" : "change", render));
+["query", "district", "category", "type", "sector"].forEach((id) => $("#" + id).addEventListener(id === "query" ? "input" : "change", render));
 $("#saved-toggle").addEventListener("click", (event) => {
   showSaved = !showSaved;
   event.currentTarget.classList.toggle("active", showSaved);

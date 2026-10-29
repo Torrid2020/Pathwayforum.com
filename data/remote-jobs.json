@@ -1,16 +1,28 @@
 {
-  "generatedAt": "2026-10-28T13:30:55.042Z",
+  "generatedAt": "2026-10-29T05:49:49.846Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 4,
+  "jobCount": 6,
   "sources": {
     "Jobicy anywhere": "ok",
+    "Jobicy anywhere intern": "ok",
+    "Jobicy anywhere junior": "ok",
+    "Jobicy anywhere graduate": "ok",
     "Jobicy apac": "ok",
+    "Jobicy apac intern": "ok",
+    "Jobicy apac junior": "ok",
+    "Jobicy apac graduate": "ok",
     "Jobicy latam": "ok",
+    "Jobicy latam intern": "ok",
+    "Jobicy latam junior": "ok",
+    "Jobicy latam graduate": "ok",
     "Jobicy emea": "ok",
+    "Jobicy emea intern": "ok",
+    "Jobicy emea junior": "ok",
+    "Jobicy emea graduate": "ok",
     "Himalayas 1": "ok",
     "Himalayas 2": "ok",
     "Himalayas 3": "ok",
@@ -18,6 +30,171 @@
   },
   "methodology": "Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",
   "jobs": [
+    {
+      "id": "himalayas:zelh:https://himalayas.app/companies/zelh/jobs/customer-operations-representative-part-time",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/zelh/jobs/customer-operations-representative-part-time",
+      "title": "Customer Operations Representative (Part-Time)",
+      "company": "Zelh",
+      "logo": "https://cdn-images.himalayas.app/0c8uc7nrfe55gkttu80fww03wz5n",
+      "summary": "Zelh is a fast-growing, passionate outsourcing company.",
+      "description": "Zelh is a fast-growing, passionate outsourcing company. Our mission is to be the most reliable company by offering and maintaining high-quality services consistently. We achieve the mission by fostering long-term relationships with customers, employees, and vendors. Personal attention, timely communication, and respect for all people are the basis of our business philosophy! We are looking for a highly organized and detail-oriented Weekend Customer Operations Representative to support daily shipment coordination, customer communication, and operational execution across domestic and international freight movements. This role sits at the center of customer operations. You will be responsible for ensuring shipments are accurately built in the TMS, proactively monitored, clearly communicated, and fully updated from pickup through final delivery. Success in this role comes from consistency, urgency, communication discipline, and operational ownership. This is not a passive support role. The right person proactively follows up, identifies risks before escalation, communicates clearly with customers and brokers, and keeps freight moving without gaps in visibility. Role in one line A logistics operations professional responsible for shipment building, tracking coordination, proactive customer updates, and operational communication across domestic and international freight movements. What you will do: Load Building Shipment Setup Review incoming Delivery Orders (DOs) and identify shipment requirements Build and enter shipments accurately into the TMS Confirm shipment setup completion via email: Reply “received, thank you” Add PO#, BKG#, or MBOL# into the email subject line as required CC tracking teams and operational stakeholders appropriately Ensure shipment data accuracy before operational execution begins Load Coverage Shipment Monitoring Confirm all shipments are fully covered prior to scheduled pickup times Escalate uncovered shipments to brokers at least 2 hours before pickup time Monitor shipment progress and communicate operational delays proactively Coordinate with internal teams regarding: Recovery trucks Carrier replacement Service interruptions Late pickups or deliveries Customer Communication Updates Provide proactive shipment visibility and operational updates throughout the shipment lifecycle. Daily Customer Updates Send daily ETA updates to customers for pickup and delivery appointments Include truck location details when shipments are already loaded Example: “Truck is currently in Houston, TX with ETA to delivery at 09:00 AM” Pickup Delivery Notifications Notify customers immediately upon: Driver arrival at shipper Driver arrival at receiver Driver departure from shipper Driver departure from receiver Include exact arrival and departure times in updates Detention Delay Communication Notify customers when detention begins for OTR shipments (after 2 hours onsite) Alert brokers immediately regarding: Late pickups Late deliveries Missed appointments Service risks Assist with determining next operational steps: Customer communication Carrier replacement Recovery truck coordination Import Export Shipment Coordination Maintain and update shipment tracking charts for import and export freight Update customer tracking sheets with: Appointments Container pull status Container numbers Holds or customs-related issues Delivery updates Monitor and communicate: Container loading schedules Delivery schedules Port or terminal delays Operational exceptions Send final delivery documentation, charges, and PODs upon shipment completion Requirements Previous logistics, freight operations, customer operations, dispatch, or transportation coordination experience preferred Strong attention to detail and ability to manage multiple shipments simultaneously Excellent organizational and follow-up skills Strong written and verbal English communication skills Ability to provide clear, professional customer updates throughout the day Comfortable working in fast-paced transportation and logistics environments Ability to identify operational issues proactively and escalate appropriately Experience working with TMS systems and shipment tracking tools preferred Strong sense of urgency and accountability Ability to work independently in a remote environment The strongest Customer Operations Representatives: Stay ahead of problems before customers ask questions Communicate proactively rather than reactively Maintain extremely high attention to shipment details Keep customers consistently informed without being prompted Escalate issues early and clearly Remain calm during high-volume operational situations Understand that responsiveness and visibility directly impact customer trust Treat every shipment as time-sensitive and customer-critical Working conditions: Work schedule: Saturday-Sunday, 8 am - 6 pm CST A supportive team Competitive Salary in USD Remote eligibility 10+ business days of paid time off Equipment provided Join our team",
+      "employmentType": "Part Time",
+      "level": "Mid-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": 1793247220,
+      "expiresAt": 1798431219,
+      "applicationUrl": "https://himalayas.app/companies/zelh/jobs/customer-operations-representative-part-time?utm_source=api",
+      "sourceUrl": "https://himalayas.app",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-29T05:49:49.846Z"
+    },
+    {
+      "id": "himalayas:gofasti:https://himalayas.app/companies/gofasti/jobs/1183-virtual-assistant",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/gofasti/jobs/1183-virtual-assistant",
+      "title": "1183 - Virtual Assistant",
+      "company": "GoFasti",
+      "logo": "https://cdn-images.himalayas.app/mkq7vgtrpv0gkvsvgxrhrhpaggir",
+      "summary": "We Make Remote Work Remarkable • TopTalent from LatAm Hello!",
+      "description": "We Make Remote Work Remarkable • TopTalent from LatAm Hello! We are GoFasti , a Talent-as-a-Service. GoFasti bridges the gap between world-class developers and designers from LatAm and first-class companies around the globe. We need an English-fluent Virtual Assistant , based in Latin America, available to work remotely. We are looking for someone with exceptional communication and relationship-building skills, who embraces changes while maintaining strong attention to detail. An interested and proactive person, who's constantly learning and improving their skills. Are you the one we are looking for? Responsibilities: Answer calls, emails and website inquiries from families and referral sources; log new leads and book in-home assessments Build and update caregiver schedules; fill call-offs and confirm visits with clients Track caregiver onboarding paperwork, background checks, training and certifications Keep client and caregiver records accurate and confidential in the agency's care software Support billing and payroll prep: timesheets, visit verification and invoice follow-up Post caregiver job openings Prepare simple reports and handle other admin tasks as needed Requirements: 1+ year as a virtual assistant, receptionist or admin, ideally in home care or healthcare Fluent, friendly spoken and written English; comfortable on the phone with seniors and families Strong organization and attention to detail; able to juggle last-minute schedule changes Confident with Google Workspace or Microsoft 365, email and basic social media Reliable internet, a quiet workspace and a headset Discretion with private health information It's a plus: Experience with home care software (WellSky, AxisCare, ClearCare or similar) HIPAA training Basic Canva skills for social posts Compensation: The salary range offered for this position varies from (USD) $1,200 - $1,800 per month, depending on seniority and skillset. This position is for a full time contract, through a payroll platform. The talent will work remotely allocated at our client. Here are the steps for this process: Application review/approval &gt; Screening interview with GoFasti 's team &gt; We build and send your profile to our client &gt; Profile review/approval by client &gt; Interview with the client &gt; Hiring and onboarding. Once you apply for the job, our team will review your resume. If it meets the requirements, we will contact you and move forward in the process. Note for Candidates Approached Directly: If you were contacted directly by a member of our team and are interested in this opportunity, please do not apply through this link. Instead, reach out to the person who contacted you to coordinate a meeting. Thank you! Originally posted on Himalayas",
+      "employmentType": "Contractor",
+      "level": "Mid-level",
+      "salary": {
+        "min": 1200,
+        "max": 1800,
+        "currency": "USD",
+        "period": "monthly"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": 1793247312,
+      "expiresAt": 1798431311,
+      "applicationUrl": "https://himalayas.app/companies/gofasti/jobs/1183-virtual-assistant?utm_source=api",
+      "sourceUrl": "https://himalayas.app",
+      "studentFit": {
+        "score": 73,
+        "reasons": [
+          "Student or entry-level language",
+          "1 years or less"
+        ],
+        "maxYears": 1,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-29T05:49:49.846Z"
+    },
     {
       "id": "jobicy:149520",
       "source": "Jobicy",
@@ -56,7 +233,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-28T13:30:55.042Z"
+      "lastSeenAt": "2026-10-29T05:49:49.846Z"
     },
     {
       "id": "jobicy:149523",
@@ -96,7 +273,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-28T13:30:55.042Z"
+      "lastSeenAt": "2026-10-29T05:49:49.846Z"
     },
     {
       "id": "jobicy:149555",
@@ -136,7 +313,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-28T13:30:55.042Z"
+      "lastSeenAt": "2026-10-29T05:49:49.846Z"
     },
     {
       "id": "jobicy:149545",
@@ -176,7 +353,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-28T13:30:55.042Z"
+      "lastSeenAt": "2026-10-29T05:49:49.846Z"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:26:23.187Z",
+  "updatedAt": "2026-10-29T22:27:56.485Z",
   "policy": "Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.",
   "sources": [
     {
@@ -13,7 +13,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "nssf-uganda",
@@ -26,7 +26,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "mtn-uganda",
@@ -39,7 +39,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "airtel-uganda",
@@ -52,7 +52,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "uganda-airlines",
@@ -65,7 +65,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "ura",
@@ -78,7 +78,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "ucaa",
@@ -91,7 +91,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "totalenergies",
@@ -104,7 +104,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "makerere",
@@ -117,7 +117,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "stanbic",
@@ -130,7 +130,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "absa",
@@ -143,7 +143,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "finca",
@@ -156,7 +156,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "brac-bank",
@@ -169,7 +169,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "equity",
@@ -182,7 +182,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "centenary",
@@ -195,7 +195,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "world-vision",
@@ -208,7 +208,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "givedirectly",
@@ -221,7 +221,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "one-acre-fund",
@@ -234,7 +234,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "living-goods",
@@ -247,7 +247,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "brac-international",
@@ -260,7 +260,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "irc",
@@ -273,7 +273,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "mercy-corps",
@@ -286,7 +286,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "save-children",
@@ -299,7 +299,7 @@
       "trust": "official",
       "status": "unavailable",
       "message": "HTTP 403",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "drc",
@@ -312,7 +312,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "nrc",
@@ -325,7 +325,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "plan",
@@ -338,7 +338,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "unicef",
@@ -351,7 +351,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "wfp",
@@ -364,7 +364,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "unhcr",
@@ -377,7 +377,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     },
     {
       "id": "chai",
@@ -390,7 +390,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:26:23.187Z"
+      "checkedAt": "2026-10-29T22:27:56.485Z"
     }
   ],
   "aggregators": [

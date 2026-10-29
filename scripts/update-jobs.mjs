@@ -51,7 +51,7 @@ function normalizeHimalayas(j){
   const fit=scoreJob(title,body,j.employmentType,(j.seniority||[]).join(" "));
   const flags=dangerous.test(title+" "+body)?["Suspicious payment or recruitment language"]:regions.length?[]:["Location outside target regions"];
   const identity=j.guid||j.jobSlug||j.slug||slug(title);
-  return {id:"himalayas:"+(j.companySlug||slug(j.companyName))+":"+identity,source:"Himalayas",sourceId:String(identity),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.excerpt||body).slice(0,280),description:body.slice(0,5000),employmentType:j.employmentType||"Not stated",level:(j.seniority||[]).join(", ")||"Not stated",salary:j.minSalary?{min:j.minSalary,max:j.maxSalary||null,currency:j.currency||"USD",period:j.salaryPeriod||"year"}:null,eligibility:{label:worldwide?"Worldwide":restrictions.join(", "),regions,countries:codes,confidence:worldwide||codes.length?"verified":"review"},timezoneRestrictions:j.timezoneRestrictions||[],publishedAt:j.pubDate||null,expiresAt:j.expiryDate||null,applicationUrl:j.applicationLink||j.url||("https://himalayas.app/companies/"+j.companySlug+"/jobs/"+identity),sourceUrl:"https://himalayas.app",studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
+  return {id:"himalayas:"+(j.companySlug||slug(j.companyName))+":"+identity,source:"Himalayas",sourceId:String(identity),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.excerpt||body).slice(0,280),description:body.slice(0,5000),employmentType:j.employmentType||"Not stated",level:(j.seniority||[]).join(", ")||"Not stated",salary:j.minSalary?{min:j.minSalary,max:j.maxSalary||null,currency:j.currency||"USD",period:j.salaryPeriod||"year"}:null,eligibility:{label:worldwide?"Worldwide":restrictions.join(", "),regions,countries:codes,confidence:worldwide||codes.length?"verified":"review"},timezoneRestrictions:j.timezoneRestrictions||[],publishedAt:j.pubDate?(typeof j.pubDate==="number"?new Date(j.pubDate*1000).toISOString():j.pubDate):null,expiresAt:j.expiryDate?(typeof j.expiryDate==="number"?new Date(j.expiryDate*1000).toISOString():j.expiryDate):null,applicationUrl:j.applicationLink||j.url||("https://himalayas.app/companies/"+j.companySlug+"/jobs/"+identity),sourceUrl:j.guid||j.applicationLink||"https://himalayas.app",studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
 }
 async function main(){
   const sourceStatus={}, collected=[];
@@ -60,6 +60,7 @@ async function main(){
   const jobicy=await Promise.allSettled(jobicyRequests.map(({geo,tag})=>get("https://jobicy.com/api/v2/remote-jobs?count=200&geo="+geo+(tag?"&tag="+encodeURIComponent(tag):""))));
   jobicy.forEach((result,i)=>{const request=jobicyRequests[i],name="Jobicy "+request.geo+(request.tag?" "+request.tag:"");sourceStatus[name]=result.status==="fulfilled"?"ok":String(result.reason);if(result.status==="fulfilled")collected.push(...(result.value.jobs||[]).map(normalizeJobicy))});
   const himQueries=["worldwide=true&sort=recent&page=1","worldwide=true&type=intern&sort=recent&page=1","worldwide=true&type=part-time&sort=recent&page=1","worldwide=true&experience=entry-level&sort=recent&page=1"];
+  himQueries.push(...[1,2,3].map(page=>"country=UG&seniority=Entry-level&page="+page));
   const him=await Promise.allSettled(himQueries.map(q=>get("https://himalayas.app/jobs/api/search?"+q)));
   him.forEach((result,i)=>{sourceStatus["Himalayas "+(i+1)]=result.status==="fulfilled"?"ok":String(result.reason);if(result.status==="fulfilled")collected.push(...(result.value.jobs||[]).map(normalizeHimalayas))});
   const unique=new Map();
@@ -68,7 +69,7 @@ async function main(){
     const old=unique.get(key);
     if(!old||job.studentFit.score>old.studentFit.score)unique.set(key,job);
   }
-  const jobs=[...unique.values()].filter(j=>j.eligibility.regions.length&&j.studentFit.evidence&&j.studentFit.score>=45&&j.safety.status!=="review"&&!senior.test(j.title)&&!irrelevant.test(j.title)).sort((a,b)=>b.studentFit.score-a.studentFit.score||String(b.publishedAt||"").localeCompare(String(a.publishedAt||""))).slice(0,180);
+  const jobs=[...unique.values()].filter(j=>j.eligibility.regions.length&&j.studentFit.evidence&&j.studentFit.score>=45&&j.safety.status!=="review"&&!senior.test(j.title)&&!/\b(?:mid[- ]level|senior|manager|director|executive)\b/i.test(j.level)&&!irrelevant.test(j.title)).sort((a,b)=>b.studentFit.score-a.studentFit.score||String(b.publishedAt||"").localeCompare(String(a.publishedAt||""))).slice(0,180);
   if(!jobs.length)throw new Error("No publishable jobs returned; existing feed left untouched.");
   const payload={generatedAt:now.toISOString(),targetRegions:["Africa","South America","Asia"],jobCount:jobs.length,sources:sourceStatus,methodology:"Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",jobs};
   if(process.argv.includes("--dry-run")){console.log(JSON.stringify({generatedAt:payload.generatedAt,jobCount:jobs.length,sources:sourceStatus},null,2));return}

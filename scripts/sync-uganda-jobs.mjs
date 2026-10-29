@@ -237,7 +237,7 @@ async function main() {
     if (!unique.has(key)) unique.set(key, job);
   }
   const deduped = [...unique.values()];
-  const jobs = deduped.filter(job => job.verification.status === "official-source");
+  const jobs = deduped.filter(job => job.verification.status === "official-source" && !/\b(?:senior|manager|director|head\s+of|chief|lead|principal)\b/i.test(job.title));
   const review = deduped.filter(job => job.verification.status === "review");
   const feed = {
     generatedAt: now.toISOString(),

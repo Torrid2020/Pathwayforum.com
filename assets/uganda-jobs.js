@@ -1,3 +1,5 @@
+const ugandaDate = value => new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Kampala',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(value));
+function deadlineLabel(job){if(!job.deadline)return 'Check official deadline';const end=new Date(job.deadline);if(!Number.isFinite(end.getTime()))return 'Check official deadline';if(end.getTime()<Date.now())return 'Closed';const days=Math.round((Date.parse(ugandaDate(end))-Date.parse(ugandaDate(Date.now())))/86400000);return days===0?'Closes today':days===1?'Closes tomorrow':'Closes in '+days+' days';}
 let jobs = [];
 let active = null;
 let showSaved = false;
@@ -41,7 +43,7 @@ function render() {
       <div class="company"><div class="logo">${esc(initials(job.employer))}</div><div><b>${esc(job.employer)}</b><small>✓ ${esc(job.verification.label)}</small></div><button class="save ${saved.has(job.id) ? "on" : ""}" type="button" data-save="${esc(job.id)}" aria-pressed="${saved.has(job.id)}" aria-label="Save ${esc(job.title)}">${saved.has(job.id) ? "Saved" : "Save"}</button></div>
       <h3>${esc(job.title)}</h3>
       <div class="meta"><span class="tag">${esc(job.location)}</span><span class="tag">${esc(job.employmentType)}</span><span class="tag">${esc(job.category)}</span></div>
-      <div class="verified">✓ Source checked ${esc(age(job.lastCheckedAt))} · ${esc(job.deadlineStatus)}</div>
+      <div class="verified">✓ Source checked ${esc(age(job.lastCheckedAt))} · ${esc(deadlineLabel(job))}</div>
       <div class="foot"><span>${esc(job.workplace)}</span><button class="view" type="button" data-open="${esc(job.id)}">View details →</button></div>
     </article>`).join("") : '<div class="empty"><h3>No matching jobs right now.</h3><p>Clear a filter or check again after the next automatic update.</p></div>';
   if(!jobs.length){$("#count").parentElement.hidden=true;$("#grid").innerHTML='<div class="empty"><p>New jobs are checked daily. Join our WhatsApp group to hear first.</p><a class="button" href="https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce">Join WhatsApp</a></div>';}
@@ -63,7 +65,7 @@ function openJob(id, push) {
   $("#detail-verified").textContent = active.verification.label;
   $("#detail-title").textContent = active.title;
   $("#detail-tags").innerHTML = [active.location, active.employmentType, active.category].map((value) => `<span class="tag">${esc(value)}</span>`).join("");
-  $("#detail-deadline").textContent = active.deadlineStatus;
+  $("#detail-deadline").textContent = deadlineLabel(active);
   $("#detail-check").textContent = `Last checked ${age(active.lastCheckedAt)}`;
   $("#detail-summary").textContent = active.summary;
   const indicators = active.indicators?.length ? active.indicators : ["No specific early-career indicator detected — check the requirements carefully."];
@@ -108,7 +110,7 @@ addEventListener("popstate", () => {
 fetch("data/uganda-jobs.json", { cache: "no-store" })
   .then((response) => { if (!response.ok) throw new Error("Feed unavailable"); return response.json(); })
   .then((data) => {
-    jobs = data.jobs || [];
+    jobs = (data.jobs || []).filter(job => !job.deadline || !Number.isFinite(Date.parse(job.deadline)) || Date.parse(job.deadline)>=Date.now());
     $("#updated").textContent = `Updated ${age(data.generatedAt)}`;
     setOptions("#district", jobs.map((job) => job.district));
     setOptions("#category", jobs.map((job) => job.category));

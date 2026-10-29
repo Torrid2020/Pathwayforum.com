@@ -31,3 +31,6 @@ body .hero h1,body .detail h2,body .article h2,body .toolbar h2,body .section-he
 
 /* Opportunity summaries and weekly updates */
 #scholarship-preview,#remote-preview ul,#uganda-preview ul{list-style:none;padding:0;margin:18px 0}#scholarship-preview li,#remote-preview li,#uganda-preview li{padding:12px 0;border-bottom:1px solid var(--line)}.section .card a,.section .card li a{font-weight:600;text-decoration:none}.section .card>a{display:inline-flex;align-items:center;min-height:44px}.section .card a:hover{text-decoration:underline}.newsletter{padding:24px;background:#fff;border:1px solid var(--line);border-radius:14px}.section .card small{margin-top:5px;line-height:1.6}
+
+/* Creator photography */
+.portrait-card{margin:0;overflow:hidden;background:#fff;border:1px solid var(--line);border-radius:14px;max-width:440px;width:100%;justify-self:center}.portrait-card img{display:block;width:100%;height:auto;aspect-ratio:4/5;object-fit:cover}.portrait-card figcaption{padding:18px 20px;font-size:14px;line-height:1.5;font-weight:600}.portrait-card a{text-decoration:none}.portrait-card picture{display:block}

@@ -14,9 +14,8 @@ window.SCHOLARSHIPS = [
     "summary": "UK government awards for a one-year master's. Requires two years' work experience after your degree.",
     "url": "https://www.chevening.org/scholarships/",
     "watch": {
-      "type": "date",
-      "url": "https://www.chevening.org/scholarships/application-timeline/",
-      "pattern": "The deadline for applications is (?<date>\\d{1,2} [A-Z][a-z]+ \\d{4})"
+      "type": "manual",
+      "reason": "This site blocks automated checks, so it needs checking by hand."
     }
   },
   {
@@ -141,10 +140,8 @@ window.SCHOLARSHIPS = [
     "summary": "Long-term awards for study and leadership in developing countries.",
     "url": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships",
     "watch": {
-      "type": "text",
-      "url": "https://www.dfat.gov.au/people-to-people/australia-awards/australia-awards-scholarships-opening-and-closing-dates",
-      "pattern": "Dates for study commencing in (?<text>\\d{4})",
-      "expect": "2027"
+      "type": "manual",
+      "reason": "This site blocks automated checks, so it needs checking by hand."
     }
   },
   {

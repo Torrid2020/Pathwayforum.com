@@ -38,4 +38,4 @@ body .hero h1,body .detail h2,body .article h2,body .toolbar h2,body .section-he
 .creator-square{display:block;width:100%;height:auto;border-radius:18px;aspect-ratio:1;object-fit:cover}
 
 /* YouTube frames crop the letterboxing in hqdefault thumbnails. */
-.video-frame{position:relative;overflow:hidden;aspect-ratio:16/9;background:var(--soft)}.video-card .video-frame img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover}.is-regular .video-frame img{transform:scale(1.02)}.is-short .video-frame{aspect-ratio:9/16}.is-short .video-frame img.thumbnail-fallback{transform:scale(2.42)}#video-grid{align-items:start}
+.video-frame{position:relative;overflow:hidden;aspect-ratio:16/9;background:var(--soft)}.video-card .video-frame img{display:block;width:100%;height:100%;aspect-ratio:auto;object-fit:cover}.is-regular .video-frame img{transform:scale(1.12)}.is-short .video-frame{aspect-ratio:9/16}.is-short .video-frame img.thumbnail-fallback{transform:scale(1.1)}#video-grid{align-items:start}

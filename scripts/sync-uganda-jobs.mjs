@@ -1,3 +1,4 @@
+import {reliefWebDuplicate} from './uganda-reliefweb.mjs';
 import {normalizeDeadline,cleanLocation} from '../assets/uganda-data.mjs';
 import {inferLevel,compareUgandaJobs} from '../assets/uganda-levels.mjs';
 import fs from "node:fs/promises";
@@ -264,7 +265,7 @@ async function main() {
     const location=cleanLocation(raw.location);
     const job={...raw,location,district:location.split(',')[0],deadline,deadlineStatus:deadline?raw.deadlineStatus:"Check the official deadline"};
     const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
-    if (!unique.has(key)) unique.set(key, job);
+    if (!unique.has(key) && ![...unique.values()].some(existing=>reliefWebDuplicate(existing,job))) unique.set(key, job);
   }
   const deduped = [...unique.values()].map(job=>({...job,level:!job.level||job.level==='Not stated'?inferLevel(job):job.level}));
   const jobs = deduped.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
@@ -284,7 +285,7 @@ async function main() {
   const directory={updatedAt:now.toISOString(),policy:'Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.',sources:employerSources.map(source=>{
     const result=extra.find(x=>x.source.id===source.id),existing=sourceStatus[source.name];
     return {...source,recordsRead:result?.recordsRead??collected.filter(j=>j.sourceId===source.id).length,publishedCount:jobs.filter(j=>j.sourceId===source.id).length,reviewCount:review.filter(j=>j.sourceId===source.id).length,status:result?.status||(existing==='ok'?'connected':'unavailable'),message:result?.message||(existing==='ok'?'Official employer source checked.':existing||'Check required'),checkedAt:now.toISOString()};
-  }),aggregators:[{id:'reliefweb',name:'ReliefWeb',url:'https://reliefweb.int/jobs',status:relief.status,message:relief.message}]};
+  }),aggregators:[{id:'reliefweb',name:'ReliefWeb (OCHA)',url:'https://reliefweb.int/jobs',status:relief.status,message:relief.message,recordsRead:relief.recordsRead||0,publishedCount:jobs.filter(j=>j.sourceId==='reliefweb').length,reviewCount:review.filter(j=>j.sourceId==='reliefweb').length}]};
   await fs.writeFile(new URL('../data/uganda-job-sources.json',import.meta.url),JSON.stringify(directory,null,2)+'\n');
   let previous = null;
   let previousReview = null;

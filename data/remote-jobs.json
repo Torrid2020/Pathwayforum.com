@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-30T18:37:49.796Z",
+  "generatedAt": "2026-10-30T22:58:36.344Z",
   "targetRegions": [
     "Africa",
     "South America",
@@ -117,7 +117,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/social-media-analyst-intern-undergraduate-summer-2027",
@@ -203,7 +203,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/digital-design-operations-intern-master-s-summer-2027",
@@ -289,7 +289,93 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+    },
+    {
+      "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/contract-negotiator-i",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/centene-corporation/jobs/contract-negotiator-i",
+      "title": "Contract Negotiator I",
+      "company": "Centene Corporation",
+      "logo": "https://cdn-images.himalayas.app/tjx15wvbp0qhex64zscq23xzg6ct",
+      "summary": "Position Purpose: Recruit physician, hospital and ancillary service providers to sign network participation agreements that are in accordance with Corporate, health plan and State guidelines.",
+      "description": "Position Purpose: Recruit physician, hospital and ancillary service providers to sign network participation agreements that are in accordance with Corporate, health plan and State guidelines. Ensure that all necessary documentation and information are included. Key Details: Must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1, J -1, OPT, or CPT. Recruit and develop network for a region and set of providers Lead assigned recruitments (i.e., physician, hospital and ancillary) and ensure they result in complete and accurate standard contracts that meet objectives Facilitate and oversee to the provider set-up and contract configuration to ensure accurate claims adjudication Initiate contact and identify potential providers by geographic and specialty needs and update database Coordinate with internal departments and contracted providers to implement and maintain contract compliance Performs other duties as assigned Complies with all policies and standards Education/Experience: Bachelor’s degree in Healthcare Administration, Business Administration, Finance, related field or equivalent experience. 0-2 years of contracting, contract analysis, provider relations, or provider experience in a hospital or physician’s office or group setting. Familiarity with State and/or Federal health care programs preferred (Medicaid, Medicare). Candidates must be in the state of Indiana to be considered for this remote position that requires occasional local travel for internal and provider-facing meetings. Pay Range: $56,200.00 - $101,000.00 per year At Centene, we connect people to the care they need to live healthier lives — and the work you do here makes that impact real every day. You’ll take on meaningful challenges that directly support individuals, families, and communities, building your skills while making healthcare more accessible and effective. It’s work with a purpose you can see, backed by a team committed to improving lives well beyond the workday. Centene offers a comprehensive benefits package including: competitive pay, health insurance, 401K and stock purchase plans, tuition reimbursement, paid time off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on an individual's skills, experience, education, and other job-related factors permitted by law, including full-time or part-time status. Total compensation may also include additional forms of incentives. Benefits may be subject to program eligibility. Centene is an equal opportunity employer that is committed to diversity, and values the ways in which we are different. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or other characteristic protected by applicable law. Qualified applicants with arrest or conviction records will be considered in accordance with the LA County Ordinance and the California Fair Chance Act Originally posted on Himalayas",
+      "employmentType": "Full Time",
+      "level": "Entry-level",
+      "salary": {
+        "min": 56200,
+        "max": 101000,
+        "currency": "USD",
+        "period": "annual"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-30T18:13:55.000Z",
+      "expiresAt": "2026-12-29T18:13:54.000Z",
+      "applicationUrl": "https://himalayas.app/companies/centene-corporation/jobs/contract-negotiator-i?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/centene-corporation/jobs/contract-negotiator-i",
+      "studentFit": {
+        "score": 85,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time",
+          "2 years or less"
+        ],
+        "maxYears": 2,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:university-of-wisconsin-madison:https://himalayas.app/companies/university-of-wisconsin-madison/jobs/social-media-content-creator-video-editing-intern",
@@ -369,7 +455,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:sigma-growth-specialists:https://himalayas.app/companies/sigma-growth-specialists/jobs/media-and-content-intern",
@@ -449,7 +535,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:landor:https://himalayas.app/companies/landor/jobs/prospective-next-gen-intern",
@@ -529,7 +615,87 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+    },
+    {
+      "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/business-analyst-junior-antifraud-disputes",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/business-analyst-junior-antifraud-disputes",
+      "title": "Business Analyst Junior [Antifraud & Disputes]",
+      "company": "Banco Plata, S.A., Institución de Banca Múltiple",
+      "logo": "https://cdn-images.himalayas.app/cu15rhdxs9omvo0ml1kwr014ai5y",
+      "summary": "We’re looking for a Business Analyst to join our Antifraud & Disputes team.",
+      "description": "We’re looking for a Business Analyst to join our Antifraud Disputes team . The team is responsible for preventing fraud, developing fraud prevention processes, and implementing controls across the bank’s products and customer journeys. We continuously improve existing fraud prevention mechanisms and support new product launches, ensuring that fraud risks are addressed from the early stages of product development. Challenges that await you: Gather, analyze, and document business requirements for fraud prevention tools and processes Analyze existing fraud prevention processes and identify opportunities for improvement Investigate gaps in fraud controls, including false positives, false negatives, operational bottlenecks, and data quality issues Translate business requirements into clear specifications and development tasks for Engineering and Data teams Support the implementation and improvement of fraud prevention controls across existing and new products Collaborate with Operations and Design teams to improve investigation workflows and case management tools Analyze operational metrics to evaluate fraud control effectiveness and identify areas for optimization Coordinate with cross-functional teams to support solution development, implementation, and rollout Maintain clear and up-to-date documentation of business processes, requirements, and implemented solutions What makes you a great fit: 1+ year of experience as a Business Analyst, Product Analyst, or in a related role (including internships) Experience gathering, documenting, and managing business requirements Understanding of business processes and basic process modeling techniques Basic SQL skills or willingness to develop them Ability to translate business needs into clear requirements for technical teams Basic understanding of system integrations, APIs, and data flows Analytical and structured thinking with the ability to identify problems and evaluate possible solutions Good communication skills and ability to work with cross-functional teams B2 or higher English level for effective communication with an international team Your bonus skills: Experience working with BI tools such as Superset or Tableau Basic understanding of fraud prevention concepts, including transaction monitoring, risk scoring, alert management, and case management Familiarity with microservices architecture or event streaming technologies such as Kafka Spanish language skills Our ways of working: Innovative Spirit: A commitment to creativity and groundbreaking solutions Honest Feedback: valuing open, transparent communication Supportive Team: a strong, collaborative community Celebrating Achievements: recognizing our wins together High-Tech Environment: a team full of smart and revolutionary people who date to challenge the status quo of incumbent finances Our benefits: Relocation support to one of our hubs — Serbia or Georgia — with assistance for the employee and their family Flexible work from one of our offices or remote Healthcare Coverage Education Budget: Language lessons, professional training and certifications Wellness Budget: Mental health and fitness activity reimbursements Vacation Policy: Annual leave and paid sick leave as per applicable policies Originally posted on Himalayas",
+      "employmentType": "Full Time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-30T22:47:02.000Z",
+      "expiresAt": "2026-12-29T22:47:01.000Z",
+      "applicationUrl": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/business-analyst-junior-antifraud-disputes?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/business-analyst-junior-antifraud-disputes",
+      "studentFit": {
+        "score": 73,
+        "reasons": [
+          "Student or entry-level language",
+          "1 years or less"
+        ],
+        "maxYears": 1,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:scholarshipowl:https://himalayas.app/companies/scholarshipowl/jobs/sales-development-representative",
@@ -609,7 +775,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/postal-clerk",
@@ -689,7 +855,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:coconut:https://himalayas.app/companies/coconut/jobs/coconut-va-philippine-talent-pool",
@@ -769,7 +935,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:selene:https://himalayas.app/companies/selene/jobs/escrow-analysis-specialist-i",
@@ -848,7 +1014,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:sigitek-software-services:https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive",
@@ -927,7 +1093,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/food-delivery-ai-response-evaluator",
@@ -1011,7 +1177,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "jobicy:149520",
@@ -1051,7 +1217,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "jobicy:149523",
@@ -1091,7 +1257,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "jobicy:149555",
@@ -1131,7 +1297,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "jobicy:149545",
@@ -1171,7 +1337,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-lawyer",
@@ -1250,7 +1416,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/evaluation-specialist-recent-grad-6119027108",
@@ -1329,7 +1495,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
@@ -1408,7 +1574,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:vectra:https://himalayas.app/companies/vectra/jobs/join-our-talent-community",
@@ -1487,7 +1653,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding-8442281333",
@@ -1566,7 +1732,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:terac:https://himalayas.app/companies/terac/jobs/recruiting-coordinator-6142591339",
@@ -1650,7 +1816,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/consumer-reviewer",
@@ -1729,7 +1895,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/video-data-annotator-966806508",
@@ -1808,7 +1974,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:gsa-capital:https://himalayas.app/companies/gsa-capital/jobs/digital-competition-spark-2026",
@@ -1887,7 +2053,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:valnet-tech-sites:https://himalayas.app/companies/valnet-tech-sites/jobs/thetravel-junior-editor",
@@ -1966,7 +2132,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:vapaus:https://himalayas.app/companies/vapaus/jobs/general-application",
@@ -2045,7 +2211,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     },
     {
       "id": "himalayas:prologa:https://himalayas.app/companies/prologa/jobs/bewerberpool",
@@ -2124,165 +2290,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
-    },
-    {
-      "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/customer-success-expression-of-interest-form",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/gitlab-com/jobs/customer-success-expression-of-interest-form",
-      "title": "Customer Success Expression of Interest Form",
-      "company": "GitLab",
-      "logo": "https://cdn-images.himalayas.app/db8hi5pbq465o6fk7po3c93u6ii5",
-      "summary": "GitLab is an open-core software company that develops the most comprehensive AI-powered DevSecOps Platform, used by more than 100,000 organizations.",
-      "description": "GitLab is an open-core software company that develops the most comprehensive AI-powered DevSecOps Platform, used by more than 100,000 organizations. Our mission is to enable everyone to contribute to and co-create the software that powers our world. When everyone can contribute, consumers become contributors, significantly accelerating human progress. Our platform unites teams and organizations, breaking down barriers and redefining what's possible in software development. Thanks to products like Duo Enterprise and Duo Agent Platform, customers get AI benefits at every stage of the SDLC. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software This is a future opportunity that may not be immediately available, but we're proactively building our pipeline of exceptional talent. At GitLab , we believe in connecting with outstanding professionals before we have an urgent need, allowing us to move quickly when the right moment arises. If you are excited about co-creating the future as we're building the most comprehensive AI-powered DevSecOps platform, we want to hear from you. We'll keep your information on file and reach out when a position becomes available that matches your skills and interests. Country Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process. Privacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us. GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab ’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab ’s EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know during the recruiting process. Originally posted on Himalayas",
-      "employmentType": "Full Time",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-10-06T07:19:06.000Z",
-      "expiresAt": "2026-12-05T07:19:06.000Z",
-      "applicationUrl": "https://himalayas.app/companies/gitlab-com/jobs/customer-success-expression-of-interest-form?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/gitlab-com/jobs/customer-success-expression-of-interest-form",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
-    },
-    {
-      "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/product-design-expression-of-interest-form",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/gitlab-com/jobs/product-design-expression-of-interest-form",
-      "title": "Product Design Expression of Interest Form",
-      "company": "GitLab",
-      "logo": "https://cdn-images.himalayas.app/db8hi5pbq465o6fk7po3c93u6ii5",
-      "summary": "GitLab is an open-core software company that develops the most comprehensive AI-powered DevSecOps Platform, used by more than 100,000 organizations.",
-      "description": "GitLab is an open-core software company that develops the most comprehensive AI-powered DevSecOps Platform, used by more than 100,000 organizations. Our mission is to enable everyone to contribute to and co-create the software that powers our world. When everyone can contribute, consumers become contributors, significantly accelerating human progress. Our platform unites teams and organizations, breaking down barriers and redefining what's possible in software development. Thanks to products like Duo Enterprise and Duo Agent Platform, customers get AI benefits at every stage of the SDLC. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software This is a future opportunity that may not be immediately available, but we're proactively building our pipeline of exceptional talent. At GitLab , we believe in connecting with outstanding professionals before we have an urgent need, allowing us to move quickly when the right moment arises. If you are excited about co-creating the future as we're building the most comprehensive AI-powered DevSecOps platform, we want to hear from you. We'll keep your information on file and reach out when a position becomes available that matches your skills and interests. Country Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process. Privacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us. GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab ’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab ’s EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know during the recruiting process. Originally posted on Himalayas",
-      "employmentType": "Full Time",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-10-06T04:24:45.000Z",
-      "expiresAt": "2026-12-05T04:24:44.000Z",
-      "applicationUrl": "https://himalayas.app/companies/gitlab-com/jobs/product-design-expression-of-interest-form?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/gitlab-com/jobs/product-design-expression-of-interest-form",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+      "lastSeenAt": "2026-10-30T22:58:36.344Z"
     }
   ]
 }

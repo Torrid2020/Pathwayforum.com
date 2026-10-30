@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T05:50:30.448Z",
+  "generatedAt": "2026-10-30T12:57:11.054Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 28,
+  "jobCount": 29,
   "sources": {
     "Jobicy anywhere": "ok",
     "Jobicy anywhere intern": "ok",
@@ -33,6 +33,92 @@
   },
   "methodology": "Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",
   "jobs": [
+    {
+      "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/social-media-analyst-intern-undergraduate-summer-2027",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/centene-corporation/jobs/social-media-analyst-intern-undergraduate-summer-2027",
+      "title": "Social Media Analyst Intern (Undergraduate Summer 2027)",
+      "company": "Centene Corporation",
+      "logo": "https://cdn-images.himalayas.app/tjx15wvbp0qhex64zscq23xzg6ct",
+      "summary": "Position Purpose: Learn about various processes and functions within the Managed Care industry and develop professionally by contributing to projects that support the business.",
+      "description": "Position Purpose: Learn about various processes and functions within the Managed Care industry and develop professionally by contributing to projects that support the business. Must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1, J-1, OPT, or CPT. Job Duties: Conduct UX/UI research to assess how well provider portals work and identify opportunities to improve the clinician experience Support provider communication strategy and social media modernization to help information reach the right audiences across Illinois Coordinate and provide support, coordination, documentation, scheduling, and follow-up activities as needed Learn various job functions within the Managed Care industry and explore various career opportunities Apply academic knowledge and learn new skills by contributing to various projects Research various legal, regulatory, and other topics within functional area and industry Attend training and development presentations to enhance professional competencies Performs other duties as assigned Complies with all policies and standards Education/Experience: High school diploma or equivalent. Must be enrolled in an undergraduate program at an accredited university or college, preferably in a field related to the hiring department through the internship period such as marketing, communications, design, etc. Pay Range: $18-23/hour At Centene, we connect people to the care they need to live healthier lives — and the work you do here makes that impact real every day. You’ll take on meaningful challenges that directly support individuals, families, and communities, building your skills while making healthcare more accessible and effective. It’s work with a purpose you can see, backed by a team committed to improving lives well beyond the workday. Centene offers a comprehensive benefits package including: competitive pay, health insurance, 401K and stock purchase plans, tuition reimbursement, paid time off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on an individual's skills, experience, education, and other job-related factors permitted by law, including full-time or part-time status. Total compensation may also include additional forms of incentives. Benefits may be subject to program eligibility. Centene is an equal opportunity employer that is committed to diversity, and values the ways in which we are different. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or other characteristic protected by applicable law. Qualified applicants with arrest or conviction records will be considered in accordance with the LA County Ordinance and the California Fair Chance Act Originally posted on Himalayas",
+      "employmentType": "Intern",
+      "level": "Entry-level",
+      "salary": {
+        "min": 18,
+        "max": 23,
+        "currency": "USD",
+        "period": "hourly"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-30T09:25:05.000Z",
+      "expiresAt": "2026-12-29T09:25:04.000Z",
+      "applicationUrl": "https://himalayas.app/companies/centene-corporation/jobs/social-media-analyst-intern-undergraduate-summer-2027?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/centene-corporation/jobs/social-media-analyst-intern-undergraduate-summer-2027",
+      "studentFit": {
+        "score": 95,
+        "reasons": [
+          "Student or entry-level language",
+          "Internship",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
+    },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/digital-design-operations-intern-master-s-summer-2027",
       "source": "Himalayas",
@@ -117,7 +203,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:university-of-wisconsin-madison:https://himalayas.app/companies/university-of-wisconsin-madison/jobs/social-media-content-creator-video-editing-intern",
@@ -197,7 +283,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:sigma-growth-specialists:https://himalayas.app/companies/sigma-growth-specialists/jobs/media-and-content-intern",
@@ -277,7 +363,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:landor:https://himalayas.app/companies/landor/jobs/prospective-next-gen-intern",
@@ -357,7 +443,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/postal-clerk",
@@ -437,7 +523,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:coconut:https://himalayas.app/companies/coconut/jobs/coconut-va-philippine-talent-pool",
@@ -517,7 +603,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:sigitek-software-services:https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive",
@@ -596,7 +682,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/food-delivery-ai-response-evaluator",
@@ -680,7 +766,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "jobicy:149520",
@@ -720,7 +806,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "jobicy:149523",
@@ -760,7 +846,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "jobicy:149555",
@@ -800,7 +886,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "jobicy:149545",
@@ -840,7 +926,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-lawyer",
@@ -919,7 +1005,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/evaluation-specialist-recent-grad-6119027108",
@@ -998,7 +1084,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
@@ -1077,7 +1163,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:vectra:https://himalayas.app/companies/vectra/jobs/join-our-talent-community",
@@ -1156,7 +1242,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding-8442281333",
@@ -1235,7 +1321,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:terac:https://himalayas.app/companies/terac/jobs/recruiting-coordinator-6142591339",
@@ -1319,7 +1405,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/consumer-reviewer",
@@ -1398,7 +1484,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/video-data-annotator-966806508",
@@ -1477,7 +1563,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:gsa-capital:https://himalayas.app/companies/gsa-capital/jobs/digital-competition-spark-2026",
@@ -1556,7 +1642,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:valnet-tech-sites:https://himalayas.app/companies/valnet-tech-sites/jobs/thetravel-junior-editor",
@@ -1635,7 +1721,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:vapaus:https://himalayas.app/companies/vapaus/jobs/general-application",
@@ -1714,7 +1800,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:prologa:https://himalayas.app/companies/prologa/jobs/bewerberpool",
@@ -1793,7 +1879,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/customer-success-expression-of-interest-form",
@@ -1872,7 +1958,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/product-design-expression-of-interest-form",
@@ -1951,7 +2037,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/marketing-expression-of-interest-form",
@@ -2030,7 +2116,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/legal-expression-of-interest-form",
@@ -2109,7 +2195,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+      "lastSeenAt": "2026-10-30T12:57:11.054Z"
     }
   ]
 }

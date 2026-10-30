@@ -3,7 +3,7 @@ import assert from 'node:assert/strict';
 import {parseAshby,parseWorkable,parseLever,fetchPublicAts} from './uganda-public-ats.mjs';
 test('Ashby keeps listed postings and secondary locations with public apply links',()=>{
  const jobs=parseAshby({jobs:[{id:'1',title:'Officer',location:'Nairobi',secondaryLocations:[{location:'Kampala'}],jobUrl:'https://example.org/1',applyUrl:'https://example.org/apply/1'},{isListed:false}]});
- assert.equal(jobs.length,1);assert.equal(jobs[0].location,'Nairobi; Kampala');assert.equal(jobs[0].applicationUrl,'https://example.org/apply/1');assert.throws(()=>parseAshby({error:'failed'}));
+ assert.equal(jobs.length,1);assert.equal(jobs[0].location,'Kampala');assert.equal(jobs[0].applicationUrl,'https://example.org/apply/1');assert.throws(()=>parseAshby({error:'failed'}));
 });
 test('Workable reads public widget locations, identifiers and application URL',()=>{
  const [j]=parseWorkable({jobs:[{shortcode:'X',title:'Officer',locations:[{city:'Kampala',country:'Uganda'}],url:'https://example.org/j',application_url:'https://example.org/apply',telecommuting:false}]});

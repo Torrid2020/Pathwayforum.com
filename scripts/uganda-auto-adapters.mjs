@@ -1,3 +1,4 @@
+import {isUgandaLocation} from '../assets/uganda-locations.mjs';
 // Adapters for official public recruitment systems. Unexpected markup is a failure, not an empty feed.
 const months=['january','february','march','april','may','june','july','august','september','october','november','december'];
 export function humanClosing(text){const m=String(text).match(/\b(\d{1,2})(?:st|nd|rd|th)?\s+(Jan(?:uary)?|Feb(?:ruary)?|Mar(?:ch)?|Apr(?:il)?|May|Jun(?:e)?|Jul(?:y)?|Aug(?:ust)?|Sep(?:tember)?|Oct(?:ober)?|Nov(?:ember)?|Dec(?:ember)?)\s+(20\d{2})\b/i);if(!m)return null;const month=months.findIndex(x=>x.slice(0,3)===m[2].toLowerCase().slice(0,3)),day=+m[1];const date=new Date(Date.UTC(+m[3],month,day,20,59,59));if(date.getUTCMonth()!==month||date.getUTCDate()!==day)return null;return date.toISOString()}
@@ -51,7 +52,7 @@ export async function fetchAutomatic(s,io){const {request,json,strip,structuredJ
   if(!records.length)throw Error('FINCA vacancy list markup not recognised');return records;
  }
  if(s.method==='drc'){
-  const records=parseDrcList(html,r.url).filter(j=>/\buganda\b/i.test(j.location));
+  const records=parseDrcList(html,r.url).filter(j=>isUgandaLocation(j.location));
   for(const j of records){const detail=await(await request(j.sourceUrl)).text();j.description=strip(detail.match(/<h1[^>]*>[\s\S]*?(?=<h2[^>]*>\s*Info|<footer)/i)?.[0]||detail);j.location=strip(detail.match(/Workplace\s*<[^>]*>([\s\S]*?)<\//i)?.[1]||j.location)+', Uganda'}
   return records;
  }

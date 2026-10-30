@@ -1,3 +1,4 @@
+import {isUgandaLocation} from '../assets/uganda-locations.mjs';
 import {reliefWebDuplicate,JOB_USER_AGENT} from './uganda-reliefweb.mjs';
 import {normalizeDeadline,cleanLocation} from '../assets/uganda-data.mjs';
 import {inferLevel,compareUgandaJobs} from '../assets/uganda-levels.mjs';
@@ -188,7 +189,7 @@ async function fetchWorldVision() {
     headers: {"content-type": "application/json", "User-Agent": JOB_USER_AGENT},
     body: JSON.stringify({appliedFacets: {}, limit: 20, offset: 0, searchText: "Uganda"})
   });
-  const postings = (search.jobPostings || []).filter(job => /uganda/i.test(job.locationsText || ""));
+  const postings = (search.jobPostings || []).filter(job => isUgandaLocation(job.locationsText));
   return Promise.all(postings.map(async job => {
     const detail = await getJson(API_BASE + job.externalPath, {headers: {"User-Agent": JOB_USER_AGENT}});
     return detail.jobPostingInfo;
@@ -263,6 +264,7 @@ async function main() {
   for (const raw of collected) {
     const deadline=normalizeDeadline(raw.deadline, now);
     const location=cleanLocation(raw.location);
+    if(!isUgandaLocation(location))continue;
     const job={...raw,location,district:location.split(',')[0],deadline,deadlineStatus:deadline?raw.deadlineStatus:"Check the official deadline"};
     const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
     if (!unique.has(key) && ![...unique.values()].some(existing=>reliefWebDuplicate(existing,job))) unique.set(key, job);

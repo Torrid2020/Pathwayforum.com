@@ -1,4 +1,4 @@
-import {reliefWebDuplicate} from './uganda-reliefweb.mjs';
+import {reliefWebDuplicate,JOB_USER_AGENT} from './uganda-reliefweb.mjs';
 import {normalizeDeadline,cleanLocation} from '../assets/uganda-data.mjs';
 import {inferLevel,compareUgandaJobs} from '../assets/uganda-levels.mjs';
 import fs from "node:fs/promises";
@@ -67,7 +67,7 @@ async function getJson(url, options = {}) {
 }
 
 async function getHtml(url) {
-  const response = await fetch(url, {headers: {"User-Agent": "PathwayForum-Uganda-Jobs/1.0"}, signal: AbortSignal.timeout(30000)});
+  const response = await fetch(url, {headers: {"User-Agent": JOB_USER_AGENT}, signal: AbortSignal.timeout(30000)});
   if (!response.ok) throw new Error(response.status + " from " + url);
   return response.text();
 }
@@ -185,12 +185,12 @@ async function fetchNssf() {
 async function fetchWorldVision() {
   const search = await getJson(SEARCH_URL, {
     method: "POST",
-    headers: {"content-type": "application/json", "User-Agent": "PathwayForum-Uganda-Jobs/1.0"},
+    headers: {"content-type": "application/json", "User-Agent": JOB_USER_AGENT},
     body: JSON.stringify({appliedFacets: {}, limit: 20, offset: 0, searchText: "Uganda"})
   });
   const postings = (search.jobPostings || []).filter(job => /uganda/i.test(job.locationsText || ""));
   return Promise.all(postings.map(async job => {
-    const detail = await getJson(API_BASE + job.externalPath, {headers: {"User-Agent": "PathwayForum-Uganda-Jobs/1.0"}});
+    const detail = await getJson(API_BASE + job.externalPath, {headers: {"User-Agent": JOB_USER_AGENT}});
     return detail.jobPostingInfo;
   }));
 }

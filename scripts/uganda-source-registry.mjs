@@ -31,6 +31,10 @@ const rows = [
  ['unhcr','UNHCR','NGO & Humanitarian','https://www.unhcr.org/careers-unhcr','workday','unhcr.wd3.myworkdayjobs.com/External'],
  ['diageo','Diageo / Uganda Breweries','Manufacturing','https://diageo.wd3.myworkdayjobs.com/Diageo_Careers','workday','diageo.wd3.myworkdayjobs.com/Diageo_Careers'],
  ['path','PATH','NGO & Humanitarian','https://path.wd1.myworkdayjobs.com/External','workday','path.wd1.myworkdayjobs.com/External'],
+ ['educate','Educate!','NGO & Humanitarian','https://job-boards.greenhouse.io/educate','greenhouse','educate'],
+ ['jumia','Jumia','Retail','https://job-boards.eu.greenhouse.io/jumia','greenhouse','jumia'],
+ ['m-kopa','M-KOPA','Energy','https://jobs.ashbyhq.com/m-kopa','ashby','m-kopa'],
+ ['wateraid','WaterAid','NGO & Humanitarian','https://apply.workable.com/wateraid/','workable','wateraid'],
  ['chai','Clinton Health Access Initiative','NGO & Humanitarian','https://careers-chai.icims.com/jobs/search?ss=1&searchKeyword=Uganda&in_iframe=1','icims']
 ];
 export const employerSources = rows.map(([id,employer,sector,url,method,adapter])=>({id,name:employer+' Careers',employer,sector,url,method,adapter:adapter||null,trust:'official'}));

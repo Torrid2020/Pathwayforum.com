@@ -1,4 +1,5 @@
-import {fetchReliefWeb} from './uganda-reliefweb.mjs';
+import {fetchPublicAts} from './uganda-public-ats.mjs';
+import {fetchReliefWeb,JOB_USER_AGENT} from './uganda-reliefweb.mjs';
 import {normalizeDeadline,cleanLocation} from '../assets/uganda-data.mjs';
 import {inferLevel} from '../assets/uganda-levels.mjs';
 import {employerSources} from './uganda-source-registry.mjs';
@@ -6,7 +7,7 @@ import {fetchAutomatic} from './uganda-auto-adapters.mjs';
 const country = /\b(?:uganda|kampala|karamoja|jinja|gulu|arua|mbarara|entebbe|nakaseke|yumbe|kiryandongo)\b/i;
 const earlyTitle = /\b(?:intern|internship|trainee|graduate|assistant|junior|field officer|data entry|receptionist|cashier|customer service)\b/i;
 function strip(s=''){return String(s).replace(/&amp;/g,'&').replace(/&lt;/g,'<').replace(/&gt;/g,'>').replace(/&quot;/g,'"').replace(/&#(x[0-9a-f]+|\d+);/gi,(_,n)=>{const c=n[0].toLowerCase()==='x'?parseInt(n.slice(1),16):Number(n);return c>=0&&c<=0x10ffff?String.fromCodePoint(c):' '}).replace(/&(?:rsquo|lsquo);/g,"'").replace(/<[^>]*>/g,' ').replace(/&nbsp;/g,' ').replace(/\s+/g,' ').trim()}
-async function request(url,options={}){let last;for(let attempt=0;attempt<2;attempt++){try{const r=await fetch(url,{...options,headers:{'User-Agent':'PathwayForum-Jobs/1.0',...options.headers},signal:AbortSignal.timeout(18000)});if(!r.ok){const e=Error('HTTP '+r.status);if(r.status>=400&&r.status<500&&r.status!==429)e.permanent=true;throw e}return r}catch(error){if(error.permanent)throw error;last=error}}throw last}
+async function request(url,options={}){let last;for(let attempt=0;attempt<2;attempt++){try{const r=await fetch(url,{...options,headers:{'User-Agent':JOB_USER_AGENT,...options.headers},signal:AbortSignal.timeout(18000)});if(!r.ok){const e=Error('HTTP '+r.status);if(r.status>=400&&r.status<500&&r.status!==429)e.permanent=true;throw e}return r}catch(error){if(error.permanent)throw error;last=error}}throw last}
 const json=async(u,o)=>(await request(u,o)).json();
 function experience(body){const numbers=[...strip(body).matchAll(/\b(\d+)\s*(?:[-–]|to)?\s*(\d+)?\+?\s*years?['’]?\s*(?:of\s*)?(?:relevant\s*|professional\s*|work\s*)?experience/gi)].map(m=>Number(m[1]));return numbers.length?Math.max(...numbers):null}
 export function normal(source,j){
@@ -34,7 +35,7 @@ async function structured(s){
 }
 export async function collectExtraSources(){
  const sources=employerSources.filter(s=>s.method!=='existing'),results=[];let cursor=0;
- async function worker(){while(cursor<sources.length){const s=sources[cursor++];try{const records=await(s.method==='greenhouse'?greenhouse(s):s.method==='smartrecruiters'?smart(s):s.method==='workday'?workday(s):s.method==='structured'?structured(s):fetchAutomatic(s,{request,json,strip,structuredJobs,fromSchema}));const jobs=records.map(j=>normal(s,j)).filter(Boolean),manual=s.method==='structured'&&!records.length;results.push({source:s,jobs,status:manual?'manual-review':'connected',recordsRead:records.length,message:manual?'Career page reached; no structured vacancies available. Review the official page manually.':'Automatic collector checked the recruitment source. '+records.length+' vacancy records read; '+jobs.filter(j=>j.verification.status==='official-source').length+' passed publication filters.'});}catch(e){results.push({source:s,jobs:[],status:s.method==='ucaa'?'manual-review':'unavailable',message:e.message});}}}
+ async function worker(){while(cursor<sources.length){const s=sources[cursor++];try{const records=await(s.method==='greenhouse'?greenhouse(s):s.method==='smartrecruiters'?smart(s):s.method==='workday'?workday(s):s.method==='structured'?structured(s):['ashby','workable','lever'].includes(s.method)?fetchPublicAts(s,json):fetchAutomatic(s,{request,json,strip,structuredJobs,fromSchema}));const jobs=records.map(j=>normal(s,j)).filter(Boolean),manual=s.method==='structured'&&!records.length;results.push({source:s,jobs,status:manual?'manual-review':'connected',recordsRead:records.length,message:manual?'Career page reached; no structured vacancies available. Review the official page manually.':'Automatic collector checked the recruitment source. '+records.length+' vacancy records read; '+jobs.filter(j=>j.verification.status==='official-source').length+' passed publication filters.'});}catch(e){results.push({source:s,jobs:[],status:s.method==='ucaa'?'manual-review':'unavailable',message:e.message});}}}
  await Promise.all([worker(),worker(),worker(),worker(),worker()]);return results;
 }
 export async function collectReliefWeb(){

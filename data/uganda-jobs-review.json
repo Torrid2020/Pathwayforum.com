@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-10-30T09:04:30.734Z",
-  "jobCount": 1,
+  "generatedAt": "2026-10-30T14:17:41.815Z",
+  "jobCount": 6,
   "jobs": [
     {
       "id": "unicef:https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
@@ -26,14 +26,183 @@
       "verification": {
         "status": "review",
         "label": "Needs review",
-        "checkedAt": "2026-10-30T09:04:42.470Z",
+        "checkedAt": "2026-10-30T14:17:57.834Z",
         "flags": [
           "Review recruitment language"
         ]
       },
       "sourceUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
       "applicationUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
-      "lastCheckedAt": "2026-10-30T09:04:42.470Z"
+      "lastCheckedAt": "2026-10-30T14:17:57.834Z"
+    },
+    {
+      "id": "m-kopa:5f72226a-412c-4b5f-a647-85c37b1e4ad7",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Senior / management",
+      "sector": "Energy",
+      "title": "Finance Manager - Uganda",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-09-24T15:16:51.809+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "Finance Manager — M-KOPA Uganda You've built the controls. You've closed the books. You've explained the numbers to boards who didn't want to hear them. But have you ever built financial rigor into a business that's simultaneously scaling, lending, and putting life-changing assets into the hands of millions of customers who've never had access to credit before? That's the quest",
+      "indicators": [],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-10-30T14:18:00.231Z",
+        "flags": [
+          "Review recruitment language"
+        ]
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7/application",
+      "lastCheckedAt": "2026-10-30T14:18:00.231Z"
+    },
+    {
+      "id": "m-kopa:ac87dffb-3a32-4197-94da-4cdb250d230d",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Senior / management",
+      "sector": "Energy",
+      "title": "Retention Manager",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "5 years requested",
+      "publishedAt": "2026-09-08T07:22:35.176+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "We are looking for a Retention Manager to lead Uganda's Customer Retention and Telesales operation, converting existing customers into repeat-product sales through disciplined campaign execution, strong coaching, and rigorous performance management. This role offers the opportunity to own Uganda's entire retention engine—from campaign design to team culture to conversion outcom",
+      "indicators": [
+        "5 years of experience"
+      ],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-10-30T14:18:00.233Z",
+        "flags": [
+          "Review recruitment language"
+        ]
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d/application",
+      "lastCheckedAt": "2026-10-30T14:18:00.233Z"
+    },
+    {
+      "id": "m-kopa:3b64016b-0865-47f4-b343-5b4445f7aaef",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Not stated",
+      "sector": "Energy",
+      "title": "Sales Executive - Fort Portal",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-20T09:33:02.030+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "We are looking for a Sales Executive in Fort Portal to join our Sales Team as we scale up and drive digital and financial inclusion across our markets This role is an opportunity to drive growth, shape strategies, and inspire a team, all while playing a key part in M-KOPA’s mission to unlock better livelihoods through affordable products Imagine leading a team that isn’t just s",
+      "indicators": [],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-10-30T14:18:00.238Z",
+        "flags": [
+          "Review recruitment language"
+        ]
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef/application",
+      "lastCheckedAt": "2026-10-30T14:18:00.238Z"
+    },
+    {
+      "id": "m-kopa:cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Senior / management",
+      "sector": "Energy",
+      "title": "Field Sales Manager - Mukono",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-21T09:02:07.857+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "We are looking for a Field Sales Manager to lead the recruitment and management of Direct Sales Representatives (DSRs), drive sales quota attainment, and expand sales channels across an assigned geographical location in Uganda. This role offers the opportunity to own your territory—building a high-performing field sales team that delivers results, upholds brand values, and driv",
+      "indicators": [],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-10-30T14:18:00.239Z",
+        "flags": [
+          "Review recruitment language"
+        ]
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2/application",
+      "lastCheckedAt": "2026-10-30T14:18:00.239Z"
+    },
+    {
+      "id": "m-kopa:685fe2cb-7003-4217-95fe-179d50469d0d",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Entry level",
+      "sector": "Energy",
+      "title": "Office Assistant",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "OnSite",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-29T10:43:50.004+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "We are looking for an Office Assistant to join our Workplaces team; as we scale up and drive digital and financial inclusion across our markets. The Role As Office Assistant, you keep the Kampala office (Aponye Mall, Burton Street) running day to day across the front office, supplies, premises, events and compliance. You report to the Workplaces Lead and work on site in a contr",
+      "indicators": [
+        "Early-career title"
+      ],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-10-30T14:18:00.243Z",
+        "flags": [
+          "Review recruitment language"
+        ]
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d/application",
+      "lastCheckedAt": "2026-10-30T14:18:00.243Z"
     }
   ]
 }

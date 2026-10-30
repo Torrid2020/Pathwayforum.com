@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T14:21:31.730Z",
+  "generatedAt": "2026-10-30T18:37:49.796Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 28,
+  "jobCount": 30,
   "sources": {
     "Jobicy anywhere": "ok",
     "Jobicy anywhere intern": "ok",
@@ -33,6 +33,92 @@
   },
   "methodology": "Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",
   "jobs": [
+    {
+      "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/ai-design-systems-intern-master-s-summer-2027",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/centene-corporation/jobs/ai-design-systems-intern-master-s-summer-2027",
+      "title": "AI Design Systems Intern (Master's - Summer 2027)",
+      "company": "Centene Corporation",
+      "logo": "https://cdn-images.himalayas.app/tjx15wvbp0qhex64zscq23xzg6ct",
+      "summary": "Position Purpose: Learn about various processes and functions within the Managed Care industry and develop professionally by contributing to projects that support the business.",
+      "description": "Position Purpose: Learn about various processes and functions within the Managed Care industry and develop professionally by contributing to projects that support the business. Must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1, J-1, OPT, or CPT. Support the Fondue Design System team in exploring AI-assisted workflows Audit and structure documentation for AI readability, including semantic descriptions and schemas for reusable patterns Prototype and test AI-assisted discovery, concepting, and composition using existing Fondue components, blocks, sections, and patterns Validate outputs against established standards for accessibility, consistency, and quality Document findings and recommendations, and evaluate where AI can improve design speed without sacrificing accessibility, consistency, or quality Learn various job functions within the Managed Care industry and explore various career opportunities Apply academic knowledge and learn new skills by contributing to various projects Communicate project status and results to staff mentors and management Research various legal, regulatory, and other topics within functional area and industry Attend training and development presentations to enhance professional competencies Performs other duties as assigned Complies with all policies and standards Education/Experience: Bachelor’s degree or equivalent undergraduate coursework completed. Must be enrolled in a graduate program at an accredited university or college in a field related to the hiring department through the internship period. Pay Range: $21-30/hour At Centene, we connect people to the care they need to live healthier lives — and the work you do here makes that impact real every day. You’ll take on meaningful challenges that directly support individuals, families, and communities, building your skills while making healthcare more accessible and effective. It’s work with a purpose you can see, backed by a team committed to improving lives well beyond the workday. Centene offers a comprehensive benefits package including: competitive pay, health insurance, 401K and stock purchase plans, tuition reimbursement, paid time off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on an individual's skills, experience, education, and other job-related factors permitted by law, including full-time or part-time status. Total compensation may also include additional forms of incentives. Benefits may be subject to program eligibility. Centene is an equal opportunity employer that is committed to diversity, and values the ways in which we are different. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or other characteristic protected by applicable law. Qualified applicants with arrest or conviction records will be considered in accordance with the LA County Ordinance and the California Fair Chance Act Originally posted on Himalayas",
+      "employmentType": "Intern",
+      "level": "Entry-level",
+      "salary": {
+        "min": 21,
+        "max": 30,
+        "currency": "USD",
+        "period": "hourly"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-30T16:05:50.000Z",
+      "expiresAt": "2026-12-29T16:05:48.000Z",
+      "applicationUrl": "https://himalayas.app/companies/centene-corporation/jobs/ai-design-systems-intern-master-s-summer-2027?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/centene-corporation/jobs/ai-design-systems-intern-master-s-summer-2027",
+      "studentFit": {
+        "score": 95,
+        "reasons": [
+          "Student or entry-level language",
+          "Internship",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+    },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/social-media-analyst-intern-undergraduate-summer-2027",
       "source": "Himalayas",
@@ -117,7 +203,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/digital-design-operations-intern-master-s-summer-2027",
@@ -203,7 +289,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:university-of-wisconsin-madison:https://himalayas.app/companies/university-of-wisconsin-madison/jobs/social-media-content-creator-video-editing-intern",
@@ -283,7 +369,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:sigma-growth-specialists:https://himalayas.app/companies/sigma-growth-specialists/jobs/media-and-content-intern",
@@ -363,7 +449,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:landor:https://himalayas.app/companies/landor/jobs/prospective-next-gen-intern",
@@ -443,7 +529,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:scholarshipowl:https://himalayas.app/companies/scholarshipowl/jobs/sales-development-representative",
@@ -523,7 +609,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/postal-clerk",
@@ -603,7 +689,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:coconut:https://himalayas.app/companies/coconut/jobs/coconut-va-philippine-talent-pool",
@@ -683,7 +769,86 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
+    },
+    {
+      "id": "himalayas:selene:https://himalayas.app/companies/selene/jobs/escrow-analysis-specialist-i",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/selene/jobs/escrow-analysis-specialist-i",
+      "title": "Escrow Analysis Specialist I",
+      "company": "Selene",
+      "logo": "https://cdn-images.himalayas.app/euiwu81z2zak19g3ugxbirtjxgls",
+      "summary": "Selene Holdings is a multiple-lines business financial services firm with a mortgage servicing company, a loan diligence company, a title company, an insurance brokerage, and a real estate owned company.",
+      "description": "Selene Holdings is a multiple-lines business financial services firm with a mortgage servicing company, a loan diligence company, a title company, an insurance brokerage, and a real estate owned company. We have office locations in Dallas, TX, Jacksonville, FL, and Salt Lake City, UT. Founded in 2007 to address needs in the mortgage industry, Selene strives to provide amazing client and borrower experiences. A positive attitude coupled with proven creative thinking and actions are all attributes we seek in every one of our employees. If you want to make a difference, then Selene is the place for you! Position Summary: The Escrow Analysis Specialist I will ensure that policy and procedures for the department are strictly adhered to, federal and private investor guidelines are followed and that business objectives are achieved by performing the following duties. Essential Duties and Responsibilities: include the following. Other duties may be assigned. Maintains the workflow volume for the Escrow Analysis department to meet internal and private investor Service Level Agreements (SLA) Handles escalated loan level issues and provide departmental research assistance for complex issues as required to support client inquiries and various departments Works with management to ensure that internal and external audits are completed in a timely and accurate manner Performs individual escrow analysis as requested by other departments Reviews mass analysis for anomalies and ensures accurate and timely analysis per RESPA requirements Completes task within SLA’s Works with the Manager to document, communicate, and implement changes in policy and procedures Identifies areas for improvement and efficiency Carries out responsibilities in accordance with the organization’s policies and applicable laws and regulations Completes required training courses in a timely manner Qualifications: To perform this job successfully, an individual must be able to perform each essential duty satisfactorily. The requirements listed below are representative of the knowledge, skills, and/or abilities required. Reasonable accommodations may be made to enable individuals with disabilities to perform the essential functions. The qualified candidate must have: Excellent attention to detail Ability to multi-task and consistently meet multiple deadlines Strong verbal and written communication skills Ability to work in a team environment Strong customer-service orientation Ability to use good judgment Competencies: To perform the job successfully, an individual should demonstrate the following: Adaptability - Adapts to changes in the work environment. Manages competing demands. Changes approach or method to best fit the situation. Able to deal with frequent change delays, or unexpected events. Business Ethics - Treats people with respect. Keep commitments. Inspires the trust of others. Works with integrity and ethically. Upholds organizational values. Communications - Expresses ideas and thoughts verbally. Expresses ideas and thoughts in written form. Expresses ideas and thoughts in written form. Exhibits good listening and comprehension. Keeps others adequately informed. Selects and uses appropriate communication method. Customer Service - Displays courtesy and sensitivity. Manages difficult or emotional customer situations. Meets commitments. Responds promptly to customer needs. Solicits customer feedback to improve service. Dependability - Responds to requests for service and assistance. Follows instructions, responds to management direction. Takes responsibility for own actions. Commits to doing the best job possible. Keeps commitments. Meets attendance and punctuality guidelines. Teamwork - Balances team and individual responsibilities. Exhibits objectivity and openness to others' views. Gives and welcomes feedback. Contributes to building a positive team spirit. Puts success of team above own interests. Language Ability: Ability to read and comprehend simple instructions, short correspondence, and memos. Ability to write simple correspondence. Ability to effectively present information in one-on-one and small group situations to customers, clients, and other employees of the organization. Mathematical Ability: Ability to add, subtract, multiply, and divide into all units of measure, using whole numbers, common fractions, and decimals. Ability to compute rate, ratio, and percent and to draw and interpret bar graphs. Reasoning Ability: Ability to apply common sense understanding to carry out detailed written or oral instructions with minimal supervision. Ability to deal with problems involving a few concrete variables in standardized situations. Education/Experience: High school diploma or general education degree (GED) required. Preferred BKFS MSP or Sagent experience and/or training in any of the following workstations: Escrow Analysis, Tax, Hazard Insurance and MIP/PMI is preferred. Computer Skills: Working knowledge of and experience with Micr",
+      "employmentType": "Full Time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-30T16:17:10.000Z",
+      "expiresAt": "2026-12-29T16:17:08.000Z",
+      "applicationUrl": "https://himalayas.app/companies/selene/jobs/escrow-analysis-specialist-i?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/selene/jobs/escrow-analysis-specialist-i",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:sigitek-software-services:https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive",
@@ -762,7 +927,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/food-delivery-ai-response-evaluator",
@@ -846,7 +1011,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "jobicy:149520",
@@ -886,7 +1051,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "jobicy:149523",
@@ -926,7 +1091,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "jobicy:149555",
@@ -966,7 +1131,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "jobicy:149545",
@@ -1006,7 +1171,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-lawyer",
@@ -1085,7 +1250,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/evaluation-specialist-recent-grad-6119027108",
@@ -1164,7 +1329,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
@@ -1243,7 +1408,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:vectra:https://himalayas.app/companies/vectra/jobs/join-our-talent-community",
@@ -1322,7 +1487,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding-8442281333",
@@ -1401,7 +1566,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:terac:https://himalayas.app/companies/terac/jobs/recruiting-coordinator-6142591339",
@@ -1485,7 +1650,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/consumer-reviewer",
@@ -1564,7 +1729,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/video-data-annotator-966806508",
@@ -1643,7 +1808,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:gsa-capital:https://himalayas.app/companies/gsa-capital/jobs/digital-competition-spark-2026",
@@ -1722,7 +1887,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:valnet-tech-sites:https://himalayas.app/companies/valnet-tech-sites/jobs/thetravel-junior-editor",
@@ -1801,7 +1966,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:vapaus:https://himalayas.app/companies/vapaus/jobs/general-application",
@@ -1880,7 +2045,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:prologa:https://himalayas.app/companies/prologa/jobs/bewerberpool",
@@ -1959,7 +2124,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/customer-success-expression-of-interest-form",
@@ -2038,7 +2203,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/product-design-expression-of-interest-form",
@@ -2117,7 +2282,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T14:21:31.730Z"
+      "lastSeenAt": "2026-10-30T18:37:49.796Z"
     }
   ]
 }

@@ -1,172 +1,13 @@
 {
-  "generatedAt": "2026-10-30T00:02:21.746Z",
-  "jobCount": 8,
+  "generatedAt": "2026-10-30T09:04:30.734Z",
+  "jobCount": 1,
   "jobs": [
-    {
-      "id": "mtn-uganda:7887",
-      "source": "MTN Uganda Careers",
-      "sourceId": "mtn-uganda",
-      "sourceType": "official-employer",
-      "sector": "Telecom",
-      "title": "Analyst - P10 Program.Customer Operations",
-      "employer": "MTN Uganda",
-      "location": "Uganda, Uganda",
-      "district": "Uganda",
-      "workplace": "On-site or field-based",
-      "employmentType": "Full time",
-      "category": "Graduate & Internship",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-10-23T07:28:21+00:00",
-      "deadline": "2026-10-30T20:49:00.000Z",
-      "deadlineStatus": "Check live deadline",
-      "summary": "Main Purpose: Responsible for analytics on information to distil customer intelligence. Main Purpose: Responsible for analytics on information to distil customer intelligence. MTN Uganda Limited is an equal-opportunity employer and is seeking to recruit a competent individual to fill the following position. Job Title: Analyst – P10 Program Reports to: Senior Manager – Customer ",
-      "indicators": [],
-      "verification": {
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-10-30T00:02:24.080Z",
-        "flags": [
-          "Entry-level suitability needs review"
-        ]
-      },
-      "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7887",
-      "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7887",
-      "lastCheckedAt": "2026-10-30T00:02:24.080Z"
-    },
-    {
-      "id": "stanbic:744000157751189",
-      "source": "Stanbic Bank Uganda Careers",
-      "sourceId": "stanbic",
-      "sourceType": "official-employer",
-      "sector": "Banking",
-      "title": "Head, Internal Control",
-      "employer": "Stanbic Bank Uganda",
-      "location": "Kampala, Central Region, Uganda",
-      "district": "Kampala",
-      "workplace": "On-site",
-      "employmentType": "Full-time",
-      "category": "Graduate & Internship",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-10-26T09:06:22.236Z",
-      "deadline": null,
-      "deadlineStatus": "Not published",
-      "summary": "Standard Bank Group is a leading Africa-focused financial services group, and an innovative player on the global stage, that offers a variety of career-enhancing opportunities – plus the chance to work alongside some of the sector’s most talented, motivated professionals. Our clients range from individuals, to businesses of all sizes, high net worth families and large multinati",
-      "indicators": [],
-      "verification": {
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-10-30T00:02:25.541Z",
-        "flags": [
-          "Entry-level suitability needs review"
-        ]
-      },
-      "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-",
-      "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-?oga=true",
-      "lastCheckedAt": "2026-10-30T00:02:25.541Z"
-    },
-    {
-      "id": "one-acre-fund:7692994",
-      "source": "One Acre Fund Careers",
-      "sourceId": "one-acre-fund",
-      "sourceType": "official-employer",
-      "sector": "NGO & Humanitarian",
-      "title": "Uganda Finance Associate",
-      "employer": "One Acre Fund",
-      "location": "Jinja, Kampala Uganda",
-      "district": "Jinja",
-      "workplace": "On-site or field-based",
-      "employmentType": "See official listing",
-      "category": "NGO & Humanitarian",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-03-10T11:06:11-04:00",
-      "deadline": null,
-      "deadlineStatus": "Not published",
-      "summary": "About One Acre Fund Founded in 2006, One Acre Fund equips 5.5 million smallholder farmers to make their farms more productive. Across nine countries that together are home to two-thirds of Africa's farmers, we provide high-quality farm supplies, tree seedlings, accessible credit, modern agronomic training, and a wide range of other agricultural services. On average, this model ",
-      "indicators": [],
-      "verification": {
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-10-30T00:02:27.468Z",
-        "flags": [
-          "Entry-level suitability needs review"
-        ]
-      },
-      "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
-      "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
-      "lastCheckedAt": "2026-10-30T00:02:27.468Z"
-    },
-    {
-      "id": "brac-bank:it-infrastructure-support-officer",
-      "source": "BRAC Uganda Bank Careers",
-      "sourceId": "brac-bank",
-      "sourceType": "official-employer",
-      "sector": "Banking",
-      "title": "IT Infrastructure Support Officer",
-      "employer": "BRAC Uganda Bank",
-      "location": "Uganda",
-      "district": "Uganda",
-      "workplace": "On-site or field-based",
-      "employmentType": "See official listing",
-      "category": "Graduate & Internship",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": null,
-      "deadline": "2026-11-05T20:59:59.000Z",
-      "deadlineStatus": "Check live deadline",
-      "summary": "IT Infrastructure Support Officer About Education. Experience and Competence Requirements How to Apply About Job Tittle: IT Infrastructure Support Officer. Reports to: Manager IT Infrastructure. PURPOSE OF THE ROLE The IT Infrastructure Officer will support the installation, deployment and maintenance of servers, desktops, printers, telephony and other hardware across both prod",
-      "indicators": [],
-      "verification": {
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-10-30T00:02:27.695Z",
-        "flags": [
-          "Entry-level suitability needs review"
-        ]
-      },
-      "sourceUrl": "https://www.bracugandabankltd.com/careers/",
-      "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-30T00:02:27.695Z"
-    },
-    {
-      "id": "drc:https://drc.ngo/jobs/job?id=177062",
-      "source": "Danish Refugee Council Careers",
-      "sourceId": "drc",
-      "sourceType": "official-employer",
-      "sector": "NGO & Humanitarian",
-      "title": "Engineering and Shelter Team Leader",
-      "employer": "Danish Refugee Council",
-      "location": "Bidibidi, Uganda",
-      "district": "Bidibidi",
-      "workplace": "On-site or field-based",
-      "employmentType": "See official listing",
-      "category": "NGO & Humanitarian",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-10-26T20:59:59.000Z",
-      "deadline": "2026-11-06T20:59:59.000Z",
-      "deadlineStatus": "Check live deadline",
-      "summary": "purpose of the role: The Engineering and Shelter Team Leader will be responsible for providing overall technical leadership and oversight for shelter and infrastructure activities across Bidibidi, Rhino Camp and Imvepi refugee settlements. He/she will oversee cash-for-shelter assistance, renovation and construction works, ensuring quality and compliance with required technical ",
-      "indicators": [],
-      "verification": {
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-10-30T00:02:29.670Z",
-        "flags": [
-          "Entry-level suitability needs review"
-        ]
-      },
-      "sourceUrl": "https://drc.ngo/jobs/job?id=177062",
-      "applicationUrl": "https://drc.ngo/jobs/job?id=177062",
-      "lastCheckedAt": "2026-10-30T00:02:29.670Z"
-    },
     {
       "id": "unicef:https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
       "source": "UNICEF Careers",
       "sourceId": "unicef",
       "sourceType": "official-employer",
+      "level": "Not stated",
       "sector": "NGO & Humanitarian",
       "title": "Health Specialist, NO-3, Temporary Position, 5 months, #00137574, Kampala, Uganda",
       "employer": "UNICEF",
@@ -185,79 +26,14 @@
       "verification": {
         "status": "review",
         "label": "Needs review",
-        "checkedAt": "2026-10-30T00:02:30.471Z",
+        "checkedAt": "2026-10-30T09:04:42.470Z",
         "flags": [
-          "Entry-level suitability needs review",
           "Review recruitment language"
         ]
       },
       "sourceUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
       "applicationUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
-      "lastCheckedAt": "2026-10-30T00:02:30.471Z"
-    },
-    {
-      "id": "chai:https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "source": "Clinton Health Access Initiative Careers",
-      "sourceId": "chai",
-      "sourceType": "official-employer",
-      "sector": "NGO & Humanitarian",
-      "title": "Associate, Sexual, Reproductive, Maternal and Newborn Health",
-      "employer": "Clinton Health Access Initiative",
-      "location": "Kampala, UNAVAILABLE, Uganda",
-      "district": "Kampala",
-      "workplace": "On-site or field-based",
-      "employmentType": "OTHER",
-      "category": "NGO & Humanitarian",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "deadline": "2027-09-11T04:00:00.000Z",
-      "deadlineStatus": "Check live deadline",
-      "summary": "Overview The Clinton Health Access Initiative, Inc. (CHAI) is a global health organization committed to our mission of saving lives and reducing the burden of disease in low-and middle-income countries. We work at the invitation of governments to support them and the private sector to create and sustain high-quality health systems. CHAI was founded in 2002 in response to the HI",
-      "indicators": [],
-      "verification": {
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-10-30T00:02:30.839Z",
-        "flags": [
-          "Entry-level suitability needs review"
-        ]
-      },
-      "sourceUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "applicationUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-30T00:02:30.839Z"
-    },
-    {
-      "id": "brac-international:fk0zu8c",
-      "source": "BRAC International Careers",
-      "sourceId": "brac-international",
-      "sourceType": "official-employer",
-      "sector": "NGO & Humanitarian",
-      "title": "Plant Operator Officer",
-      "employer": "BRAC International",
-      "location": "Nakaseke, Mkoa wa Kati, Uganda",
-      "district": "Nakaseke",
-      "workplace": "On-site or field-based",
-      "employmentType": "FULL_TIME",
-      "category": "NGO & Humanitarian",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-08-06",
-      "deadline": null,
-      "deadlineStatus": "Not published",
-      "summary": "Job Summary: The Plant Operator Officer is responsible for the safe, efficient, and high-quality operation of seed processing machinery at the Nakaseke Seed Processing Plant. The role ensures daily production targets are met while maintaining strict adherence to quality management systems (QMS), traceability requirements, and environment, health and safety (EHS) standards. BSBE",
-      "indicators": [],
-      "verification": {
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-10-30T00:02:31.232Z",
-        "flags": [
-          "Entry-level suitability needs review"
-        ]
-      },
-      "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
-      "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
-      "lastCheckedAt": "2026-10-30T00:02:31.232Z"
+      "lastCheckedAt": "2026-10-30T09:04:42.470Z"
     }
   ]
 }

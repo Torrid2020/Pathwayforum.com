@@ -1,6 +1,7 @@
+import {inferLevel,compareUgandaJobs} from '../assets/uganda-levels.mjs';
 import fs from "node:fs/promises";
 import {employerSources} from './uganda-source-registry.mjs';
-import {collectExtraSources,collectReliefWeb,seniorTitle} from './uganda-extra-sources.mjs';
+import {collectExtraSources,collectReliefWeb} from './uganda-extra-sources.mjs';
 
 const OUTPUT = new URL("../data/uganda-jobs.json", import.meta.url);
 const REVIEW = new URL("../data/uganda-jobs-review.json", import.meta.url);
@@ -85,7 +86,7 @@ function endOfUgandaHumanDay(value) {
   return new Date(Date.UTC(Number(match[3]), month, Number(match[1]), 20, 59, 59)).toISOString();
 }
 
-function officialJob({id, source, title, employer, location, employmentType, publishedAt, closesAt, summary, sourceUrl, applicationUrl}) {
+function officialJob({id, source, title, employer, location, employmentType, experience, publishedAt, closesAt, summary, sourceUrl, applicationUrl}) {
   const body = text(summary);
   const closing = deadline(closesAt);
   const flags = [];
@@ -97,6 +98,7 @@ function officialJob({id, source, title, employer, location, employmentType, pub
     source,
     sourceType: "official-employer",
     title: text(title),
+    level: inferLevel({title:text(title),experience,description:body}),
     employer,
     location: text(location || "Uganda"),
     district: text(location || "Uganda").split(",")[0],
@@ -104,7 +106,7 @@ function officialJob({id, source, title, employer, location, employmentType, pub
     employmentType: employmentType || "Not stated",
     category: category(text(title), body),
     education: "See official listing",
-    experience: "See official listing",
+    experience: experience || "See official listing",
     publishedAt: publishedAt || null,
     deadline: closing.value,
     deadlineStatus: closing.label,
@@ -202,6 +204,7 @@ function normalizeWorldVision(info) {
     source: "World Vision Careers",
     sourceType: "official-employer",
     title: info.title,
+    level: inferLevel({title:info.title,description:body}),
     employer: "World Vision",
     location: info.location || "Uganda",
     district: String(info.location || "Uganda").split(",")[0],
@@ -258,15 +261,15 @@ async function main() {
     const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
     if (!unique.has(key)) unique.set(key, job);
   }
-  const deduped = [...unique.values()];
-  const jobs = deduped.filter(job => job.verification.status === "official-source" && !seniorTitle.test(job.title) && (!job.deadline||Date.parse(job.deadline)>Date.now()));
+  const deduped = [...unique.values()].map(job=>({...job,level:job.level||inferLevel(job)}));
+  const jobs = deduped.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
   const review = deduped.filter(job => job.verification.status === "review");
   const feed = {
     generatedAt: now.toISOString(),
     country: "Uganda",
     jobCount: jobs.length,
     sources: sourceStatus,
-    methodology: "Official employer feeds, reviewed employer submissions and configured humanitarian APIs. Senior titles and expired vacancies are excluded; source checks do not guarantee suitability or hiring.",
+    methodology: "Official employer feeds, reviewed employer submissions and configured humanitarian APIs. Expired vacancies are excluded. Levels are inferred from titles, experience and descriptions, with entry and mid-level roles shown before senior positions; confirm requirements with the employer. Source checks do not guarantee suitability or hiring.",
     jobs
   };
   if (process.argv.includes("--dry-run")) {

@@ -1,3 +1,4 @@
+import {inferLevel,compareUgandaJobs} from './uganda-levels.mjs';
 const ugandaDate = value => new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Kampala',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(value));
 function deadlineLabel(job){if(!job.deadline)return 'Check official deadline';const end=new Date(job.deadline);if(!Number.isFinite(end.getTime()))return 'Check official deadline';if(end.getTime()<Date.now())return 'Closed';const days=Math.round((Date.parse(ugandaDate(end))-Date.parse(ugandaDate(Date.now())))/86400000);return days===0?'Closes today':days===1?'Closes tomorrow':'Closes in '+days+' days';}
 let jobs = [];
@@ -28,23 +29,24 @@ function filtered() {
   const query = $("#query").value.trim().toLowerCase();
   return jobs.filter((job) =>
     (!showSaved || saved.has(job.id)) &&
+    (!$('#level').value || job.level === $('#level').value) &&
     (!$("#sector").value || ($("#sector").value==="NGO & Humanitarian" ? job.sector==="NGO & Humanitarian" : job.sector!=="NGO & Humanitarian")) &&
     (!query || `${job.title} ${job.employer} ${job.summary}`.toLowerCase().includes(query)) &&
     (!$("#district").value || job.district === $("#district").value) &&
     (!$("#category").value || job.category === $("#category").value) &&
     (!$("#type").value || job.employmentType === $("#type").value)
-  );
+  ).sort(compareUgandaJobs);
 }
 
 function render() {
   const list = filtered();
   $("#count").textContent = list.length;
   $("#count-noun").textContent=list.length===1?"job":"jobs";
-  $("#grid").innerHTML = list.length ? list.map((job) => `
+  $("#grid").innerHTML = list.length ? list.map((job,index) => `${job.level==='Senior / management'&&(index===0||list[index-1].level!=='Senior / management')?'<h3 class="senior-heading">Senior and management roles</h3>':''}
     <article class="card">
       <div class="company"><div class="logo">${esc(initials(job.employer))}</div><div><b>${esc(job.employer)}</b><small>✓ ${esc(job.verification.label)}</small></div><button class="save ${saved.has(job.id) ? "on" : ""}" type="button" data-save="${esc(job.id)}" aria-pressed="${saved.has(job.id)}" aria-label="Save ${esc(job.title)}">${saved.has(job.id) ? "Saved" : "Save"}</button></div>
       <h3>${esc(job.title)}</h3>
-      <div class="meta"><span class="tag">${esc(job.location)}</span><span class="tag">${esc(job.employmentType)}</span><span class="tag">${esc(job.category)}</span></div>
+      <div class="meta"><span class="tag">${esc(job.level)}</span><span class="tag">${esc(job.location)}</span><span class="tag">${esc(job.employmentType)}</span><span class="tag">${esc(job.category)}</span></div>
       <div class="verified">✓ Source checked ${esc(age(job.lastCheckedAt))} · ${esc(deadlineLabel(job))}</div>
       <div class="foot"><span>${esc(job.workplace)}</span><button class="view" type="button" data-open="${esc(job.id)}">View details →</button></div>
     </article>`).join("") : '<div class="empty"><h3>No matching jobs right now.</h3><p>Clear a filter or check again after the next automatic update.</p></div>';
@@ -66,11 +68,11 @@ function openJob(id, push) {
   $("#detail-employer").textContent = active.employer;
   $("#detail-verified").textContent = active.verification.label;
   $("#detail-title").textContent = active.title;
-  $("#detail-tags").innerHTML = [active.location, active.employmentType, active.category].map((value) => `<span class="tag">${esc(value)}</span>`).join("");
+  $("#detail-tags").innerHTML = [active.level, active.location, active.employmentType, active.category].map((value) => `<span class="tag">${esc(value)}</span>`).join("");
   $("#detail-deadline").textContent = deadlineLabel(active);
   $("#detail-check").textContent = `Last checked ${age(active.lastCheckedAt)}`;
   $("#detail-summary").textContent = active.summary;
-  const indicators = active.indicators?.length ? active.indicators : ["No specific early-career indicator detected — check the requirements carefully."];
+  const indicators = active.indicators?.length ? active.indicators : ["No specific experience indicator detected — check the requirements carefully."];
   $("#detail-indicators").innerHTML = indicators.map((value) => `<li>${esc(value)}</li>`).join("");
   $("#side-location").textContent = active.location;
   $("#side-workplace").textContent = active.workplace;
@@ -92,7 +94,7 @@ function closeDetail(push = true) {
   scrollTo(0, 0);
 }
 
-["query", "district", "category", "type", "sector"].forEach((id) => $("#" + id).addEventListener(id === "query" ? "input" : "change", render));
+["query", "district", "category", "type", "sector", "level"].forEach((id) => $("#" + id).addEventListener(id === "query" ? "input" : "change", render));
 $("#saved-toggle").addEventListener("click", (event) => {
   showSaved = !showSaved;
   event.currentTarget.classList.toggle("active", showSaved);
@@ -112,7 +114,7 @@ addEventListener("popstate", () => {
 fetch("data/uganda-jobs.json", { cache: "no-store" })
   .then((response) => { if (!response.ok) throw new Error("Feed unavailable"); return response.json(); })
   .then((data) => {
-    jobs = (data.jobs || []).filter(job => !job.deadline || !Number.isFinite(Date.parse(job.deadline)) || Date.parse(job.deadline)>=Date.now());
+    jobs = (data.jobs || []).map(job=>({...job,level:job.level||inferLevel(job)})).filter(job => !job.deadline || !Number.isFinite(Date.parse(job.deadline)) || Date.parse(job.deadline)>=Date.now());
     $("#updated").textContent = `Updated ${age(data.generatedAt)}`;
     setOptions("#district", jobs.map((job) => job.district));
     setOptions("#category", jobs.map((job) => job.category));

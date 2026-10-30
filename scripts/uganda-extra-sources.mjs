@@ -1,4 +1,4 @@
-import {normalizeDeadline} from '../assets/uganda-data.mjs';
+import {normalizeDeadline,cleanLocation} from '../assets/uganda-data.mjs';
 import {inferLevel} from '../assets/uganda-levels.mjs';
 import {employerSources} from './uganda-source-registry.mjs';
 import {fetchAutomatic} from './uganda-auto-adapters.mjs';
@@ -9,7 +9,7 @@ async function request(url,options={}){let last;for(let attempt=0;attempt<2;atte
 const json=async(u,o)=>(await request(u,o)).json();
 function experience(body){const numbers=[...strip(body).matchAll(/\b(\d+)\s*(?:[-–]|to)?\s*(\d+)?\+?\s*years?['’]?\s*(?:of\s*)?(?:relevant\s*|professional\s*|work\s*)?experience/gi)].map(m=>Number(m[1]));return numbers.length?Math.max(...numbers):null}
 export function normal(source,j){
- const title=strip(j.title),body=strip(j.description),location=strip(j.location);
+ const title=strip(j.title),body=strip(j.description),location=cleanLocation(strip(j.location));
  const summaryStart=body.search(/\b(?:Overview|Job Summary|Purpose of (?:the )?(?:role|job))\s*:/i);
  const overview=summaryStart>=0?body.slice(summaryStart):body;
  if(!country.test(location)||/\b(?:remote|telecommute)\b/i.test(j.workplace||''))return null;

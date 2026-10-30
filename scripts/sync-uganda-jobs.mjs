@@ -1,4 +1,4 @@
-import {normalizeDeadline} from '../assets/uganda-data.mjs';
+import {normalizeDeadline,cleanLocation} from '../assets/uganda-data.mjs';
 import {inferLevel,compareUgandaJobs} from '../assets/uganda-levels.mjs';
 import fs from "node:fs/promises";
 import {employerSources} from './uganda-source-registry.mjs';
@@ -261,7 +261,8 @@ async function main() {
   const unique = new Map();
   for (const raw of collected) {
     const deadline=normalizeDeadline(raw.deadline, now);
-    const job={...raw,deadline,deadlineStatus:deadline?raw.deadlineStatus:"Check the official deadline"};
+    const location=cleanLocation(raw.location);
+    const job={...raw,location,district:location.split(',')[0],deadline,deadlineStatus:deadline?raw.deadlineStatus:"Check the official deadline"};
     const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
     if (!unique.has(key)) unique.set(key, job);
   }

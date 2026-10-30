@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-29T23:18:28.277Z",
+  "generatedAt": "2026-10-30T05:50:30.448Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 29,
+  "jobCount": 28,
   "sources": {
     "Jobicy anywhere": "ok",
     "Jobicy anywhere intern": "ok",
@@ -33,6 +33,92 @@
   },
   "methodology": "Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",
   "jobs": [
+    {
+      "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/digital-design-operations-intern-master-s-summer-2027",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/centene-corporation/jobs/digital-design-operations-intern-master-s-summer-2027",
+      "title": "Digital Design Operations Intern (Master's - Summer 2027)",
+      "company": "Centene Corporation",
+      "logo": "https://cdn-images.himalayas.app/tjx15wvbp0qhex64zscq23xzg6ct",
+      "summary": "Position Purpose: Learn about various processes and functions within the Managed Care industry and develop professionally by contributing to projects that support the business.",
+      "description": "Position Purpose: Learn about various processes and functions within the Managed Care industry and develop professionally by contributing to projects that support the business. Must be authorized to work in the U.S. without the need for employment-based visa sponsorship now or in the future. Sponsorship and future sponsorship are not available for this opportunity, including employment-based visa types H-1B, L-1, O-1, H-1B1, F-1, J-1, OPT, or CPT. Support Design Operations and UX Research initiatives, including resource allocation, capacity planning, and project coordination Build and maintain Airtable solutions, dashboards, and reporting workflows that connect operational data across systems Analyze UX project metrics, team capacity, and delivery outcomes; document processes and identify opportunities to improve operational effectiveness Learn various job functions within the Managed Care industry and explore various career opportunities Apply academic knowledge and learn new skills by contributing to various projects Communicate project status and results to staff mentors and management Research various legal, regulatory, and other topics within functional area and industry Attend training and development presentations to enhance professional competencies Performs other duties as assigned Complies with all policies and standards Education/Experience: Bachelor’s degree or equivalent undergraduate coursework completed. Must be enrolled in a graduate program at an accredited university or college in a field related to the hiring department through the internship period. Pay Range: $21-30/hour At Centene, we connect people to the care they need to live healthier lives — and the work you do here makes that impact real every day. You’ll take on meaningful challenges that directly support individuals, families, and communities, building your skills while making healthcare more accessible and effective. It’s work with a purpose you can see, backed by a team committed to improving lives well beyond the workday. Centene offers a comprehensive benefits package including: competitive pay, health insurance, 401K and stock purchase plans, tuition reimbursement, paid time off plus holidays, and a flexible approach to work with remote, hybrid, field or office work schedules. Actual pay will be adjusted based on an individual's skills, experience, education, and other job-related factors permitted by law, including full-time or part-time status. Total compensation may also include additional forms of incentives. Benefits may be subject to program eligibility. Centene is an equal opportunity employer that is committed to diversity, and values the ways in which we are different. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, disability, veteran status, or other characteristic protected by applicable law. Qualified applicants with arrest or conviction records will be considered in accordance with the LA County Ordinance and the California Fair Chance Act Originally posted on Himalayas",
+      "employmentType": "Intern",
+      "level": "Entry-level",
+      "salary": {
+        "min": 21,
+        "max": 30,
+        "currency": "USD",
+        "period": "hourly"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-30T01:26:58.000Z",
+      "expiresAt": "2026-12-29T01:26:57.000Z",
+      "applicationUrl": "https://himalayas.app/companies/centene-corporation/jobs/digital-design-operations-intern-master-s-summer-2027?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/centene-corporation/jobs/digital-design-operations-intern-master-s-summer-2027",
+      "studentFit": {
+        "score": 95,
+        "reasons": [
+          "Student or entry-level language",
+          "Internship",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
+    },
     {
       "id": "himalayas:university-of-wisconsin-madison:https://himalayas.app/companies/university-of-wisconsin-madison/jobs/social-media-content-creator-video-editing-intern",
       "source": "Himalayas",
@@ -111,7 +197,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:sigma-growth-specialists:https://himalayas.app/companies/sigma-growth-specialists/jobs/media-and-content-intern",
@@ -191,7 +277,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:landor:https://himalayas.app/companies/landor/jobs/prospective-next-gen-intern",
@@ -271,87 +357,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
-    },
-    {
-      "id": "himalayas:contactlink-solutions:https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy",
-      "title": "CLS Interpreter Academy",
-      "company": "ContactLink Solutions",
-      "logo": "https://cdn-images.himalayas.app/emayii0fjfsmp1wq7cjq603m81d7",
-      "summary": "YOUR LANGUAGE SKILLS COULD BE THE START OF SOMETHING MORE.",
-      "description": "YOUR LANGUAGE SKILLS COULD BE THE START OF SOMETHING MORE. Every day, interpreters help people understand one another, ask important questions, and be heard. Your language skills could be your first step toward a rewarding career in professional interpreting. What is the CLS Interpreter Academy? The CLS Interpreter Academy is a training program designed for bilingual individuals and early-career interpreters who want to build their professional interpreting skills, knowledge, and confidence. Open worldwide Remote opportunities All languages welcome Training provided No previous interpreting experience required Technical Requirements 90% English proficiency Stable internet connection USB wired headset Windows 10 or later or Mac Whether you're bilingual and exploring interpreting for the first time or you're just starting your journey, this could be your opportunity to take the next step. Interested in joining? Apply today. One of our recruiters will contact you with more information about the program and next steps. Explore the program and review the requirements. Originally posted on Himalayas",
-      "employmentType": "Contractor",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-10-06T00:56:12.000Z",
-      "expiresAt": "2026-12-05T00:56:11.000Z",
-      "applicationUrl": "https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy",
-      "studentFit": {
-        "score": 75,
-        "reasons": [
-          "Student or entry-level language",
-          "Training opportunity"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/postal-clerk",
@@ -431,7 +437,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:coconut:https://himalayas.app/companies/coconut/jobs/coconut-va-philippine-talent-pool",
@@ -511,7 +517,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:sigitek-software-services:https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive",
@@ -590,7 +596,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/food-delivery-ai-response-evaluator",
@@ -674,7 +680,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "jobicy:149520",
@@ -714,7 +720,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "jobicy:149523",
@@ -754,7 +760,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "jobicy:149555",
@@ -794,7 +800,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "jobicy:149545",
@@ -834,7 +840,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-lawyer",
@@ -913,7 +919,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/evaluation-specialist-recent-grad-6119027108",
@@ -992,7 +998,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
@@ -1071,7 +1077,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:vectra:https://himalayas.app/companies/vectra/jobs/join-our-talent-community",
@@ -1150,7 +1156,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding-8442281333",
@@ -1229,7 +1235,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:terac:https://himalayas.app/companies/terac/jobs/recruiting-coordinator-6142591339",
@@ -1313,7 +1319,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/consumer-reviewer",
@@ -1392,7 +1398,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/video-data-annotator-966806508",
@@ -1471,7 +1477,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:gsa-capital:https://himalayas.app/companies/gsa-capital/jobs/digital-competition-spark-2026",
@@ -1550,7 +1556,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:valnet-tech-sites:https://himalayas.app/companies/valnet-tech-sites/jobs/thetravel-junior-editor",
@@ -1629,7 +1635,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:vapaus:https://himalayas.app/companies/vapaus/jobs/general-application",
@@ -1708,7 +1714,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:prologa:https://himalayas.app/companies/prologa/jobs/bewerberpool",
@@ -1787,7 +1793,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/customer-success-expression-of-interest-form",
@@ -1866,7 +1872,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/product-design-expression-of-interest-form",
@@ -1945,7 +1951,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/marketing-expression-of-interest-form",
@@ -2024,7 +2030,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     },
     {
       "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/legal-expression-of-interest-form",
@@ -2103,86 +2109,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
-    },
-    {
-      "id": "himalayas:gitlab-com:https://himalayas.app/companies/gitlab-com/jobs/ux-researcher-expression-of-interest-form",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/gitlab-com/jobs/ux-researcher-expression-of-interest-form",
-      "title": "UX Researcher Expression of Interest Form",
-      "company": "GitLab",
-      "logo": "https://cdn-images.himalayas.app/db8hi5pbq465o6fk7po3c93u6ii5",
-      "summary": "GitLab is an open-core software company that develops the most comprehensive AI-powered DevSecOps Platform, used by more than 100,000 organizations.",
-      "description": "GitLab is an open-core software company that develops the most comprehensive AI-powered DevSecOps Platform, used by more than 100,000 organizations. Our mission is to enable everyone to contribute to and co-create the software that powers our world. When everyone can contribute, consumers become contributors, significantly accelerating human progress. Our platform unites teams and organizations, breaking down barriers and redefining what's possible in software development. Thanks to products like Duo Enterprise and Duo Agent Platform, customers get AI benefits at every stage of the SDLC. The same principles built into our products are reflected in how our team works: we embrace AI as a core productivity multiplier, with all team members expected to incorporate AI into their daily workflows to drive efficiency, innovation, and impact. GitLab is where careers accelerate, innovation flourishes, and every voice is valued. Our high-performance culture is driven by our values and continuous knowledge exchange, enabling our team members to reach their full potential while collaborating with industry leaders to solve complex problems. Co-create the future with us as we build technology that transforms how the world develops software This is a future opportunity that may not be immediately available, but we're proactively building our pipeline of exceptional talent. At GitLab , we believe in connecting with outstanding professionals before we have an urgent need, allowing us to move quickly when the right moment arises. If you are excited about co-creating the future as we're building the most comprehensive AI-powered DevSecOps platform, we want to hear from you. We'll keep your information on file and reach out when a position becomes available that matches your skills and interests. Country Hiring Guidelines: GitLab hires new team members in countries around the world. All of our roles are remote, however some roles may carry specific location-based eligibility requirements. Our Talent Acquisition team can help answer any questions about location after starting the recruiting process. Privacy Policy: Please review our Recruitment Privacy Policy. Your privacy is important to us. GitLab is proud to be an equal opportunity workplace and is an affirmative action employer. GitLab ’s policies and practices relating to recruitment, employment, career development and advancement, promotion, and retirement are based solely on merit, regardless of race, color, religion, ancestry, sex (including pregnancy, lactation, sexual orientation, gender identity, or gender expression), national origin, age, citizenship, marital status, mental or physical disability, genetic information (including family medical history), discharge status from the military, protected veteran status (which includes disabled veterans, recently separated veterans, active duty wartime or campaign badge veterans, and Armed Forces service medal veterans), or any other basis protected by law. GitLab will not tolerate discrimination or harassment based on any of these characteristics. See also GitLab ’s EEO Policy and EEO is the Law. If you have a disability or special need that requires accommodation, please let us know during the recruiting process. Originally posted on Himalayas",
-      "employmentType": "Full Time",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-10-05T17:58:12.000Z",
-      "expiresAt": "2026-12-04T17:58:11.000Z",
-      "applicationUrl": "https://himalayas.app/companies/gitlab-com/jobs/ux-researcher-expression-of-interest-form?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/gitlab-com/jobs/ux-researcher-expression-of-interest-form",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-10-29T23:18:28.277Z"
+      "lastSeenAt": "2026-10-30T05:50:30.448Z"
     }
   ]
 }

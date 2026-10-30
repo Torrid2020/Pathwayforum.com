@@ -1,3 +1,4 @@
+import {trustMarkup} from './job-trust.mjs';
 import {normalizeDeadline} from './uganda-data.mjs';
 import {inferLevel,compareUgandaJobs} from './uganda-levels.mjs';
 const ugandaDate = value => new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Kampala',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(value));
@@ -48,7 +49,7 @@ function render() {
       <div class="company"><div class="logo">${esc(initials(job.employer))}</div><div><b>${esc(job.employer)}</b><small>✓ ${esc(job.verification.label)}</small></div><button class="save ${saved.has(job.id) ? "on" : ""}" type="button" data-save="${esc(job.id)}" aria-pressed="${saved.has(job.id)}" aria-label="Save ${esc(job.title)}">${saved.has(job.id) ? "Saved" : "Save"}</button></div>
       <h3>${esc(job.title)}</h3>
       <div class="meta"><span class="tag">${esc(job.level)}</span><span class="tag">${esc(job.location)}</span><span class="tag">${esc(job.employmentType)}</span><span class="tag">${esc(job.category)}</span></div>
-      <div class="verified">✓ Source checked ${esc(age(job.lastCheckedAt))} · ${esc(deadlineLabel(job))}</div>
+      ${trustMarkup(job)}
       <div class="foot"><span>${esc(job.workplace)}</span><button class="view" type="button" data-open="${esc(job.id)}">View details →</button></div>
     </article>`).join("") : '<div class="empty"><h3>No matching jobs right now.</h3><p>Clear a filter or check again after the next automatic update.</p></div>';
   if(!jobs.length){$("#count").parentElement.hidden=true;$("#grid").innerHTML='<div class="empty"><p>New jobs are checked daily. Join our WhatsApp group to hear first.</p><a class="button" href="https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce">Join WhatsApp</a></div>';}
@@ -69,6 +70,7 @@ function openJob(id, push) {
   $("#detail-employer").textContent = active.employer;
   $("#detail-verified").textContent = active.verification.label;
   $("#detail-title").textContent = active.title;
+  $("#detail-trust").innerHTML = trustMarkup(active);
   $("#detail-tags").innerHTML = [active.level, active.location, active.employmentType, active.category].map((value) => `<span class="tag">${esc(value)}</span>`).join("");
   $("#detail-deadline").textContent = deadlineLabel(active);
   $("#detail-check").textContent = `Last checked ${age(active.lastCheckedAt)}`;

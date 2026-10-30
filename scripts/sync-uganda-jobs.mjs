@@ -266,7 +266,7 @@ async function main() {
     const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
     if (!unique.has(key)) unique.set(key, job);
   }
-  const deduped = [...unique.values()].map(job=>({...job,level:job.level||inferLevel(job)}));
+  const deduped = [...unique.values()].map(job=>({...job,level:!job.level||job.level==='Not stated'?inferLevel(job):job.level}));
   const jobs = deduped.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
   const review = deduped.filter(job => job.verification.status === "review");
   const feed = {

@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-30T13:45:12.028Z",
+  "updatedAt": "2026-10-30T13:46:43.737Z",
   "policy": "Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.",
   "sources": [
     {
@@ -11,9 +11,12 @@
       "method": "existing",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 1,
+      "publishedCount": 1,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "nssf-uganda",
@@ -24,9 +27,12 @@
       "method": "existing",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 1,
+      "publishedCount": 1,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "mtn-uganda",
@@ -37,9 +43,12 @@
       "method": "oracle",
       "adapter": "ehle.fa.em2.oraclecloud.com/CX_1",
       "trust": "official",
+      "recordsRead": 2,
+      "publishedCount": 2,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 2 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "airtel-uganda",
@@ -50,9 +59,12 @@
       "method": "structured",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "uganda-airlines",
@@ -63,9 +75,12 @@
       "method": "oracle",
       "adapter": "fa-eptm-saasfaprod1.fa.ocs.oraclecloud.com/CX_4001",
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "ura",
@@ -76,9 +91,12 @@
       "method": "structured",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "ucaa",
@@ -89,9 +107,12 @@
       "method": "ucaa",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 6,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 6 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "totalenergies",
@@ -102,9 +123,12 @@
       "method": "structured",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "makerere",
@@ -115,9 +139,12 @@
       "method": "makerere",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "stanbic",
@@ -128,9 +155,12 @@
       "method": "smartrecruiters",
       "adapter": "StandardBankGroup",
       "trust": "official",
+      "recordsRead": 3,
+      "publishedCount": 3,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "absa",
@@ -141,9 +171,12 @@
       "method": "workday",
       "adapter": "absa.wd3.myworkdayjobs.com/ABSAcareersite",
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "finca",
@@ -154,9 +187,12 @@
       "method": "finca",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "brac-bank",
@@ -167,9 +203,12 @@
       "method": "brac-bank",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 3,
+      "publishedCount": 3,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "equity",
@@ -180,9 +219,12 @@
       "method": "structured",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "centenary",
@@ -193,9 +235,12 @@
       "method": "structured",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "world-vision",
@@ -206,9 +251,12 @@
       "method": "existing",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "givedirectly",
@@ -219,9 +267,12 @@
       "method": "greenhouse",
       "adapter": "givedirectly",
       "trust": "official",
+      "recordsRead": 1,
+      "publishedCount": 1,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "one-acre-fund",
@@ -232,9 +283,12 @@
       "method": "greenhouse",
       "adapter": "oneacrefund",
       "trust": "official",
+      "recordsRead": 2,
+      "publishedCount": 2,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 2 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "living-goods",
@@ -245,9 +299,12 @@
       "method": "structured",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 2,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "brac-international",
@@ -258,9 +315,12 @@
       "method": "trakstar",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 14,
+      "publishedCount": 4,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 14 vacancy records read; 4 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "irc",
@@ -271,9 +331,12 @@
       "method": "structured",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "mercy-corps",
@@ -284,9 +347,12 @@
       "method": "jobvite",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 5,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 5 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "save-children",
@@ -297,9 +363,12 @@
       "method": "structured",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "unavailable",
       "message": "HTTP 403",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "drc",
@@ -310,9 +379,12 @@
       "method": "drc",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 2,
+      "publishedCount": 2,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 2 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "nrc",
@@ -323,9 +395,12 @@
       "method": "oracle",
       "adapter": "ekum.fa.em2.oraclecloud.com/CX_2019",
       "trust": "official",
+      "recordsRead": 1,
+      "publishedCount": 1,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "plan",
@@ -336,9 +411,12 @@
       "method": "successfactors",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 1,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "unicef",
@@ -349,9 +427,12 @@
       "method": "pageup",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 2,
+      "publishedCount": 0,
+      "reviewCount": 1,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "wfp",
@@ -362,9 +443,12 @@
       "method": "workday",
       "adapter": "wd3.myworkdaysite.com/wfp/job_openings",
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "unhcr",
@@ -375,9 +459,12 @@
       "method": "workday",
       "adapter": "unhcr.wd3.myworkdayjobs.com/External",
       "trust": "official",
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "diageo",
@@ -388,9 +475,12 @@
       "method": "workday",
       "adapter": "diageo.wd3.myworkdayjobs.com/Diageo_Careers",
       "trust": "official",
+      "recordsRead": 1,
+      "publishedCount": 1,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "path",
@@ -401,9 +491,12 @@
       "method": "workday",
       "adapter": "path.wd1.myworkdayjobs.com/External",
       "trust": "official",
+      "recordsRead": 1,
+      "publishedCount": 1,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     },
     {
       "id": "chai",
@@ -414,9 +507,12 @@
       "method": "icims",
       "adapter": null,
       "trust": "official",
+      "recordsRead": 3,
+      "publishedCount": 3,
+      "reviewCount": 0,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-10-30T13:45:12.028Z"
+      "checkedAt": "2026-10-30T13:46:43.737Z"
     }
   ],
   "aggregators": [

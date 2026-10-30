@@ -14,8 +14,9 @@ export function inferLevel(job) {
   const required = years.length ? Math.max(...years) : null;
   if (required !== null && required >= 6) return LEVELS[3];
   if (required !== null && required >= 3) return LEVELS[2];
-  if (required !== null || /\b(entry.level|junior|assistant|graduate|receptionist|cashier|data entry)\b/i.test(title) || /\b(entry.level|fresh graduates?|no (?:prior |previous )?experience)\b/i.test(body)) return LEVELS[1];
-  if (/\bmid[ -]level\b/i.test(title + ' ' + body)) return LEVELS[2];
+  if (required !== null || /\b(entry.level|fresh graduates?|no (?:prior |previous )?experience)\b/i.test(body)) return LEVELS[1];
+  if (/\b(specialist|coordinator|analyst\s+II|supervisor)\b/i.test(title) || /\bmid[ -]level\b/i.test(title + ' ' + body)) return LEVELS[2];
+  if (/\b(entry.level|junior|graduate|receptionist|cashier|data entry|officer|assistant|consultant|associate|representative|worker|operator|clerk|technician)\b/i.test(title)) return LEVELS[1];
   return LEVELS[4];
 }
 

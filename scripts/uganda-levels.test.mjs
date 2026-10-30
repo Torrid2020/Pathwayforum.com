@@ -12,8 +12,9 @@ test('level inference uses title, experience and summary with senior title prece
     [{title:'Assistant Manager', experience:'1 year'}, 'Senior / management'],
     [{title:'Head, Internal Control'}, 'Senior / management'],
     [{title:'Engineering Team Leader'}, 'Senior / management'],
-    [{title:'Officer', summary:'Reports to the senior manager'}, 'Not stated'],
-    [{title:'Officer'}, 'Not stated']
+    [{title:'Officer', summary:'Reports to the senior manager'}, 'Entry level'],
+    [{title:'Officer'}, 'Entry level'],
+    [{title:'Business Partner'}, 'Not stated']
   ]) assert.equal(inferLevel(job), level);
 });
 
@@ -29,7 +30,20 @@ test('deadline order groups senior last and undated last within each group', () 
 });
 
 test('homepage examples exclude trainees, senior and unstated roles without changing total', () => {
-  const jobs = ['Intern','Director','Officer','Junior Analyst','Analyst'].map(title=>({title, ...(title==='Analyst'?{experience:'4 years'}:{})}));
+  const jobs = ['Intern','Director','Business Partner','Junior Analyst','Analyst'].map(title=>({title, ...(title==='Analyst'?{experience:'4 years'}:{})}));
   assert.deepEqual(ugandaExamples(jobs).map(j=>j.title), ['Analyst','Junior Analyst']);
   assert.equal(jobs.length, 5);
+});
+
+test('clear title signals apply only without stronger experience evidence',()=>{
+  for(const title of ['officer','assistant','consultant','associate','representative','worker','operator','clerk','technician']) {
+    assert.equal(inferLevel({title}), 'Entry level');
+    assert.equal(inferLevel({title,experience:'4 years'}), 'Mid level');
+  }
+  for(const title of ['specialist','coordinator','analyst II','supervisor']) {
+    assert.equal(inferLevel({title}), 'Mid level');
+    assert.equal(inferLevel({title,experience:'2 years'}), 'Entry level');
+  }
+  for(const title of ['Analyst','Business Partner','Professional']) assert.equal(inferLevel({title}), 'Not stated');
+  assert.equal(inferLevel({title:'Senior Technician',experience:'1 year'}), 'Senior / management');
 });

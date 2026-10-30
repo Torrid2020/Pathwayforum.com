@@ -1,3 +1,4 @@
+import {normalizeDeadline} from '../assets/uganda-data.mjs';
 import {inferLevel} from '../assets/uganda-levels.mjs';
 import {employerSources} from './uganda-source-registry.mjs';
 import {fetchAutomatic} from './uganda-auto-adapters.mjs';
@@ -13,7 +14,7 @@ export function normal(source,j){
  const overview=summaryStart>=0?body.slice(summaryStart):body;
  if(!country.test(location)||/\b(?:remote|telecommute)\b/i.test(j.workplace||''))return null;
  const years=experience(body);
- const closes=j.deadline?Date.parse(j.deadline):NaN;
+ const closes=Date.parse(normalizeDeadline(j.deadline));
  if(Number.isFinite(closes)&&closes<Date.now())return null;
  if(!j.sourceUrl||!j.applicationUrl||!/^https:\/\//.test(j.sourceUrl)||!/^https:\/\//.test(j.applicationUrl))return null;
  const suspicious=/\b(?:application|processing|training) fee|pay to apply|telegram only|whatsapp only/i.test(title+' '+body);

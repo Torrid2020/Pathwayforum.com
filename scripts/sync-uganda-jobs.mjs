@@ -1,3 +1,4 @@
+import {normalizeDeadline} from '../assets/uganda-data.mjs';
 import {inferLevel,compareUgandaJobs} from '../assets/uganda-levels.mjs';
 import fs from "node:fs/promises";
 import {employerSources} from './uganda-source-registry.mjs';
@@ -50,7 +51,8 @@ function indicators(title, body) {
 }
 
 function deadline(value) {
-  if (!value) return {value: null, label: "Not published"};
+  value = normalizeDeadline(value, now);
+  if (!value) return {value: null, label: "Check the official deadline"};
   const date = new Date(value);
   if (Number.isNaN(date.getTime())) return {value: null, label: "Check source"};
   const days = Math.ceil((date - now) / 86400000);
@@ -257,7 +259,9 @@ async function main() {
     collected.push({...job,sourceId:'employer-reviewed',sector:entry.sector||'Other',sourceType:'employer-reviewed',verification:{...job.verification,label:'Employer listing reviewed'}});
   }
   const unique = new Map();
-  for (const job of collected) {
+  for (const raw of collected) {
+    const deadline=normalizeDeadline(raw.deadline, now);
+    const job={...raw,deadline,deadlineStatus:deadline?raw.deadlineStatus:"Check the official deadline"};
     const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
     if (!unique.has(key)) unique.set(key, job);
   }

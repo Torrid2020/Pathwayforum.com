@@ -1,6 +1,7 @@
+import {normalizeDeadline} from './uganda-data.mjs';
 import {inferLevel,compareUgandaJobs} from './uganda-levels.mjs';
 const ugandaDate = value => new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Kampala',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(value));
-function deadlineLabel(job){if(!job.deadline)return 'Check official deadline';const end=new Date(job.deadline);if(!Number.isFinite(end.getTime()))return 'Check official deadline';if(end.getTime()<Date.now())return 'Closed';const days=Math.round((Date.parse(ugandaDate(end))-Date.parse(ugandaDate(Date.now())))/86400000);return days===0?'Closes today':days===1?'Closes tomorrow':'Closes in '+days+' days';}
+function deadlineLabel(job){if(!normalizeDeadline(job.deadline))return 'Check the official deadline';const end=new Date(job.deadline);if(!Number.isFinite(end.getTime()))return 'Check the official deadline';if(end.getTime()<Date.now())return 'Closed';const days=Math.round((Date.parse(ugandaDate(end))-Date.parse(ugandaDate(Date.now())))/86400000);return days===0?'Closes today':days===1?'Closes tomorrow':'Closes in '+days+' days';}
 let jobs = [];
 let active = null;
 let showSaved = false;

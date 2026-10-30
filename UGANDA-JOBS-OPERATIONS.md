@@ -4,7 +4,19 @@ The employer directory contains 30 organisations. It distinguishes a connected f
 
 ## Sources
 
-Run `node scripts/sync-uganda-jobs.mjs`. The three-hour GitHub workflow uses the same script. Existing dfcu, NSSF and World Vision collectors are joined by GiveDirectly and One Acre Fund (Greenhouse), Stanbic (SmartRecruiters), Absa and UNHCR (Workday), and structured JobPosting extraction from the remaining official pages. A page with no readable JobPosting data stays marked manual review; never infer that it has no vacancies. Each structured page checks at most three same-origin detail links, with five workers and bounded timeouts.
+Run `node scripts/sync-uganda-jobs.mjs`. The three-hour GitHub workflow uses the same script. Collectors include:
+
+- Existing dfcu, NSSF and World Vision adapters.
+- GiveDirectly and One Acre Fund through Greenhouse; Stanbic through SmartRecruiters.
+- Absa, UNHCR and WFP through Workday. WFP uses its official myworkdaysite tenant, rather than a guessed recruitment hostname.
+- MTN Uganda, Uganda Airlines and NRC through their official Oracle Candidate Experience systems, up to three pages per source. Full requisition details supply qualifications and closing dates.
+- BRAC International through Trakstar JobPosting records; raw control characters in JSON strings are repaired without executing page scripts.
+- Mercy Corps/Prosper Global through Jobvite, CHAI through iCIMS, Plan through SuccessFactors microdata, and UNICEF through PageUp's exact location and closing metadata.
+- DRC through server-rendered vacancy records, BRAC Uganda Bank through separate advert sections, and Makerere through its vacancy list and detail endpoint.
+- FINCA through its explicit empty state or readable job adverts.
+- Remaining sources use structured JobPosting extraction; they stay marked manual review when no parser can verify the listing.
+
+An unexpected page, access block or changed API is reported as unavailable, not treated as zero jobs. Confirmed empty recruitment lists count as connected even when no suitable vacancy exists. The directory message records how many vacancy records were read and how many passed filters. Generic structured pages inspect at most three same-origin links; named listing adapters inspect up to 30 detail links; Oracle lists use at most 75 records. These bounds avoid unbounded crawling and are not a claim of exhaustive coverage. Five source workers and bounded request retries keep each scheduled run manageable. Run `node --test scripts/uganda-sources.test.mjs scripts/uganda-auto-adapters.test.mjs` after parser changes.
 
 Only Uganda locations are imported by the new adapters. Senior titles, explicit experience requirements above two years, remote-only and expired roles are excluded. Ambiguous suitability is held in `data/uganda-jobs-review.json`. A source outage retains its previously published jobs for at most 72 hours from their original check, and never beyond a known deadline. Data without a deadline is accepted only from a currently active employer feed and must still be confirmed by applicants. The directory reports failures rather than presenting all 30 sources as connected.
 

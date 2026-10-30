@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-29T22:27:56.485Z",
+  "updatedAt": "2026-10-29T23:55:20.753Z",
   "policy": "Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.",
   "sources": [
     {
@@ -13,7 +13,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "nssf-uganda",
@@ -26,7 +26,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "mtn-uganda",
@@ -34,12 +34,12 @@
       "employer": "MTN Uganda",
       "sector": "Telecom",
       "url": "https://www.mtn.co.ug/careers/",
-      "method": "structured",
-      "adapter": null,
+      "method": "oracle",
+      "adapter": "ehle.fa.em2.oraclecloud.com/CX_1",
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "airtel-uganda",
@@ -52,7 +52,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "uganda-airlines",
@@ -60,12 +60,12 @@
       "employer": "Uganda Airlines",
       "sector": "Transport",
       "url": "https://careers.ugandairlines.com/jobs",
-      "method": "structured",
-      "adapter": null,
+      "method": "oracle",
+      "adapter": "fa-eptm-saasfaprod1.fa.ocs.oraclecloud.com/CX_4001",
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "ura",
@@ -78,7 +78,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "ucaa",
@@ -91,7 +91,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "totalenergies",
@@ -104,7 +104,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "makerere",
@@ -112,12 +112,12 @@
       "employer": "Makerere University",
       "sector": "Education",
       "url": "https://ehrms.mak.ac.ug/recruitment/jobs",
-      "method": "structured",
+      "method": "makerere",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "stanbic",
@@ -129,8 +129,8 @@
       "adapter": "StandardBankGroup",
       "trust": "official",
       "status": "connected",
-      "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 1 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "absa",
@@ -142,8 +142,8 @@
       "adapter": "absa.wd3.myworkdayjobs.com/ABSAcareersite",
       "trust": "official",
       "status": "connected",
-      "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "finca",
@@ -151,12 +151,12 @@
       "employer": "FINCA Uganda",
       "sector": "Banking",
       "url": "https://finca.ug/career/",
-      "method": "structured",
+      "method": "finca",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "brac-bank",
@@ -164,12 +164,12 @@
       "employer": "BRAC Uganda Bank",
       "sector": "Banking",
       "url": "https://www.bracugandabankltd.com/careers/",
-      "method": "structured",
+      "method": "brac-bank",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 2 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "equity",
@@ -182,7 +182,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "centenary",
@@ -195,7 +195,7 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "world-vision",
@@ -208,7 +208,7 @@
       "trust": "official",
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "givedirectly",
@@ -220,8 +220,8 @@
       "adapter": "givedirectly",
       "trust": "official",
       "status": "connected",
-      "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "one-acre-fund",
@@ -233,8 +233,8 @@
       "adapter": "oneacrefund",
       "trust": "official",
       "status": "connected",
-      "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "living-goods",
@@ -246,8 +246,8 @@
       "adapter": null,
       "trust": "official",
       "status": "connected",
-      "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "brac-international",
@@ -255,12 +255,12 @@
       "employer": "BRAC International",
       "sector": "NGO & Humanitarian",
       "url": "https://bracinternational.hire.trakstar.com/jobs/",
-      "method": "structured",
+      "method": "trakstar",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 14 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "irc",
@@ -273,20 +273,20 @@
       "trust": "official",
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "mercy-corps",
       "name": "Mercy Corps Careers",
       "employer": "Mercy Corps",
       "sector": "NGO & Humanitarian",
-      "url": "https://www.mercycorps.org/careers",
-      "method": "structured",
+      "url": "https://jobs.jobvite.com/prosperglobal/jobs",
+      "method": "jobvite",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 5 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "save-children",
@@ -299,7 +299,7 @@
       "trust": "official",
       "status": "unavailable",
       "message": "HTTP 403",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "drc",
@@ -307,38 +307,38 @@
       "employer": "Danish Refugee Council",
       "sector": "NGO & Humanitarian",
       "url": "https://drc.ngo/jobs/",
-      "method": "structured",
+      "method": "drc",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "nrc",
       "name": "Norwegian Refugee Council Careers",
       "employer": "Norwegian Refugee Council",
       "sector": "NGO & Humanitarian",
-      "url": "https://www.nrc.no/careers/",
-      "method": "structured",
-      "adapter": null,
+      "url": "https://www.nrc.no/careers",
+      "method": "oracle",
+      "adapter": "ekum.fa.em2.oraclecloud.com/CX_2019",
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "plan",
       "name": "Plan International Careers",
       "employer": "Plan International",
       "sector": "NGO & Humanitarian",
-      "url": "https://jobs.plan-international.org/",
-      "method": "structured",
+      "url": "https://jobs.plan-international.org/search/?q=Uganda",
+      "method": "successfactors",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "unicef",
@@ -346,12 +346,12 @@
       "employer": "UNICEF",
       "sector": "NGO & Humanitarian",
       "url": "https://jobs.unicef.org/en-us/Search/?location=uganda",
-      "method": "structured",
+      "method": "pageup",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "unavailable",
+      "message": "Recruitment listing markup not recognised",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "wfp",
@@ -359,12 +359,12 @@
       "employer": "World Food Programme",
       "sector": "NGO & Humanitarian",
       "url": "https://www.wfp.org/careers",
-      "method": "structured",
-      "adapter": null,
+      "method": "workday",
+      "adapter": "wd3.myworkdaysite.com/wfp/job_openings",
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "unhcr",
@@ -376,21 +376,21 @@
       "adapter": "unhcr.wd3.myworkdayjobs.com/External",
       "trust": "official",
       "status": "connected",
-      "message": "Official recruitment source checked.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     },
     {
       "id": "chai",
       "name": "Clinton Health Access Initiative Careers",
       "employer": "Clinton Health Access Initiative",
       "sector": "NGO & Humanitarian",
-      "url": "https://www.clintonhealthaccess.org/join-our-team/",
-      "method": "structured",
+      "url": "https://careers-chai.icims.com/jobs/search?ss=1&searchKeyword=Uganda&in_iframe=1",
+      "method": "icims",
       "adapter": null,
       "trust": "official",
-      "status": "manual-review",
-      "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-10-29T22:27:56.485Z"
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-10-29T23:55:20.753Z"
     }
   ],
   "aggregators": [

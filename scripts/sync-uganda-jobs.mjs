@@ -283,7 +283,7 @@ async function main() {
   }
   const directory={updatedAt:now.toISOString(),policy:'Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.',sources:employerSources.map(source=>{
     const result=extra.find(x=>x.source.id===source.id),existing=sourceStatus[source.name];
-    return {...source,status:result?.status||(existing==='ok'?'connected':'unavailable'),message:result?.message||(existing==='ok'?'Official employer source checked.':existing||'Check required'),checkedAt:now.toISOString()};
+    return {...source,recordsRead:result?.recordsRead??collected.filter(j=>j.sourceId===source.id).length,publishedCount:jobs.filter(j=>j.sourceId===source.id).length,reviewCount:review.filter(j=>j.sourceId===source.id).length,status:result?.status||(existing==='ok'?'connected':'unavailable'),message:result?.message||(existing==='ok'?'Official employer source checked.':existing||'Check required'),checkedAt:now.toISOString()};
   }),aggregators:[{id:'reliefweb',name:'ReliefWeb',url:'https://reliefweb.int/jobs',status:relief.status,message:relief.message}]};
   await fs.writeFile(new URL('../data/uganda-job-sources.json',import.meta.url),JSON.stringify(directory,null,2)+'\n');
   let previous = null;
@@ -297,6 +297,7 @@ async function main() {
   if (!previousReview || stable(previousReview.jobs) !== stable(review)) {
     await fs.writeFile(REVIEW, JSON.stringify({generatedAt: now.toISOString(), jobCount: review.length, jobs: review}, null, 2) + "\n");
   }
+  console.table(directory.sources.map(({employer,status,recordsRead,publishedCount,reviewCount})=>({employer,status,read:recordsRead,published:publishedCount,held:reviewCount})));
   console.log("Published " + jobs.length + " Uganda jobs; held " + review.length + " for review.");
   if (process.env.GITHUB_OUTPUT) await fs.appendFile(process.env.GITHUB_OUTPUT, "job_count=" + jobs.length + "\nreview_count=" + review.length + "\n");
 }

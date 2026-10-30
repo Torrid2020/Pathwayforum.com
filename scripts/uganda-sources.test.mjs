@@ -4,7 +4,7 @@ import {normal} from './uganda-extra-sources.mjs';
 import {employerSources} from './uganda-source-registry.mjs';
 const source={id:'test',name:'Test employer careers',employer:'Test employer',sector:'NGO & Humanitarian'};
 const vacancy={id:'1',title:'Graduate Trainee',description:'An entry-level opportunity requiring 1 year of experience.',location:'Kampala, Uganda',sourceUrl:'https://example.org/job',applicationUrl:'https://example.org/apply',deadline:'2099-12-31'};
-test('directory has 30 unique employers',()=>{assert.equal(employerSources.length,30);assert.equal(new Set(employerSources.map(s=>s.id)).size,30)});
+test('directory has 32 unique employers',()=>{assert.equal(employerSources.length,32);assert.equal(new Set(employerSources.map(s=>s.id)).size,32)});
 test('accepts an official early career Uganda vacancy',()=>{const j=normal(source,vacancy);assert.equal(j.verification.status,'official-source');assert.equal(j.sector,'NGO & Humanitarian')});
 test('rejects other countries and remote-only roles',()=>{assert.equal(normal(source,{...vacancy,location:'Nairobi, Kenya'}),null);assert.equal(normal(source,{...vacancy,workplace:'Remote'}),null)});
 test('includes senior and experienced roles but rejects expiry',()=>{for(const title of ['Senior Officer','Project Manager','Director','Head of Operations','Chief Officer','Team Lead','Principal Analyst'])assert.equal(normal(source,{...vacancy,title}).level,'Senior / management');assert.equal(normal(source,{...vacancy,deadline:'2001-01-01'}),null);assert.equal(normal(source,{...vacancy,title:'Programme Officer',description:'Requires 5 years of experience.'}).level,'Mid level')});

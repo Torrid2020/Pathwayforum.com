@@ -1,6 +1,6 @@
 # Uganda jobs operations
 
-The employer directory contains 30 organisations. It distinguishes a connected feed, an official page requiring manual review, and an unavailable connection. A directory entry is not a claim that we import every vacancy or that the employer endorses Pathway Forum.
+The employer directory contains 32 organisations. It distinguishes a connected feed, an official page requiring manual review, and an unavailable connection. A directory entry is not a claim that we import every vacancy or that the employer endorses Pathway Forum.
 
 ## Sources
 
@@ -8,7 +8,7 @@ Run `node scripts/sync-uganda-jobs.mjs`. The three-hour GitHub workflow uses the
 
 - Existing dfcu, NSSF and World Vision adapters.
 - GiveDirectly and One Acre Fund through Greenhouse; Stanbic through SmartRecruiters.
-- Absa, UNHCR and WFP through Workday. WFP uses its official myworkdaysite tenant, rather than a guessed recruitment hostname.
+- Absa, UNHCR, WFP, Diageo / Uganda Breweries and PATH through Workday. WFP uses its official myworkdaysite tenant, rather than a guessed recruitment hostname.
 - MTN Uganda, Uganda Airlines and NRC through their official Oracle Candidate Experience systems, up to three pages per source. Full requisition details supply qualifications and closing dates.
 - BRAC International through Trakstar JobPosting records; raw control characters in JSON strings are repaired without executing page scripts.
 - Mercy Corps/Prosper Global through Jobvite, CHAI through iCIMS, Plan through SuccessFactors microdata, and UNICEF through PageUp's exact location and closing metadata.
@@ -18,7 +18,7 @@ Run `node scripts/sync-uganda-jobs.mjs`. The three-hour GitHub workflow uses the
 
 An unexpected page, access block or changed API is reported as unavailable, not treated as zero jobs. Confirmed empty recruitment lists count as connected even when no suitable vacancy exists. The directory message records how many vacancy records were read and how many passed filters. Generic structured pages inspect at most three same-origin links; named listing adapters inspect up to 30 detail links; Oracle lists use at most 75 records. These bounds avoid unbounded crawling and are not a claim of exhaustive coverage. Five source workers and bounded request retries keep each scheduled run manageable. Run `node --test scripts/uganda-sources.test.mjs scripts/uganda-auto-adapters.test.mjs` after parser changes.
 
-Only Uganda locations are imported by the new adapters. Remote-only and expired roles are excluded. All experience levels are imported; suspicious recruitment language is held for review. Every job receives an inferred level from its title, experience requirements and description. Six or more required years is senior; three to five is mid level; zero to two is entry level, with explicit senior and trainee titles taking precedence. Missing evidence is labelled Not stated. Non-senior roles appear first, then senior roles, each by closing date (undated last). Homepage examples use only entry and mid-level jobs; its count includes all levels. A source outage retains its previously published jobs for at most 72 hours from their original check, and never beyond a known deadline. Data without a deadline is accepted only from a currently active employer feed and must still be confirmed by applicants. The directory reports failures rather than presenting all 30 sources as connected.
+Only Uganda locations are imported by the new adapters. Remote-only and expired roles are excluded. All experience levels are imported; suspicious recruitment language is held for review. Every job receives an inferred level from its title, experience requirements and description. Six or more required years is senior; three to five is mid level; zero to two is entry level, with explicit senior and trainee titles taking precedence. Missing evidence is labelled Not stated. Non-senior roles appear first, then senior roles, each by closing date (undated last). Homepage examples use only entry and mid-level jobs; its count includes all levels. A source outage retains its previously published jobs for at most 72 hours from their original check, and never beyond a known deadline. Data without a deadline is accepted only from a currently active employer feed and must still be confirmed by applicants. The directory reports failures rather than presenting all 32 sources as connected.
 
 ## NGO jobs and ReliefWeb
 
@@ -37,3 +37,5 @@ After verification, create a local JSON file with only public fields:
 ```
 
 Replace all example details with the verified vacancy. Run `node scripts/approve-employer-job.mjs --input PATH_TO_REVIEWED_JSON --approve`, then rerun the collector, inspect the public feed and commit/push only the approved public record and feed changes. `--approve` records James's explicit editorial decision; it is not a verification service. The emailed original remains private. To withdraw a vacancy, remove its approved record and regenerate the feed. Expiry is automatic.
+
+UCAA uses official vacancy heading links and full HTML advert descriptions. Readable application dates are mandatory to prevent archived adverts being presented as undated current jobs. A parser failure leaves UCAA on manual review with its reason.

@@ -6,7 +6,7 @@ const rows = [
  ['airtel-uganda','Airtel Uganda','Telecom','https://www.airtel.co.ug/ug/about/careers','structured'],
  ['uganda-airlines','Uganda Airlines','Transport','https://careers.ugandairlines.com/jobs','oracle','fa-eptm-saasfaprod1.fa.ocs.oraclecloud.com/CX_4001'],
  ['ura','Uganda Revenue Authority','Public institution','https://ura.go.ug/en/opportunities/careers/','structured'],
- ['ucaa','Uganda Civil Aviation Authority','Public institution','https://caa.go.ug/available-vacancies/','structured'],
+ ['ucaa','Uganda Civil Aviation Authority','Public institution','https://caa.go.ug/available-vacancies/','ucaa'],
  ['totalenergies','TotalEnergies Uganda','Energy','https://totalenergies.ug/opportunities','structured'],
  ['makerere','Makerere University','Education','https://ehrms.mak.ac.ug/recruitment/jobs','makerere'],
  ['stanbic','Stanbic Bank Uganda','Banking','https://careers.standardbank.com/sbg/standard-bank-group/careers/apply/jobs/view-all-jobs','smartrecruiters','StandardBankGroup'],
@@ -29,6 +29,8 @@ const rows = [
  ['unicef','UNICEF','NGO & Humanitarian','https://jobs.unicef.org/en-us/Search/?location=uganda','pageup'],
  ['wfp','World Food Programme','NGO & Humanitarian','https://www.wfp.org/careers','workday','wd3.myworkdaysite.com/wfp/job_openings'],
  ['unhcr','UNHCR','NGO & Humanitarian','https://www.unhcr.org/careers-unhcr','workday','unhcr.wd3.myworkdayjobs.com/External'],
+ ['diageo','Diageo / Uganda Breweries','Manufacturing','https://diageo.wd3.myworkdayjobs.com/Diageo_Careers','workday','diageo.wd3.myworkdayjobs.com/Diageo_Careers'],
+ ['path','PATH','NGO & Humanitarian','https://path.wd1.myworkdayjobs.com/External','workday','path.wd1.myworkdayjobs.com/External'],
  ['chai','Clinton Health Access Initiative','NGO & Humanitarian','https://careers-chai.icims.com/jobs/search?ss=1&searchKeyword=Uganda&in_iframe=1','icims']
 ];
 export const employerSources = rows.map(([id,employer,sector,url,method,adapter])=>({id,name:employer+' Careers',employer,sector,url,method,adapter:adapter||null,trust:'official'}));

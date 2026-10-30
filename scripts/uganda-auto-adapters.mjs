@@ -5,6 +5,22 @@ export function linksFrom(html,base){return [...html.matchAll(/<a\b[^>]*href=["'
 export function parseDrcList(html,base){if(!/id=["']jobList["']|class=["'][^"']*jobList__item/i.test(html))throw Error('DRC vacancy list markup not recognised');return [...html.matchAll(/<article\b([^>]*class=["'][^"']*jobList__item[^"']*["'][^>]*)>([\s\S]*?)<\/article>/gi)].map(([,attrs,content])=>{const get=k=>attrs.match(new RegExp('data-'+k+'=["\']([^"\']*)["\']','i'))?.[1]||'';const link=linksFrom(content,base)[0];return {id:link?.url,title:get('title'),location:get('country'),publishedAt:humanClosing(content.match(/jobList__item__published[^>]*>([^<]+)/)?.[1]),deadline:humanClosing(content.match(/jobList__item__deadline[^>]*>([^<]+)/)?.[1]),sourceUrl:link?.url,applicationUrl:link?.url}})}
 export function parseBracBank(html,url,strip){const headings=[...html.matchAll(/<h2\b[^>]*>([\s\S]*?)<\/h2>/gi)];const jobs=[];for(let i=0;i<headings.length;i++){const h=headings[i],body=html.slice(h.index,(headings[i+1]?.index||html.length)),clean=strip(body);if(!/Job Tit[tl]le\s*:|Job Title\s*:|PURPOSE OF THE ROLE/i.test(clean))continue;const title=strip(h[1]),deadline=humanClosing(clean.match(/NOT later than([\s\S]{0,100})/i)?.[1]);if(!deadline)throw Error('BRAC vacancy missing a readable closing date');jobs.push({id:title.toLowerCase().replace(/\W+/g,'-'),title,description:clean,location:'Uganda',deadline,sourceUrl:url,applicationUrl:url})}if(!jobs.length&&!/no (?:current )?(?:jobs|vacancies|openings)/i.test(strip(html)))throw Error('BRAC bank advert sections not recognised');return jobs}
 export function parseMakerereList(html,url,strip){if(/<h3[^>]*>\s*No Jobs Found\s*<\/h3>/i.test(html))return[];const records=[...html.matchAll(/showJobDetails\(\s*['"]?(\d+)['"]?\s*,\s*(['"])([\s\S]*?)\2\s*,\s*(['"])([\s\S]*?)\4\s*\)/g)].map(m=>({id:m[1],title:strip(m[3]),location:'Kampala, Uganda',sourceUrl:url+'?vacancy='+m[1],applicationUrl:new URL('/recruitment/eliminate/'+m[1],url).href}));if(!records.length)throw Error('Makerere vacancy list markup not recognised');return records}
+export function parseUcaaList(html, base, strip) {
+ const rows=[...html.matchAll(/<h4\b[^>]*class=["'][^"']*pt-cv-title[^"']*["'][^>]*>([\s\S]*?)<\/h4>/gi)];
+ const links=rows.flatMap(row=>linksFrom(row[1],base)).filter(link=>new URL(link.url).origin===new URL(base).origin&&strip(link.label).length>8);
+ if(!links.length)throw Error('UCAA vacancy title/link markup not recognised; manual review required');
+ return [...new Map(links.map(link=>[link.url,{...link,label:strip(link.label)}])).values()];
+}
+export function parseUcaaDetail(html, link, strip) {
+ const content=html.match(/<div\b[^>]*class=["'][^"']*swm-post-content-block[^"']*["'][^>]*>([\s\S]*?)(?=UCAA Head Office|<footer|$)/i)?.[1];
+ if(!content)throw Error('UCAA advert content not recognised; manual review required');
+ const description=strip(content);
+ const closingText=description.match(/(?:not later than|before close of business|closing date)\s*[\s\S]{0,100}/i)?.[0];
+ const deadline=humanClosing(String(closingText||'').replace(/(\d)\s+(st|nd|rd|th)\b/gi,'$1$2').replace(/,/g,' '));
+ if(!deadline)throw Error('UCAA advert has no readable application closing date; manual review required');
+ const application=linksFrom(content,link.url).find(l=>new URL(l.url).hostname==='recruitment.caa.co.ug');
+ return {id:link.url,title:link.label,description,location:'Uganda',deadline,sourceUrl:link.url,applicationUrl:application?.url||link.url};
+}
 export async function fetchAutomatic(s,io){const {request,json,strip,structuredJobs,fromSchema}=io;
  if(s.method==='oracle'){
   const [host,site]=s.adapter.split('/'),base='https://'+host+'/hcmRestApi/resources/latest',records=[];
@@ -16,6 +32,11 @@ export async function fetchAutomatic(s,io){const {request,json,strip,structuredJ
   }return records;
  }
  const r=await request(s.url),html=await r.text();
+ if(s.method==='ucaa'){
+  const records=[];
+  for(const link of parseUcaaList(html,r.url,strip).slice(0,30))records.push(parseUcaaDetail(await(await request(link.url)).text(),link,strip));
+  return records;
+ }
  if(s.method==='brac-bank')return parseBracBank(html,r.url,strip);
  if(s.method==='makerere'){
   const records=parseMakerereList(html,r.url,strip);

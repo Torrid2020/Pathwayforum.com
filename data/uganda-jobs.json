@@ -1,38 +1,40 @@
 {
-  "generatedAt": "2026-10-30T09:05:29.147Z",
+  "generatedAt": "2026-10-30T13:45:12.028Z",
   "country": "Uganda",
-  "jobCount": 24,
+  "jobCount": 25,
   "sources": {
     "World Vision Careers": "ok",
     "dfcu Bank Careers": "ok",
     "NSSF Uganda Careers": "ok",
-    "Uganda Airlines Careers": "connected",
-    "TotalEnergies Uganda Careers": "manual-review",
-    "Makerere University Careers": "connected",
-    "Stanbic Bank Uganda Careers": "connected",
     "MTN Uganda Careers": "connected",
+    "Uganda Airlines Careers": "connected",
+    "Makerere University Careers": "connected",
+    "TotalEnergies Uganda Careers": "manual-review",
     "Uganda Revenue Authority Careers": "manual-review",
-    "FINCA Uganda Careers": "connected",
+    "Stanbic Bank Uganda Careers": "connected",
     "Absa Bank Uganda Careers": "connected",
-    "Airtel Uganda Careers": "manual-review",
     "Equity Bank Uganda Careers": "manual-review",
     "Centenary Bank Careers": "manual-review",
+    "BRAC Uganda Bank Careers": "connected",
     "GiveDirectly Careers": "connected",
     "One Acre Fund Careers": "connected",
-    "Uganda Civil Aviation Authority Careers": "manual-review",
+    "FINCA Uganda Careers": "connected",
+    "Airtel Uganda Careers": "manual-review",
     "Living Goods Careers": "connected",
-    "BRAC Uganda Bank Careers": "connected",
     "Save the Children International Careers": "unavailable",
     "International Rescue Committee Careers": "manual-review",
-    "Danish Refugee Council Careers": "connected",
-    "Mercy Corps Careers": "connected",
     "Norwegian Refugee Council Careers": "connected",
+    "Mercy Corps Careers": "connected",
+    "Uganda Civil Aviation Authority Careers": "connected",
     "Plan International Careers": "connected",
     "World Food Programme Careers": "connected",
     "UNHCR Careers": "connected",
     "UNICEF Careers": "connected",
-    "Clinton Health Access Initiative Careers": "connected",
+    "Diageo / Uganda Breweries Careers": "connected",
+    "PATH Careers": "connected",
     "BRAC International Careers": "connected",
+    "Danish Refugee Council Careers": "connected",
+    "Clinton Health Access Initiative Careers": "connected",
     "ReliefWeb": "setup-required"
   },
   "methodology": "Official employer feeds, reviewed employer submissions and configured humanitarian APIs. Expired vacancies are excluded. Levels are inferred from titles, experience and descriptions, with entry and mid-level roles shown before senior positions; confirm requirements with the employer. Source checks do not guarantee suitability or hiring.",
@@ -61,12 +63,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:32.124Z",
+        "checkedAt": "2026-10-30T13:45:14.041Z",
         "flags": []
       },
       "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7887",
       "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7887",
-      "lastCheckedAt": "2026-10-30T09:05:32.124Z"
+      "lastCheckedAt": "2026-10-30T13:45:14.041Z"
     },
     {
       "id": "dfcu:-careers-agent-banking-consultant-open-positions-all-regions-",
@@ -90,14 +92,45 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:29.147Z",
+        "checkedAt": "2026-10-30T13:45:12.028Z",
         "flags": []
       },
       "sourceUrl": "https://www.dfcugroup.com/careers/agent-banking-consultant-open-positions-all-regions/",
       "applicationUrl": "https://careers.dfcugroup.com/",
-      "lastCheckedAt": "2026-10-30T09:05:29.147Z",
+      "lastCheckedAt": "2026-10-30T13:45:12.028Z",
       "sourceId": "dfcu",
       "sector": "Banking"
+    },
+    {
+      "id": "diageo:JR1131144",
+      "source": "Diageo / Uganda Breweries Careers",
+      "sourceId": "diageo",
+      "sourceType": "official-employer",
+      "level": "Not stated",
+      "sector": "Manufacturing",
+      "title": "Commercial Performance Analyst – Kampala",
+      "employer": "Diageo / Uganda Breweries",
+      "location": "Kampala, Uganda",
+      "district": "Kampala",
+      "workplace": "On-site or field-based",
+      "employmentType": "Full time",
+      "category": "Manufacturing",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-21",
+      "deadline": "2026-10-31T00:00:00.000Z",
+      "deadlineStatus": "Check live deadline",
+      "summary": "Purpose of Role: To support Divisional Sales Managers and field sales team in the execution of the O&R and other business partners to account for delivery of their planned commitments. To work with the Commercial performance team to find opportunities that drive value for the business. Turns identified business insights into action and facilitates the right process, including e",
+      "indicators": [],
+      "verification": {
+        "status": "official-source",
+        "label": "Official employer source",
+        "checkedAt": "2026-10-30T13:45:29.571Z",
+        "flags": []
+      },
+      "sourceUrl": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Kampala-Uganda/Commercial-Performance-Analyst---Kampala_JR1131144",
+      "applicationUrl": "https://diageo.wd3.myworkdayjobs.com/Diageo_Careers/job/Kampala-Uganda/Commercial-Performance-Analyst---Kampala_JR1131144",
+      "lastCheckedAt": "2026-10-30T13:45:29.571Z"
     },
     {
       "id": "drc:https://drc.ngo/jobs/job?id=177063",
@@ -125,43 +158,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:36.777Z",
+        "checkedAt": "2026-10-30T13:45:31.673Z",
         "flags": []
       },
       "sourceUrl": "https://drc.ngo/jobs/job?id=177063",
       "applicationUrl": "https://drc.ngo/jobs/job?id=177063",
-      "lastCheckedAt": "2026-10-30T09:05:36.777Z"
-    },
-    {
-      "id": "plan:https://jobs.plan-international.org/job/Nakivale-Kyaka-II-Oruchinga-GBViE-Case-Management-Worker/1452788733/",
-      "source": "Plan International Careers",
-      "sourceId": "plan",
-      "sourceType": "official-employer",
-      "level": "Not stated",
-      "sector": "NGO & Humanitarian",
-      "title": "GBViE Case Management Worker",
-      "employer": "Plan International",
-      "location": "Nakivale/ Kyaka II/ Oruchinga/, Uganda",
-      "district": "Nakivale/ Kyaka II/ Oruchinga/",
-      "workplace": "On-site or field-based",
-      "employmentType": "See official listing",
-      "category": "NGO & Humanitarian",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": null,
-      "deadline": "2026-11-03T21:00:00.000Z",
-      "deadlineStatus": "Check live deadline",
-      "summary": "GBViE Case Management Worker Job Details | Plan International body{display:none !important;} if (self === top) { var antiClickjack = document.getElementById(\"antiClickjack\"); antiClickjack.parentNode.removeChild(antiClickjack); } else { top.location = self.location; } // Skip to main content Careers Home About Us The Organisation Our Strategy Our Approach Our History Our Struct",
-      "indicators": [],
-      "verification": {
-        "status": "official-source",
-        "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:38.044Z",
-        "flags": []
-      },
-      "sourceUrl": "https://jobs.plan-international.org/job/Nakivale-Kyaka-II-Oruchinga-GBViE-Case-Management-Worker/1452788733/",
-      "applicationUrl": "https://jobs.plan-international.org/job/Nakivale-Kyaka-II-Oruchinga-GBViE-Case-Management-Worker/1452788733/",
-      "lastCheckedAt": "2026-10-30T09:05:38.044Z"
+      "lastCheckedAt": "2026-10-30T13:45:31.673Z"
     },
     {
       "id": "brac-bank:it-infrastructure-support-officer",
@@ -187,12 +189,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:35.396Z",
+        "checkedAt": "2026-10-30T13:45:18.568Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-30T09:05:35.396Z"
+      "lastCheckedAt": "2026-10-30T13:45:18.568Z"
     },
     {
       "id": "brac-bank:it-security-officer",
@@ -220,12 +222,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:35.393Z",
+        "checkedAt": "2026-10-30T13:45:18.566Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-30T09:05:35.393Z"
+      "lastCheckedAt": "2026-10-30T13:45:18.566Z"
     },
     {
       "id": "brac-bank:it-service-desk-officer",
@@ -253,12 +255,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:35.392Z",
+        "checkedAt": "2026-10-30T13:45:18.566Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-30T09:05:35.392Z"
+      "lastCheckedAt": "2026-10-30T13:45:18.566Z"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -284,12 +286,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:40.952Z",
+        "checkedAt": "2026-10-30T13:45:31.709Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-30T09:05:40.952Z"
+      "lastCheckedAt": "2026-10-30T13:45:31.709Z"
     },
     {
       "id": "givedirectly:4690900005",
@@ -317,12 +319,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:34.100Z",
+        "checkedAt": "2026-10-30T13:45:18.689Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/givedirectly/jobs/4690900005",
       "applicationUrl": "https://job-boards.greenhouse.io/givedirectly/jobs/4690900005",
-      "lastCheckedAt": "2026-10-30T09:05:34.100Z"
+      "lastCheckedAt": "2026-10-30T13:45:18.689Z"
     },
     {
       "id": "stanbic:744000158026749",
@@ -350,12 +352,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:31.823Z",
+        "checkedAt": "2026-10-30T13:45:16.284Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking?oga=true",
-      "lastCheckedAt": "2026-10-30T09:05:31.823Z"
+      "lastCheckedAt": "2026-10-30T13:45:16.284Z"
     },
     {
       "id": "nrc:20449",
@@ -384,12 +386,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:37.314Z",
+        "checkedAt": "2026-10-30T13:45:24.762Z",
         "flags": []
       },
       "sourceUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
       "applicationUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
-      "lastCheckedAt": "2026-10-30T09:05:37.314Z"
+      "lastCheckedAt": "2026-10-30T13:45:24.762Z"
     },
     {
       "id": "brac-international:fk0zu8c",
@@ -415,12 +417,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:43.107Z",
+        "checkedAt": "2026-10-30T13:45:30.492Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
-      "lastCheckedAt": "2026-10-30T09:05:43.107Z"
+      "lastCheckedAt": "2026-10-30T13:45:30.492Z"
     },
     {
       "id": "brac-international:fk0zu8g",
@@ -448,12 +450,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:43.112Z",
+        "checkedAt": "2026-10-30T13:45:30.500Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
-      "lastCheckedAt": "2026-10-30T09:05:43.112Z"
+      "lastCheckedAt": "2026-10-30T13:45:30.500Z"
     },
     {
       "id": "one-acre-fund:7692994",
@@ -479,12 +481,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:34.595Z",
+        "checkedAt": "2026-10-30T13:45:19.424Z",
         "flags": []
       },
       "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
       "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
-      "lastCheckedAt": "2026-10-30T09:05:34.595Z"
+      "lastCheckedAt": "2026-10-30T13:45:19.424Z"
     },
     {
       "id": "mtn-uganda:7890",
@@ -512,12 +514,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:32.125Z",
+        "checkedAt": "2026-10-30T13:45:14.042Z",
         "flags": []
       },
       "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
       "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
-      "lastCheckedAt": "2026-10-30T09:05:32.125Z"
+      "lastCheckedAt": "2026-10-30T13:45:14.042Z"
     },
     {
       "id": "drc:https://drc.ngo/jobs/job?id=177062",
@@ -543,76 +545,45 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:36.778Z",
+        "checkedAt": "2026-10-30T13:45:31.673Z",
         "flags": []
       },
       "sourceUrl": "https://drc.ngo/jobs/job?id=177062",
       "applicationUrl": "https://drc.ngo/jobs/job?id=177062",
-      "lastCheckedAt": "2026-10-30T09:05:36.778Z"
+      "lastCheckedAt": "2026-10-30T13:45:31.673Z"
     },
     {
-      "id": "chai:https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "source": "Clinton Health Access Initiative Careers",
-      "sourceId": "chai",
+      "id": "path:JR2738",
+      "source": "PATH Careers",
+      "sourceId": "path",
       "sourceType": "official-employer",
       "level": "Senior / management",
       "sector": "NGO & Humanitarian",
-      "title": "Program Manager, Sexual, Reproductive, Maternal and Newborn Health",
-      "employer": "Clinton Health Access Initiative",
-      "location": "Kampala, Uganda",
-      "district": "Kampala",
+      "title": "Consultant - Digital Family Planning Register/Application, Uganda Country Program",
+      "employer": "PATH",
+      "location": "Uganda, Kampala Country Program Office",
+      "district": "Uganda",
       "workplace": "On-site or field-based",
-      "employmentType": "OTHER",
+      "employmentType": "Full time",
       "category": "NGO & Humanitarian",
       "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "experience": "50 years requested",
+      "publishedAt": "2026-08-14",
       "deadline": null,
       "deadlineStatus": "Check the official deadline",
-      "summary": "Overview The Clinton Health Access Initiative, Inc. (CHAI) is a global health organization committed to our mission of saving lives and reducing the burden of disease in low-and middle-income countries. We work at the invitation of governments to support them and the private sector to create and sustain high-quality health systems. CHAI was founded in 2002 in response to the HI",
-      "indicators": [],
-      "verification": {
-        "status": "official-source",
-        "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:40.953Z",
-        "flags": []
-      },
-      "sourceUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "applicationUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-30T09:05:40.953Z"
-    },
-    {
-      "id": "chai:https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "source": "Clinton Health Access Initiative Careers",
-      "sourceId": "chai",
-      "sourceType": "official-employer",
-      "level": "Senior / management",
-      "sector": "NGO & Humanitarian",
-      "title": "Senior Associate, Sexual, Reproductive, Maternal and Newborn Health",
-      "employer": "Clinton Health Access Initiative",
-      "location": "Kampala, Uganda",
-      "district": "Kampala",
-      "workplace": "On-site or field-based",
-      "employmentType": "OTHER",
-      "category": "NGO & Humanitarian",
-      "education": "See official listing",
-      "experience": "3 years requested",
-      "publishedAt": "2026-09-11T04:00:00.000Z",
-      "deadline": null,
-      "deadlineStatus": "Check the official deadline",
-      "summary": "Overview The Clinton Health Access Initiative, Inc. (CHAI) is a global health organization committed to our mission of saving lives and reducing the burden of disease in low-and middle-income countries. We work at the invitation of governments to support them and the private sector to create and sustain high-quality health systems. CHAI was founded in 2002 in response to the HI",
+      "summary": "PATH current employees - please log in and apply Here PATH is a global nonprofit dedicated to achieving health equity. With more than 40 years of experience forging multisector partnerships and with expertise in science, economics, technology, advocacy, and dozens of other specialties, PATH develops and scales up innovative solutions to the world’s most pressing health challeng",
       "indicators": [
-        "3 years of experience"
+        "50 years of experience"
       ],
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:40.954Z",
+        "checkedAt": "2026-10-30T13:45:29.973Z",
         "flags": []
       },
-      "sourceUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "applicationUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-30T09:05:40.954Z"
+      "sourceUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
+      "applicationUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
+      "lastCheckedAt": "2026-10-30T13:45:29.973Z"
     },
     {
       "id": "one-acre-fund:8132333",
@@ -638,12 +609,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:34.594Z",
+        "checkedAt": "2026-10-30T13:45:19.423Z",
         "flags": []
       },
       "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
       "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
-      "lastCheckedAt": "2026-10-30T09:05:34.594Z"
+      "lastCheckedAt": "2026-10-30T13:45:19.423Z"
     },
     {
       "id": "stanbic:744000157751189",
@@ -669,12 +640,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:31.824Z",
+        "checkedAt": "2026-10-30T13:45:16.286Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-?oga=true",
-      "lastCheckedAt": "2026-10-30T09:05:31.824Z"
+      "lastCheckedAt": "2026-10-30T13:45:16.286Z"
     },
     {
       "id": "stanbic:744000157127420",
@@ -702,12 +673,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:31.824Z",
+        "checkedAt": "2026-10-30T13:45:16.288Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions?oga=true",
-      "lastCheckedAt": "2026-10-30T09:05:31.824Z"
+      "lastCheckedAt": "2026-10-30T13:45:16.288Z"
     },
     {
       "id": "brac-international:fk0zu84",
@@ -735,12 +706,43 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:43.109Z",
+        "checkedAt": "2026-10-30T13:45:30.496Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
-      "lastCheckedAt": "2026-10-30T09:05:43.109Z"
+      "lastCheckedAt": "2026-10-30T13:45:30.496Z"
+    },
+    {
+      "id": "chai:https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
+      "source": "Clinton Health Access Initiative Careers",
+      "sourceId": "chai",
+      "sourceType": "official-employer",
+      "level": "Senior / management",
+      "sector": "NGO & Humanitarian",
+      "title": "Program Manager, Sexual, Reproductive, Maternal and Newborn Health",
+      "employer": "Clinton Health Access Initiative",
+      "location": "Kampala, Uganda",
+      "district": "Kampala",
+      "workplace": "On-site or field-based",
+      "employmentType": "OTHER",
+      "category": "NGO & Humanitarian",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "Overview The Clinton Health Access Initiative, Inc. (CHAI) is a global health organization committed to our mission of saving lives and reducing the burden of disease in low-and middle-income countries. We work at the invitation of governments to support them and the private sector to create and sustain high-quality health systems. CHAI was founded in 2002 in response to the HI",
+      "indicators": [],
+      "verification": {
+        "status": "official-source",
+        "label": "Official employer source",
+        "checkedAt": "2026-10-30T13:45:31.710Z",
+        "flags": []
+      },
+      "sourceUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
+      "applicationUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
+      "lastCheckedAt": "2026-10-30T13:45:31.710Z"
     },
     {
       "id": "brac-international:fk0zu8y",
@@ -766,12 +768,45 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:43.114Z",
+        "checkedAt": "2026-10-30T13:45:30.503Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
-      "lastCheckedAt": "2026-10-30T09:05:43.114Z"
+      "lastCheckedAt": "2026-10-30T13:45:30.503Z"
+    },
+    {
+      "id": "chai:https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
+      "source": "Clinton Health Access Initiative Careers",
+      "sourceId": "chai",
+      "sourceType": "official-employer",
+      "level": "Senior / management",
+      "sector": "NGO & Humanitarian",
+      "title": "Senior Associate, Sexual, Reproductive, Maternal and Newborn Health",
+      "employer": "Clinton Health Access Initiative",
+      "location": "Kampala, Uganda",
+      "district": "Kampala",
+      "workplace": "On-site or field-based",
+      "employmentType": "OTHER",
+      "category": "NGO & Humanitarian",
+      "education": "See official listing",
+      "experience": "3 years requested",
+      "publishedAt": "2026-09-11T04:00:00.000Z",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "Overview The Clinton Health Access Initiative, Inc. (CHAI) is a global health organization committed to our mission of saving lives and reducing the burden of disease in low-and middle-income countries. We work at the invitation of governments to support them and the private sector to create and sustain high-quality health systems. CHAI was founded in 2002 in response to the HI",
+      "indicators": [
+        "3 years of experience"
+      ],
+      "verification": {
+        "status": "official-source",
+        "label": "Official employer source",
+        "checkedAt": "2026-10-30T13:45:31.711Z",
+        "flags": []
+      },
+      "sourceUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
+      "applicationUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
+      "lastCheckedAt": "2026-10-30T13:45:31.711Z"
     },
     {
       "id": "nssf:-specials-featured-jobs-senior-manager-partnerships-business-development-mdas-",
@@ -795,12 +830,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T09:05:29.147Z",
+        "checkedAt": "2026-10-30T13:45:12.028Z",
         "flags": []
       },
       "sourceUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
       "applicationUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
-      "lastCheckedAt": "2026-10-30T09:05:29.147Z",
+      "lastCheckedAt": "2026-10-30T13:45:12.028Z",
       "sourceId": "nssf-uganda",
       "sector": "Public institution"
     }

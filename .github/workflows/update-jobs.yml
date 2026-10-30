@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - name: Test remote source compliance
+        run: node --test scripts/remote-jobs.test.mjs scripts/job-trust.test.mjs
       - name: Fetch, screen and normalize jobs
         id: jobs
         run: node scripts/update-jobs.mjs

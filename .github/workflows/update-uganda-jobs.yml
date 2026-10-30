@@ -20,7 +20,7 @@ jobs:
         with:
           node-version: 22
       - name: Test Uganda job levels and collectors
-        run: node --test scripts/uganda-*.test.mjs
+        run: node --test scripts/*.test.mjs
       - name: Fetch, verify and normalize Uganda jobs
         id: jobs
         run: node scripts/sync-uganda-jobs.mjs

@@ -1,3 +1,4 @@
+import {pathToFileURL} from 'node:url';
 import fs from "node:fs/promises";
 const OUTPUT = new URL("../data/remote-jobs.json", import.meta.url);
 const now = new Date();
@@ -30,7 +31,7 @@ function scoreJob(title, body, type, level){
   return {score:Math.max(0,Math.min(100,score)),reasons:[...new Set(reasons)].slice(0,4),maxYears,evidence};
 }
 async function get(url){
-  const response=await fetch(url,{headers:{Accept:"application/json","User-Agent":"PathwayForum-Jobs/1.0"},signal:AbortSignal.timeout(25000)});
+  const response=await fetch(url,{headers:{Accept:"application/json","User-Agent":"PathwayForum Jobs/1.0 (+https://torrid2020.github.io/Pathwayforum.com/)"},signal:AbortSignal.timeout(25000)});
   if(!response.ok)throw new Error(response.status+" "+url);
   return response.json();
 }
@@ -45,13 +46,14 @@ function normalizeJobicy(j){
   const flags=dangerous.test(title+" "+body)?["Suspicious payment or recruitment language"]:regions.length?[]:["Location outside target regions"];
   return {id:"jobicy:"+j.id,source:"Jobicy",sourceId:String(j.id),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.jobExcerpt||body).slice(0,280),description:body.slice(0,5000),employmentType:(j.jobType||[]).join(", ")||"Not stated",level:j.jobLevel||"Not stated",salary:j.annualSalaryMin?{min:j.annualSalaryMin,max:j.annualSalaryMax||null,currency:j.salaryCurrency||"USD",period:"year"}:null,eligibility:{label:j.jobGeo||"Check listing",regions,countries:[],confidence:geo.includes("emea")?"review":"verified"},publishedAt:j.pubDate||j.jobPublished||null,expiresAt:j.jobExpires||null,applicationUrl:j.url,sourceUrl:j.url,studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
 }
-function normalizeHimalayas(j){
+export function normalizeHimalayas(j){
+  if(typeof j.applicationLink!=="string"||!/^https:\/\//i.test(j.applicationLink))return null;
   const body=text(j.description||j.excerpt), title=j.title||"Untitled role", restrictions=(j.locationRestrictions||[]).map(String), codes=restrictions.filter(x=>/^[A-Za-z]{2}$/.test(x)).map(x=>x.toUpperCase()), worldwide=restrictions.length===0;
   const regions=worldwide?["africa","southAmerica","asia"]:targetRegions(codes);
   const fit=scoreJob(title,body,j.employmentType,(j.seniority||[]).join(" "));
   const flags=dangerous.test(title+" "+body)?["Suspicious payment or recruitment language"]:regions.length?[]:["Location outside target regions"];
   const identity=j.guid||j.jobSlug||j.slug||slug(title);
-  return {id:"himalayas:"+(j.companySlug||slug(j.companyName))+":"+identity,source:"Himalayas",sourceId:String(identity),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.excerpt||body).slice(0,280),description:body.slice(0,5000),employmentType:j.employmentType||"Not stated",level:(j.seniority||[]).join(", ")||"Not stated",salary:j.minSalary?{min:j.minSalary,max:j.maxSalary||null,currency:j.currency||"USD",period:j.salaryPeriod||"year"}:null,eligibility:{label:worldwide?"Worldwide":restrictions.join(", "),regions,countries:codes,confidence:worldwide||codes.length?"verified":"review"},timezoneRestrictions:j.timezoneRestrictions||[],publishedAt:j.pubDate?(typeof j.pubDate==="number"?new Date(j.pubDate*1000).toISOString():j.pubDate):null,expiresAt:j.expiryDate?(typeof j.expiryDate==="number"?new Date(j.expiryDate*1000).toISOString():j.expiryDate):null,applicationUrl:j.applicationLink||j.url||("https://himalayas.app/companies/"+j.companySlug+"/jobs/"+identity),sourceUrl:j.guid||j.applicationLink||"https://himalayas.app",studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
+  return {id:"himalayas:"+(j.companySlug||slug(j.companyName))+":"+identity,source:"Himalayas",sourceId:String(identity),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.excerpt||body).slice(0,280),description:body.slice(0,5000),employmentType:j.employmentType||"Not stated",level:(j.seniority||[]).join(", ")||"Not stated",salary:j.minSalary?{min:j.minSalary,max:j.maxSalary||null,currency:j.currency||"USD",period:j.salaryPeriod||"year"}:null,eligibility:{label:worldwide?"Worldwide":restrictions.join(", "),regions,countries:codes,confidence:worldwide||codes.length?"verified":"review"},timezoneRestrictions:j.timezoneRestrictions||[],publishedAt:j.pubDate?(typeof j.pubDate==="number"?new Date(j.pubDate*1000).toISOString():j.pubDate):null,expiresAt:j.expiryDate?(typeof j.expiryDate==="number"?new Date(j.expiryDate*1000).toISOString():j.expiryDate):null,applicationUrl:j.applicationLink,sourceUrl:j.guid||j.applicationLink||"https://himalayas.app",studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
 }
 async function main(){
   const sourceStatus={}, collected=[];
@@ -62,7 +64,7 @@ async function main(){
   const himQueries=["worldwide=true&sort=recent&page=1","worldwide=true&type=intern&sort=recent&page=1","worldwide=true&type=part-time&sort=recent&page=1","worldwide=true&experience=entry-level&sort=recent&page=1"];
   himQueries.push(...[1,2,3].map(page=>"country=UG&seniority=Entry-level&page="+page));
   const him=await Promise.allSettled(himQueries.map(q=>get("https://himalayas.app/jobs/api/search?"+q)));
-  him.forEach((result,i)=>{sourceStatus["Himalayas "+(i+1)]=result.status==="fulfilled"?"ok":String(result.reason);if(result.status==="fulfilled")collected.push(...(result.value.jobs||[]).map(normalizeHimalayas))});
+  him.forEach((result,i)=>{sourceStatus["Himalayas "+(i+1)]=result.status==="fulfilled"?"ok":String(result.reason);if(result.status==="fulfilled")collected.push(...(result.value.jobs||[]).map(normalizeHimalayas).filter(Boolean))});
   const unique=new Map();
   for(const job of collected){
     const key=(job.company+"|"+job.title).toLowerCase().replace(/\W/g,"");
@@ -85,4 +87,4 @@ async function main(){
   console.log("Saved "+jobs.length+" jobs to data/remote-jobs.json");
   if(process.env.GITHUB_OUTPUT)await fs.appendFile(process.env.GITHUB_OUTPUT,"job_count="+jobs.length+"\n");
 }
-main().catch(error=>{console.error(error);process.exitCode=1});
+if(process.argv[1]&&import.meta.url===pathToFileURL(process.argv[1]).href)main().catch(error=>{console.error(error);process.exitCode=1});

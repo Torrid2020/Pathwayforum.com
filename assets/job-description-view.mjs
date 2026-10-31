@@ -16,15 +16,18 @@ export function createDescriptionView(container) {
    const fallback=message=>{content.replaceChildren();if(message){const p=document.createElement('p');p.textContent=message;content.append(p)}content.append(originalLink(job,'Read the full advert on the official site ↗'));};
    if(!/^data\/jobs\/(?:uganda|remote)\/[a-f0-9]{32}\.json$/.test(job.descriptionPath||'')){fallback();return;}
    content.textContent='Loading full job description…';
+   const controller=pending;
+   const timeout=setTimeout(()=>controller.abort(),12000);
    try{
-    const response=await fetch(job.descriptionPath,{signal:pending.signal,cache:'no-store'});
+    const response=await fetch(job.descriptionPath,{signal:controller.signal,cache:'no-store'});
     if(!response.ok)throw Error('Description unavailable');
     const data=await response.json();
     if(data.id!==job.id||typeof data.html!=='string'||!data.html.trim())throw Error('Invalid description');
     if(current!==sequence)return;
     // Only build-time allow-listed HTML from our own per-job JSON files reaches this element.
     content.innerHTML=data.html;
-   }catch(error){if(current===sequence&&error.name!=='AbortError')fallback('The full description could not be loaded.');}
+   }catch(error){if(current===sequence)fallback('The full description could not be loaded.');}
+   finally{clearTimeout(timeout);}
   }
  };
 }

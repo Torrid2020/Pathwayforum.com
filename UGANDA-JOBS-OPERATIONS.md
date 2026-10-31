@@ -59,3 +59,7 @@ UNICEF’s owner approval is listing-scoped because its full-page HTML changes i
 ## Employer correction and removal requests
 
 Respond promptly to requests sent to james.torrid1805@gmail.com. Add the exact vacancy ID to data/job-removals.json and run the affected sync; both the listing and its separate description file will be removed and future imports will skip it. Use an ID when an employer hosts several adverts on one URL. Correct source data or reviewed editorial text as appropriate, then commit and push. Detail views carry no ads or aggregated JobPosting markup; jobs.html stays noindex.
+
+## Separate full descriptions
+
+Public list feeds contain summary metadata and an optional descriptionPath, never full description text. Syncs sanitise available feed descriptions into data/jobs/uganda or data/jobs/remote and prune files for removed or expired records. HTML-only/PDF sources and feeds without a description show an official-advert fallback. ReliefWeb remains metadata-only. Files are requested only when a detail view opens; loading times out with a source link rather than blocking Apply. npm ci --ignore-scripts installs the build-time sanitizer; no sanitizer bundle is sent to browsers.

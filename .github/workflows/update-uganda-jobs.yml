@@ -51,8 +51,16 @@ jobs:
           echo "Published jobs: ${{ steps.jobs.outputs.job_count }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Held for review: ${{ steps.jobs.outputs.review_count }}" >> "$GITHUB_STEP_SUMMARY"
           echo "Official sources only; duplicates, expiry and common scam language checked." >> "$GITHUB_STEP_SUMMARY"
+      - name: Close recovered feed failure alerts
+        if: success()
+        run: |
+          gh issue list --label uganda-jobs-feed --state open --json number --jq '.[].number' | while read -r issue; do
+            gh issue close "$issue" --comment "The Uganda jobs update completed successfully. Closing this feed failure alert automatically."
+          done
+        env:
+          GH_TOKEN: ${{ github.token }}
       - name: Report update failures
-        if: failure()
+        if: ${{ failure() && !cancelled() }}
         run: |
           gh label create uganda-jobs-feed --color D93F0B --description "Automated Uganda jobs feed" 2>/dev/null || true
           existing=$(gh issue list --label uganda-jobs-feed --state open --json number --jq '.[0].number // empty')

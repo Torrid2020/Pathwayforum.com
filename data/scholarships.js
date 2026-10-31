@@ -26,7 +26,7 @@ window.SCHOLARSHIPS = [
     "levels": [
       "Master's"
     ],
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "summary": "For citizens of eligible Commonwealth countries. Apply through a national nominating body, not directly.",
     "url": "https://cscuk.fcdo.gov.uk/scholarships/commonwealth-masters-scholarships/",
     "watch": {
@@ -44,7 +44,7 @@ window.SCHOLARSHIPS = [
     "levels": [
       "Master's"
     ],
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "summary": "Study in multiple European countries. Each programme sets its own deadline and selects its own scholars.",
     "url": "https://erasmus-plus.ec.europa.eu/opportunities/individuals/students/erasmus-mundus-joint-masters",
     "watch": {
@@ -80,7 +80,7 @@ window.SCHOLARSHIPS = [
     "levels": [
       "Master's"
     ],
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "summary": "Apply to an eligible Swedish master's programme first, then to the Swedish Institute.",
     "url": "https://si.se/en/apply/scholarships/swedish-institute-scholarships-for-global-professionals/",
     "watch": {
@@ -99,7 +99,7 @@ window.SCHOLARSHIPS = [
       "Bachelor's",
       "Master's"
     ],
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "summary": "Study in Flanders for applicants from 29 eligible countries in Africa, Asia and Latin America.",
     "url": "https://www.vliruos.be/en/scholarships",
     "watch": {
@@ -118,7 +118,7 @@ window.SCHOLARSHIPS = [
       "Master's",
       "PhD"
     ],
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "summary": "Graduate study in the US. Apply through the Fulbright commission or US embassy in your country.",
     "url": "https://foreign.fulbrightonline.org/",
     "watch": {
@@ -154,7 +154,7 @@ window.SCHOLARSHIPS = [
       "Master's",
       "PhD"
     ],
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "summary": "Japanese government funding for graduate study. Apply through the Japanese embassy in your country.",
     "url": "https://www.studyinjapan.go.jp/en/planning/scholarships/mext-scholarships/",
     "watch": {
@@ -173,7 +173,7 @@ window.SCHOLARSHIPS = [
       "Bachelor's",
       "Master's"
     ],
-    "checked": "2026-10-30",
+    "checked": "2026-10-31",
     "summary": "Up to $4,000 toward an online WGU degree for PathwayConnect graduates. US citizens and eligible noncitizens only.",
     "url": "https://www.wgu.edu/financial-aid-tuition/scholarships/partner/byu-pw.html",
     "watch": {

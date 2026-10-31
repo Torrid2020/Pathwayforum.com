@@ -27,13 +27,13 @@ jobs:
         run: node scripts/update-jobs.mjs
       - name: Publish changed feed
         run: |
-          if [ -z "$(git status --porcelain -- data/remote-jobs.json data/jobs/remote)" ]; then
+          if [ -z "$(git status --porcelain -- data/remote-jobs.json data/jobs/remote data/job-pages-remote.json jobs/remote)" ]; then
             echo "The normalized feed has not changed."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add -A data/remote-jobs.json data/jobs/remote
+          git add -A data/remote-jobs.json data/jobs/remote data/job-pages-remote.json jobs/remote
           git commit -m "Refresh verified remote jobs"
           git push
           gh api -X POST "repos/${{ github.repository }}/pages/builds" --silent || true

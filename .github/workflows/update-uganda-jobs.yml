@@ -29,13 +29,13 @@ jobs:
           RELIEFWEB_APPNAME: ${{ vars.RELIEFWEB_APPNAME }}
       - name: Publish changed feeds
         run: |
-          if [ -z "$(git status --porcelain -- data/uganda-jobs.json data/uganda-jobs-review.json data/uganda-job-sources.json data/jobs/uganda)" ]; then
+          if [ -z "$(git status --porcelain -- data/uganda-jobs.json data/uganda-jobs-review.json data/uganda-job-sources.json data/jobs/uganda data/job-pages-uganda.json jobs/uganda)" ]; then
             echo "The Uganda jobs feed has not changed."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add -A data/uganda-jobs.json data/uganda-jobs-review.json data/uganda-job-sources.json data/jobs/uganda
+          git add -A data/uganda-jobs.json data/uganda-jobs-review.json data/uganda-job-sources.json data/jobs/uganda data/job-pages-uganda.json jobs/uganda
           git commit -m "Refresh verified Uganda jobs"
           git push
           gh api -X POST "repos/${{ github.repository }}/pages/builds" --silent || true

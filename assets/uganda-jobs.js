@@ -52,10 +52,10 @@ function render() {
   $("#grid").innerHTML = list.length ? list.map((job,index) => `${job.level==='Senior / management'&&(index===0||list[index-1].level!=='Senior / management')?'<h3 class="senior-heading">Senior and management roles</h3>':''}
     <article class="card">
       <div class="company"><div class="logo">${esc(initials(job.employer))}</div><div><b>${esc(job.employer)}</b><small>✓ ${esc(job.verification.label)}</small></div><button class="save ${saved.has(job.id) ? "on" : ""}" type="button" data-save="${esc(job.id)}" aria-pressed="${saved.has(job.id)}" aria-label="Save ${esc(job.title)}">${saved.has(job.id) ? "Saved" : "Save"}</button></div>
-      <h3>${esc(job.title)}</h3>
+      <h3><a href="${esc(job.pagePath||'?job='+encodeURIComponent(job.id))}">${esc(job.title)}</a></h3>
       <div class="meta"><span class="tag">${esc(job.level)}</span><span class="tag">${esc(job.location)}</span><span class="tag">${esc(job.employmentType)}</span><span class="tag">${esc(job.category)}</span></div>
       ${trustMarkup(job)}
-      <div class="foot"><span>${esc(job.workplace)}</span><button class="view" type="button" data-open="${esc(job.id)}">View details →</button></div>
+      <div class="foot"><span>${esc(job.workplace)}</span><a class="view" href="${esc(job.pagePath||'?job='+encodeURIComponent(job.id))}">View details →</a></div>
     </article>`).join("") : '<div class="empty"><h3>No matching jobs right now.</h3><p>Clear a filter or check again after the next automatic update.</p></div>';
   if(!jobs.length){$("#count").parentElement.hidden=true;$("#grid").innerHTML='<div class="empty"><p>New jobs are checked daily. Join our WhatsApp group to hear first.</p><a class="button" href="https://chat.whatsapp.com/LSOORCNih13GDiMtwgfoce">Join WhatsApp</a></div>';}
   document.querySelectorAll("[data-save]").forEach((button) => button.addEventListener("click", () => {
@@ -69,6 +69,7 @@ function render() {
 function openJob(id, push) {
   active = jobs.find((job) => job.id === id);
   if (!active) return;
+  if(active.pagePath){location.assign(active.pagePath);return;}
   suggestions.reset();
   $("#listing").hidden = true;
   $("#detail").hidden = false;
@@ -133,7 +134,7 @@ fetch("data/uganda-jobs.json", { cache: "no-store" })
     saveState();
     render();
     const id = new URLSearchParams(location.search).get("job");
-    if (id) openJob(id, false);
+    if(id){const job=jobs.find(j=>j.id===id);if(job?.pagePath)location.replace(job.pagePath);else openJob(id,false);}
   })
   .catch(() => {
     $("#grid").innerHTML = '<div class="empty"><h3>The Uganda jobs feed is temporarily unavailable.</h3><p>Please try again later. We do not display unverified fallback listings.</p></div>';

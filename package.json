@@ -1,0 +1,11 @@
+{
+  "name": "pathway-forum",
+  "private": true,
+  "scripts": {
+    "test": "node --test scripts/*.test.mjs"
+  },
+  "dependencies": {
+    "he": "2.0.0",
+    "sanitize-html": "2.18.1"
+  }
+}

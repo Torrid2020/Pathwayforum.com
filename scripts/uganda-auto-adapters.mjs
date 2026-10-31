@@ -68,7 +68,8 @@ export async function fetchAutomatic(s,io){const {request,json,strip,structuredJ
    const location=detail.match(/<meta\b[^>]*itemprop=["']streetAddress["'][^>]*content=["']([^"']+)["']/i)?.[1];
    const rawEnd=detail.match(/<meta\b[^>]*itemprop=["']validThrough["'][^>]*content=["']([^"']+)["']/i)?.[1],end=rawEnd?Date.parse(rawEnd):NaN;
    if(!location||!Number.isFinite(end))throw Error('SuccessFactors location or closing metadata missing');
-   records.push({id:l.url,title:l.label,description:strip(detail.match(/<span[^>]*itemprop=["']description["'][\s\S]*?(?=<div class="job)|<span[^>]*itemprop=["']description["'][\s\S]*?(?=<footer)/i)?.[0]||detail),location,deadline:new Date(end).toISOString(),sourceUrl:l.url,applicationUrl:l.url});continue;
+   const fullDescription=detail.match(/<span[^>]*itemprop=["']description["'][\s\S]*?(?=<div class="job)|<span[^>]*itemprop=["']description["'][\s\S]*?(?=<footer)/i)?.[0]||null;
+   records.push({id:l.url,title:l.label,description:strip(detail.match(/<span[^>]*itemprop=["']description["'][\s\S]*?(?=<div class="job)|<span[^>]*itemprop=["']description["'][\s\S]*?(?=<footer)/i)?.[0]||detail),fullDescription,location,deadline:new Date(end).toISOString(),sourceUrl:l.url,applicationUrl:l.url});continue;
   }
   // PageUp pages expose location and deadline labels even when JobPosting JSON is absent.
   if(s.method==='pageup'){

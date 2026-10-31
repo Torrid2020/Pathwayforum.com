@@ -14,7 +14,7 @@ export function parseWorkable(data) {
 }
 export function parseLever(data) {
  if(!Array.isArray(data))throw Error('Lever response missing postings');
- return data.map(j=>({id:j.id,title:j.text,description:j.descriptionPlain||j.description,
+ return data.map(j=>({id:j.id,title:j.text,description:[j.description||j.descriptionPlain,...(j.lists||[]).map(section=>'<h3>'+String(section.text||'').replace(/[&<>]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]))+'</h3><ul>'+section.content+'</ul>'),j.additional||j.additionalPlain].filter(Boolean).join('\n'),
   location:ugandaLocations((j.categories?.allLocations||[j.categories?.location]).filter(Boolean)),
   publishedAt:Number.isFinite(j.createdAt)?new Date(j.createdAt).toISOString():null,
   employmentType:j.categories?.commitment,workplace:j.workplaceType,sourceUrl:j.hostedUrl,applicationUrl:j.applyUrl||j.hostedUrl}));

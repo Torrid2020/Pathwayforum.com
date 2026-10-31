@@ -13,3 +13,7 @@ test('Lever adapter supports future key-free boards and handles valid empty feed
  let url;const jobs=await fetchPublicAts({method:'lever',adapter:'example'},async u=>{url=u;return [{id:'L',text:'Assistant',categories:{location:'Jinja',commitment:'Full-time'},hostedUrl:'https://example.org/L',applyUrl:'https://example.org/L/apply',createdAt:0}]});
  assert.equal(url,'https://api.lever.co/v0/postings/example?mode=json');assert.equal(jobs[0].location,'Jinja');assert.equal(jobs[0].publishedAt,'1970-01-01T00:00:00.000Z');assert.deepEqual(parseLever([]),[]);assert.throws(()=>parseLever({error:'blocked'}));
 });
+test('Lever full descriptions include responsibilities lists and additional employer information',()=>{
+ const [job]=parseLever([{id:'full',text:'Officer',description:'<p>Introduction</p>',lists:[{text:'Responsibilities',content:'<li>Final responsibility</li>'}],additional:'<p>Additional information</p>'}]);
+ for(const text of ['Introduction','Responsibilities','Final responsibility','Additional information'])assert(job.description.includes(text));
+});

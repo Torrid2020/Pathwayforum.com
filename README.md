@@ -46,7 +46,7 @@ To run the check yourself: `node scripts/check-deadlines.mjs --dry-run` (prints 
 
 Near the bottom of `index.html`:
 
-- `NEWSLETTER_ENDPOINT` — a form endpoint that accepts an `email` field (e.g. Buttondown's embed-subscribe URL). Until it's set, the form tells visitors sign-ups aren't open yet.
+- `BREVO_FORM_URL` — paste the action URL from an email-only Brevo Simple HTML form into index.html. The form posts its `EMAIL` field directly to Brevo, whose response handles confirmation or errors. Keep any required fields in Brevo consistent with this email-only form. Until the URL is set, no email is sent or saved and visitors see the launching-soon message.
 - `WHATSAPP_URL` — the WhatsApp group (or channel) invite link behind the join button. Clear it to hide the button. If the invite link is ever reset in WhatsApp, update it here.
 
 Pathway Forum by Rise & Reasons. Independent education platform, not officially affiliated with BYU-Pathway Worldwide, Brigham Young University, or BYU-Idaho.

@@ -62,4 +62,10 @@ Respond promptly to requests sent to james.torrid1805@gmail.com. Add the exact v
 
 ## Separate full descriptions
 
-Public list feeds contain summary metadata and an optional descriptionPath, never full description text. Syncs sanitise available feed descriptions into data/jobs/uganda or data/jobs/remote and prune files for removed or expired records. HTML-only/PDF sources and feeds without a description show an official-advert fallback. ReliefWeb remains metadata-only. Files are requested only when a detail view opens; loading times out with a source link rather than blocking Apply. npm ci --ignore-scripts installs the build-time sanitizer; no sanitizer bundle is sent to browsers.
+Public list feeds contain summary metadata and an optional descriptionPath, never full description text. Syncs sanitise available feed descriptions into data/jobs/uganda or data/jobs/remote and retain closed-job descriptions for 30 days before pruning. Explicit removal requests delete the page and description immediately. HTML-only/PDF sources and feeds without a description show an official-advert fallback. ReliefWeb remains metadata-only. Files are requested only when a detail view opens; loading times out with a source link rather than blocking Apply. npm ci --ignore-scripts installs the build-time sanitizer; no sanitizer bundle is sent to browsers.
+
+## Static job pages and closed adverts
+
+Both syncs call scripts/job-pages.mjs and commit their board manifest, generated pages and separate descriptions. Slugs remain stable by job ID even when titles change. Disappeared or expired adverts keep their page and existing description for 30 days, with a closed banner and no Apply buttons, then are deleted. data/job-removals.json bypasses this retention immediately. Never delete a manifest to reset a feed: it records stable URLs and closure dates.
+
+Generated jobs/uganda/categories pages use the same public list order. Job pages are noindex, contain no ads or JobPosting markup, and load only their own description. Legacy board ?job= URLs redirect to the permanent page. Similar-job ranking is shared with the Apply follow-up panel.

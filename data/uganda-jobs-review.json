@@ -1,40 +1,5 @@
 {
-  "generatedAt": "2026-10-31T10:24:00.572Z",
-  "jobCount": 1,
-  "jobs": [
-    {
-      "id": "unicef:https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
-      "source": "UNICEF Careers",
-      "sourceId": "unicef",
-      "sourceType": "official-employer",
-      "level": "Mid level",
-      "sector": "NGO & Humanitarian",
-      "title": "Health Specialist, NO-3, Temporary Position, 5 months, #00137574, Kampala, Uganda",
-      "employer": "UNICEF",
-      "location": "Uganda",
-      "district": "Uganda",
-      "workplace": "On-site or field-based",
-      "employmentType": "See official listing",
-      "category": "NGO & Humanitarian",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": null,
-      "deadline": "2026-11-02T20:55:00.000Z",
-      "deadlineStatus": "Check live deadline",
-      "summary": "div#sliding-popup, div#sliding-popup .eu-cookie-withdraw-banner, .eu-cookie-withdraw-tab {background: #c1c1c1} div#sliding-popup.eu-cookie-withdraw-wrapper { background: transparent; } #sliding-popup h1, #sliding-popup h2, #sliding-popup h3, #sliding-popup p, #sliding-popup label, #sliding-popup div, .eu-cookie-compliance-more-button, .eu-cookie-compliance-secondary-button, .eu",
-      "indicators": [],
-      "verification": {
-        "contentHash": "1a19b52ba71b4234a25977ae724ff353db56b98189a033765c11e5206c2a1f01",
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-10-31T10:24:08.977Z",
-        "flags": [
-          "Review recruitment language"
-        ]
-      },
-      "sourceUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
-      "applicationUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
-      "lastCheckedAt": "2026-10-31T10:24:08.977Z"
-    }
-  ]
+  "generatedAt": "2026-10-31T10:26:04.373Z",
+  "jobCount": 0,
+  "jobs": []
 }

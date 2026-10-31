@@ -11,6 +11,13 @@ test('approval never covers new jobs, changed content, destinations or additiona
  assert.equal(applyReviewDecision(job,[]).verification.status,'review');
 });
 test('human approval does not revive expired roles',()=>assert.equal(applyReviewDecision({...job,deadline:'2000-01-01'},[approval]).verification.status,'review'));
+test('listing-scoped owner review tolerates changing page markup but still binds identity and flags',()=>{
+ const decision={...approval,scope:'listing'};
+ const changed={...job,verification:{...job.verification,contentHash:'dynamic-page-markup'}};
+ assert.equal(applyReviewDecision(changed,[decision]).verification.status,'official-source');
+ assert.equal(applyReviewDecision({...changed,title:'Different vacancy'},[decision]).verification.status,'review');
+ assert.equal(applyReviewDecision({...changed,verification:{...changed.verification,flags:['New concern']}},[decision]).verification.status,'review');
+});
 test('explicitly reviewed older snapshots can survive an outage without approving changed snapshots',()=>{
  const old={...job,verification:{status:'review',flags:job.verification.flags}};
  const decision={...approval,snapshotFingerprint:reviewFingerprint(old)};

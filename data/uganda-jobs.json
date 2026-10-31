@@ -1,48 +1,85 @@
 {
-  "generatedAt": "2026-10-31T10:24:00.572Z",
+  "generatedAt": "2026-10-31T10:26:04.373Z",
   "country": "Uganda",
-  "jobCount": 34,
+  "jobCount": 35,
   "sources": {
     "World Vision Careers": "ok",
     "dfcu Bank Careers": "ok",
     "NSSF Uganda Careers": "ok",
-    "Uganda Airlines Careers": "connected",
-    "MTN Uganda Careers": "connected",
+    "Uganda Revenue Authority Careers": "manual-review",
     "TotalEnergies Uganda Careers": "manual-review",
     "Makerere University Careers": "connected",
-    "Uganda Revenue Authority Careers": "manual-review",
+    "MTN Uganda Careers": "connected",
+    "Uganda Airlines Careers": "connected",
     "Stanbic Bank Uganda Careers": "connected",
-    "Absa Bank Uganda Careers": "connected",
     "FINCA Uganda Careers": "connected",
-    "Airtel Uganda Careers": "manual-review",
-    "GiveDirectly Careers": "connected",
-    "One Acre Fund Careers": "connected",
-    "Uganda Civil Aviation Authority Careers": "connected",
-    "BRAC Uganda Bank Careers": "connected",
-    "Living Goods Careers": "connected",
-    "Equity Bank Uganda Careers": "manual-review",
-    "Save the Children International Careers": "unavailable",
-    "International Rescue Committee Careers": "manual-review",
+    "Absa Bank Uganda Careers": "connected",
     "Centenary Bank Careers": "manual-review",
+    "Equity Bank Uganda Careers": "manual-review",
+    "GiveDirectly Careers": "connected",
+    "Airtel Uganda Careers": "manual-review",
+    "BRAC Uganda Bank Careers": "connected",
+    "One Acre Fund Careers": "connected",
+    "International Rescue Committee Careers": "manual-review",
+    "Save the Children International Careers": "unavailable",
+    "Living Goods Careers": "connected",
+    "Uganda Civil Aviation Authority Careers": "connected",
     "Mercy Corps Careers": "connected",
-    "Danish Refugee Council Careers": "connected",
+    "UNICEF Careers": "unavailable",
     "Norwegian Refugee Council Careers": "connected",
-    "Plan International Careers": "connected",
+    "Danish Refugee Council Careers": "connected",
     "World Food Programme Careers": "connected",
     "UNHCR Careers": "connected",
     "Educate! Careers": "connected",
-    "Jumia Careers": "connected",
+    "Plan International Careers": "connected",
     "M-KOPA Careers": "connected",
-    "WaterAid Careers": "connected",
-    "UNICEF Careers": "connected",
     "PATH Careers": "connected",
     "Diageo / Uganda Breweries Careers": "connected",
+    "WaterAid Careers": "connected",
+    "Jumia Careers": "connected",
     "Clinton Health Access Initiative Careers": "connected",
     "BRAC International Careers": "connected",
     "ReliefWeb": "unavailable"
   },
   "methodology": "Official employer feeds, reviewed employer submissions and configured humanitarian APIs. Expired vacancies are excluded. Levels are inferred from titles, experience and descriptions, with entry and mid-level roles shown before senior positions; confirm requirements with the employer. Source checks do not guarantee suitability or hiring.",
   "jobs": [
+    {
+      "id": "unicef:https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "source": "UNICEF Careers",
+      "sourceId": "unicef",
+      "sourceType": "official-employer",
+      "level": "Mid level",
+      "sector": "NGO & Humanitarian",
+      "title": "Health Specialist, NO-3, Temporary Position, 5 months, #00137574, Kampala, Uganda",
+      "employer": "UNICEF",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "See official listing",
+      "category": "NGO & Humanitarian",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": null,
+      "deadline": "2026-11-02T20:55:00.000Z",
+      "deadlineStatus": "Check live deadline",
+      "summary": "Temporary five-month Health Specialist role with UNICEF in Kampala, Uganda. Read the official advert for the complete responsibilities, qualifications and application instructions.",
+      "indicators": [],
+      "verification": {
+        "contentHash": "1a19b52ba71b4234a25977ae724ff353db56b98189a033765c11e5206c2a1f01",
+        "status": "official-source",
+        "label": "Reviewed by Pathway Forum",
+        "checkedAt": "2026-10-31T10:24:08.977Z",
+        "flags": [],
+        "reviewedFlags": [
+          "Review recruitment language"
+        ],
+        "reviewedBy": "James Ocora",
+        "reviewedAt": "2026-10-31T10:21:06.603Z"
+      },
+      "sourceUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "applicationUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "lastCheckedAt": "2026-10-31T10:24:08.977Z"
+    },
     {
       "id": "drc:https://drc.ngo/jobs/job?id=177063",
       "source": "Danish Refugee Council Careers",
@@ -70,12 +107,12 @@
         "contentHash": "1f2b816d6bab0ec7887025b4079a09cdeb701a0b976a891d031d1c7c673bb81a",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:07.624Z",
+        "checkedAt": "2026-10-31T10:26:14.340Z",
         "flags": []
       },
       "sourceUrl": "https://drc.ngo/jobs/job?id=177063",
       "applicationUrl": "https://drc.ngo/jobs/job?id=177063",
-      "lastCheckedAt": "2026-10-31T10:24:07.624Z"
+      "lastCheckedAt": "2026-10-31T10:26:14.340Z"
     },
     {
       "id": "absa:R-15992444",
@@ -102,12 +139,12 @@
         "contentHash": "c52eefd1a2661d2a9e35408b6b5dd43369fc3723f0572433a8b20bda0e2b2e09",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:04.416Z",
+        "checkedAt": "2026-10-31T10:26:08.452Z",
         "flags": []
       },
       "sourceUrl": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite/job/Kampala/No-Corporate-Grade_R-15992444",
       "applicationUrl": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite/job/Kampala/No-Corporate-Grade_R-15992444",
-      "lastCheckedAt": "2026-10-31T10:24:04.416Z"
+      "lastCheckedAt": "2026-10-31T10:26:08.452Z"
     },
     {
       "id": "brac-bank:it-infrastructure-support-officer",
@@ -134,12 +171,12 @@
         "contentHash": "46f3d76807b8c6f912c84789a9128b9c22f2dbc4abd6e68f56bf473899b4433f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:06.289Z",
+        "checkedAt": "2026-10-31T10:26:09.809Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-31T10:24:06.289Z"
+      "lastCheckedAt": "2026-10-31T10:26:09.809Z"
     },
     {
       "id": "brac-bank:it-security-officer",
@@ -168,12 +205,12 @@
         "contentHash": "304257619b1a7cca13b72e2d743587919b72e064404ae29c5bd463b805f265bb",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:06.288Z",
+        "checkedAt": "2026-10-31T10:26:09.805Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-31T10:24:06.288Z"
+      "lastCheckedAt": "2026-10-31T10:26:09.805Z"
     },
     {
       "id": "brac-bank:it-service-desk-officer",
@@ -202,12 +239,12 @@
         "contentHash": "e79544b1af1c0473cd75d73edd4c7e2f1ddfc27a331792f768aa5e7536ddbfec",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:06.288Z",
+        "checkedAt": "2026-10-31T10:26:09.802Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-31T10:24:06.288Z"
+      "lastCheckedAt": "2026-10-31T10:26:09.802Z"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -234,12 +271,12 @@
         "contentHash": "9b69483d841cdc51d7971aa1755fe884f8a7f5912247154cb5a57d119cf7059f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:09.781Z",
+        "checkedAt": "2026-10-31T10:26:24.065Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-31T10:24:09.781Z"
+      "lastCheckedAt": "2026-10-31T10:26:24.065Z"
     },
     {
       "id": "stanbic:744000158026749",
@@ -268,12 +305,12 @@
         "contentHash": "b2e99f33b9965740db51e18e8e52f11363405f50928cee7923d7b13f3402caa7",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:03.750Z",
+        "checkedAt": "2026-10-31T10:26:07.092Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking?oga=true",
-      "lastCheckedAt": "2026-10-31T10:24:03.750Z"
+      "lastCheckedAt": "2026-10-31T10:26:07.092Z"
     },
     {
       "id": "educate:8336549",
@@ -302,12 +339,12 @@
         "contentHash": "9754e062c9369af2cd79d2259e2963d8a7c48fd37c6823737e9ede536490a07c",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:08.562Z",
+        "checkedAt": "2026-10-31T10:26:16.762Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
-      "lastCheckedAt": "2026-10-31T10:24:08.562Z"
+      "lastCheckedAt": "2026-10-31T10:26:16.762Z"
     },
     {
       "id": "nrc:20449",
@@ -337,12 +374,12 @@
         "contentHash": "293d3e35d27c6f0b8ceef8a640e8d3cfd15c90dda377e948ab0eb51812949828",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:07.706Z",
+        "checkedAt": "2026-10-31T10:26:13.592Z",
         "flags": []
       },
       "sourceUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
       "applicationUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
-      "lastCheckedAt": "2026-10-31T10:24:07.706Z"
+      "lastCheckedAt": "2026-10-31T10:26:13.592Z"
     },
     {
       "id": "m-kopa:685fe2cb-7003-4217-95fe-179d50469d0d",
@@ -371,7 +408,7 @@
         "contentHash": "4b42cce4d878401d73028b901b986bbb3aae91333b5b3c147f20d980ccbd08c7",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:24:08.721Z",
+        "checkedAt": "2026-10-31T10:26:18.025Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -381,7 +418,7 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d/application",
-      "lastCheckedAt": "2026-10-31T10:24:08.721Z"
+      "lastCheckedAt": "2026-10-31T10:26:18.025Z"
     },
     {
       "id": "brac-international:fk0zu8c",
@@ -408,12 +445,12 @@
         "contentHash": "cc67100ec100cd933a266c5d74e75a2c52417847e97fd24a5e2d8f44bbd8e406",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:10.720Z",
+        "checkedAt": "2026-10-31T10:26:31.715Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
-      "lastCheckedAt": "2026-10-31T10:24:10.720Z"
+      "lastCheckedAt": "2026-10-31T10:26:31.715Z"
     },
     {
       "id": "wateraid:E538BBAB7A",
@@ -442,12 +479,12 @@
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:08.887Z",
+        "checkedAt": "2026-10-31T10:26:19.299Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/E538BBAB7A",
       "applicationUrl": "https://apply.workable.com/j/E538BBAB7A/apply",
-      "lastCheckedAt": "2026-10-31T10:24:08.887Z"
+      "lastCheckedAt": "2026-10-31T10:26:19.299Z"
     },
     {
       "id": "brac-international:fk0zu8g",
@@ -476,12 +513,12 @@
         "contentHash": "d51a1cb9f9944661e540861060ec93472e886a8cb14af3d270dca8def8553110",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:10.721Z",
+        "checkedAt": "2026-10-31T10:26:31.719Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
-      "lastCheckedAt": "2026-10-31T10:24:10.721Z"
+      "lastCheckedAt": "2026-10-31T10:26:31.719Z"
     },
     {
       "id": "m-kopa:3b64016b-0865-47f4-b343-5b4445f7aaef",
@@ -508,7 +545,7 @@
         "contentHash": "20af89103c2f6b97887ca4e02ad254c024d528a822aa032057bc669adb221573",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:24:08.717Z",
+        "checkedAt": "2026-10-31T10:26:18.007Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -518,7 +555,7 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef/application",
-      "lastCheckedAt": "2026-10-31T10:24:08.717Z"
+      "lastCheckedAt": "2026-10-31T10:26:18.007Z"
     },
     {
       "id": "one-acre-fund:7692994",
@@ -545,12 +582,12 @@
         "contentHash": "c343491397accb77279de45de4955bc2fd7229d25943d1c2ed66c66e788c31ab",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:05.779Z",
+        "checkedAt": "2026-10-31T10:26:10.031Z",
         "flags": []
       },
       "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
       "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
-      "lastCheckedAt": "2026-10-31T10:24:05.779Z"
+      "lastCheckedAt": "2026-10-31T10:26:10.031Z"
     },
     {
       "id": "mtn-uganda:7890",
@@ -579,12 +616,12 @@
         "contentHash": "d7cf7528adff2bbb1ce50ef90afe2294d78a3b44a11510e635762f84c9b7210d",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:01.725Z",
+        "checkedAt": "2026-10-31T10:26:06.256Z",
         "flags": []
       },
       "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
       "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
-      "lastCheckedAt": "2026-10-31T10:24:01.725Z"
+      "lastCheckedAt": "2026-10-31T10:26:06.256Z"
     },
     {
       "id": "drc:https://drc.ngo/jobs/job?id=177062",
@@ -611,12 +648,12 @@
         "contentHash": "d67adb3a3b8c8dfb55d76928e50875fbf80be7756a5ee1d44884af00f4d67cbd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:07.624Z",
+        "checkedAt": "2026-10-31T10:26:14.341Z",
         "flags": []
       },
       "sourceUrl": "https://drc.ngo/jobs/job?id=177062",
       "applicationUrl": "https://drc.ngo/jobs/job?id=177062",
-      "lastCheckedAt": "2026-10-31T10:24:07.624Z"
+      "lastCheckedAt": "2026-10-31T10:26:14.341Z"
     },
     {
       "id": "path:JR2738",
@@ -645,12 +682,12 @@
         "contentHash": "ddb5758dd59e74c5f7083d74d07598e004945a71d5027bf36c842df0603503ad",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:09.023Z",
+        "checkedAt": "2026-10-31T10:26:18.896Z",
         "flags": []
       },
       "sourceUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
       "applicationUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
-      "lastCheckedAt": "2026-10-31T10:24:09.023Z"
+      "lastCheckedAt": "2026-10-31T10:26:18.896Z"
     },
     {
       "id": "m-kopa:cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
@@ -677,7 +714,7 @@
         "contentHash": "70f127832b6261e4edb3a3d7f74cdf2e4a360cf761a557f934e0506cb0f02f44",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:24:08.718Z",
+        "checkedAt": "2026-10-31T10:26:18.012Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -687,7 +724,7 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2/application",
-      "lastCheckedAt": "2026-10-31T10:24:08.718Z"
+      "lastCheckedAt": "2026-10-31T10:26:18.012Z"
     },
     {
       "id": "m-kopa:5f72226a-412c-4b5f-a647-85c37b1e4ad7",
@@ -714,7 +751,7 @@
         "contentHash": "66d3c3109c4173977e2579b828647967591c97e31079f96a1e27859ebe211201",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:24:08.713Z",
+        "checkedAt": "2026-10-31T10:26:17.982Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -724,7 +761,7 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7/application",
-      "lastCheckedAt": "2026-10-31T10:24:08.713Z"
+      "lastCheckedAt": "2026-10-31T10:26:17.982Z"
     },
     {
       "id": "one-acre-fund:8132333",
@@ -751,12 +788,12 @@
         "contentHash": "c717ae22f06a7198c7fc235cc16c75d947254574ba8121bcded62dd4959db288",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:05.778Z",
+        "checkedAt": "2026-10-31T10:26:10.028Z",
         "flags": []
       },
       "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
       "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
-      "lastCheckedAt": "2026-10-31T10:24:05.778Z"
+      "lastCheckedAt": "2026-10-31T10:26:10.028Z"
     },
     {
       "id": "wateraid:D095CE9724",
@@ -783,12 +820,12 @@
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:08.886Z",
+        "checkedAt": "2026-10-31T10:26:19.299Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/D095CE9724",
       "applicationUrl": "https://apply.workable.com/j/D095CE9724/apply",
-      "lastCheckedAt": "2026-10-31T10:24:08.886Z"
+      "lastCheckedAt": "2026-10-31T10:26:19.299Z"
     },
     {
       "id": "educate:8248862",
@@ -815,12 +852,12 @@
         "contentHash": "2e653adb86772a31dd6ee5d84537f432c73569a2d36b3a66c160536bb31650cd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:08.562Z",
+        "checkedAt": "2026-10-31T10:26:16.768Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
-      "lastCheckedAt": "2026-10-31T10:24:08.562Z"
+      "lastCheckedAt": "2026-10-31T10:26:16.768Z"
     },
     {
       "id": "wateraid:BB1627BC45",
@@ -847,12 +884,12 @@
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:08.886Z",
+        "checkedAt": "2026-10-31T10:26:19.299Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/BB1627BC45",
       "applicationUrl": "https://apply.workable.com/j/BB1627BC45/apply",
-      "lastCheckedAt": "2026-10-31T10:24:08.886Z"
+      "lastCheckedAt": "2026-10-31T10:26:19.299Z"
     },
     {
       "id": "jumia:4906703101",
@@ -879,12 +916,12 @@
         "contentHash": "511d99bfe8614b001e989b8a3344f23a23e8b89a97c92b4d4b58437d9d46d9c3",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:08.645Z",
+        "checkedAt": "2026-10-31T10:26:20.851Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
       "applicationUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
-      "lastCheckedAt": "2026-10-31T10:24:08.645Z"
+      "lastCheckedAt": "2026-10-31T10:26:20.851Z"
     },
     {
       "id": "stanbic:744000157751189",
@@ -911,12 +948,12 @@
         "contentHash": "55d17c01f795141b5dba8d7c73c7256d82a649126f64f243f3be3cb692dca70e",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:03.750Z",
+        "checkedAt": "2026-10-31T10:26:07.094Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-?oga=true",
-      "lastCheckedAt": "2026-10-31T10:24:03.750Z"
+      "lastCheckedAt": "2026-10-31T10:26:07.094Z"
     },
     {
       "id": "stanbic:744000157127420",
@@ -945,12 +982,12 @@
         "contentHash": "01940a4223eddea3526f14e9ef0918e4a58a14b86d259dd0fbee12dc0298928c",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:03.750Z",
+        "checkedAt": "2026-10-31T10:26:07.096Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions?oga=true",
-      "lastCheckedAt": "2026-10-31T10:24:03.750Z"
+      "lastCheckedAt": "2026-10-31T10:26:07.096Z"
     },
     {
       "id": "brac-international:fk0zu84",
@@ -979,12 +1016,12 @@
         "contentHash": "f70868c88a92a616ada994119f52ebb6fc95b89e3f76553e0fdcbd611f0a6ebd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:10.720Z",
+        "checkedAt": "2026-10-31T10:26:31.716Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
-      "lastCheckedAt": "2026-10-31T10:24:10.720Z"
+      "lastCheckedAt": "2026-10-31T10:26:31.716Z"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -1011,12 +1048,12 @@
         "contentHash": "fe1a551d1d52ae074df89f7773cf830a1582ae2b47ebe5f0ebc376deb5143d21",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:09.781Z",
+        "checkedAt": "2026-10-31T10:26:24.068Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-31T10:24:09.781Z"
+      "lastCheckedAt": "2026-10-31T10:26:24.068Z"
     },
     {
       "id": "m-kopa:ac87dffb-3a32-4197-94da-4cdb250d230d",
@@ -1045,7 +1082,7 @@
         "contentHash": "fb49bdd6cb19011dfaf55c8c2e0710ad9cec89306fd1733447c45752b631c2c4",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:24:08.715Z",
+        "checkedAt": "2026-10-31T10:26:17.989Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -1055,7 +1092,7 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d/application",
-      "lastCheckedAt": "2026-10-31T10:24:08.715Z"
+      "lastCheckedAt": "2026-10-31T10:26:17.989Z"
     },
     {
       "id": "brac-international:fk0zu8y",
@@ -1082,12 +1119,12 @@
         "contentHash": "1259e70f1d2776d349a75ae0221ca89ae372a3f20ccf5f18ff3e95d8cad57d27",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:10.721Z",
+        "checkedAt": "2026-10-31T10:26:31.722Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
-      "lastCheckedAt": "2026-10-31T10:24:10.721Z"
+      "lastCheckedAt": "2026-10-31T10:26:31.722Z"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -1116,12 +1153,12 @@
         "contentHash": "74dd8ab20f8a884539d4462f33af5b3039eab16acfa61170da0863eb8469ed9f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:09.782Z",
+        "checkedAt": "2026-10-31T10:26:24.073Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-31T10:24:09.782Z"
+      "lastCheckedAt": "2026-10-31T10:26:24.073Z"
     },
     {
       "id": "nssf:-specials-featured-jobs-senior-manager-partnerships-business-development-mdas-",
@@ -1145,12 +1182,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:00.572Z",
+        "checkedAt": "2026-10-31T10:26:04.373Z",
         "flags": []
       },
       "sourceUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
       "applicationUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
-      "lastCheckedAt": "2026-10-31T10:24:00.572Z",
+      "lastCheckedAt": "2026-10-31T10:26:04.373Z",
       "sourceId": "nssf-uganda",
       "sector": "Public institution"
     },
@@ -1181,12 +1218,12 @@
         "contentHash": "9a2e82efbb04b51620f5f73c788b706a52c8d9afb2fc9d15504d78b4f63d1e08",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:24:08.563Z",
+        "checkedAt": "2026-10-31T10:26:16.772Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
-      "lastCheckedAt": "2026-10-31T10:24:08.563Z"
+      "lastCheckedAt": "2026-10-31T10:26:16.772Z"
     }
   ]
 }

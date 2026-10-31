@@ -14,9 +14,10 @@
       "approvedFlags": [
         "Review recruitment language"
       ],
-      "reason": "Site owner explicitly confirmed reviewing and approving these held M-KOPA and UNICEF vacancies.",
+      "reason": "Site owner explicitly confirmed reviewing and approving these held M-KOPA and UNICEF vacancies. Approval binds this specific vacancy and its known flag, rather than changing UNICEF page markup.",
       "summary": "Temporary five-month Health Specialist role with UNICEF in Kampala, Uganda. Read the official advert for the complete responsibilities, qualifications and application instructions.",
-      "snapshotFingerprint": "9407379878fde8ef6d99671db5ef2567434a784964bf5adeeaa4b5011dc33ae1"
+      "snapshotFingerprint": "9407379878fde8ef6d99671db5ef2567434a784964bf5adeeaa4b5011dc33ae1",
+      "scope": "listing"
     },
     {
       "id": "m-kopa:5f72226a-412c-4b5f-a647-85c37b1e4ad7",

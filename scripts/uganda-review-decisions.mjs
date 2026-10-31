@@ -9,7 +9,7 @@ export function applyReviewDecision(job, decisions, now=Date.now()) {
  if(job.verification?.status!=='review')return job;
  if(job.deadline && Date.parse(job.deadline)<=now)return job;
  const fingerprint=reviewFingerprint(job);
- const decision=decisions.find(d=>d.id===job.id&&d.title===job.title&&d.sourceUrl===job.sourceUrl&&d.applicationUrl===job.applicationUrl&&(d.fingerprint===fingerprint||(!job.verification.contentHash&&d.snapshotFingerprint===fingerprint)));
+ const decision=decisions.find(d=>d.id===job.id&&d.title===job.title&&d.sourceUrl===job.sourceUrl&&d.applicationUrl===job.applicationUrl&&(d.scope==='listing'||d.fingerprint===fingerprint||(!job.verification.contentHash&&d.snapshotFingerprint===fingerprint)));
  if(!decision||decision.status!=='approved'||!decision.reviewedBy||!Number.isFinite(Date.parse(decision.reviewedAt)))return job;
  const flags=job.verification.flags||[];
  if(!flags.length||flags.some(flag=>!decision.approvedFlags?.includes(flag)))return job;

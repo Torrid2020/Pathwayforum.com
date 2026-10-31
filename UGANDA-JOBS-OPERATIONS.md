@@ -49,3 +49,7 @@ ReliefWeb uses a single C240 (Uganda) RSS poll per scheduled run unless RELIEFWE
 Additional public sources: Educate! and Jumia via Greenhouse, M-KOPA via Ashby, and WaterAid via Workable. Existing One Acre Fund, GiveDirectly and Standard Bank sources are reused. Lever is available for future named boards; no unnamed board is polled. Duty-station checks use Ugandan place names, never mentions in job descriptions.
 
 Phase 0 local verification: 32 published Uganda jobs, 6 held, zero persisted deadlines beyond 120 days, and zero placeholder locations. Diageo and PATH each supplied one published job. The existing six review-alert lifecycle and deadline/location test groups passed unchanged.
+
+## Individual owner review decisions
+
+`data/uganda-job-review-decisions.json` records James Ocora’s explicit approval of specific held listings. IDs, titles, source and application URLs, and content fingerprints must match; only the explicitly reviewed flags are cleared. Reviewer, review time and original flags remain in the public verification audit. New listings, changed content or new flags return to review; expired listings are not revived. UNICEF’s approved record uses a factual editorial summary instead of captured page styling.

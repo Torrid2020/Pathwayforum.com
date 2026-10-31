@@ -1,0 +1,102 @@
+{
+  "policy": "Individual owner approvals. New listings, changed content, changed destinations and additional flags require another review. Expiry checks remain active.",
+  "decisions": [
+    {
+      "id": "unicef:https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "title": "Health Specialist, NO-3, Temporary Position, 5 months, #00137574, Kampala, Uganda",
+      "sourceUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "applicationUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "fingerprint": "9a28ae63304f486433bcff6ef16a10a45e57c4cbb68a43bbd6b4ebedacb7287f",
+      "status": "approved",
+      "reviewedBy": "James Ocora",
+      "reviewedAt": "2026-10-31T10:21:06.603Z",
+      "reviewedOn": "2026-10-31",
+      "approvedFlags": [
+        "Review recruitment language"
+      ],
+      "reason": "Site owner explicitly confirmed reviewing and approving these held M-KOPA and UNICEF vacancies.",
+      "summary": "Temporary five-month Health Specialist role with UNICEF in Kampala, Uganda. Read the official advert for the complete responsibilities, qualifications and application instructions.",
+      "snapshotFingerprint": "9407379878fde8ef6d99671db5ef2567434a784964bf5adeeaa4b5011dc33ae1"
+    },
+    {
+      "id": "m-kopa:5f72226a-412c-4b5f-a647-85c37b1e4ad7",
+      "title": "Finance Manager - Uganda",
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7/application",
+      "fingerprint": "66d3c3109c4173977e2579b828647967591c97e31079f96a1e27859ebe211201",
+      "status": "approved",
+      "reviewedBy": "James Ocora",
+      "reviewedAt": "2026-10-31T10:21:06.603Z",
+      "reviewedOn": "2026-10-31",
+      "approvedFlags": [
+        "Review recruitment language"
+      ],
+      "reason": "Site owner explicitly confirmed reviewing and approving these held M-KOPA and UNICEF vacancies.",
+      "snapshotFingerprint": "9ff325c166659a06f86dafce869fb739ab058f0aca4698d78d2d8a63b33a632a"
+    },
+    {
+      "id": "m-kopa:ac87dffb-3a32-4197-94da-4cdb250d230d",
+      "title": "Retention Manager",
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d/application",
+      "fingerprint": "fb49bdd6cb19011dfaf55c8c2e0710ad9cec89306fd1733447c45752b631c2c4",
+      "status": "approved",
+      "reviewedBy": "James Ocora",
+      "reviewedAt": "2026-10-31T10:21:06.603Z",
+      "reviewedOn": "2026-10-31",
+      "approvedFlags": [
+        "Review recruitment language"
+      ],
+      "reason": "Site owner explicitly confirmed reviewing and approving these held M-KOPA and UNICEF vacancies.",
+      "snapshotFingerprint": "8c40246ea7f8b3fd00bcc55b270aa0b1efbce2a66fa558eb8d289c05de588d59"
+    },
+    {
+      "id": "m-kopa:3b64016b-0865-47f4-b343-5b4445f7aaef",
+      "title": "Sales Executive - Fort Portal",
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef/application",
+      "fingerprint": "20af89103c2f6b97887ca4e02ad254c024d528a822aa032057bc669adb221573",
+      "status": "approved",
+      "reviewedBy": "James Ocora",
+      "reviewedAt": "2026-10-31T10:21:06.603Z",
+      "reviewedOn": "2026-10-31",
+      "approvedFlags": [
+        "Review recruitment language"
+      ],
+      "reason": "Site owner explicitly confirmed reviewing and approving these held M-KOPA and UNICEF vacancies.",
+      "snapshotFingerprint": "c80792b0468dde31d01f9e66e57c29c25c27fdbf65821754035f8fed896853ac"
+    },
+    {
+      "id": "m-kopa:cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
+      "title": "Field Sales Manager - Mukono",
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2/application",
+      "fingerprint": "70f127832b6261e4edb3a3d7f74cdf2e4a360cf761a557f934e0506cb0f02f44",
+      "status": "approved",
+      "reviewedBy": "James Ocora",
+      "reviewedAt": "2026-10-31T10:21:06.603Z",
+      "reviewedOn": "2026-10-31",
+      "approvedFlags": [
+        "Review recruitment language"
+      ],
+      "reason": "Site owner explicitly confirmed reviewing and approving these held M-KOPA and UNICEF vacancies.",
+      "snapshotFingerprint": "dae82425751af010c2e9c24effcdc0816a69270af901ad59a5996609e5692f98"
+    },
+    {
+      "id": "m-kopa:685fe2cb-7003-4217-95fe-179d50469d0d",
+      "title": "Office Assistant",
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d/application",
+      "fingerprint": "4b42cce4d878401d73028b901b986bbb3aae91333b5b3c147f20d980ccbd08c7",
+      "status": "approved",
+      "reviewedBy": "James Ocora",
+      "reviewedAt": "2026-10-31T10:21:06.603Z",
+      "reviewedOn": "2026-10-31",
+      "approvedFlags": [
+        "Review recruitment language"
+      ],
+      "reason": "Site owner explicitly confirmed reviewing and approving these held M-KOPA and UNICEF vacancies.",
+      "snapshotFingerprint": "c357e39b1946ecccabd0eb2ce0bfeaa7fb41caaead20eb0e590d9a3be1f014f6"
+    }
+  ]
+}

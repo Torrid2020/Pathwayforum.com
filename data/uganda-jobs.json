@@ -1,48 +1,84 @@
 {
-  "generatedAt": "2026-10-30T22:36:34.733Z",
+  "generatedAt": "2026-10-31T10:22:40.082Z",
   "country": "Uganda",
-  "jobCount": 29,
+  "jobCount": 35,
   "sources": {
     "World Vision Careers": "ok",
     "dfcu Bank Careers": "ok",
     "NSSF Uganda Careers": "ok",
     "Uganda Airlines Careers": "connected",
-    "MTN Uganda Careers": "connected",
+    "Uganda Revenue Authority Careers": "manual-review",
     "TotalEnergies Uganda Careers": "manual-review",
     "Makerere University Careers": "connected",
+    "MTN Uganda Careers": "connected",
     "Stanbic Bank Uganda Careers": "connected",
+    "Airtel Uganda Careers": "manual-review",
     "Absa Bank Uganda Careers": "connected",
     "FINCA Uganda Careers": "connected",
-    "Airtel Uganda Careers": "manual-review",
     "Equity Bank Uganda Careers": "manual-review",
-    "GiveDirectly Careers": "connected",
-    "Uganda Civil Aviation Authority Careers": "connected",
-    "One Acre Fund Careers": "connected",
-    "BRAC Uganda Bank Careers": "connected",
     "Centenary Bank Careers": "manual-review",
+    "BRAC Uganda Bank Careers": "connected",
     "Living Goods Careers": "connected",
+    "GiveDirectly Careers": "connected",
+    "One Acre Fund Careers": "connected",
     "Save the Children International Careers": "unavailable",
     "International Rescue Committee Careers": "manual-review",
     "Mercy Corps Careers": "connected",
-    "Uganda Revenue Authority Careers": "manual-review",
     "Danish Refugee Council Careers": "connected",
+    "UNICEF Careers": "unavailable",
+    "Uganda Civil Aviation Authority Careers": "connected",
     "Norwegian Refugee Council Careers": "connected",
-    "Plan International Careers": "connected",
-    "UNICEF Careers": "connected",
+    "UNHCR Careers": "connected",
     "World Food Programme Careers": "connected",
     "Educate! Careers": "connected",
     "Jumia Careers": "connected",
-    "M-KOPA Careers": "connected",
-    "UNHCR Careers": "connected",
-    "BRAC International Careers": "connected",
-    "WaterAid Careers": "connected",
-    "PATH Careers": "connected",
     "Diageo / Uganda Breweries Careers": "connected",
+    "WaterAid Careers": "connected",
+    "M-KOPA Careers": "connected",
+    "PATH Careers": "connected",
+    "Plan International Careers": "connected",
     "Clinton Health Access Initiative Careers": "connected",
+    "BRAC International Careers": "connected",
     "ReliefWeb": "unavailable"
   },
   "methodology": "Official employer feeds, reviewed employer submissions and configured humanitarian APIs. Expired vacancies are excluded. Levels are inferred from titles, experience and descriptions, with entry and mid-level roles shown before senior positions; confirm requirements with the employer. Source checks do not guarantee suitability or hiring.",
   "jobs": [
+    {
+      "id": "unicef:https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "source": "UNICEF Careers",
+      "sourceId": "unicef",
+      "sourceType": "official-employer",
+      "level": "Mid level",
+      "sector": "NGO & Humanitarian",
+      "title": "Health Specialist, NO-3, Temporary Position, 5 months, #00137574, Kampala, Uganda",
+      "employer": "UNICEF",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "See official listing",
+      "category": "NGO & Humanitarian",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": null,
+      "deadline": "2026-11-02T20:55:00.000Z",
+      "deadlineStatus": "Check live deadline",
+      "summary": "Temporary five-month Health Specialist role with UNICEF in Kampala, Uganda. Read the official advert for the complete responsibilities, qualifications and application instructions.",
+      "indicators": [],
+      "verification": {
+        "status": "official-source",
+        "label": "Reviewed by Pathway Forum",
+        "checkedAt": "2026-10-30T14:17:57.834Z",
+        "flags": [],
+        "reviewedFlags": [
+          "Review recruitment language"
+        ],
+        "reviewedBy": "James Ocora",
+        "reviewedAt": "2026-10-31T10:21:06.603Z"
+      },
+      "sourceUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "applicationUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
+      "lastCheckedAt": "2026-10-30T14:17:57.834Z"
+    },
     {
       "id": "drc:https://drc.ngo/jobs/job?id=177063",
       "source": "Danish Refugee Council Careers",
@@ -67,14 +103,15 @@
         "5 years of experience"
       ],
       "verification": {
+        "contentHash": "1f2b816d6bab0ec7887025b4079a09cdeb701a0b976a891d031d1c7c673bb81a",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:43.768Z",
+        "checkedAt": "2026-10-31T10:22:52.340Z",
         "flags": []
       },
       "sourceUrl": "https://drc.ngo/jobs/job?id=177063",
       "applicationUrl": "https://drc.ngo/jobs/job?id=177063",
-      "lastCheckedAt": "2026-10-30T22:36:43.768Z"
+      "lastCheckedAt": "2026-10-31T10:22:52.340Z"
     },
     {
       "id": "absa:R-15992444",
@@ -98,14 +135,15 @@
       "summary": "Empowering Africa’s tomorrow, together…one story at a time. With over 100 years of rich history and strongly positioned as a local bank with regional and international expertise, a career with our family offers the opportunity to be part of this exciting growth journey, to reset our future and shape our destiny as a proudly African group. My Career Development Portal : Wherever",
       "indicators": [],
       "verification": {
+        "contentHash": "c52eefd1a2661d2a9e35408b6b5dd43369fc3723f0572433a8b20bda0e2b2e09",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:39.366Z",
+        "checkedAt": "2026-10-31T10:22:45.567Z",
         "flags": []
       },
       "sourceUrl": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite/job/Kampala/No-Corporate-Grade_R-15992444",
       "applicationUrl": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite/job/Kampala/No-Corporate-Grade_R-15992444",
-      "lastCheckedAt": "2026-10-30T22:36:39.366Z"
+      "lastCheckedAt": "2026-10-31T10:22:45.567Z"
     },
     {
       "id": "brac-bank:it-infrastructure-support-officer",
@@ -129,14 +167,15 @@
       "summary": "IT Infrastructure Support Officer About Education. Experience and Competence Requirements How to Apply About Job Tittle: IT Infrastructure Support Officer. Reports to: Manager IT Infrastructure. PURPOSE OF THE ROLE The IT Infrastructure Officer will support the installation, deployment and maintenance of servers, desktops, printers, telephony and other hardware across both prod",
       "indicators": [],
       "verification": {
+        "contentHash": "46f3d76807b8c6f912c84789a9128b9c22f2dbc4abd6e68f56bf473899b4433f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:41.591Z",
+        "checkedAt": "2026-10-31T10:22:46.677Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-30T22:36:41.591Z"
+      "lastCheckedAt": "2026-10-31T10:22:46.677Z"
     },
     {
       "id": "brac-bank:it-security-officer",
@@ -162,14 +201,15 @@
         "2 years of experience"
       ],
       "verification": {
+        "contentHash": "304257619b1a7cca13b72e2d743587919b72e064404ae29c5bd463b805f265bb",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:41.590Z",
+        "checkedAt": "2026-10-31T10:22:46.673Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-30T22:36:41.590Z"
+      "lastCheckedAt": "2026-10-31T10:22:46.673Z"
     },
     {
       "id": "brac-bank:it-service-desk-officer",
@@ -195,14 +235,15 @@
         "2 years of experience"
       ],
       "verification": {
+        "contentHash": "e79544b1af1c0473cd75d73edd4c7e2f1ddfc27a331792f768aa5e7536ddbfec",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:41.590Z",
+        "checkedAt": "2026-10-31T10:22:46.671Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-30T22:36:41.590Z"
+      "lastCheckedAt": "2026-10-31T10:22:46.671Z"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -226,14 +267,15 @@
       "summary": "Overview The Clinton Health Access Initiative, Inc. (CHAI) is a global health organization committed to our mission of saving lives and reducing the burden of disease in low-and middle-income countries. We work at the invitation of governments to support them and the private sector to create and sustain high-quality health systems. CHAI was founded in 2002 in response to the HI",
       "indicators": [],
       "verification": {
+        "contentHash": "9b69483d841cdc51d7971aa1755fe884f8a7f5912247154cb5a57d119cf7059f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:47.031Z",
+        "checkedAt": "2026-10-31T10:22:58.997Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-30T22:36:47.031Z"
+      "lastCheckedAt": "2026-10-31T10:22:58.997Z"
     },
     {
       "id": "stanbic:744000158026749",
@@ -259,14 +301,15 @@
         "2 years of experience"
       ],
       "verification": {
+        "contentHash": "b2e99f33b9965740db51e18e8e52f11363405f50928cee7923d7b13f3402caa7",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:37.998Z",
+        "checkedAt": "2026-10-31T10:22:44.319Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking?oga=true",
-      "lastCheckedAt": "2026-10-30T22:36:37.998Z"
+      "lastCheckedAt": "2026-10-31T10:22:44.319Z"
     },
     {
       "id": "educate:8336549",
@@ -292,14 +335,15 @@
         "1 years of experience"
       ],
       "verification": {
+        "contentHash": "9754e062c9369af2cd79d2259e2963d8a7c48fd37c6823737e9ede536490a07c",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:44.954Z",
+        "checkedAt": "2026-10-31T10:22:54.882Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
-      "lastCheckedAt": "2026-10-30T22:36:44.954Z"
+      "lastCheckedAt": "2026-10-31T10:22:54.882Z"
     },
     {
       "id": "nrc:20449",
@@ -326,14 +370,54 @@
         "3 years of experience"
       ],
       "verification": {
+        "contentHash": "293d3e35d27c6f0b8ceef8a640e8d3cfd15c90dda377e948ab0eb51812949828",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:44.240Z",
+        "checkedAt": "2026-10-31T10:22:53.579Z",
         "flags": []
       },
       "sourceUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
       "applicationUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
-      "lastCheckedAt": "2026-10-30T22:36:44.240Z"
+      "lastCheckedAt": "2026-10-31T10:22:53.579Z"
+    },
+    {
+      "id": "m-kopa:685fe2cb-7003-4217-95fe-179d50469d0d",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Entry level",
+      "sector": "Energy",
+      "title": "Office Assistant",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "OnSite",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-29T10:43:50.004+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "We are looking for an Office Assistant to join our Workplaces team; as we scale up and drive digital and financial inclusion across our markets. The Role As Office Assistant, you keep the Kampala office (Aponye Mall, Burton Street) running day to day across the front office, supplies, premises, events and compliance. You report to the Workplaces Lead and work on site in a contr",
+      "indicators": [
+        "Early-career title"
+      ],
+      "verification": {
+        "contentHash": "4b42cce4d878401d73028b901b986bbb3aae91333b5b3c147f20d980ccbd08c7",
+        "status": "official-source",
+        "label": "Reviewed by Pathway Forum",
+        "checkedAt": "2026-10-31T10:22:55.738Z",
+        "flags": [],
+        "reviewedFlags": [
+          "Review recruitment language"
+        ],
+        "reviewedBy": "James Ocora",
+        "reviewedAt": "2026-10-31T10:21:06.603Z"
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d/application",
+      "lastCheckedAt": "2026-10-31T10:22:55.738Z"
     },
     {
       "id": "brac-international:fk0zu8c",
@@ -357,14 +441,15 @@
       "summary": "Job Summary: The Plant Operator Officer is responsible for the safe, efficient, and high-quality operation of seed processing machinery at the Nakaseke Seed Processing Plant. The role ensures daily production targets are met while maintaining strict adherence to quality management systems (QMS), traceability requirements, and environment, health and safety (EHS) standards. BSBE",
       "indicators": [],
       "verification": {
+        "contentHash": "cc67100ec100cd933a266c5d74e75a2c52417847e97fd24a5e2d8f44bbd8e406",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.348Z",
+        "checkedAt": "2026-10-31T10:23:07.337Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
-      "lastCheckedAt": "2026-10-30T22:36:45.348Z"
+      "lastCheckedAt": "2026-10-31T10:23:07.337Z"
     },
     {
       "id": "wateraid:E538BBAB7A",
@@ -390,14 +475,15 @@
         "Early-career title"
       ],
       "verification": {
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.373Z",
+        "checkedAt": "2026-10-31T10:22:55.669Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/E538BBAB7A",
       "applicationUrl": "https://apply.workable.com/j/E538BBAB7A/apply",
-      "lastCheckedAt": "2026-10-30T22:36:45.373Z"
+      "lastCheckedAt": "2026-10-31T10:22:55.669Z"
     },
     {
       "id": "brac-international:fk0zu8g",
@@ -423,14 +509,52 @@
         "3 years of experience"
       ],
       "verification": {
+        "contentHash": "d51a1cb9f9944661e540861060ec93472e886a8cb14af3d270dca8def8553110",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.350Z",
+        "checkedAt": "2026-10-31T10:23:07.343Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
-      "lastCheckedAt": "2026-10-30T22:36:45.350Z"
+      "lastCheckedAt": "2026-10-31T10:23:07.343Z"
+    },
+    {
+      "id": "m-kopa:3b64016b-0865-47f4-b343-5b4445f7aaef",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Not stated",
+      "sector": "Energy",
+      "title": "Sales Executive - Fort Portal",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-20T09:33:02.030+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "We are looking for a Sales Executive in Fort Portal to join our Sales Team as we scale up and drive digital and financial inclusion across our markets This role is an opportunity to drive growth, shape strategies, and inspire a team, all while playing a key part in M-KOPA’s mission to unlock better livelihoods through affordable products Imagine leading a team that isn’t just s",
+      "indicators": [],
+      "verification": {
+        "contentHash": "20af89103c2f6b97887ca4e02ad254c024d528a822aa032057bc669adb221573",
+        "status": "official-source",
+        "label": "Reviewed by Pathway Forum",
+        "checkedAt": "2026-10-31T10:22:55.731Z",
+        "flags": [],
+        "reviewedFlags": [
+          "Review recruitment language"
+        ],
+        "reviewedBy": "James Ocora",
+        "reviewedAt": "2026-10-31T10:21:06.603Z"
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef/application",
+      "lastCheckedAt": "2026-10-31T10:22:55.731Z"
     },
     {
       "id": "one-acre-fund:7692994",
@@ -454,14 +578,15 @@
       "summary": "About One Acre Fund Founded in 2006, One Acre Fund equips 5.5 million smallholder farmers to make their farms more productive. Across nine countries that together are home to two-thirds of Africa's farmers, we provide high-quality farm supplies, tree seedlings, accessible credit, modern agronomic training, and a wide range of other agricultural services. On average, this model ",
       "indicators": [],
       "verification": {
+        "contentHash": "c343491397accb77279de45de4955bc2fd7229d25943d1c2ed66c66e788c31ab",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:40.990Z",
+        "checkedAt": "2026-10-31T10:22:48.932Z",
         "flags": []
       },
       "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
       "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
-      "lastCheckedAt": "2026-10-30T22:36:40.990Z"
+      "lastCheckedAt": "2026-10-31T10:22:48.932Z"
     },
     {
       "id": "mtn-uganda:7890",
@@ -487,14 +612,15 @@
         "5 years of experience"
       ],
       "verification": {
+        "contentHash": "d7cf7528adff2bbb1ce50ef90afe2294d78a3b44a11510e635762f84c9b7210d",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:36.471Z",
+        "checkedAt": "2026-10-31T10:22:43.766Z",
         "flags": []
       },
       "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
       "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
-      "lastCheckedAt": "2026-10-30T22:36:36.471Z"
+      "lastCheckedAt": "2026-10-31T10:22:43.766Z"
     },
     {
       "id": "drc:https://drc.ngo/jobs/job?id=177062",
@@ -518,14 +644,15 @@
       "summary": "purpose of the role: The Engineering and Shelter Team Leader will be responsible for providing overall technical leadership and oversight for shelter and infrastructure activities across Bidibidi, Rhino Camp and Imvepi refugee settlements. He/she will oversee cash-for-shelter assistance, renovation and construction works, ensuring quality and compliance with required technical ",
       "indicators": [],
       "verification": {
+        "contentHash": "d67adb3a3b8c8dfb55d76928e50875fbf80be7756a5ee1d44884af00f4d67cbd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:43.768Z",
+        "checkedAt": "2026-10-31T10:22:52.342Z",
         "flags": []
       },
       "sourceUrl": "https://drc.ngo/jobs/job?id=177062",
       "applicationUrl": "https://drc.ngo/jobs/job?id=177062",
-      "lastCheckedAt": "2026-10-30T22:36:43.768Z"
+      "lastCheckedAt": "2026-10-31T10:22:52.342Z"
     },
     {
       "id": "path:JR2738",
@@ -551,14 +678,89 @@
         "50 years of experience"
       ],
       "verification": {
+        "contentHash": "ddb5758dd59e74c5f7083d74d07598e004945a71d5027bf36c842df0603503ad",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.412Z",
+        "checkedAt": "2026-10-31T10:22:56.019Z",
         "flags": []
       },
       "sourceUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
       "applicationUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
-      "lastCheckedAt": "2026-10-30T22:36:45.412Z"
+      "lastCheckedAt": "2026-10-31T10:22:56.019Z"
+    },
+    {
+      "id": "m-kopa:cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Senior / management",
+      "sector": "Energy",
+      "title": "Field Sales Manager - Mukono",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-21T09:02:07.857+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "We are looking for a Field Sales Manager to lead the recruitment and management of Direct Sales Representatives (DSRs), drive sales quota attainment, and expand sales channels across an assigned geographical location in Uganda. This role offers the opportunity to own your territory—building a high-performing field sales team that delivers results, upholds brand values, and driv",
+      "indicators": [],
+      "verification": {
+        "contentHash": "70f127832b6261e4edb3a3d7f74cdf2e4a360cf761a557f934e0506cb0f02f44",
+        "status": "official-source",
+        "label": "Reviewed by Pathway Forum",
+        "checkedAt": "2026-10-31T10:22:55.732Z",
+        "flags": [],
+        "reviewedFlags": [
+          "Review recruitment language"
+        ],
+        "reviewedBy": "James Ocora",
+        "reviewedAt": "2026-10-31T10:21:06.603Z"
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2/application",
+      "lastCheckedAt": "2026-10-31T10:22:55.732Z"
+    },
+    {
+      "id": "m-kopa:5f72226a-412c-4b5f-a647-85c37b1e4ad7",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Senior / management",
+      "sector": "Energy",
+      "title": "Finance Manager - Uganda",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-09-24T15:16:51.809+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "Finance Manager — M-KOPA Uganda You've built the controls. You've closed the books. You've explained the numbers to boards who didn't want to hear them. But have you ever built financial rigor into a business that's simultaneously scaling, lending, and putting life-changing assets into the hands of millions of customers who've never had access to credit before? That's the quest",
+      "indicators": [],
+      "verification": {
+        "contentHash": "66d3c3109c4173977e2579b828647967591c97e31079f96a1e27859ebe211201",
+        "status": "official-source",
+        "label": "Reviewed by Pathway Forum",
+        "checkedAt": "2026-10-31T10:22:55.720Z",
+        "flags": [],
+        "reviewedFlags": [
+          "Review recruitment language"
+        ],
+        "reviewedBy": "James Ocora",
+        "reviewedAt": "2026-10-31T10:21:06.603Z"
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7/application",
+      "lastCheckedAt": "2026-10-31T10:22:55.720Z"
     },
     {
       "id": "one-acre-fund:8132333",
@@ -582,14 +784,15 @@
       "summary": "About One Acre Fund Founded in 2006, One Acre Fund equips 5.5 million smallholder farmers to make their farms more productive. Across nine countries that together are home to two-thirds of Africa's farmers, we provide high-quality farm supplies, tree seedlings, accessible credit, modern agronomic training, and a wide range of other agricultural services. On average, this model ",
       "indicators": [],
       "verification": {
+        "contentHash": "c717ae22f06a7198c7fc235cc16c75d947254574ba8121bcded62dd4959db288",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:40.990Z",
+        "checkedAt": "2026-10-31T10:22:48.930Z",
         "flags": []
       },
       "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
       "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
-      "lastCheckedAt": "2026-10-30T22:36:40.990Z"
+      "lastCheckedAt": "2026-10-31T10:22:48.930Z"
     },
     {
       "id": "wateraid:D095CE9724",
@@ -613,14 +816,15 @@
       "summary": "Read the employer’s full advert before applying.",
       "indicators": [],
       "verification": {
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.373Z",
+        "checkedAt": "2026-10-31T10:22:55.666Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/D095CE9724",
       "applicationUrl": "https://apply.workable.com/j/D095CE9724/apply",
-      "lastCheckedAt": "2026-10-30T22:36:45.373Z"
+      "lastCheckedAt": "2026-10-31T10:22:55.666Z"
     },
     {
       "id": "educate:8248862",
@@ -644,14 +848,15 @@
       "summary": "Who We Are! 🌍 Africa has the world’s youngest and fastest-growing population. By 2035, the continent is poised to contribute more young people to the global workforce each year than the rest of the world combined. At Educate! we're obsessed with impact. We leverage iterative learning to build highly scalable youth employment solutions aimed at unlocking the potential of the wo",
       "indicators": [],
       "verification": {
+        "contentHash": "2e653adb86772a31dd6ee5d84537f432c73569a2d36b3a66c160536bb31650cd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:44.955Z",
+        "checkedAt": "2026-10-31T10:22:54.886Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
-      "lastCheckedAt": "2026-10-30T22:36:44.955Z"
+      "lastCheckedAt": "2026-10-31T10:22:54.886Z"
     },
     {
       "id": "wateraid:BB1627BC45",
@@ -675,14 +880,15 @@
       "summary": "Read the employer’s full advert before applying.",
       "indicators": [],
       "verification": {
+        "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.373Z",
+        "checkedAt": "2026-10-31T10:22:55.667Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/BB1627BC45",
       "applicationUrl": "https://apply.workable.com/j/BB1627BC45/apply",
-      "lastCheckedAt": "2026-10-30T22:36:45.373Z"
+      "lastCheckedAt": "2026-10-31T10:22:55.667Z"
     },
     {
       "id": "jumia:4906703101",
@@ -706,14 +912,15 @@
       "summary": "About Jumia : Jumia is a leading pan-African e-commerce platform. Its mission is to improve the quality of everyday life in Africa by leveraging technology to deliver innovative, convenient and affordable online services to customers, while helping businesses grow as they use Jumia's platform to better reach and serve customers. Jumia is built around a marketplace and supported",
       "indicators": [],
       "verification": {
+        "contentHash": "511d99bfe8614b001e989b8a3344f23a23e8b89a97c92b4d4b58437d9d46d9c3",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.020Z",
+        "checkedAt": "2026-10-31T10:22:55.282Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
       "applicationUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
-      "lastCheckedAt": "2026-10-30T22:36:45.020Z"
+      "lastCheckedAt": "2026-10-31T10:22:55.282Z"
     },
     {
       "id": "stanbic:744000157751189",
@@ -737,14 +944,15 @@
       "summary": "Standard Bank Group is a leading Africa-focused financial services group, and an innovative player on the global stage, that offers a variety of career-enhancing opportunities – plus the chance to work alongside some of the sector’s most talented, motivated professionals. Our clients range from individuals, to businesses of all sizes, high net worth families and large multinati",
       "indicators": [],
       "verification": {
+        "contentHash": "55d17c01f795141b5dba8d7c73c7256d82a649126f64f243f3be3cb692dca70e",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:37.998Z",
+        "checkedAt": "2026-10-31T10:22:44.319Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-?oga=true",
-      "lastCheckedAt": "2026-10-30T22:36:37.998Z"
+      "lastCheckedAt": "2026-10-31T10:22:44.319Z"
     },
     {
       "id": "stanbic:744000157127420",
@@ -770,14 +978,15 @@
         "5 years of experience"
       ],
       "verification": {
+        "contentHash": "01940a4223eddea3526f14e9ef0918e4a58a14b86d259dd0fbee12dc0298928c",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:37.998Z",
+        "checkedAt": "2026-10-31T10:22:44.320Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions?oga=true",
-      "lastCheckedAt": "2026-10-30T22:36:37.998Z"
+      "lastCheckedAt": "2026-10-31T10:22:44.320Z"
     },
     {
       "id": "brac-international:fk0zu84",
@@ -803,14 +1012,15 @@
         "5 years of experience"
       ],
       "verification": {
+        "contentHash": "f70868c88a92a616ada994119f52ebb6fc95b89e3f76553e0fdcbd611f0a6ebd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.349Z",
+        "checkedAt": "2026-10-31T10:23:07.339Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
-      "lastCheckedAt": "2026-10-30T22:36:45.349Z"
+      "lastCheckedAt": "2026-10-31T10:23:07.339Z"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -834,14 +1044,54 @@
       "summary": "Overview The Clinton Health Access Initiative, Inc. (CHAI) is a global health organization committed to our mission of saving lives and reducing the burden of disease in low-and middle-income countries. We work at the invitation of governments to support them and the private sector to create and sustain high-quality health systems. CHAI was founded in 2002 in response to the HI",
       "indicators": [],
       "verification": {
+        "contentHash": "fe1a551d1d52ae074df89f7773cf830a1582ae2b47ebe5f0ebc376deb5143d21",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:47.032Z",
+        "checkedAt": "2026-10-31T10:22:59.002Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-30T22:36:47.032Z"
+      "lastCheckedAt": "2026-10-31T10:22:59.002Z"
+    },
+    {
+      "id": "m-kopa:ac87dffb-3a32-4197-94da-4cdb250d230d",
+      "source": "M-KOPA Careers",
+      "sourceId": "m-kopa",
+      "sourceType": "official-employer",
+      "level": "Senior / management",
+      "sector": "Energy",
+      "title": "Retention Manager",
+      "employer": "M-KOPA",
+      "location": "Uganda",
+      "district": "Uganda",
+      "workplace": "On-site or field-based",
+      "employmentType": "FullTime",
+      "category": "Energy",
+      "education": "See official listing",
+      "experience": "5 years requested",
+      "publishedAt": "2026-09-08T07:22:35.176+00:00",
+      "deadline": null,
+      "deadlineStatus": "Check the official deadline",
+      "summary": "We are looking for a Retention Manager to lead Uganda's Customer Retention and Telesales operation, converting existing customers into repeat-product sales through disciplined campaign execution, strong coaching, and rigorous performance management. This role offers the opportunity to own Uganda's entire retention engine—from campaign design to team culture to conversion outcom",
+      "indicators": [
+        "5 years of experience"
+      ],
+      "verification": {
+        "contentHash": "fb49bdd6cb19011dfaf55c8c2e0710ad9cec89306fd1733447c45752b631c2c4",
+        "status": "official-source",
+        "label": "Reviewed by Pathway Forum",
+        "checkedAt": "2026-10-31T10:22:55.723Z",
+        "flags": [],
+        "reviewedFlags": [
+          "Review recruitment language"
+        ],
+        "reviewedBy": "James Ocora",
+        "reviewedAt": "2026-10-31T10:21:06.603Z"
+      },
+      "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d",
+      "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d/application",
+      "lastCheckedAt": "2026-10-31T10:22:55.723Z"
     },
     {
       "id": "brac-international:fk0zu8y",
@@ -865,14 +1115,15 @@
       "summary": "Job Summary: To provide strategic and commercial leadership for BSBE's seed business, driving market share expansion and revenue growth. The Sales &amp; Marketing Manager acts as the bridge between market demand and operational planning, ensuring that production aligns with farmer needs. Education Qualifications Bachelors or Master's degree in Agribusiness, Marketing, Business ",
       "indicators": [],
       "verification": {
+        "contentHash": "1259e70f1d2776d349a75ae0221ca89ae372a3f20ccf5f18ff3e95d8cad57d27",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:45.351Z",
+        "checkedAt": "2026-10-31T10:23:07.347Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
-      "lastCheckedAt": "2026-10-30T22:36:45.351Z"
+      "lastCheckedAt": "2026-10-31T10:23:07.347Z"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -898,14 +1149,15 @@
         "3 years of experience"
       ],
       "verification": {
+        "contentHash": "74dd8ab20f8a884539d4462f33af5b3039eab16acfa61170da0863eb8469ed9f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:47.032Z",
+        "checkedAt": "2026-10-31T10:22:59.005Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-30T22:36:47.032Z"
+      "lastCheckedAt": "2026-10-31T10:22:59.005Z"
     },
     {
       "id": "nssf:-specials-featured-jobs-senior-manager-partnerships-business-development-mdas-",
@@ -929,12 +1181,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:34.733Z",
+        "checkedAt": "2026-10-31T10:22:40.082Z",
         "flags": []
       },
       "sourceUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
       "applicationUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
-      "lastCheckedAt": "2026-10-30T22:36:34.733Z",
+      "lastCheckedAt": "2026-10-31T10:22:40.082Z",
       "sourceId": "nssf-uganda",
       "sector": "Public institution"
     },
@@ -962,14 +1214,15 @@
         "5 years of experience"
       ],
       "verification": {
+        "contentHash": "9a2e82efbb04b51620f5f73c788b706a52c8d9afb2fc9d15504d78b4f63d1e08",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-30T22:36:44.955Z",
+        "checkedAt": "2026-10-31T10:22:54.890Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
-      "lastCheckedAt": "2026-10-30T22:36:44.955Z"
+      "lastCheckedAt": "2026-10-31T10:22:54.890Z"
     }
   ]
 }

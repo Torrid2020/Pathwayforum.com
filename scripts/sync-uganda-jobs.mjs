@@ -1,3 +1,4 @@
+import {applyReviewDecision} from './uganda-review-decisions.mjs';
 import {isUgandaLocation} from '../assets/uganda-locations.mjs';
 import {reliefWebDuplicate,JOB_USER_AGENT} from './uganda-reliefweb.mjs';
 import {normalizeDeadline,cleanLocation} from '../assets/uganda-data.mjs';
@@ -243,6 +244,7 @@ async function main() {
   const sourceStatus = Object.fromEntries(results.map((result, index) => [sources[index].name, result.status === "fulfilled" ? "ok" : String(result.reason)]));
   const failed = results.map((result, index) => result.status === "rejected" ? sources[index].name + ": " + result.reason : null).filter(Boolean);
   if(failed.length)console.warn('Source update warnings: '+failed.join(' | '));
+  let decisions=[];try{decisions=JSON.parse(await fs.readFile(new URL('../data/uganda-job-review-decisions.json',import.meta.url),'utf8')).decisions||[]}catch{}
   let previousFeed={jobs:[]};try{previousFeed=JSON.parse(await fs.readFile(OUTPUT,'utf8'))}catch{}
   const collected = results.flatMap((result,index) => {
     const source=employerSources.find(s=>s.name===sources[index].name);
@@ -250,9 +252,10 @@ async function main() {
   });
   for(const item of extra){sourceStatus[item.source.name]=item.status;collected.push(...item.jobs)}
   sourceStatus.ReliefWeb=relief.status;collected.push(...relief.jobs);
+  let previousReviewFeed={jobs:[]};try{previousReviewFeed=JSON.parse(await fs.readFile(REVIEW,'utf8'))}catch{}
   // Short outages retain only recently checked, unexpired records, with the original check date.
   const failedNames=new Set([...failed.map(x=>x.split(':')[0]),...extra.filter(x=>x.status==='unavailable').map(x=>x.source.name)]);
-  collected.push(...(previousFeed.jobs||[]).filter(job=>failedNames.has(job.source)&&Date.now()-Date.parse(job.lastCheckedAt)<72*3600000&&(!job.deadline||Date.parse(job.deadline)>Date.now())));
+  collected.push(...[...(previousFeed.jobs||[]),...(previousReviewFeed.jobs||[])].filter(job=>failedNames.has(job.source)&&Date.now()-Date.parse(job.lastCheckedAt)<72*3600000&&(!job.deadline||Date.parse(job.deadline)>Date.now())));
   let approved=[];try{approved=JSON.parse(await fs.readFile(new URL('../data/employer-jobs-approved.json',import.meta.url),'utf8')).jobs||[]}catch{}
   for(const entry of approved){
     if(entry.status!=='approved'||!entry.approvedBy||!Number.isFinite(Date.parse(entry.approvedAt))||!entry.closesAt||Date.parse(entry.closesAt)<Date.now())continue;
@@ -270,8 +273,9 @@ async function main() {
     if (!unique.has(key) && ![...unique.values()].some(existing=>reliefWebDuplicate(existing,job))) unique.set(key, job);
   }
   const deduped = [...unique.values()].map(job=>({...job,level:!job.level||job.level==='Not stated'?inferLevel(job):job.level}));
-  const jobs = deduped.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
-  const review = deduped.filter(job => job.verification.status === "review");
+  const decided=deduped.map(job=>applyReviewDecision(job,decisions));
+  const jobs = decided.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
+  const review = decided.filter(job => job.verification.status === "review");
   const feed = {
     generatedAt: now.toISOString(),
     country: "Uganda",

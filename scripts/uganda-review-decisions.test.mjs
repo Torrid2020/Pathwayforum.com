@@ -24,3 +24,5 @@ test('explicitly reviewed older snapshots can survive an outage without approvin
  assert.equal(applyReviewDecision(old,[decision]).verification.status,'official-source');
  assert.equal(applyReviewDecision({...old,summary:'Changed requirements'},[decision]).verification.status,'review');
 });
+
+test('an existing owner approval retains its audit when an official disclaimer stops being flagged',()=>{const clean={...job,verification:{...job.verification,status:'official-source',flags:[]}};assert.equal(applyReviewDecision(clean,[approval]).verification.reviewedBy,'James Ocora');});

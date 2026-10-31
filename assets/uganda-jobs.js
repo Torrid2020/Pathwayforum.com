@@ -131,6 +131,9 @@ fetch("data/uganda-jobs.json", { cache: "no-store" })
     setOptions("#district", jobs.map((job) => job.district));
     setOptions("#category", jobs.map((job) => job.category));
     setOptions("#type", jobs.map((job) => job.employmentType));
+    const params=new URLSearchParams(location.search);
+    for(const id of ['district','category','level','type'])if(params.get(id))$('#'+id).value=params.get(id);
+    if(params.get('employer'))$('#query').value=params.get('employer');
     saveState();
     render();
     const id = new URLSearchParams(location.search).get("job");

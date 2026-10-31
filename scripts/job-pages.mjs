@@ -1,3 +1,4 @@
+import {generateJobHubs} from './job-hubs.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import {fileURLToPath} from 'node:url';
@@ -21,5 +22,6 @@ export async function generateJobPages(board,jobs,{root=fileURLToPath(new URL('.
  for(const entry of entries){const file=pageFile(root,board,entry.slug);await fs.mkdir(path.dirname(file),{recursive:true});await fs.writeFile(file,await renderJobPage({board,job:entry.job,jobs:open,index:open.findIndex(j=>j.id===entry.id),root,now,closedAt:entry.closedAt}))}
  for(const old of previous.entries)if(!entries.some(e=>e.id===old.id)){const file=pageFile(root,board,old.slug);try{await fs.unlink(file);await fs.rmdir(path.dirname(file))}catch(error){if(!['ENOENT','ENOTEMPTY'].includes(error.code))throw error}}
  await fs.mkdir(path.dirname(manifestFile),{recursive:true});await fs.writeFile(manifestFile,JSON.stringify({version:1,updatedAt:new Date(now).toISOString(),entries},null,2)+'\n');
+ if(board==='uganda')await generateJobHubs(open,{root,now});
  return open;
 }

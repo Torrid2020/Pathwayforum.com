@@ -1,3 +1,4 @@
+import {loadRemovals,isRemoved} from './job-removals.mjs';
 import {storeDescriptions} from './job-description-store.mjs';
 import {pathToFileURL} from 'node:url';
 import fs from "node:fs/promises";
@@ -73,6 +74,8 @@ async function main(){
     if(!old||job.studentFit.score>old.studentFit.score)unique.set(key,job);
   }
   let jobs=[...unique.values()].filter(j=>j.eligibility.regions.length&&j.studentFit.evidence&&j.studentFit.score>=45&&j.safety.status!=="review"&&!senior.test(j.title)&&!/\b(?:mid[- ]level|senior|manager|director|executive)\b/i.test(j.level)&&!irrelevant.test(j.title)).sort((a,b)=>b.studentFit.score-a.studentFit.score||String(b.publishedAt||"").localeCompare(String(a.publishedAt||""))).slice(0,180);
+  const removals=await loadRemovals();
+  jobs=jobs.filter(job=>!isRemoved(job,removals));
   if(!jobs.length&&!Object.values(sourceStatus).some(status=>status==="ok"))throw new Error("All sources failed; existing feed left untouched.");
   if(!process.argv.includes("--dry-run"))jobs=await storeDescriptions("remote",jobs);
   const payload={generatedAt:now.toISOString(),targetRegions:["Africa","South America","Asia"],jobCount:jobs.length,sources:sourceStatus,methodology:"Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",jobs};

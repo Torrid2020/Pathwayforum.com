@@ -1,3 +1,4 @@
+import {loadRemovals,isRemoved} from './job-removals.mjs';
 import {storeDescriptions,listJob} from './job-description-store.mjs';
 import {applyReviewDecision} from './uganda-review-decisions.mjs';
 import {isUgandaLocation} from '../assets/uganda-locations.mjs';
@@ -276,7 +277,8 @@ async function main() {
     if (!unique.has(key) && ![...unique.values()].some(existing=>reliefWebDuplicate(existing,job))) unique.set(key, job);
   }
   const deduped = [...unique.values()].map(job=>({...job,level:!job.level||job.level==='Not stated'?inferLevel(job):job.level}));
-  const decided=deduped.map(job=>applyReviewDecision(job,decisions));
+  const removals=await loadRemovals();
+  const decided=deduped.filter(job=>!isRemoved(job,removals)).map(job=>applyReviewDecision(job,decisions));
   let jobs = decided.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
   const review = decided.filter(job => job.verification.status === "review").map(listJob);
   if(!process.argv.includes("--dry-run"))jobs=await storeDescriptions("uganda",jobs);

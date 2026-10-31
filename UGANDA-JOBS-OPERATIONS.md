@@ -55,3 +55,7 @@ Phase 0 local verification: 32 published Uganda jobs, 6 held, zero persisted dea
 `data/uganda-job-review-decisions.json` records James Ocora’s explicit approval of specific held listings. IDs, titles, source and application URLs, and content fingerprints must match; only the explicitly reviewed flags are cleared. Reviewer, review time and original flags remain in the public verification audit. New listings, changed content or new flags return to review; expired listings are not revived. UNICEF’s approved record uses a factual editorial summary instead of captured page styling.
 
 UNICEF’s owner approval is listing-scoped because its full-page HTML changes independently of the vacancy. It still requires the exact vacancy ID, title, source/application URLs and reviewed flags; new vacancies, destinations and additional flags remain held. Other approvals remain content-bound.
+
+## Employer correction and removal requests
+
+Respond promptly to requests sent to james.torrid1805@gmail.com. Add the exact vacancy ID to data/job-removals.json and run the affected sync; both the listing and its separate description file will be removed and future imports will skip it. Use an ID when an employer hosts several adverts on one URL. Correct source data or reviewed editorial text as appropriate, then commit and push. Detail views carry no ads or aggregated JobPosting markup; jobs.html stays noindex.

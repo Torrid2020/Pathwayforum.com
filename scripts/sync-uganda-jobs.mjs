@@ -1,3 +1,4 @@
+import {normalizeJobMetadata} from './job-normalizer.mjs';
 import {generateJobPages} from './job-pages.mjs';
 import {loadRemovals,isRemoved} from './job-removals.mjs';
 import {storeDescriptions,listJob} from './job-description-store.mjs';
@@ -273,7 +274,7 @@ async function main() {
     const deadline=normalizeDeadline(raw.deadline, now);
     const location=cleanLocation(raw.location);
     if(!isUgandaLocation(location))continue;
-    const job={...raw,location,district:location.split(',')[0],deadline,deadlineStatus:deadline?raw.deadlineStatus:"Check the official deadline"};
+    const job={...normalizeJobMetadata(raw),location,district:location.split(',')[0],deadline,deadlineStatus:deadline?raw.deadlineStatus:"Check the official deadline"};
     const key = (job.employer + "|" + job.title + "|" + job.location).toLowerCase().replace(/\W/g, "");
     if (!unique.has(key) && ![...unique.values()].some(existing=>reliefWebDuplicate(existing,job))) unique.set(key, job);
   }

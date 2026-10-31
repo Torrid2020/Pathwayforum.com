@@ -1,3 +1,4 @@
+import {normalizeJobMetadata} from './job-normalizer.mjs';
 import {generateJobPages} from './job-pages.mjs';
 import {loadRemovals,isRemoved} from './job-removals.mjs';
 import {storeDescriptions} from './job-description-store.mjs';
@@ -69,7 +70,8 @@ async function main(){
   const him=await Promise.allSettled(himQueries.map(q=>get("https://himalayas.app/jobs/api/search?"+q)));
   him.forEach((result,i)=>{sourceStatus["Himalayas "+(i+1)]=result.status==="fulfilled"?"ok":String(result.reason);if(result.status==="fulfilled")collected.push(...(result.value.jobs||[]).map(normalizeHimalayas).filter(Boolean))});
   const unique=new Map();
-  for(const job of collected){
+  for(const raw of collected){
+    const job=normalizeJobMetadata(raw);
     const key=(job.company+"|"+job.title).toLowerCase().replace(/\W/g,"");
     const old=unique.get(key);
     if(!old||job.studentFit.score>old.studentFit.score)unique.set(key,job);

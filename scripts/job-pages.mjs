@@ -1,3 +1,4 @@
+import {normalizeJobMetadata} from './job-normalizer.mjs';
 import {generateJobHubs} from './job-hubs.mjs';
 import fs from 'node:fs/promises';
 import path from 'node:path';
@@ -13,8 +14,8 @@ export async function generateJobPages(board,jobs,{root=fileURLToPath(new URL('.
  const manifestFile=path.join(root,'data','job-pages-'+board+'.json');let previous={entries:[]},removals=[];
  try{previous=JSON.parse(await fs.readFile(manifestFile,'utf8'))}catch(error){if(error.code!=='ENOENT')throw error}
  try{removals=JSON.parse(await fs.readFile(path.join(root,'data/job-removals.json'),'utf8')).jobs||[]}catch(error){if(error.code!=='ENOENT')throw error}
- jobs=jobs.filter(j=>!isRemoved(j,removals)&&(!(j.deadline||j.expiresAt)||!Number.isFinite(Date.parse(j.deadline||j.expiresAt))||Date.parse(j.deadline||j.expiresAt)>now));
- const archives=previous.entries.filter(old=>!jobs.some(j=>j.id===old.id)&&!isRemoved(old.job,removals)).map(old=>{const end=Date.parse(old.job.deadline||old.job.expiresAt);return {...old,closedAt:old.closedAt||new Date(Number.isFinite(end)&&end<now?end:now).toISOString()}}).filter(old=>now-Date.parse(old.closedAt)<30*86400000);
+ jobs=jobs.map(normalizeJobMetadata).filter(j=>!isRemoved(j,removals)&&(!(j.deadline||j.expiresAt)||!Number.isFinite(Date.parse(j.deadline||j.expiresAt))||Date.parse(j.deadline||j.expiresAt)>now));
+ const archives=previous.entries.filter(old=>!jobs.some(j=>j.id===old.id)&&!isRemoved(old.job,removals)).map(old=>{const end=Date.parse(old.job.deadline||old.job.expiresAt);return {...old,job:normalizeJobMetadata(old.job),closedAt:old.closedAt||new Date(Number.isFinite(end)&&end<now?end:now).toISOString()}}).filter(old=>now-Date.parse(old.closedAt)<30*86400000);
  jobs=await storeDescriptions(board,jobs,{root,now,preservePaths:archives.map(e=>e.job.descriptionPath).filter(Boolean)});
  const used=new Set(previous.entries.map(e=>e.slug));
  const active=jobs.map(job=>{const old=previous.entries.find(e=>e.id===job.id);let slug=old?.slug||jobSlug(job);if(!old&&used.has(slug))slug+='-'+createHash('sha256').update(job.id).digest('hex').slice(0,8);used.add(slug);return {id:job.id,slug,closedAt:null,job:{...job,pagePath:'jobs/'+board+'/'+slug+'/'}}});

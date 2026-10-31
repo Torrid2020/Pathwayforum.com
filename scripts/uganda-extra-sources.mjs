@@ -1,3 +1,4 @@
+import {suspiciousRecruitment} from './recruitment-language.mjs';
 import {contentHash} from './uganda-review-decisions.mjs';
 import {isUgandaLocation} from '../assets/uganda-locations.mjs';
 import {fetchPublicAts} from './uganda-public-ats.mjs';
@@ -20,7 +21,7 @@ export function normal(source,j){
  const closes=Date.parse(normalizeDeadline(j.deadline));
  if(Number.isFinite(closes)&&closes<Date.now())return null;
  if(!j.sourceUrl||!j.applicationUrl||!/^https:\/\//.test(j.sourceUrl)||!/^https:\/\//.test(j.applicationUrl))return null;
- const suspicious=/\b(?:application|processing|training) fee|pay to apply|telegram only|whatsapp only/i.test(title+' '+body);
+ const suspicious=suspiciousRecruitment(title+' '+body,{strictCheck:['employer-submission','community-tip'].includes(source.sourceType)});
  const flags=[...(suspicious?['Review recruitment language']:[])];
  return {_description:['brac-bank','makerere','ucaa','drc'].includes(source.method)?null:(j.fullDescription===undefined?j.description:j.fullDescription)||null,id:source.id+':'+String(j.id),source:source.name,sourceId:source.id,sourceType:'official-employer',level:inferLevel({title,experience:j.experience,description:body}),sector:source.sector,title,employer:source.employer,location,district:location.split(',')[0],workplace:j.workplace||'On-site or field-based',employmentType:j.employmentType||'See official listing',category:source.sector||'Other',education:'See official listing',experience:j.experience||(years!==null?years+' years requested':'See official listing'),publishedAt:j.publishedAt||null,deadline:Number.isFinite(closes)?new Date(closes).toISOString():null,deadlineStatus:Number.isFinite(closes)?'Check live deadline':'Not published',summary:overview.slice(0,380)||'Read the employer’s full advert before applying.',indicators:[...(earlyTitle.test(title)?['Early-career title']:[]),...(years!==null?[years+' years of experience']:[])],verification:{contentHash:contentHash(body),status:flags.length?'review':'official-source',label:flags.length?'Needs review':'Official employer source',checkedAt:new Date().toISOString(),flags},sourceUrl:j.sourceUrl,applicationUrl:j.applicationUrl,lastCheckedAt:new Date().toISOString()};
 }

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-30T22:58:36.344Z",
+  "generatedAt": "2026-10-31T02:24:24.935Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 30,
+  "jobCount": 32,
   "sources": {
     "Jobicy anywhere": "ok",
     "Jobicy anywhere intern": "ok",
@@ -33,6 +33,88 @@
   },
   "methodology": "Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",
   "jobs": [
+    {
+      "id": "himalayas:geisinger:https://himalayas.app/companies/geisinger/jobs/pharmacy-technician-call-center-2531619469",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/geisinger/jobs/pharmacy-technician-call-center-2531619469",
+      "title": "Pharmacy Technician - Call Center",
+      "company": "Geisinger",
+      "logo": "https://cdn-images.himalayas.app/5y592na8rhjnn6al0nptlw6ug2yl",
+      "summary": "Location:Work from home (Pennsylvania)Shift:Days (United States of America)Scheduled Weekly Hours:40Worker Type:RegularExemption Status:NoJob Summary:*PA Residents only* The pharmacy technician works as an entry-level position focused on medication delivery and inventory manageme",
+      "description": "Location: Work from home (Pennsylvania) Shift: Days (United States of America) Scheduled Weekly Hours: 40 Worker Type: Regular Exemption Status: No Job Summary: *PA Residents only* The pharmacy technician works as an entry-level position focused on medication delivery and inventory management. The position has basic patient/provider service responsibilities through communication and message retrieval. Job Duties: Provide patient/provider/customer care Use the pharmacy computer system to facilitate patient care Participate in patient/provider/customer care activities that do not require the expertise of a pharmacist Prepare and label medications appropriately for distribution. Retrieve, review, and perform inventory management for medications and supplies in the pharmacy. Maintain pharmacy records. Perform housekeeping duties in the pharmacy in compliance with hospital and accreditation policies. Participate in the onboarding and training of new pharmacy personnel. Work is typically performed in a clinical environment. Accountable for satisfying all job specific obligations and complying with all organization policies and procedures. The specific statements in this profile are not intended to be all-inclusive. They represent typical elements considered necessary to successfully perform the job. Additional competencies and skills outlined in any department-specific orientation will be considered essential to the performance of the job related to that position. Position Details: Education: High School Diploma or Equivalent (GED)- (Required) Experience: Certification(s) and License(s): Certified Pharmacy Technician within 2 years - Pharmacy Technician Certification Board (PTCB or NHA)Pharmacy Technician Certification Board (PTCB or NHA), Registered as a Pharmacy Technician Trainee, a Pharmacy Technician or Pharmacy Intern - Pennsylvania State Board of Pharmacy Skills: Computer Literacy, Healthcare Regulatory Environment, Pharmaceutical Names, Teamwork OUR PURPOSE VALUES: Everything we do is about caring for our patients, our members, our students, our Geisinger family and our communities. KINDNESS: We strive to treat everyone as we would hope to be treated ourselves. EXCELLENCE: We treasure colleagues who humbly strive for excellence. LEARNING: We share our knowledge with the best and brightest to better prepare the caregivers for tomorrow. INNOVATION : We constantly seek new and better ways to care for our patients, our members, our community, and the nation. SAFETY: We provide a safe environment for our patients and members and the Geisinger family. We offer healthcare benefits for full time and part time positions from day one, including vision, dental and domestic partners. Perhaps just as important, we encourage an atmosphere of collaboration, cooperation and collegiality. Equal Opportunity Employer. All qualified applicants will receive consideration for employment without regard to race, color, religion, sex, sexual orientation, gender identity, national origin, age, pregnancy, genetic information, disability, status as a protected veteran, or any other protected category under applicable federal, state, and local laws. Originally posted on Himalayas",
+      "employmentType": "Full Time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-31T00:05:04.000Z",
+      "expiresAt": "2026-12-30T00:05:03.000Z",
+      "applicationUrl": "https://himalayas.app/companies/geisinger/jobs/pharmacy-technician-call-center-2531619469?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/geisinger/jobs/pharmacy-technician-call-center-2531619469",
+      "studentFit": {
+        "score": 100,
+        "reasons": [
+          "Student or entry-level language",
+          "Internship",
+          "Part-time",
+          "Training opportunity"
+        ],
+        "maxYears": 2,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
+    },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/ai-design-systems-intern-master-s-summer-2027",
       "source": "Himalayas",
@@ -117,7 +199,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/social-media-analyst-intern-undergraduate-summer-2027",
@@ -203,7 +285,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/digital-design-operations-intern-master-s-summer-2027",
@@ -289,7 +371,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:centene-corporation:https://himalayas.app/companies/centene-corporation/jobs/contract-negotiator-i",
@@ -375,7 +457,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:university-of-wisconsin-madison:https://himalayas.app/companies/university-of-wisconsin-madison/jobs/social-media-content-creator-video-editing-intern",
@@ -455,7 +537,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:sigma-growth-specialists:https://himalayas.app/companies/sigma-growth-specialists/jobs/media-and-content-intern",
@@ -535,7 +617,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:landor:https://himalayas.app/companies/landor/jobs/prospective-next-gen-intern",
@@ -615,7 +697,167 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
+    },
+    {
+      "id": "himalayas:vaynermedia:https://himalayas.app/companies/vaynermedia/jobs/content-creator",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/vaynermedia/jobs/content-creator",
+      "title": "Content Creator",
+      "company": "VaynerMedia",
+      "logo": "https://cdn-images.himalayas.app/y0wsvnabirkfs1kn5azhskqctopd",
+      "summary": "NOTE: This Creator position is an entry-level, part-time, remote position.",
+      "description": "NOTE: This Creator position is an entry-level, part-time, remote position. We are recruiting for roles outside the U.S., and candidates can anticipate 10-35 hours of work per week if offered the role. Hi, everyone! This is Team GaryVee! Whenever we are looking to hire, the most frequently asked question is “Are you hiring internationally?” And now, for the first time ever, the answer is YES! We are looking for kind, ambitious, talented, curious individuals who know Gary’s content like no other and are driven experts of social media! If you’re confident in your abilities to bring impact and value to Gary’s brand, keep reading. We are Creators, creative industry rogues, Instagram-story lovers, community managers, and #foryoupage admirers. We are not just on the Internet; we are creating the stuff the internet wants to see. Whether that’s a viral TikTok video or the latest Twitter meme, we’re passionate storytellers. We move so fast and make so much good content. So, we need more folks, who can come up with compelling content ideas and then create them! We’re looking for the unconventional, less-obvious, unseasoned ( or over seasoned ) creative pros, but above all - passionate makers and culture shakers. Want in? We love dedicated video and design creators, subversive artists and illustrators, obsessive meme makers, and we don’t care if you’re fresh to the workforce or working on your third act. What’s your hustle? Documentarian? DJ? Sports junkie? Fashionista? Blogger? Vlogger? Redditor? Are you an Insta-feind? An unabashed TikTokker? Or both? We’re here for all of it... Just as long as every day you love coming up with insightful and relevant content ideas and have the skills to make them. The Creator: Uses and creates on social media daily Has an ability to make relevant content across all platforms and has extraordinary skills in at least one if not all of these: design, video editing, social media copywriting Videography or design education OR equivalent relevant experience; all applicants will be asked to provide recent content examples from social media accounts Shows a demonstrable passion, curiosity, and experience in making creative content on social media platforms - Tweets, TikTok videos, Instagram visuals, YouTube edits Proficient in one or many of the Adobe Creative Suite programs and eager to continue to learn and evolve in other efficient and effective ways to make social-first content: Adobe Creative Suite, mobile creator apps, and in-app editing (Instagram Story creation, TikTok editing, etc.) Responsible, accountable, and deeply passionate about their own personal interests and hobbies, and of course, kind, compassionate, and empathetic because you love the magic of collaboration Proficient in English The Gig Is: Creating emotional, impactful, objective-oriented content for Gary Vaynerchuk’s brand Mastering the ability to turn any branded content into a volume of social gold (clips, gifs, graphics, photos, stories, copy, etc.) Working with a wide range and quality of video and static imagery - from a collection of photography to short video clips - and turning them into content assets built for individual platforms and audiences Collaborating with our platform and strategy teams to create and manipulate video, a plethora of photography, social copy, gifs, short clips, streaming stories, etc. Honing your design, editing, and blurb-writing skills utilizing standard industry software and social platforms Wrangling and rolling with your teammates to service rapid turnaround times, capture trending moments, and deliver and receive feedback, all while keeping a clear, enthusiastic, and proactive attitude towards content creation NOTE ON THE HIRING TIMELINE: The next step of the hiring process is a content creation challenge. Please keep an eye on your spam folder! This is a rolling admissions process. We want to encourage qualified and interested applicants to apply to show your interest. When the hiring need arises, we will reach out to you for next steps, which will be a timed content creation challenge. We appreciate your interest and patience. That's It! VaynerMedia is an Equal Opportunity Employer. This means that VaynerMedia provides equal employment opportunities to all staff members and job applicants without regard to gender, pregnancy, marital or civil partnership status, gender reassignment, race, disability, sexual orientation, religious belief, part time or fixed term employment, age or any other legally protected class. Originally posted on Himalayas",
+      "employmentType": "Part Time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-03T09:54:36.000Z",
+      "expiresAt": "2026-12-02T09:54:36.000Z",
+      "applicationUrl": "https://himalayas.app/companies/vaynermedia/jobs/content-creator?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/vaynermedia/jobs/content-creator",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
+    },
+    {
+      "id": "himalayas:contactlink-solutions:https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy",
+      "title": "CLS Interpreter Academy",
+      "company": "ContactLink Solutions",
+      "logo": "https://cdn-images.himalayas.app/emayii0fjfsmp1wq7cjq603m81d7",
+      "summary": "YOUR LANGUAGE SKILLS COULD BE THE START OF SOMETHING MORE.",
+      "description": "YOUR LANGUAGE SKILLS COULD BE THE START OF SOMETHING MORE. Every day, interpreters help people understand one another, ask important questions, and be heard. Your language skills could be your first step toward a rewarding career in professional interpreting. What is the CLS Interpreter Academy? The CLS Interpreter Academy is a training program designed for bilingual individuals and early-career interpreters who want to build their professional interpreting skills, knowledge, and confidence. Open worldwide Remote opportunities All languages welcome Training provided No previous interpreting experience required Technical Requirements 90% English proficiency Stable internet connection USB wired headset Windows 10 or later or Mac Whether you're bilingual and exploring interpreting for the first time or you're just starting your journey, this could be your opportunity to take the next step. Interested in joining? Apply today. One of our recruiters will contact you with more information about the program and next steps. Explore the program and review the requirements. Originally posted on Himalayas",
+      "employmentType": "Contractor",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-06T00:56:12.000Z",
+      "expiresAt": "2026-12-05T00:56:11.000Z",
+      "applicationUrl": "https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/contactlink-solutions/jobs/cls-interpreter-academy",
+      "studentFit": {
+        "score": 75,
+        "reasons": [
+          "Student or entry-level language",
+          "Training opportunity"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/business-analyst-junior-antifraud-disputes",
@@ -695,7 +937,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:scholarshipowl:https://himalayas.app/companies/scholarshipowl/jobs/sales-development-representative",
@@ -775,7 +1017,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/postal-clerk",
@@ -855,7 +1097,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:coconut:https://himalayas.app/companies/coconut/jobs/coconut-va-philippine-talent-pool",
@@ -935,7 +1177,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:selene:https://himalayas.app/companies/selene/jobs/escrow-analysis-specialist-i",
@@ -1014,7 +1256,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:sigitek-software-services:https://himalayas.app/companies/sigitek-software-services/jobs/it-software-sales-executive",
@@ -1093,7 +1335,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/food-delivery-ai-response-evaluator",
@@ -1177,7 +1419,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "jobicy:149520",
@@ -1217,7 +1459,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "jobicy:149523",
@@ -1257,7 +1499,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "jobicy:149555",
@@ -1297,7 +1539,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "jobicy:149545",
@@ -1337,7 +1579,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-lawyer",
@@ -1416,7 +1658,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/evaluation-specialist-recent-grad-6119027108",
@@ -1495,7 +1737,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
@@ -1574,86 +1816,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
-    },
-    {
-      "id": "himalayas:vectra:https://himalayas.app/companies/vectra/jobs/join-our-talent-community",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/vectra/jobs/join-our-talent-community",
-      "title": "Join our Talent Community",
-      "company": "Vectra",
-      "logo": "https://cdn-images.himalayas.app/kujfxigkb8uvak1xfip10ikhqtsq",
-      "summary": "Vectra® is the leader in AI-driven threat detection and response for hybrid and multi-cloud enterprises.",
-      "description": "Vectra ® is the leader in AI-driven threat detection and response for hybrid and multi-cloud enterprises. The Vectra AI Platform delivers integrated signal across public cloud, SaaS, identity, and data center networks in a single platform. Powered by patented Attack Signal Intelligence, it empowers security teams to rapidly prioritize, investigate and respond to the most advanced cyber-attacks. With 35 patents in AI-driven threat detection and the most vendor references in MITRE D3FEND, organizations worldwide rely on the Vectra AI to move at the speed and scale of hybrid attackers. For more information, visit www.vectra.ai. If you don't see an open position that aligns with your background, please feel free to join our Talent Community by submitting your resume. Who We Are At Vectra we seek to make the world a safer and fairer place, build a culture we're proud of and leverage AI to its full potential to do good, We do these things by leveraging our values of Integrity , Teamwork and Customer First . Here is how we define our values: Integrity: Integrity is our foundation. It drives every decision we make and every action we take. We believe in doing what is right, even when no one is watching. We prioritize honesty, transparency and fairness, earning your trust every step of the way. Teamwork: We value teamwork that is focused, efficient and drama-free. We respect and challenge each other to do the best work we can. The collaborative culture we've cultivated means we can accomplish extraordinary feats. Customer First: For over a decade, we’ve been obsessed with creating what security analysts and SOC leaders have repeatedly told us is most critical: creating the most accurate attack signal. We have teams of security researchers, data scientists and software engineers who are laser focused on perfecting our signal, improving it every day. Our company is committed to providing the best attack signal on the planet, providing an easy-to-use platform and providing white-glove, proactive and responsive service along with shared accountability to make the lives of our customers easier. Please Note: There are optional application questions below, filling these out to the best of your ability, as requested, will help us find your profile in the future. Vectra provides a comprehensive total rewards package that supports the financial, physical, mental and overall health of our employees and their families. Compensation includes competitive base pay, incentive plan eligibility, and participation in the employee equity plan (stock options). Specific benefits offered varies by location, but commonly include health care insurance, income protection / life insurance, access to retirement savings plans, behavioral emotional wellness services, generous time away from work, and a comprehensive employee recognition program. Vectra is committed to creating a diverse environment and is proud to be an equal opportunity employer. We are committed to equal employment opportunity regardless of race, color, ancestry, religion, sex, national origin, sexual orientation, age, citizenship, marital status, disability, gender identity or Veteran status. Originally posted on Himalayas",
-      "employmentType": "Full Time",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-10-19T06:25:20.000Z",
-      "expiresAt": "2026-12-18T06:25:19.000Z",
-      "applicationUrl": "https://himalayas.app/companies/vectra/jobs/join-our-talent-community?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/vectra/jobs/join-our-talent-community",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding-8442281333",
@@ -1732,7 +1895,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:terac:https://himalayas.app/companies/terac/jobs/recruiting-coordinator-6142591339",
@@ -1816,7 +1979,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/consumer-reviewer",
@@ -1895,7 +2058,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/video-data-annotator-966806508",
@@ -1974,7 +2137,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:gsa-capital:https://himalayas.app/companies/gsa-capital/jobs/digital-competition-spark-2026",
@@ -2053,7 +2216,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:valnet-tech-sites:https://himalayas.app/companies/valnet-tech-sites/jobs/thetravel-junior-editor",
@@ -2132,86 +2295,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
-    },
-    {
-      "id": "himalayas:vapaus:https://himalayas.app/companies/vapaus/jobs/general-application",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/vapaus/jobs/general-application",
-      "title": "General Application",
-      "company": "Vapaus",
-      "logo": null,
-      "summary": "your missionVapaus is on a journey to provide the best possible service for corporate clients.",
-      "description": "your mission Vapaus is on a journey to provide the best possible service for corporate clients. (Y)our mission is to bring value to all our stakeholder groups. your profile Please submit an open application in case you are interested in career at Vapaus . We have a diverse group of people working in various roles, such as software development, marketing, sales, customer success support, bike mechanics and support services. why us? Even though we are working towards tackling serious problems, we never forget to have fun and play! We are building a great planet together with awesome people: our everyday focus is on helping people make more good moves. At Vapaus , everyone has an important purpose. It's our human right to come to the workplace as we are, be ourselves and work with what we love. We aspire to fulfill this promise! At Vapaus , we are free to choose the way we work. Freedom also comes with responsibility to oneself, our colleagues, customers and the environment. We act openly and honestly. At Vapaus , we promise open, direct and data-driven communication that is a guarantee of growth. We encourage childlike curiosity and ambition - we take responsibility without fear because we have each other's support Our work increases the well-being of people and the planet. We do not bring a service to the market that is a compromise between money and positive impact. Originally posted on Himalayas",
-      "employmentType": "Full Time",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-10-07T23:39:17.000Z",
-      "expiresAt": "2026-12-06T23:39:17.000Z",
-      "applicationUrl": "https://himalayas.app/companies/vapaus/jobs/general-application?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/vapaus/jobs/general-application",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     },
     {
       "id": "himalayas:prologa:https://himalayas.app/companies/prologa/jobs/bewerberpool",
@@ -2290,7 +2374,86 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-30T22:58:36.344Z"
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
+    },
+    {
+      "id": "himalayas:your-personal-ai:https://himalayas.app/companies/your-personal-ai/jobs/mac-users-needed-for-ai-security-research-25-usd-work-from-home",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/your-personal-ai/jobs/mac-users-needed-for-ai-security-research-25-usd-work-from-home",
+      "title": "Mac Users Needed for AI Security Research | $25 USD | Work From Home",
+      "company": "Your Personal AI",
+      "logo": "https://cdn-images.himalayas.app/syysfh52dclhd7aopzlyxl7hj7z0",
+      "summary": "Calling all Mac users! Join cutting-edge research developing AI systems that detect manipulated digital content.",
+      "description": "Calling all Mac users! Join cutting-edge research developing AI systems that detect manipulated digital content. Your participation helps build technology that protects against deepfakes and synthetic media threats. Research Mission: Contribute to defensive AI development through recorded video conversations. Your data helps train systems to identify: Artificially generated faces Voice synthesis attacks Manipulated video content Digital impersonation fraud Simple Process: Flexible scheduling - choose times that work for you Connect from your Mac at home Casual conversation with research coordinators Discuss everyday topics and experiences Single session lasting 35-50 minutes Prompt payment upon completion Why Mac Users? Our research requires diverse device representation to ensure AI systems work across all platforms. Mac users provide unique hardware/software combinations essential for comprehensive training data. Ready to Contribute? Help build tomorrow's digital security while earning today. Mac users are specifically needed for this important research phase. Requirements Age 18+ with fluent English MacBook or iMac (2019 or newer preferred) Built-in or external webcam with clear video Reliable broadband internet connection Quiet, private location for recording Comfort being recorded for research purposes Ability to complete full session without interruption Highlights Earn $25 for under an hour of work! Especially valuable for international participants - flexible remote opportunity with immediate payment. Mac owners welcome worldwide! Originally posted on Himalayas",
+      "employmentType": "Contractor",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-03T18:54:13.000Z",
+      "expiresAt": "2026-12-02T18:54:12.000Z",
+      "applicationUrl": "https://himalayas.app/companies/your-personal-ai/jobs/mac-users-needed-for-ai-security-research-25-usd-work-from-home?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/your-personal-ai/jobs/mac-users-needed-for-ai-security-research-25-usd-work-from-home",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-31T02:24:24.935Z"
     }
   ]
 }

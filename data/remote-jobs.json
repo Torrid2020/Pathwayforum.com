@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-10-31T11:58:18.526Z",
+  "generatedAt": "2026-10-31T15:44:55.755Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 29,
+  "jobCount": 30,
   "sources": {
     "Jobicy anywhere": "ok",
     "Jobicy anywhere intern": "ok",
@@ -112,7 +112,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/5ca891902d57cd83e9aca55504353c31.json",
       "pagePath": "jobs/remote/pharmacy-technician-call-center-geisinger/"
     },
@@ -199,7 +199,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/895e7f8afd528c213fd432fb4e540b70.json",
       "pagePath": "jobs/remote/ai-design-systems-intern-master-s-summer-2027-centene-corporation/"
     },
@@ -286,7 +286,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/e389cd01a742f738590fdb0c6adb4046.json",
       "pagePath": "jobs/remote/social-media-analyst-intern-undergraduate-summer-2027-centene-corporation/"
     },
@@ -373,7 +373,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/54f8561bcf545f7a8799aa73e9f434b3.json",
       "pagePath": "jobs/remote/digital-design-operations-intern-master-s-summer-2027-centene-corporation/"
     },
@@ -460,9 +460,95 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/16178351c63b68143b53d63b037610ce.json",
       "pagePath": "jobs/remote/contract-negotiator-i-centene-corporation/"
+    },
+    {
+      "id": "himalayas:healthesystems:https://himalayas.app/companies/healthesystems/jobs/customer-service-specialist-remote-work-from-home-5239052775",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/healthesystems/jobs/customer-service-specialist-remote-work-from-home-5239052775",
+      "title": "Customer Service Specialist - Remote Work From Home",
+      "company": "Healthesystems",
+      "logo": "https://cdn-images.himalayas.app/l14pzh6rsfc3bc125dvk4we57qgy",
+      "summary": "Healthesystems offers workplace flexibility with our Work-From-Home model, and a competitive compensation and benefits package including healthcare coverage, PTO, paid holidays, 401(k), company-provided life insurance/disability coverage, wellness options, and more.",
+      "employmentType": "Full Time",
+      "level": "Entry-level",
+      "salary": {
+        "min": 19,
+        "max": 19,
+        "currency": "USD",
+        "period": "hourly"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-10-31T14:21:40.000Z",
+      "expiresAt": "2026-12-30T14:21:39.000Z",
+      "applicationUrl": "https://himalayas.app/companies/healthesystems/jobs/customer-service-specialist-remote-work-from-home-5239052775?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/healthesystems/jobs/customer-service-specialist-remote-work-from-home-5239052775",
+      "studentFit": {
+        "score": 83,
+        "reasons": [
+          "Student or entry-level language",
+          "Internship"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
+      "descriptionPath": "data/jobs/remote/99560d88702c70eb660e3b2370fb33bf.json",
+      "pagePath": "jobs/remote/customer-service-specialist-remote-work-from-home-healthesystems/"
     },
     {
       "id": "himalayas:university-of-wisconsin-madison:https://himalayas.app/companies/university-of-wisconsin-madison/jobs/social-media-content-creator-video-editing-intern",
@@ -541,7 +627,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/398a8677404f73100e783f42fbbe827a.json",
       "pagePath": "jobs/remote/social-media-content-creator-video-editing-intern-university-of-wisconsin-madison/"
     },
@@ -622,7 +708,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/a82d0a671b27c9c5d1af80cb88993303.json",
       "pagePath": "jobs/remote/media-and-content-intern-sigma-growth-specialists/"
     },
@@ -703,7 +789,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/4de5d399fc68d4ef57c080ada4558135.json",
       "pagePath": "jobs/remote/prospective-next-gen-intern-landor/"
     },
@@ -784,7 +870,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/f8259895adea33ac165bf0b83ab91ed9.json",
       "pagePath": "jobs/remote/cls-interpreter-academy-contactlink-solutions/"
     },
@@ -865,7 +951,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/f773dbf7ea566fc08a7de338b881b064.json",
       "pagePath": "jobs/remote/uac-media-buyer-freelance-yeep-boosta/"
     },
@@ -946,7 +1032,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
       "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
     },
@@ -1027,7 +1113,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/3530c152a112506217dcd2639b517cae.json",
       "pagePath": "jobs/remote/sales-development-representative-scholarshipowl/"
     },
@@ -1108,7 +1194,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/175547f4ed8f2fe34b1d1a512dc1ba7f.json",
       "pagePath": "jobs/remote/postal-clerk-micro1/"
     },
@@ -1189,7 +1275,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/e11b3eb95820228dc6ccd07d3a62bbc1.json",
       "pagePath": "jobs/remote/coconut-va-philippine-talent-pool-coconut/"
     },
@@ -1269,7 +1355,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/63079d2a3164289d844a543ebcfae0ed.json",
       "pagePath": "jobs/remote/escrow-analysis-specialist-i-selene/"
     },
@@ -1349,7 +1435,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/f37da6cb3e920c94e9dadd58f9303546.json",
       "pagePath": "jobs/remote/it-software-sales-executive-sigitek-software-services/"
     },
@@ -1434,7 +1520,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/a496c03db07bfc1501fcca5070ffd5a7.json",
       "pagePath": "jobs/remote/food-delivery-ai-response-evaluator-micro1/"
     },
@@ -1475,7 +1561,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/3db21f8f1ee3144d360be770818e1825.json",
       "pagePath": "jobs/remote/junior-linux-kernel-engineer-ubuntu-canonical/"
     },
@@ -1555,7 +1641,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
       "pagePath": "jobs/remote/junior-lawyer-micro1/"
     },
@@ -1635,7 +1721,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/7d3614df140be046282d1b065a75c05c.json",
       "pagePath": "jobs/remote/evaluation-specialist-recent-grad-micro1/"
     },
@@ -1715,7 +1801,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/1e7e87998ec239f5da49edb14d648e73.json",
       "pagePath": "jobs/remote/antifraud-analyst-junior-banco-plata-s-a-institucion-de-banca-multiple/"
     },
@@ -1795,7 +1881,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/1c42c00c311f3af0a608862a12e1597a.json",
       "pagePath": "jobs/remote/puzzle-solver-coding-micro1/"
     },
@@ -1880,7 +1966,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/97da486ee14f4b06d18d28425d08ff92.json",
       "pagePath": "jobs/remote/recruiting-coordinator-terac/"
     },
@@ -1960,7 +2046,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/3c22d8f219bff75e9c61fffa1bfffc72.json",
       "pagePath": "jobs/remote/consumer-reviewer-micro1/"
     },
@@ -2040,7 +2126,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/14a1c5fca9d4ee72a1517284b784ef36.json",
       "pagePath": "jobs/remote/video-data-annotator-micro1/"
     },
@@ -2120,7 +2206,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/b64be9f220a25cd4d050d779c8a93d8b.json",
       "pagePath": "jobs/remote/digital-competition-spark-2026-gsa-capital/"
     },
@@ -2200,7 +2286,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/2b55389d33288d2817cfbcfb4de391aa.json",
       "pagePath": "jobs/remote/thetravel-junior-editor-valnet-tech-sites/"
     },
@@ -2280,7 +2366,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/5f99385e8b21734bf8e106883f9ce044.json",
       "pagePath": "jobs/remote/bewerberpool-prologa/"
     },
@@ -2360,7 +2446,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-10-31T11:58:18.526Z",
+      "lastSeenAt": "2026-10-31T15:44:55.755Z",
       "descriptionPath": "data/jobs/remote/af8d5bbec4de7cc7bd46979b85284a31.json",
       "pagePath": "jobs/remote/mac-users-needed-for-ai-security-research-25-usd-work-from-home-your-personal-ai/"
     }

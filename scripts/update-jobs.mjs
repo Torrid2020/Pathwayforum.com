@@ -78,7 +78,7 @@ async function main(){
   const removals=await loadRemovals();
   jobs=jobs.filter(job=>!isRemoved(job,removals));
   if(!jobs.length&&!Object.values(sourceStatus).some(status=>status==="ok"))throw new Error("All sources failed; existing feed left untouched.");
-  if(!process.argv.includes("--dry-run"))jobs=await generateJobPages("remote",await storeDescriptions("remote",jobs));
+  if(!process.argv.includes("--dry-run"))jobs=await generateJobPages("remote",jobs);
   const payload={generatedAt:now.toISOString(),targetRegions:["Africa","South America","Asia"],jobCount:jobs.length,sources:sourceStatus,methodology:"Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",jobs};
   if(process.argv.includes("--dry-run")){console.log(JSON.stringify({generatedAt:payload.generatedAt,jobCount:jobs.length,sources:sourceStatus},null,2));return}
   let previous=null;

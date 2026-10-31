@@ -5,11 +5,11 @@ import {fileURLToPath} from 'node:url';
 import {sanitizeDescription} from './job-description-sanitizer.mjs';
 
 export const listJob = ({_description,description,...job}) => job;
-export async function storeDescriptions(board,jobs,{root=fileURLToPath(new URL('../',import.meta.url)),now=Date.now()}={}) {
+export async function storeDescriptions(board,jobs,{root=fileURLToPath(new URL('../',import.meta.url)),now=Date.now(),preservePaths=[]}={}) {
  if(!['uganda','remote'].includes(board))throw Error('Unknown job board');
  const dir=path.join(root,'data','jobs',board);
  await fs.mkdir(dir,{recursive:true});
- const keep=new Set(),output=[];
+ const keep=new Set(preservePaths.filter(p=>p.startsWith('data/jobs/'+board+'/')&&/^[a-f0-9]{32}\.json$/.test(path.basename(p))).map(p=>path.basename(p))),output=[];
  for(const original of jobs){
   const end=original.deadline||original.expiresAt;
   if(end&&Number.isFinite(Date.parse(end))&&Date.parse(end)<=now)continue;

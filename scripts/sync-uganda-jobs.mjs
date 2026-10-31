@@ -282,7 +282,7 @@ async function main() {
   const decided=deduped.filter(job=>!isRemoved(job,removals)).map(job=>applyReviewDecision(job,decisions));
   let jobs = decided.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
   const review = decided.filter(job => job.verification.status === "review").map(listJob);
-  if(!process.argv.includes("--dry-run"))jobs=await generateJobPages("uganda",await storeDescriptions("uganda",jobs));
+  if(!process.argv.includes("--dry-run"))jobs=await generateJobPages("uganda",jobs);
   const feed = {
     generatedAt: now.toISOString(),
     country: "Uganda",

@@ -1,6 +1,6 @@
 import {checkedDate} from './job-trust.mjs';
 
-export function createDescriptionView(container) {
+export function createDescriptionView(container,{baseUrl=document.baseURI}={}) {
  let pending=null,sequence=0;
  const originalLink=(job,label)=>{const a=document.createElement('a');a.href=job.sourceUrl;a.target='_blank';a.rel='nofollow noopener';a.textContent=label;return a;};
  return {
@@ -19,7 +19,7 @@ export function createDescriptionView(container) {
    const controller=pending;
    const timeout=setTimeout(()=>controller.abort(),12000);
    try{
-    const response=await fetch(job.descriptionPath,{signal:controller.signal,cache:'no-store'});
+    const response=await fetch(new URL(job.descriptionPath,baseUrl),{signal:controller.signal,cache:'no-store'});
     if(!response.ok)throw Error('Description unavailable');
     const data=await response.json();
     if(data.id!==job.id||typeof data.html!=='string'||!data.html.trim())throw Error('Invalid description');

@@ -1,8 +1,10 @@
+import {createDescriptionView} from './job-description-view.mjs';
 import {trustMarkup} from './job-trust.mjs';
 import {normalizeDeadline} from './uganda-data.mjs';
 import {inferLevel,compareUgandaJobs} from './uganda-levels.mjs';
 const ugandaDate = value => new Intl.DateTimeFormat('en-CA',{timeZone:'Africa/Kampala',year:'numeric',month:'2-digit',day:'2-digit'}).format(new Date(value));
 function deadlineLabel(job){if(!normalizeDeadline(job.deadline))return 'Check the official deadline';const end=new Date(job.deadline);if(!Number.isFinite(end.getTime()))return 'Check the official deadline';if(end.getTime()<Date.now())return 'Closed';const days=Math.round((Date.parse(ugandaDate(end))-Date.parse(ugandaDate(Date.now())))/86400000);return days===0?'Closes today':days===1?'Closes tomorrow':'Closes in '+days+' days';}
+const descriptionView=createDescriptionView(document.querySelector('#full-description'));
 let jobs = [];
 let active = null;
 let showSaved = false;
@@ -75,6 +77,8 @@ function openJob(id, push) {
   $("#detail-deadline").textContent = deadlineLabel(active);
   $("#detail-check").textContent = `Last checked ${age(active.lastCheckedAt)}`;
   $("#detail-summary").textContent = active.summary;
+  descriptionView.show(active);
+  $("#original-advert").href=active.sourceUrl;
   const indicators = active.indicators?.length ? active.indicators : ["No specific experience indicator detected — check the requirements carefully."];
   $("#detail-indicators").innerHTML = indicators.map((value) => `<li>${esc(value)}</li>`).join("");
   $("#side-location").textContent = active.location;

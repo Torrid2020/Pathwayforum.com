@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-10-31T12:59:44.580Z",
+  "updatedAt": "2026-10-31T15:46:41.873Z",
   "entries": [
     {
       "id": "unicef:https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
@@ -1417,6 +1417,43 @@
         "lastCheckedAt": "2026-10-31T12:59:42.772Z",
         "descriptionPath": "data/jobs/uganda/46bc354d64824a84660e7dbc768d80bf.json",
         "pagePath": "jobs/uganda/senior-software-qa-engineer-educate/"
+      }
+    },
+    {
+      "id": "dfcu:-careers-agent-banking-consultant-open-positions-all-regions-",
+      "slug": "agent-banking-consultant-open-positions-all-regions-dfcu-bank",
+      "closedAt": "2026-10-30T20:59:59.000Z",
+      "job": {
+        "id": "dfcu:-careers-agent-banking-consultant-open-positions-all-regions-",
+        "source": "dfcu Bank Careers",
+        "sourceType": "official-employer",
+        "title": "Agent Banking Consultant (Open Positions/ All Regions)",
+        "level": "Not stated",
+        "employer": "dfcu Bank",
+        "location": "All regions, Uganda",
+        "district": "All regions",
+        "workplace": "On-site or field-based",
+        "employmentType": "See official listing",
+        "category": "Finance",
+        "education": "See official listing",
+        "experience": "See official listing",
+        "publishedAt": "2026-10-27T20:59:59.000Z",
+        "deadline": "2026-10-30T20:59:59.000Z",
+        "deadlineStatus": "Closes in 1 day",
+        "summary": "Reporting to the Branch Operations Manager/ Officer, the role is responsible for growing the dfcu agent Banking channel, monitor the agent network and enforce compliance with the Bank Of Uganda Agent Banking guidelines. Duty Station: All Regions KEY ACCOUNTABILITIES: KNOWLEDGE, SKILLS, AND EXPERIENCE REQUIRED: INVITATION If you believe you meet the requirements as noted above, ",
+        "indicators": [],
+        "verification": {
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-10-30T09:05:29.147Z",
+          "flags": []
+        },
+        "sourceUrl": "https://www.dfcugroup.com/careers/agent-banking-consultant-open-positions-all-regions/",
+        "applicationUrl": "https://careers.dfcugroup.com/",
+        "lastCheckedAt": "2026-10-30T09:05:29.147Z",
+        "sourceId": "dfcu",
+        "sector": "Banking",
+        "pagePath": "jobs/uganda/agent-banking-consultant-open-positions-all-regions-dfcu-bank/"
       }
     }
   ]

@@ -1,3 +1,4 @@
+import {storeDescriptions} from './job-description-store.mjs';
 import {pathToFileURL} from 'node:url';
 import fs from "node:fs/promises";
 const OUTPUT = new URL("../data/remote-jobs.json", import.meta.url);
@@ -44,7 +45,7 @@ function normalizeJobicy(j){
   const regions=geo.includes("anywhere")?["africa","southAmerica","asia"]:geo.includes("latam")?["southAmerica"]:geo.includes("apac")?["asia"]:geo.includes("emea")?["africa"]:[];
   const fit=scoreJob(title,body,(j.jobType||[]).join(" "),j.jobLevel);
   const flags=dangerous.test(title+" "+body)?["Suspicious payment or recruitment language"]:regions.length?[]:["Location outside target regions"];
-  return {id:"jobicy:"+j.id,source:"Jobicy",sourceId:String(j.id),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.jobExcerpt||body).slice(0,280),description:body.slice(0,5000),employmentType:(j.jobType||[]).join(", ")||"Not stated",level:j.jobLevel||"Not stated",salary:j.annualSalaryMin?{min:j.annualSalaryMin,max:j.annualSalaryMax||null,currency:j.salaryCurrency||"USD",period:"year"}:null,eligibility:{label:j.jobGeo||"Check listing",regions,countries:[],confidence:geo.includes("emea")?"review":"verified"},publishedAt:j.pubDate||j.jobPublished||null,expiresAt:j.jobExpires||null,applicationUrl:j.url,sourceUrl:j.url,studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
+  return {id:"jobicy:"+j.id,source:"Jobicy",sourceId:String(j.id),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.jobExcerpt||body).slice(0,280),_description:j.jobDescription||null,employmentType:(j.jobType||[]).join(", ")||"Not stated",level:j.jobLevel||"Not stated",salary:j.annualSalaryMin?{min:j.annualSalaryMin,max:j.annualSalaryMax||null,currency:j.salaryCurrency||"USD",period:"year"}:null,eligibility:{label:j.jobGeo||"Check listing",regions,countries:[],confidence:geo.includes("emea")?"review":"verified"},publishedAt:j.pubDate||j.jobPublished||null,expiresAt:j.jobExpires||null,applicationUrl:j.url,sourceUrl:j.url,studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
 }
 export function normalizeHimalayas(j){
   if(typeof j.applicationLink!=="string"||!/^https:\/\//i.test(j.applicationLink))return null;
@@ -53,7 +54,7 @@ export function normalizeHimalayas(j){
   const fit=scoreJob(title,body,j.employmentType,(j.seniority||[]).join(" "));
   const flags=dangerous.test(title+" "+body)?["Suspicious payment or recruitment language"]:regions.length?[]:["Location outside target regions"];
   const identity=j.guid||j.jobSlug||j.slug||slug(title);
-  return {id:"himalayas:"+(j.companySlug||slug(j.companyName))+":"+identity,source:"Himalayas",sourceId:String(identity),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.excerpt||body).slice(0,280),description:body.slice(0,5000),employmentType:j.employmentType||"Not stated",level:(j.seniority||[]).join(", ")||"Not stated",salary:j.minSalary?{min:j.minSalary,max:j.maxSalary||null,currency:j.currency||"USD",period:j.salaryPeriod||"year"}:null,eligibility:{label:worldwide?"Worldwide":restrictions.join(", "),regions,countries:codes,confidence:worldwide||codes.length?"verified":"review"},timezoneRestrictions:j.timezoneRestrictions||[],publishedAt:j.pubDate?(typeof j.pubDate==="number"?new Date(j.pubDate*1000).toISOString():j.pubDate):null,expiresAt:j.expiryDate?(typeof j.expiryDate==="number"?new Date(j.expiryDate*1000).toISOString():j.expiryDate):null,applicationUrl:j.applicationLink,sourceUrl:j.guid||j.applicationLink||"https://himalayas.app",studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
+  return {id:"himalayas:"+(j.companySlug||slug(j.companyName))+":"+identity,source:"Himalayas",sourceId:String(identity),title,company:j.companyName||"Employer",logo:j.companyLogo||null,summary:text(j.excerpt||body).slice(0,280),_description:j.description||null,employmentType:j.employmentType||"Not stated",level:(j.seniority||[]).join(", ")||"Not stated",salary:j.minSalary?{min:j.minSalary,max:j.maxSalary||null,currency:j.currency||"USD",period:j.salaryPeriod||"year"}:null,eligibility:{label:worldwide?"Worldwide":restrictions.join(", "),regions,countries:codes,confidence:worldwide||codes.length?"verified":"review"},timezoneRestrictions:j.timezoneRestrictions||[],publishedAt:j.pubDate?(typeof j.pubDate==="number"?new Date(j.pubDate*1000).toISOString():j.pubDate):null,expiresAt:j.expiryDate?(typeof j.expiryDate==="number"?new Date(j.expiryDate*1000).toISOString():j.expiryDate):null,applicationUrl:j.applicationLink,sourceUrl:j.guid||j.applicationLink||"https://himalayas.app",studentFit:fit,safety:{status:flags.length?"review":"passed",flags},lastSeenAt:now.toISOString()};
 }
 async function main(){
   const sourceStatus={}, collected=[];
@@ -71,8 +72,9 @@ async function main(){
     const old=unique.get(key);
     if(!old||job.studentFit.score>old.studentFit.score)unique.set(key,job);
   }
-  const jobs=[...unique.values()].filter(j=>j.eligibility.regions.length&&j.studentFit.evidence&&j.studentFit.score>=45&&j.safety.status!=="review"&&!senior.test(j.title)&&!/\b(?:mid[- ]level|senior|manager|director|executive)\b/i.test(j.level)&&!irrelevant.test(j.title)).sort((a,b)=>b.studentFit.score-a.studentFit.score||String(b.publishedAt||"").localeCompare(String(a.publishedAt||""))).slice(0,180);
-  if(!jobs.length)throw new Error("No publishable jobs returned; existing feed left untouched.");
+  let jobs=[...unique.values()].filter(j=>j.eligibility.regions.length&&j.studentFit.evidence&&j.studentFit.score>=45&&j.safety.status!=="review"&&!senior.test(j.title)&&!/\b(?:mid[- ]level|senior|manager|director|executive)\b/i.test(j.level)&&!irrelevant.test(j.title)).sort((a,b)=>b.studentFit.score-a.studentFit.score||String(b.publishedAt||"").localeCompare(String(a.publishedAt||""))).slice(0,180);
+  if(!jobs.length&&!Object.values(sourceStatus).some(status=>status==="ok"))throw new Error("All sources failed; existing feed left untouched.");
+  if(!process.argv.includes("--dry-run"))jobs=await storeDescriptions("remote",jobs);
   const payload={generatedAt:now.toISOString(),targetRegions:["Africa","South America","Asia"],jobCount:jobs.length,sources:sourceStatus,methodology:"Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",jobs};
   if(process.argv.includes("--dry-run")){console.log(JSON.stringify({generatedAt:payload.generatedAt,jobCount:jobs.length,sources:sourceStatus},null,2));return}
   let previous=null;

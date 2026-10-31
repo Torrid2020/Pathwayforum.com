@@ -75,7 +75,7 @@ export async function fetchAutomatic(s,io){const {request,json,strip,structuredJ
    const body=strip(detail),location=strip(detail.match(/<span\b[^>]*class=["']location["'][^>]*>([\s\S]*?)<\/span>/i)?.[1]||'');
    const rawEnd=detail.match(/<span\b[^>]*class=["']close-date["'][^>]*>\s*<time\b[^>]*datetime=["']([^"']+)["']/i)?.[1];
    const deadline=Number.isFinite(Date.parse(rawEnd))?new Date(rawEnd).toISOString():humanClosing(body.match(/(?:deadline|applications? close|closing date)\s*:[\s\S]{0,100}/i)?.[0]);
-   if(!location||!deadline)throw Error('PageUp job details changed');records.push({id:l.url,title:l.label,description:body,location,deadline,sourceUrl:l.url,applicationUrl:l.url,workplace:/\bremote\b/i.test(l.label)?'Remote':undefined});continue;
+   if(!location||!deadline)throw Error('PageUp job details changed');records.push({id:l.url,title:l.label,description:body,fullDescription:null,location,deadline,sourceUrl:l.url,applicationUrl:l.url,workplace:/\bremote\b/i.test(l.label)?'Remote':undefined});continue;
   }
   throw Error(s.method+' job details did not expose a readable vacancy');
  }return records;

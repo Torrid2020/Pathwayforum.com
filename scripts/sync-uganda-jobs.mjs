@@ -1,3 +1,4 @@
+import {storeDescriptions,listJob} from './job-description-store.mjs';
 import {applyReviewDecision} from './uganda-review-decisions.mjs';
 import {isUgandaLocation} from '../assets/uganda-locations.mjs';
 import {reliefWebDuplicate,JOB_USER_AGENT} from './uganda-reliefweb.mjs';
@@ -91,7 +92,7 @@ function endOfUgandaHumanDay(value) {
   return new Date(Date.UTC(Number(match[3]), month, Number(match[1]), 20, 59, 59)).toISOString();
 }
 
-function officialJob({id, source, title, employer, location, employmentType, experience, publishedAt, closesAt, summary, sourceUrl, applicationUrl}) {
+function officialJob({id, source, title, employer, location, employmentType, experience, publishedAt, closesAt, summary, description, sourceUrl, applicationUrl}) {
   const body = text(summary);
   const closing = deadline(closesAt);
   const flags = [];
@@ -100,6 +101,7 @@ function officialJob({id, source, title, employer, location, employmentType, exp
   if (closing.label === "Expired") flags.push("Expired");
   return {
     id,
+    _description:description||null,
     source,
     sourceType: "official-employer",
     title: text(title),
@@ -206,6 +208,7 @@ function normalizeWorldVision(info) {
   if (closing.label === "Expired") flags.push("Expired");
   return {
     id: "world-vision:" + info.jobReqId,
+    _description:info.jobDescription||null,
     source: "World Vision Careers",
     sourceType: "official-employer",
     title: info.title,
@@ -274,8 +277,9 @@ async function main() {
   }
   const deduped = [...unique.values()].map(job=>({...job,level:!job.level||job.level==='Not stated'?inferLevel(job):job.level}));
   const decided=deduped.map(job=>applyReviewDecision(job,decisions));
-  const jobs = decided.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
-  const review = decided.filter(job => job.verification.status === "review");
+  let jobs = decided.filter(job => job.verification.status === "official-source" && (!job.deadline||Date.parse(job.deadline)>Date.now())).sort(compareUgandaJobs);
+  const review = decided.filter(job => job.verification.status === "review").map(listJob);
+  if(!process.argv.includes("--dry-run"))jobs=await storeDescriptions("uganda",jobs);
   const feed = {
     generatedAt: now.toISOString(),
     country: "Uganda",

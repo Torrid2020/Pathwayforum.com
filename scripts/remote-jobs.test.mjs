@@ -13,6 +13,11 @@ test('Himalayas attribution is a visible link on shared card and detail trust li
  const html=trustMarkup({source:'Himalayas',title:'Example'});
  assert.match(html,/<a href="https:\/\/himalayas\.app"[^>]*>via Himalayas<\/a>/);
 });
+test('full Himalayas HTML stays available to the description writer beyond the old 5000-character limit',()=>{
+ const description='<p>'+('Full employer text. '.repeat(400))+'</p><ul><li>Final requirement</li></ul>';
+ const job=normalizeHimalayas({title:'Junior Analyst',applicationLink:'https://himalayas.app/job/full',description,companyName:'Example',seniority:['Entry-level']});
+ assert.equal(job._description,description);assert(job._description.length>5000);assert(job.summary.length<=280);
+});
 test('remote board remains noindex and has no JobPosting structured data',()=>{
  const html=fs.readFileSync(new URL('../jobs.html',import.meta.url),'utf8');
  assert.match(html,/<meta name="robots" content="noindex, follow">/);

@@ -1,42 +1,42 @@
 {
-  "generatedAt": "2026-10-31T10:26:04.373Z",
+  "generatedAt": "2026-10-31T10:33:11.752Z",
   "country": "Uganda",
   "jobCount": 35,
   "sources": {
     "World Vision Careers": "ok",
     "dfcu Bank Careers": "ok",
     "NSSF Uganda Careers": "ok",
-    "Uganda Revenue Authority Careers": "manual-review",
-    "TotalEnergies Uganda Careers": "manual-review",
-    "Makerere University Careers": "connected",
     "MTN Uganda Careers": "connected",
+    "Uganda Revenue Authority Careers": "manual-review",
     "Uganda Airlines Careers": "connected",
+    "Makerere University Careers": "connected",
+    "TotalEnergies Uganda Careers": "manual-review",
     "Stanbic Bank Uganda Careers": "connected",
     "FINCA Uganda Careers": "connected",
+    "Airtel Uganda Careers": "manual-review",
     "Absa Bank Uganda Careers": "connected",
     "Centenary Bank Careers": "manual-review",
     "Equity Bank Uganda Careers": "manual-review",
     "GiveDirectly Careers": "connected",
-    "Airtel Uganda Careers": "manual-review",
     "BRAC Uganda Bank Careers": "connected",
     "One Acre Fund Careers": "connected",
-    "International Rescue Committee Careers": "manual-review",
-    "Save the Children International Careers": "unavailable",
     "Living Goods Careers": "connected",
-    "Uganda Civil Aviation Authority Careers": "connected",
+    "Save the Children International Careers": "unavailable",
+    "International Rescue Committee Careers": "manual-review",
     "Mercy Corps Careers": "connected",
-    "UNICEF Careers": "unavailable",
     "Norwegian Refugee Council Careers": "connected",
+    "Uganda Civil Aviation Authority Careers": "connected",
+    "Plan International Careers": "connected",
     "Danish Refugee Council Careers": "connected",
     "World Food Programme Careers": "connected",
     "UNHCR Careers": "connected",
+    "UNICEF Careers": "connected",
+    "Jumia Careers": "connected",
+    "Diageo / Uganda Breweries Careers": "connected",
     "Educate! Careers": "connected",
-    "Plan International Careers": "connected",
+    "WaterAid Careers": "connected",
     "M-KOPA Careers": "connected",
     "PATH Careers": "connected",
-    "Diageo / Uganda Breweries Careers": "connected",
-    "WaterAid Careers": "connected",
-    "Jumia Careers": "connected",
     "Clinton Health Access Initiative Careers": "connected",
     "BRAC International Careers": "connected",
     "ReliefWeb": "unavailable"
@@ -65,10 +65,10 @@
       "summary": "Temporary five-month Health Specialist role with UNICEF in Kampala, Uganda. Read the official advert for the complete responsibilities, qualifications and application instructions.",
       "indicators": [],
       "verification": {
-        "contentHash": "1a19b52ba71b4234a25977ae724ff353db56b98189a033765c11e5206c2a1f01",
+        "contentHash": "9a28ae63304f486433bcff6ef16a10a45e57c4cbb68a43bbd6b4ebedacb7287f",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:24:08.977Z",
+        "checkedAt": "2026-10-31T10:33:25.158Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -78,7 +78,7 @@
       },
       "sourceUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
       "applicationUrl": "https://jobs.unicef.org/en-us/job/596582/health-specialist-no3-temporary-position-5-months-00137574-kampala-uganda",
-      "lastCheckedAt": "2026-10-31T10:24:08.977Z"
+      "lastCheckedAt": "2026-10-31T10:33:25.158Z"
     },
     {
       "id": "drc:https://drc.ngo/jobs/job?id=177063",
@@ -107,12 +107,12 @@
         "contentHash": "1f2b816d6bab0ec7887025b4079a09cdeb701a0b976a891d031d1c7c673bb81a",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:14.340Z",
+        "checkedAt": "2026-10-31T10:33:24.270Z",
         "flags": []
       },
       "sourceUrl": "https://drc.ngo/jobs/job?id=177063",
       "applicationUrl": "https://drc.ngo/jobs/job?id=177063",
-      "lastCheckedAt": "2026-10-31T10:26:14.340Z"
+      "lastCheckedAt": "2026-10-31T10:33:24.270Z"
     },
     {
       "id": "absa:R-15992444",
@@ -139,12 +139,13 @@
         "contentHash": "c52eefd1a2661d2a9e35408b6b5dd43369fc3723f0572433a8b20bda0e2b2e09",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:08.452Z",
+        "checkedAt": "2026-10-31T10:33:17.045Z",
         "flags": []
       },
       "sourceUrl": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite/job/Kampala/No-Corporate-Grade_R-15992444",
       "applicationUrl": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite/job/Kampala/No-Corporate-Grade_R-15992444",
-      "lastCheckedAt": "2026-10-31T10:26:08.452Z"
+      "lastCheckedAt": "2026-10-31T10:33:17.045Z",
+      "descriptionPath": "data/jobs/uganda/af21b80f4c70adc2898a5d3291181755.json"
     },
     {
       "id": "brac-bank:it-infrastructure-support-officer",
@@ -171,12 +172,12 @@
         "contentHash": "46f3d76807b8c6f912c84789a9128b9c22f2dbc4abd6e68f56bf473899b4433f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:09.809Z",
+        "checkedAt": "2026-10-31T10:33:18.454Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-31T10:26:09.809Z"
+      "lastCheckedAt": "2026-10-31T10:33:18.454Z"
     },
     {
       "id": "brac-bank:it-security-officer",
@@ -205,12 +206,12 @@
         "contentHash": "304257619b1a7cca13b72e2d743587919b72e064404ae29c5bd463b805f265bb",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:09.805Z",
+        "checkedAt": "2026-10-31T10:33:18.450Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-31T10:26:09.805Z"
+      "lastCheckedAt": "2026-10-31T10:33:18.450Z"
     },
     {
       "id": "brac-bank:it-service-desk-officer",
@@ -239,12 +240,12 @@
         "contentHash": "e79544b1af1c0473cd75d73edd4c7e2f1ddfc27a331792f768aa5e7536ddbfec",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:09.802Z",
+        "checkedAt": "2026-10-31T10:33:18.448Z",
         "flags": []
       },
       "sourceUrl": "https://www.bracugandabankltd.com/careers/",
       "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-      "lastCheckedAt": "2026-10-31T10:26:09.802Z"
+      "lastCheckedAt": "2026-10-31T10:33:18.448Z"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -271,12 +272,13 @@
         "contentHash": "9b69483d841cdc51d7971aa1755fe884f8a7f5912247154cb5a57d119cf7059f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:24.065Z",
+        "checkedAt": "2026-10-31T10:33:28.961Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-31T10:26:24.065Z"
+      "lastCheckedAt": "2026-10-31T10:33:28.961Z",
+      "descriptionPath": "data/jobs/uganda/e809ee86f039aa8e304f20259d8ce751.json"
     },
     {
       "id": "stanbic:744000158026749",
@@ -305,12 +307,13 @@
         "contentHash": "b2e99f33b9965740db51e18e8e52f11363405f50928cee7923d7b13f3402caa7",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:07.092Z",
+        "checkedAt": "2026-10-31T10:33:15.860Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000158026749-finance-value-management-officer-personal-private-banking?oga=true",
-      "lastCheckedAt": "2026-10-31T10:26:07.092Z"
+      "lastCheckedAt": "2026-10-31T10:33:15.860Z",
+      "descriptionPath": "data/jobs/uganda/d486df72641442bc384db03b8fa4ad9f.json"
     },
     {
       "id": "educate:8336549",
@@ -339,12 +342,13 @@
         "contentHash": "9754e062c9369af2cd79d2259e2963d8a7c48fd37c6823737e9ede536490a07c",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:16.762Z",
+        "checkedAt": "2026-10-31T10:33:25.865Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
-      "lastCheckedAt": "2026-10-31T10:26:16.762Z"
+      "lastCheckedAt": "2026-10-31T10:33:25.865Z",
+      "descriptionPath": "data/jobs/uganda/89924c80b480e6f153c2f4c9cb03ef3f.json"
     },
     {
       "id": "nrc:20449",
@@ -374,12 +378,13 @@
         "contentHash": "293d3e35d27c6f0b8ceef8a640e8d3cfd15c90dda377e948ab0eb51812949828",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:13.592Z",
+        "checkedAt": "2026-10-31T10:33:22.451Z",
         "flags": []
       },
       "sourceUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
       "applicationUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
-      "lastCheckedAt": "2026-10-31T10:26:13.592Z"
+      "lastCheckedAt": "2026-10-31T10:33:22.451Z",
+      "descriptionPath": "data/jobs/uganda/24353f6425c8e8672e5d1acf7a6995fa.json"
     },
     {
       "id": "m-kopa:685fe2cb-7003-4217-95fe-179d50469d0d",
@@ -408,7 +413,7 @@
         "contentHash": "4b42cce4d878401d73028b901b986bbb3aae91333b5b3c147f20d980ccbd08c7",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:26:18.025Z",
+        "checkedAt": "2026-10-31T10:33:26.500Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -418,7 +423,8 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/685fe2cb-7003-4217-95fe-179d50469d0d/application",
-      "lastCheckedAt": "2026-10-31T10:26:18.025Z"
+      "lastCheckedAt": "2026-10-31T10:33:26.500Z",
+      "descriptionPath": "data/jobs/uganda/3c37b716b30bb1a8ab8babc467007c28.json"
     },
     {
       "id": "brac-international:fk0zu8c",
@@ -445,12 +451,13 @@
         "contentHash": "cc67100ec100cd933a266c5d74e75a2c52417847e97fd24a5e2d8f44bbd8e406",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:31.715Z",
+        "checkedAt": "2026-10-31T10:33:36.901Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
-      "lastCheckedAt": "2026-10-31T10:26:31.715Z"
+      "lastCheckedAt": "2026-10-31T10:33:36.901Z",
+      "descriptionPath": "data/jobs/uganda/fa97457f396af18fdef19f57c9422de5.json"
     },
     {
       "id": "wateraid:E538BBAB7A",
@@ -479,12 +486,12 @@
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:19.299Z",
+        "checkedAt": "2026-10-31T10:33:26.228Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/E538BBAB7A",
       "applicationUrl": "https://apply.workable.com/j/E538BBAB7A/apply",
-      "lastCheckedAt": "2026-10-31T10:26:19.299Z"
+      "lastCheckedAt": "2026-10-31T10:33:26.228Z"
     },
     {
       "id": "brac-international:fk0zu8g",
@@ -513,12 +520,13 @@
         "contentHash": "d51a1cb9f9944661e540861060ec93472e886a8cb14af3d270dca8def8553110",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:31.719Z",
+        "checkedAt": "2026-10-31T10:33:36.906Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
-      "lastCheckedAt": "2026-10-31T10:26:31.719Z"
+      "lastCheckedAt": "2026-10-31T10:33:36.906Z",
+      "descriptionPath": "data/jobs/uganda/12445ee7f5bc2017fdf8d8b40ebafa28.json"
     },
     {
       "id": "m-kopa:3b64016b-0865-47f4-b343-5b4445f7aaef",
@@ -545,7 +553,7 @@
         "contentHash": "20af89103c2f6b97887ca4e02ad254c024d528a822aa032057bc669adb221573",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:26:18.007Z",
+        "checkedAt": "2026-10-31T10:33:26.479Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -555,7 +563,8 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef/application",
-      "lastCheckedAt": "2026-10-31T10:26:18.007Z"
+      "lastCheckedAt": "2026-10-31T10:33:26.479Z",
+      "descriptionPath": "data/jobs/uganda/7352202f73a019c44841a48f9a1629b0.json"
     },
     {
       "id": "one-acre-fund:7692994",
@@ -582,12 +591,13 @@
         "contentHash": "c343491397accb77279de45de4955bc2fd7229d25943d1c2ed66c66e788c31ab",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:10.031Z",
+        "checkedAt": "2026-10-31T10:33:19.149Z",
         "flags": []
       },
       "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
       "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
-      "lastCheckedAt": "2026-10-31T10:26:10.031Z"
+      "lastCheckedAt": "2026-10-31T10:33:19.149Z",
+      "descriptionPath": "data/jobs/uganda/e37615089c81f509681d70120ca38eb0.json"
     },
     {
       "id": "mtn-uganda:7890",
@@ -616,12 +626,13 @@
         "contentHash": "d7cf7528adff2bbb1ce50ef90afe2294d78a3b44a11510e635762f84c9b7210d",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:06.256Z",
+        "checkedAt": "2026-10-31T10:33:13.655Z",
         "flags": []
       },
       "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
       "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
-      "lastCheckedAt": "2026-10-31T10:26:06.256Z"
+      "lastCheckedAt": "2026-10-31T10:33:13.655Z",
+      "descriptionPath": "data/jobs/uganda/13c66eff6eee5f3c6c0519ffbc62975b.json"
     },
     {
       "id": "drc:https://drc.ngo/jobs/job?id=177062",
@@ -648,12 +659,12 @@
         "contentHash": "d67adb3a3b8c8dfb55d76928e50875fbf80be7756a5ee1d44884af00f4d67cbd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:14.341Z",
+        "checkedAt": "2026-10-31T10:33:24.274Z",
         "flags": []
       },
       "sourceUrl": "https://drc.ngo/jobs/job?id=177062",
       "applicationUrl": "https://drc.ngo/jobs/job?id=177062",
-      "lastCheckedAt": "2026-10-31T10:26:14.341Z"
+      "lastCheckedAt": "2026-10-31T10:33:24.274Z"
     },
     {
       "id": "path:JR2738",
@@ -682,12 +693,13 @@
         "contentHash": "ddb5758dd59e74c5f7083d74d07598e004945a71d5027bf36c842df0603503ad",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:18.896Z",
+        "checkedAt": "2026-10-31T10:33:27.063Z",
         "flags": []
       },
       "sourceUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
       "applicationUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
-      "lastCheckedAt": "2026-10-31T10:26:18.896Z"
+      "lastCheckedAt": "2026-10-31T10:33:27.063Z",
+      "descriptionPath": "data/jobs/uganda/c8eb9cca5e67d0d04d7f8b46db4a87d2.json"
     },
     {
       "id": "m-kopa:cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
@@ -714,7 +726,7 @@
         "contentHash": "70f127832b6261e4edb3a3d7f74cdf2e4a360cf761a557f934e0506cb0f02f44",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:26:18.012Z",
+        "checkedAt": "2026-10-31T10:33:26.483Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -724,7 +736,8 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2/application",
-      "lastCheckedAt": "2026-10-31T10:26:18.012Z"
+      "lastCheckedAt": "2026-10-31T10:33:26.483Z",
+      "descriptionPath": "data/jobs/uganda/ff533362a9cfa93761f56dad063ef755.json"
     },
     {
       "id": "m-kopa:5f72226a-412c-4b5f-a647-85c37b1e4ad7",
@@ -751,7 +764,7 @@
         "contentHash": "66d3c3109c4173977e2579b828647967591c97e31079f96a1e27859ebe211201",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:26:17.982Z",
+        "checkedAt": "2026-10-31T10:33:26.452Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -761,7 +774,8 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7/application",
-      "lastCheckedAt": "2026-10-31T10:26:17.982Z"
+      "lastCheckedAt": "2026-10-31T10:33:26.452Z",
+      "descriptionPath": "data/jobs/uganda/8e9056890687b7f831fb8f4e4dc48dee.json"
     },
     {
       "id": "one-acre-fund:8132333",
@@ -788,12 +802,13 @@
         "contentHash": "c717ae22f06a7198c7fc235cc16c75d947254574ba8121bcded62dd4959db288",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:10.028Z",
+        "checkedAt": "2026-10-31T10:33:19.146Z",
         "flags": []
       },
       "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
       "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
-      "lastCheckedAt": "2026-10-31T10:26:10.028Z"
+      "lastCheckedAt": "2026-10-31T10:33:19.146Z",
+      "descriptionPath": "data/jobs/uganda/8cb9ef6c22472559b8be751ec9869cc1.json"
     },
     {
       "id": "wateraid:D095CE9724",
@@ -820,12 +835,12 @@
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:19.299Z",
+        "checkedAt": "2026-10-31T10:33:26.223Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/D095CE9724",
       "applicationUrl": "https://apply.workable.com/j/D095CE9724/apply",
-      "lastCheckedAt": "2026-10-31T10:26:19.299Z"
+      "lastCheckedAt": "2026-10-31T10:33:26.223Z"
     },
     {
       "id": "educate:8248862",
@@ -852,12 +867,13 @@
         "contentHash": "2e653adb86772a31dd6ee5d84537f432c73569a2d36b3a66c160536bb31650cd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:16.768Z",
+        "checkedAt": "2026-10-31T10:33:25.867Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
-      "lastCheckedAt": "2026-10-31T10:26:16.768Z"
+      "lastCheckedAt": "2026-10-31T10:33:25.868Z",
+      "descriptionPath": "data/jobs/uganda/18cdff3219b17ccf5f91586285715ac9.json"
     },
     {
       "id": "wateraid:BB1627BC45",
@@ -884,12 +900,12 @@
         "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:19.299Z",
+        "checkedAt": "2026-10-31T10:33:26.224Z",
         "flags": []
       },
       "sourceUrl": "https://apply.workable.com/j/BB1627BC45",
       "applicationUrl": "https://apply.workable.com/j/BB1627BC45/apply",
-      "lastCheckedAt": "2026-10-31T10:26:19.299Z"
+      "lastCheckedAt": "2026-10-31T10:33:26.224Z"
     },
     {
       "id": "jumia:4906703101",
@@ -916,12 +932,13 @@
         "contentHash": "511d99bfe8614b001e989b8a3344f23a23e8b89a97c92b4d4b58437d9d46d9c3",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:20.851Z",
+        "checkedAt": "2026-10-31T10:33:25.640Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
       "applicationUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
-      "lastCheckedAt": "2026-10-31T10:26:20.851Z"
+      "lastCheckedAt": "2026-10-31T10:33:25.640Z",
+      "descriptionPath": "data/jobs/uganda/607226aceed0ad84a38573aac0c62893.json"
     },
     {
       "id": "stanbic:744000157751189",
@@ -948,12 +965,13 @@
         "contentHash": "55d17c01f795141b5dba8d7c73c7256d82a649126f64f243f3be3cb692dca70e",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:07.094Z",
+        "checkedAt": "2026-10-31T10:33:15.863Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157751189-head-internal-control-?oga=true",
-      "lastCheckedAt": "2026-10-31T10:26:07.094Z"
+      "lastCheckedAt": "2026-10-31T10:33:15.863Z",
+      "descriptionPath": "data/jobs/uganda/96795b25c4bd000ff2579cd64b2190a9.json"
     },
     {
       "id": "stanbic:744000157127420",
@@ -982,12 +1000,13 @@
         "contentHash": "01940a4223eddea3526f14e9ef0918e4a58a14b86d259dd0fbee12dc0298928c",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:07.096Z",
+        "checkedAt": "2026-10-31T10:33:15.865Z",
         "flags": []
       },
       "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions",
       "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions?oga=true",
-      "lastCheckedAt": "2026-10-31T10:26:07.096Z"
+      "lastCheckedAt": "2026-10-31T10:33:15.865Z",
+      "descriptionPath": "data/jobs/uganda/cffa448bfbf0fe3adbe540cb03a99cca.json"
     },
     {
       "id": "brac-international:fk0zu84",
@@ -1016,12 +1035,13 @@
         "contentHash": "f70868c88a92a616ada994119f52ebb6fc95b89e3f76553e0fdcbd611f0a6ebd",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:31.716Z",
+        "checkedAt": "2026-10-31T10:33:36.903Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
-      "lastCheckedAt": "2026-10-31T10:26:31.716Z"
+      "lastCheckedAt": "2026-10-31T10:33:36.903Z",
+      "descriptionPath": "data/jobs/uganda/4e980a1978422433301782eb93010ea5.json"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -1048,12 +1068,13 @@
         "contentHash": "fe1a551d1d52ae074df89f7773cf830a1582ae2b47ebe5f0ebc376deb5143d21",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:24.068Z",
+        "checkedAt": "2026-10-31T10:33:28.962Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-31T10:26:24.068Z"
+      "lastCheckedAt": "2026-10-31T10:33:28.962Z",
+      "descriptionPath": "data/jobs/uganda/739bd5df8bb671e65487a53f1982de8a.json"
     },
     {
       "id": "m-kopa:ac87dffb-3a32-4197-94da-4cdb250d230d",
@@ -1082,7 +1103,7 @@
         "contentHash": "fb49bdd6cb19011dfaf55c8c2e0710ad9cec89306fd1733447c45752b631c2c4",
         "status": "official-source",
         "label": "Reviewed by Pathway Forum",
-        "checkedAt": "2026-10-31T10:26:17.989Z",
+        "checkedAt": "2026-10-31T10:33:26.462Z",
         "flags": [],
         "reviewedFlags": [
           "Review recruitment language"
@@ -1092,7 +1113,8 @@
       },
       "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d",
       "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d/application",
-      "lastCheckedAt": "2026-10-31T10:26:17.989Z"
+      "lastCheckedAt": "2026-10-31T10:33:26.462Z",
+      "descriptionPath": "data/jobs/uganda/cfc90f61d61752e1f21e074025956519.json"
     },
     {
       "id": "brac-international:fk0zu8y",
@@ -1119,12 +1141,13 @@
         "contentHash": "1259e70f1d2776d349a75ae0221ca89ae372a3f20ccf5f18ff3e95d8cad57d27",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:31.722Z",
+        "checkedAt": "2026-10-31T10:33:36.911Z",
         "flags": []
       },
       "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
       "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
-      "lastCheckedAt": "2026-10-31T10:26:31.722Z"
+      "lastCheckedAt": "2026-10-31T10:33:36.911Z",
+      "descriptionPath": "data/jobs/uganda/8ba243c80dd99fe6d1d997c55ab5e076.json"
     },
     {
       "id": "chai:https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
@@ -1153,12 +1176,13 @@
         "contentHash": "74dd8ab20f8a884539d4462f33af5b3039eab16acfa61170da0863eb8469ed9f",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:24.073Z",
+        "checkedAt": "2026-10-31T10:33:28.964Z",
         "flags": []
       },
       "sourceUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
       "applicationUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-      "lastCheckedAt": "2026-10-31T10:26:24.073Z"
+      "lastCheckedAt": "2026-10-31T10:33:28.964Z",
+      "descriptionPath": "data/jobs/uganda/18d9cfd3301b4cd3529cff272d9c5035.json"
     },
     {
       "id": "nssf:-specials-featured-jobs-senior-manager-partnerships-business-development-mdas-",
@@ -1182,12 +1206,12 @@
       "verification": {
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:04.373Z",
+        "checkedAt": "2026-10-31T10:33:11.752Z",
         "flags": []
       },
       "sourceUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
       "applicationUrl": "https://www.nssfug.org/specials/featured-jobs/senior-manager-partnerships-business-development-mdas/",
-      "lastCheckedAt": "2026-10-31T10:26:04.373Z",
+      "lastCheckedAt": "2026-10-31T10:33:11.752Z",
       "sourceId": "nssf-uganda",
       "sector": "Public institution"
     },
@@ -1218,12 +1242,13 @@
         "contentHash": "9a2e82efbb04b51620f5f73c788b706a52c8d9afb2fc9d15504d78b4f63d1e08",
         "status": "official-source",
         "label": "Official employer source",
-        "checkedAt": "2026-10-31T10:26:16.772Z",
+        "checkedAt": "2026-10-31T10:33:25.872Z",
         "flags": []
       },
       "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
       "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
-      "lastCheckedAt": "2026-10-31T10:26:16.772Z"
+      "lastCheckedAt": "2026-10-31T10:33:25.872Z",
+      "descriptionPath": "data/jobs/uganda/46bc354d64824a84660e7dbc768d80bf.json"
     }
   ]
 }

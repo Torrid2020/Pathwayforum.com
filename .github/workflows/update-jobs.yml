@@ -19,6 +19,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
+      - run: npm ci --ignore-scripts
       - name: Test remote source compliance
         run: node --test scripts/remote-jobs.test.mjs scripts/job-trust.test.mjs
       - name: Fetch, screen and normalize jobs
@@ -26,13 +27,13 @@ jobs:
         run: node scripts/update-jobs.mjs
       - name: Publish changed feed
         run: |
-          if git diff --quiet -- data/remote-jobs.json; then
+          if [ -z "$(git status --porcelain -- data/remote-jobs.json data/jobs/remote)" ]; then
             echo "The normalized feed has not changed."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898283+github-actions[bot]@users.noreply.github.com"
-          git add data/remote-jobs.json
+          git add -A data/remote-jobs.json data/jobs/remote
           git commit -m "Refresh verified remote jobs"
           git push
           gh api -X POST "repos/${{ github.repository }}/pages/builds" --silent || true

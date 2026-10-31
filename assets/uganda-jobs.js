@@ -1,3 +1,4 @@
+import {createApplySuggestions} from './job-suggestions.mjs';
 import {createDescriptionView} from './job-description-view.mjs';
 import {trustMarkup} from './job-trust.mjs';
 import {normalizeDeadline} from './uganda-data.mjs';
@@ -8,6 +9,8 @@ const descriptionView=createDescriptionView(document.querySelector('#full-descri
 let jobs = [];
 let active = null;
 let showSaved = false;
+const suggestions=createApplySuggestions(document.querySelector('#apply-suggestions'),()=>active,()=>jobs,id=>openJob(id,true));
+document.querySelector('#apply').addEventListener('click',event=>suggestions.show(event.currentTarget));
 const saved = new Set(JSON.parse(localStorage.getItem("pf-uganda-saved") || "[]"));
 const $ = (selector) => document.querySelector(selector);
 const esc = (value) => String(value ?? "").replace(/[&<>"']/g, (character) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[character]));
@@ -66,6 +69,7 @@ function render() {
 function openJob(id, push) {
   active = jobs.find((job) => job.id === id);
   if (!active) return;
+  suggestions.reset();
   $("#listing").hidden = true;
   $("#detail").hidden = false;
   $("#detail-logo").textContent = initials(active.employer);

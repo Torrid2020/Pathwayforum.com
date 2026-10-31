@@ -46,3 +46,5 @@ body .hero h1,body .detail h2,body .article h2,body .toolbar h2,body .section-he
 .job-trust{margin:16px 0;padding:12px;border-left:3px solid #177046;background:#f0f7f3;color:#254b3a;font-size:12px;line-height:1.6;overflow-wrap:anywhere}.job-trust p{margin:0 0 5px}.job-trust .report-job{display:inline-flex;align-items:center;min-height:44px;color:#075bea;font-weight:700}
 
 .description-credit{color:#53627b;font-size:12px;line-height:1.6}.job-description-content{font-size:17px;line-height:1.75;overflow-wrap:anywhere}.job-description-content p{margin:0 0 1em}.job-description-content ul,.job-description-content ol{padding-inline-start:1.5em}.job-description-content h3,.job-description-content h4{margin:1.5em 0 .6em;line-height:1.3}.job-description-content a{overflow-wrap:anywhere}
+
+.similar-jobs{margin:24px 0;padding:18px;border:1px solid #cbd8eb;border-radius:12px;background:#f3f7fd}.similar-jobs[hidden]{display:none}.similar-job-links{display:grid;gap:10px}.similar-job-links button{padding:12px;min-height:44px;border:1px solid #cbd8eb;border-radius:8px;background:#fff;color:#075bea;text-align:left;font:inherit;cursor:pointer;overflow-wrap:anywhere}

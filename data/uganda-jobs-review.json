@@ -1,5 +1,39 @@
 {
-  "generatedAt": "2026-10-31T10:26:04.373Z",
-  "jobCount": 0,
-  "jobs": []
+  "generatedAt": "2026-11-01T00:24:06.382Z",
+  "jobCount": 1,
+  "jobs": [
+    {
+      "id": "dfcu:-careers-agent-banking-consultant-open-positions-all-regions-",
+      "source": "dfcu Bank Careers",
+      "sourceType": "official-employer",
+      "title": "Agent Banking Consultant (Open Positions/ All Regions)",
+      "level": "Entry level",
+      "employer": "dfcu Bank",
+      "location": "All regions, Uganda",
+      "district": "All regions",
+      "workplace": "On-site or field-based",
+      "employmentType": "See official listing",
+      "category": "Finance",
+      "education": "See official listing",
+      "experience": "See official listing",
+      "publishedAt": "2026-10-27T20:59:59.000Z",
+      "deadline": "2026-10-30T20:59:59.000Z",
+      "deadlineStatus": "Expired",
+      "summary": "Reporting to the Branch Operations Manager/ Officer, the role is responsible for growing the dfcu agent Banking channel, monitor the agent network and enforce compliance with the Bank Of Uganda Agent Banking guidelines. Duty Station: All Regions KEY ACCOUNTABILITIES: KNOWLEDGE, SKILLS, AND EXPERIENCE REQUIRED: INVITATION If you believe you meet the requirements as noted above, ",
+      "indicators": [],
+      "verification": {
+        "status": "review",
+        "label": "Needs review",
+        "checkedAt": "2026-11-01T00:24:06.382Z",
+        "flags": [
+          "Expired"
+        ]
+      },
+      "sourceUrl": "https://www.dfcugroup.com/careers/agent-banking-consultant-open-positions-all-regions/",
+      "applicationUrl": "https://careers.dfcugroup.com/",
+      "lastCheckedAt": "2026-11-01T00:24:06.382Z",
+      "sourceId": "dfcu",
+      "sector": "Banking"
+    }
+  ]
 }

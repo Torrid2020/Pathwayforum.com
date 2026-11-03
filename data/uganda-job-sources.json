@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-03T11:17:13.313Z",
+  "updatedAt": "2026-11-03T11:22:14.108Z",
   "policy": "Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.",
   "sources": [
     {
@@ -14,9 +14,10 @@
       "recordsRead": 1,
       "publishedCount": 0,
       "reviewCount": 1,
+      "contentFetches": null,
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "nssf-uganda",
@@ -24,15 +25,17 @@
       "employer": "NSSF Uganda",
       "sector": "Public institution",
       "url": "https://www.nssfug.org/opportunities/careers/",
-      "method": "existing",
+      "method": "nssf-list",
       "adapter": null,
       "trust": "official",
+      "singleFetch": true,
       "recordsRead": 1,
-      "publishedCount": 1,
+      "publishedCount": 0,
       "reviewCount": 0,
-      "status": "connected",
-      "message": "Official employer source checked.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "contentFetches": 1,
+      "status": "manual-review",
+      "message": "Careers URL is unchanged and reachable. Featured titles are readable, but deadlines require a separate advert request; manual review under the one-request limit.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "mtn-uganda",
@@ -46,9 +49,10 @@
       "recordsRead": 1,
       "publishedCount": 1,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "airtel-uganda",
@@ -62,9 +66,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "uganda-airlines",
@@ -78,9 +83,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "ura",
@@ -94,9 +100,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "ucaa",
@@ -110,9 +117,10 @@
       "recordsRead": 6,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 6 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "totalenergies",
@@ -126,9 +134,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "makerere",
@@ -142,9 +151,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "stanbic",
@@ -158,9 +168,10 @@
       "recordsRead": 1,
       "publishedCount": 1,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "absa",
@@ -174,9 +185,10 @@
       "recordsRead": 1,
       "publishedCount": 1,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "finca",
@@ -190,9 +202,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "brac-bank",
@@ -206,9 +219,10 @@
       "recordsRead": 3,
       "publishedCount": 3,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "equity",
@@ -222,9 +236,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "centenary",
@@ -238,9 +253,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "world-vision",
@@ -254,9 +270,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "givedirectly",
@@ -270,9 +287,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "one-acre-fund",
@@ -286,9 +304,10 @@
       "recordsRead": 3,
       "publishedCount": 3,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "living-goods",
@@ -302,9 +321,10 @@
       "recordsRead": 2,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "brac-international",
@@ -318,9 +338,10 @@
       "recordsRead": 15,
       "publishedCount": 4,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 15 vacancy records read; 4 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "irc",
@@ -334,9 +355,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "mercy-corps",
@@ -350,9 +372,10 @@
       "recordsRead": 6,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 6 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "save-children",
@@ -366,9 +389,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "unavailable",
       "message": "HTTP 403",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "drc",
@@ -382,9 +406,10 @@
       "recordsRead": 1,
       "publishedCount": 1,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "nrc",
@@ -398,9 +423,10 @@
       "recordsRead": 1,
       "publishedCount": 1,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "plan",
@@ -414,9 +440,10 @@
       "recordsRead": 10,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 10 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "unicef",
@@ -430,9 +457,10 @@
       "recordsRead": 1,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "wfp",
@@ -446,9 +474,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "unhcr",
@@ -462,9 +491,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "diageo",
@@ -478,9 +508,10 @@
       "recordsRead": 0,
       "publishedCount": 0,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "path",
@@ -494,9 +525,10 @@
       "recordsRead": 1,
       "publishedCount": 1,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "educate",
@@ -510,9 +542,10 @@
       "recordsRead": 3,
       "publishedCount": 3,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "jumia",
@@ -526,9 +559,10 @@
       "recordsRead": 1,
       "publishedCount": 1,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "m-kopa",
@@ -542,9 +576,10 @@
       "recordsRead": 66,
       "publishedCount": 4,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 66 vacancy records read; 4 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "wateraid",
@@ -558,9 +593,10 @@
       "recordsRead": 9,
       "publishedCount": 3,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 9 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     },
     {
       "id": "chai",
@@ -574,9 +610,298 @@
       "recordsRead": 3,
       "publishedCount": 3,
       "reviewCount": 0,
+      "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-03T11:17:13.313Z"
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "sunking",
+      "name": "Sun King Careers",
+      "employer": "Sun King",
+      "sector": "Energy",
+      "url": "https://sunking.pinpointhq.com/",
+      "method": "pinpoint",
+      "adapter": "https://sunking.pinpointhq.com/postings.json",
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 181,
+      "publishedCount": 1,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 181 vacancy records read; 1 passed publication filters.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "laterite",
+      "name": "Laterite Careers",
+      "employer": "Laterite",
+      "sector": "Research & M&E",
+      "url": "https://apply.workable.com/laterite/",
+      "method": "workable",
+      "adapter": "laterite",
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 4,
+      "publishedCount": 1,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 4 vacancy records read; 1 passed publication filters.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "vivo-energy",
+      "name": "Vivo Energy Careers",
+      "employer": "Vivo Energy",
+      "sector": "Energy",
+      "url": "https://apply.workable.com/vivo-energy/",
+      "method": "workable",
+      "adapter": "vivo-energy",
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 21,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 21 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "tugende",
+      "name": "Tugende Careers",
+      "employer": "Tugende",
+      "sector": "Finance",
+      "url": "https://gotugende.com/join/",
+      "method": "workable",
+      "adapter": "tugende",
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "kakira",
+      "name": "Kakira Sugar Careers",
+      "employer": "Kakira Sugar",
+      "sector": "Manufacturing",
+      "url": "https://kakirasugar.com/jobs-listing/",
+      "method": "kakira",
+      "adapter": null,
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 5,
+      "publishedCount": 5,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 5 vacancy records read; 5 passed publication filters.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "eadb",
+      "name": "East African Development Bank Careers",
+      "employer": "East African Development Bank",
+      "sector": "Banking",
+      "url": "https://eadb.org/vacancies/",
+      "method": "eadb",
+      "adapter": null,
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 2,
+      "publishedCount": 1,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 1 passed publication filters.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "hsc",
+      "name": "Health Service Commission Careers",
+      "employer": "Health Service Commission",
+      "sector": "Health",
+      "url": "https://hsc.go.ug/jobs.php",
+      "method": "pdf-advert",
+      "adapter": null,
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 4,
+      "publishedCount": 2,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "One entry per advert; summary/complete copies are grouped. Only adverts with an unexpired date on the official list are published.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "esc",
+      "name": "Education Service Commission Careers",
+      "employer": "Education Service Commission",
+      "sector": "Education",
+      "url": "https://esc.go.ug/feed/",
+      "method": "rss-advert",
+      "adapter": null,
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 10,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Only recent recruitment adverts are eligible; warnings, interviews, shortlists and expired notices are excluded.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "jsc",
+      "name": "Judicial Service Commission Careers",
+      "employer": "Judicial Service Commission",
+      "sector": "Public institution",
+      "url": "https://www.jsc.go.ug/feed/",
+      "method": "rss-advert",
+      "adapter": null,
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 4,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Only recent recruitment adverts are eligible; warnings, interviews, shortlists and expired notices are excluded.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "iom",
+      "name": "International Organization for Migration Careers",
+      "employer": "International Organization for Migration",
+      "sector": "NGO & Humanitarian",
+      "url": "https://fa-evlj-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+      "method": "oracle",
+      "adapter": "fa-evlj-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001",
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "fhi360",
+      "name": "FHI 360 Careers",
+      "employer": "FHI 360",
+      "sector": "NGO & Humanitarian",
+      "url": "https://www.fhi360.org/join-our-team/",
+      "method": "workday",
+      "adapter": "fhi.wd1.myworkdayjobs.com/FHI_360_External_Career_Portal",
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "One Uganda-filtered Workday list request; descriptions and any dates not supplied by the list remain on the official advert.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "baylor-uganda",
+      "name": "Baylor College of Medicine Children’s Foundation Uganda Careers",
+      "employer": "Baylor College of Medicine Children’s Foundation Uganda",
+      "sector": "Health",
+      "url": "https://careers.baylor-uganda.org/",
+      "method": "official-list",
+      "adapter": null,
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Official recruitment page explicitly reports no open positions.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "kcca",
+      "name": "Kampala Capital City Authority Careers",
+      "employer": "Kampala Capital City Authority",
+      "sector": "Public institution",
+      "url": "https://www.kcca.go.ug/employment-opportunities",
+      "method": "kcca",
+      "adapter": null,
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 1,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Only adverts with a readable, future closing date are published; old adverts are excluded.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "udb",
+      "name": "Uganda Development Bank Careers",
+      "employer": "Uganda Development Bank",
+      "sector": "Banking",
+      "url": "https://www.udbl.co.ug/careers/",
+      "method": "official-list",
+      "adapter": "https://www.udbl.co.ug/our-latest-vacancies/",
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Official recruitment page explicitly reports no open positions.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "uetcl",
+      "name": "Uganda Electricity Transmission Company Careers",
+      "employer": "Uganda Electricity Transmission Company",
+      "sector": "Energy",
+      "url": "https://uetcl.go.ug/careers/",
+      "method": "dated-list",
+      "adapter": null,
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 6,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "manual-review",
+      "message": "Vacancy titles are readable, but closing dates are inside separate adverts. Manual review is required under the one-request limit; no undated archived jobs are imported.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
+    },
+    {
+      "id": "ucc",
+      "name": "Uganda Communications Commission Careers",
+      "employer": "Uganda Communications Commission",
+      "sector": "Telecom",
+      "url": "https://www.ucc.co.ug/jobs/",
+      "method": "official-list",
+      "adapter": "https://erp.ucc.co.ug/jobs",
+      "trust": "official",
+      "singleFetch": true,
+      "recordsRead": 0,
+      "publishedCount": 0,
+      "reviewCount": 0,
+      "contentFetches": 1,
+      "status": "connected",
+      "message": "Official recruitment page explicitly reports no open positions.",
+      "checkedAt": "2026-11-03T11:22:14.108Z"
     }
   ],
   "aggregators": [

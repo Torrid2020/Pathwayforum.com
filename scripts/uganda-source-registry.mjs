@@ -1,7 +1,7 @@
 // Official career pages; being in this directory does not imply endorsement or a current vacancy.
 const rows = [
  ['dfcu','dfcu Bank','Banking','https://www.dfcugroup.com/careers/','existing'],
- ['nssf-uganda','NSSF Uganda','Public institution','https://www.nssfug.org/opportunities/careers/','existing'],
+ ['nssf-uganda','NSSF Uganda','Public institution','https://www.nssfug.org/opportunities/careers/','nssf-list'],
  ['mtn-uganda','MTN Uganda','Telecom','https://www.mtn.co.ug/careers/','oracle','ehle.fa.em2.oraclecloud.com/CX_1'],
  ['airtel-uganda','Airtel Uganda','Telecom','https://www.airtel.co.ug/ug/about/careers','structured'],
  ['uganda-airlines','Uganda Airlines','Transport','https://careers.ugandairlines.com/jobs','oracle','fa-eptm-saasfaprod1.fa.ocs.oraclecloud.com/CX_4001'],
@@ -37,4 +37,127 @@ const rows = [
  ['wateraid','WaterAid','NGO & Humanitarian','https://apply.workable.com/wateraid/','workable','wateraid'],
  ['chai','Clinton Health Access Initiative','NGO & Humanitarian','https://careers-chai.icims.com/jobs/search?ss=1&searchKeyword=Uganda&in_iframe=1','icims']
 ];
-export const employerSources = rows.map(([id,employer,sector,url,method,adapter])=>({id,name:employer+' Careers',employer,sector,url,method,adapter:adapter||null,trust:'official'}));
+const additions = [
+ [
+  "sunking",
+  "Sun King",
+  "Energy",
+  "https://sunking.pinpointhq.com/",
+  "pinpoint",
+  "https://sunking.pinpointhq.com/postings.json"
+ ],
+ [
+  "laterite",
+  "Laterite",
+  "Research & M&E",
+  "https://apply.workable.com/laterite/",
+  "workable",
+  "laterite"
+ ],
+ [
+  "vivo-energy",
+  "Vivo Energy",
+  "Energy",
+  "https://apply.workable.com/vivo-energy/",
+  "workable",
+  "vivo-energy"
+ ],
+ [
+  "tugende",
+  "Tugende",
+  "Finance",
+  "https://gotugende.com/join/",
+  "workable",
+  "tugende"
+ ],
+ [
+  "kakira",
+  "Kakira Sugar",
+  "Manufacturing",
+  "https://kakirasugar.com/jobs-listing/",
+  "kakira"
+ ],
+ [
+  "eadb",
+  "East African Development Bank",
+  "Banking",
+  "https://eadb.org/vacancies/",
+  "eadb"
+ ],
+ [
+  "hsc",
+  "Health Service Commission",
+  "Health",
+  "https://hsc.go.ug/jobs.php",
+  "pdf-advert"
+ ],
+ [
+  "esc",
+  "Education Service Commission",
+  "Education",
+  "https://esc.go.ug/feed/",
+  "rss-advert"
+ ],
+ [
+  "jsc",
+  "Judicial Service Commission",
+  "Public institution",
+  "https://www.jsc.go.ug/feed/",
+  "rss-advert"
+ ],
+ [
+  "iom",
+  "International Organization for Migration",
+  "NGO & Humanitarian",
+  "https://fa-evlj-saasfaprod1.fa.ocs.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1001/jobs",
+  "oracle",
+  "fa-evlj-saasfaprod1.fa.ocs.oraclecloud.com/CX_1001"
+ ],
+ [
+  "fhi360",
+  "FHI 360",
+  "NGO & Humanitarian",
+  "https://www.fhi360.org/join-our-team/",
+  "workday",
+  "fhi.wd1.myworkdayjobs.com/FHI_360_External_Career_Portal"
+ ],
+ [
+  "baylor-uganda",
+  "Baylor College of Medicine Children’s Foundation Uganda",
+  "Health",
+  "https://careers.baylor-uganda.org/",
+  "official-list"
+ ],
+ [
+  "kcca",
+  "Kampala Capital City Authority",
+  "Public institution",
+  "https://www.kcca.go.ug/employment-opportunities",
+  "kcca"
+ ],
+ [
+  "udb",
+  "Uganda Development Bank",
+  "Banking",
+  "https://www.udbl.co.ug/careers/",
+  "official-list",
+  "https://www.udbl.co.ug/our-latest-vacancies/"
+ ],
+ [
+  "uetcl",
+  "Uganda Electricity Transmission Company",
+  "Energy",
+  "https://uetcl.go.ug/careers/",
+  "dated-list"
+ ],
+ [
+  "ucc",
+  "Uganda Communications Commission",
+  "Telecom",
+  "https://www.ucc.co.ug/jobs/",
+  "official-list",
+  "https://erp.ucc.co.ug/jobs"
+ ]
+];
+const singleIds = new Set(['nssf-uganda',...additions.map(r=>r[0])]);
+export const employerSources = [...rows,...additions].map(([id,employer,sector,url,method,adapter])=>({id,name:employer+' Careers',employer,sector,url,method,adapter:adapter||null,trust:'official',...(singleIds.has(id)?{singleFetch:true}:{})}));

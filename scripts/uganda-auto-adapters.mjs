@@ -25,10 +25,10 @@ export function parseUcaaDetail(html, link, strip) {
 export async function fetchAutomatic(s,io){const {request,json,strip,structuredJobs,fromSchema}=io;
  if(s.method==='oracle'){
   const [host,site]=s.adapter.split('/'),base='https://'+host+'/hcmRestApi/resources/latest',records=[];
-  for(let page=0;page<3;page++){
+  for(let page=0;page<(s.singleFetch?1:3);page++){
    const d=await json(base+'/recruitingCEJobRequisitions?onlyData=true&expand=requisitionList&finder=findReqs;siteNumber='+site+',keyword=Uganda,limit=25,offset='+(page*25));
    const result=d.items?.[0];if(!result||!Array.isArray(result.requisitionList)||!Number.isFinite(result.TotalJobsCount))throw Error('Oracle recruitment response not recognised');
-   for(const j of result.requisitionList){if(j.PrimaryLocationCountry!=='UG')continue;const v=await json(base+'/recruitingCEJobRequisitionDetails/'+encodeURIComponent(j.Id)+'?onlyData=true');const url='https://'+host+'/hcmUI/CandidateExperience/en/sites/'+site+'/job/'+j.Id;records.push({id:j.Id,title:v.Title,description:[v.ExternalDescriptionStr,v.ExternalQualificationsStr,v.ExternalResponsibilitiesStr].filter(Boolean).join(' '),location:v.PrimaryLocationCountry==='UG'?v.PrimaryLocation+', Uganda':v.PrimaryLocation,publishedAt:v.ExternalPostedStartDate,deadline:v.ExternalPostedEndDate,employmentType:v.JobSchedule,workplace:v.WorkplaceType,sourceUrl:url,applicationUrl:url})}
+   for(const j of result.requisitionList){if(j.PrimaryLocationCountry!=='UG')continue;const v=s.singleFetch?j:await json(base+'/recruitingCEJobRequisitionDetails/'+encodeURIComponent(j.Id)+'?onlyData=true');const url='https://'+host+'/hcmUI/CandidateExperience/en/sites/'+site+'/job/'+j.Id;records.push({id:j.Id,title:v.Title||j.Title,description:[v.ExternalDescriptionStr,v.ExternalQualificationsStr,v.ExternalResponsibilitiesStr].filter(Boolean).join(' '),location:v.PrimaryLocationCountry==='UG'?v.PrimaryLocation+', Uganda':v.PrimaryLocation,publishedAt:v.ExternalPostedStartDate||v.PostedDate,deadline:v.ExternalPostedEndDate||v.PostedEndDate,employmentType:v.JobSchedule,workplace:v.WorkplaceType,sourceUrl:url,applicationUrl:url})}
    if((page+1)*25>=result.TotalJobsCount)break;
   }return records;
  }

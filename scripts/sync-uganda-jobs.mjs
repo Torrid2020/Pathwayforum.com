@@ -160,35 +160,6 @@ async function fetchDfcu() {
   return jobs;
 }
 
-async function fetchNssf() {
-  const home = "https://www.nssfug.org/opportunities/careers/";
-  const html = await getHtml(home);
-  const links = [...html.matchAll(/href="(\/specials\/featured-jobs\/[^"]+)"[\s\S]{0,350}?>([\s\S]*?)<\/a>/gi)];
-  const unique = new Map();
-  for (const match of links) unique.set(match[1], text(match[2]));
-  const jobs = [];
-  for (const [path, listedTitle] of unique) {
-    const detailUrl = new URL(path, home).href;
-    const detailHtml = await getHtml(detailUrl);
-    const title = text(detailHtml.match(/<strong>JOB TITLE:<\/strong>([\s\S]*?)<\/p>/i)?.[1] || listedTitle);
-    const location = text(detailHtml.match(/<strong>DUTY STATION:<\/strong>([\s\S]*?)<\/p>/i)?.[1] || "Uganda");
-    const purpose = detailHtml.match(/<strong>Job Purpose:<\/strong>[\s\S]*?<p[^>]*>([\s\S]*?)<\/p>/i)?.[1] || "";
-    jobs.push(officialJob({
-      id: "nssf:" + path.replace(/\W+/g, "-"),
-      source: "NSSF Uganda Careers",
-      title,
-      employer: "NSSF Uganda",
-      location: /headquarters/i.test(location) ? "Kampala, Uganda" : location,
-      employmentType: "See official listing",
-      publishedAt: null,
-      closesAt: null,
-      summary: purpose,
-      sourceUrl: detailUrl,
-      applicationUrl: detailUrl
-    }));
-  }
-  return jobs;
-}
 async function fetchWorldVision() {
   const search = await getJson(SEARCH_URL, {
     method: "POST",
@@ -239,8 +210,7 @@ function normalizeWorldVision(info) {
 async function main() {
   const sources = [
     {name: "World Vision Careers", run: async () => (await fetchWorldVision()).map(normalizeWorldVision)},
-    {name: "dfcu Bank Careers", run: fetchDfcu},
-    {name: "NSSF Uganda Careers", run: fetchNssf}
+    {name: "dfcu Bank Careers", run: fetchDfcu}
   ];
   const [results,extra,relief] = await Promise.all([
     Promise.allSettled(sources.map(source => source.run())),
@@ -298,7 +268,7 @@ async function main() {
   }
   const directory={updatedAt:now.toISOString(),policy:'Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.',sources:employerSources.map(source=>{
     const result=extra.find(x=>x.source.id===source.id),existing=sourceStatus[source.name];
-    return {...source,recordsRead:result?.recordsRead??collected.filter(j=>j.sourceId===source.id).length,publishedCount:jobs.filter(j=>j.sourceId===source.id).length,reviewCount:review.filter(j=>j.sourceId===source.id).length,status:result?.status||(existing==='ok'?'connected':'unavailable'),message:result?.message||(existing==='ok'?'Official employer source checked.':existing||'Check required'),checkedAt:now.toISOString()};
+    return {...source,recordsRead:result?.recordsRead??(existing==='ok'?collected.filter(j=>j.sourceId===source.id).length:0),publishedCount:jobs.filter(j=>j.sourceId===source.id).length,reviewCount:review.filter(j=>j.sourceId===source.id).length,contentFetches:result?.contentFetches??null,status:result?.status||(existing==='ok'?'connected':'unavailable'),message:result?.message||(existing==='ok'?'Official employer source checked.':existing||'Check required'),checkedAt:now.toISOString()};
   }),aggregators:[{id:'reliefweb',name:'ReliefWeb (OCHA)',url:'https://reliefweb.int/jobs',status:relief.status,message:relief.message,recordsRead:relief.recordsRead||0,publishedCount:jobs.filter(j=>j.sourceId==='reliefweb').length,reviewCount:review.filter(j=>j.sourceId==='reliefweb').length}]};
   await fs.writeFile(new URL('../data/uganda-job-sources.json',import.meta.url),JSON.stringify(directory,null,2)+'\n');
   let previous = null;

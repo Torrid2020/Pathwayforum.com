@@ -5,7 +5,9 @@
     "test": "node --test scripts/*.test.mjs"
   },
   "dependencies": {
+    "fast-xml-parser": "^5.11.2",
     "he": "2.0.0",
+    "robots-parser": "^3.0.1",
     "sanitize-html": "2.18.1"
   }
 }

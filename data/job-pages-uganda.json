@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T11:22:48.837Z",
+  "updatedAt": "2026-11-03T19:46:10.576Z",
   "entries": [
     {
       "id": "absa:R-15992444",
@@ -31,12 +31,12 @@
           "contentHash": "c52eefd1a2661d2a9e35408b6b5dd43369fc3723f0572433a8b20bda0e2b2e09",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:21.586Z",
+          "checkedAt": "2026-11-03T19:45:38.788Z",
           "flags": []
         },
         "sourceUrl": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite/job/Kampala/No-Corporate-Grade_R-15992444",
         "applicationUrl": "https://absa.wd3.myworkdayjobs.com/ABSAcareersite/job/Kampala/No-Corporate-Grade_R-15992444",
-        "lastCheckedAt": "2026-11-03T11:22:21.586Z",
+        "lastCheckedAt": "2026-11-03T19:45:38.788Z",
         "descriptionPath": "data/jobs/uganda/af21b80f4c70adc2898a5d3291181755.json",
         "pagePath": "jobs/uganda/no-corporate-grade-absa-bank-uganda/"
       }
@@ -67,15 +67,15 @@
         "summary": "IT Infrastructure Support Officer About Education. Experience and Competence Requirements How to Apply About Job Tittle: IT Infrastructure Support Officer. Reports to: Manager IT Infrastructure. PURPOSE OF THE ROLE The IT Infrastructure Officer will support the installation, deployment and maintenance of servers, desktops, printers, telephony and other hardware across both prod",
         "indicators": [],
         "verification": {
-          "contentHash": "b0198913ead0ebece875814c5f35de1f738e348355bd6f841609f0340731e6ce",
+          "contentHash": "bf8c001bbf2f5af14edb2fdbe45bb751b55f49df58cd7c8b192dc9ae32b350be",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:24.028Z",
+          "checkedAt": "2026-11-03T19:45:40.478Z",
           "flags": []
         },
         "sourceUrl": "https://www.bracugandabankltd.com/careers/",
         "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-        "lastCheckedAt": "2026-11-03T11:22:24.028Z",
+        "lastCheckedAt": "2026-11-03T19:45:40.478Z",
         "pagePath": "jobs/uganda/it-infrastructure-support-officer-brac-uganda-bank/"
       }
     },
@@ -110,12 +110,12 @@
           "contentHash": "304257619b1a7cca13b72e2d743587919b72e064404ae29c5bd463b805f265bb",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:24.026Z",
+          "checkedAt": "2026-11-03T19:45:40.477Z",
           "flags": []
         },
         "sourceUrl": "https://www.bracugandabankltd.com/careers/",
         "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-        "lastCheckedAt": "2026-11-03T11:22:24.026Z",
+        "lastCheckedAt": "2026-11-03T19:45:40.477Z",
         "pagePath": "jobs/uganda/it-security-officer-brac-uganda-bank/"
       }
     },
@@ -150,12 +150,12 @@
           "contentHash": "e79544b1af1c0473cd75d73edd4c7e2f1ddfc27a331792f768aa5e7536ddbfec",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:24.025Z",
+          "checkedAt": "2026-11-03T19:45:40.476Z",
           "flags": []
         },
         "sourceUrl": "https://www.bracugandabankltd.com/careers/",
         "applicationUrl": "https://www.bracugandabankltd.com/careers/",
-        "lastCheckedAt": "2026-11-03T11:22:24.025Z",
+        "lastCheckedAt": "2026-11-03T19:45:40.476Z",
         "pagePath": "jobs/uganda/it-service-desk-officer-brac-uganda-bank/"
       }
     },
@@ -188,12 +188,12 @@
           "contentHash": "2351542efc1f016c597650a2170853fd98f2f95be477391b93bede4edd7c52cc",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:40.582Z",
+          "checkedAt": "2026-11-03T19:45:44.324Z",
           "flags": []
         },
         "sourceUrl": "https://kakirasugar.com/wp-content/uploads/2026/10/Supervisor-Audit.pdf",
         "applicationUrl": "https://kakirasugar.com/jobs-listing/",
-        "lastCheckedAt": "2026-11-03T11:22:40.582Z",
+        "lastCheckedAt": "2026-11-03T19:45:44.324Z",
         "pagePath": "jobs/uganda/supervisor-audit-kakira-sugar/"
       }
     },
@@ -226,13 +226,95 @@
           "contentHash": "adea39d192be54a08ac014b6d7d29d41d8a4c4cff2b677e1ffcf8f7214083a7c",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:40.582Z",
+          "checkedAt": "2026-11-03T19:45:44.324Z",
           "flags": []
         },
         "sourceUrl": "https://kakirasugar.com/wp-content/uploads/2026/10/SUPERVISOR-CANE-LOADING-1.pdf",
         "applicationUrl": "https://kakirasugar.com/jobs-listing/",
-        "lastCheckedAt": "2026-11-03T11:22:40.582Z",
+        "lastCheckedAt": "2026-11-03T19:45:44.324Z",
         "pagePath": "jobs/uganda/supervisor-cane-loading-kakira-sugar/"
+      }
+    },
+    {
+      "id": "mtn-uganda:7888",
+      "slug": "supervisor-training-customer-operations-mtn-uganda",
+      "closedAt": null,
+      "job": {
+        "id": "mtn-uganda:7888",
+        "source": "MTN Uganda Careers",
+        "sourceId": "mtn-uganda",
+        "sourceType": "official-employer",
+        "level": "Mid level",
+        "sector": "Telecom",
+        "title": "Supervisor - Training.Customer Operations",
+        "employer": "MTN Uganda",
+        "location": "Uganda",
+        "district": "Uganda",
+        "workplace": "On-site or field-based",
+        "employmentType": "Full-time",
+        "category": "Telecom",
+        "education": "See official listing",
+        "experience": "3 years requested",
+        "publishedAt": "2026-11-03T15:19:13+00:00",
+        "deadline": "2026-11-09T20:49:00.000Z",
+        "deadlineStatus": "Check live deadline",
+        "summary": "Main Purpose: To drive employee capability, knowledge excellence, and performance through effective training and development programs that enable the delivery of superior customer experiences, operational efficiency, and sustainable business growth MTN Uganda Limited is an equal opportunity employer and is seeking to recruit a competent individual to fill the following position",
+        "indicators": [
+          "3 years of experience"
+        ],
+        "verification": {
+          "contentHash": "60618679de0a22efb84c20dcb38ae9c832d26cbc4020f2e10d00dd45ca530ef3",
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-03T19:45:37.420Z",
+          "flags": []
+        },
+        "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7888",
+        "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7888",
+        "lastCheckedAt": "2026-11-03T19:45:37.420Z",
+        "descriptionPath": "data/jobs/uganda/f6d9a0f6af30c0738ac9a55e0800d92b.json",
+        "pagePath": "jobs/uganda/supervisor-training-customer-operations-mtn-uganda/"
+      }
+    },
+    {
+      "id": "mtn-uganda:7803",
+      "slug": "specialist-products-quality-assurance-testing-mtn-uganda",
+      "closedAt": null,
+      "job": {
+        "id": "mtn-uganda:7803",
+        "source": "MTN Uganda Careers",
+        "sourceId": "mtn-uganda",
+        "sourceType": "official-employer",
+        "level": "Entry level",
+        "sector": "Telecom",
+        "title": "Specialist - Products Quality Assurance & Testing",
+        "employer": "MTN Uganda",
+        "location": "Uganda",
+        "district": "Uganda",
+        "workplace": "On-site or field-based",
+        "employmentType": "Full-time",
+        "category": "Telecom",
+        "education": "See official listing",
+        "experience": "2 years requested",
+        "publishedAt": "2026-11-03T12:41:16+00:00",
+        "deadline": "2026-11-11T21:00:00.000Z",
+        "deadlineStatus": "Check live deadline",
+        "summary": "Job Title: Specialist Products Quality Assurance & Testing Reporting to: Manager – Product Delivery Division – Products & Services Mission/ Core purpose of the Job The Specialist – Product Quality Assurance & Testing is responsible for ensuring that digital financial products are delivered with high levels of reliability, security, and customer confidence. The role focuses on s",
+        "indicators": [
+          "2 years of experience"
+        ],
+        "verification": {
+          "contentHash": "6a160c37a94ce99c303a586246a79172f02c6bf989af7aa78c3b2a55faee478d",
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-03T19:45:37.421Z",
+          "flags": []
+        },
+        "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7803",
+        "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7803",
+        "lastCheckedAt": "2026-11-03T19:45:37.421Z",
+        "descriptionPath": "data/jobs/uganda/7e2df327cf975e6612de47b318b9e65f.json",
+        "pagePath": "jobs/uganda/specialist-products-quality-assurance-testing-mtn-uganda/"
       }
     },
     {
@@ -264,12 +346,12 @@
           "contentHash": "fb6225fd9e9052d7cdbc06295bc09b9122dd7998d7edd7812f48a32890421361",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:40.583Z",
+          "checkedAt": "2026-11-03T19:45:44.324Z",
           "flags": []
         },
         "sourceUrl": "https://kakirasugar.com/wp-content/uploads/2026/11/REGISTERED-MIDWIFE.pdf",
         "applicationUrl": "https://kakirasugar.com/jobs-listing/",
-        "lastCheckedAt": "2026-11-03T11:22:40.583Z",
+        "lastCheckedAt": "2026-11-03T19:45:44.324Z",
         "pagePath": "jobs/uganda/registered-midwife-kakira-sugar/"
       }
     },
@@ -302,12 +384,12 @@
           "contentHash": "82425ad07028f5cec12427672e295cec9631fa14d2120ee867f86150378ff454",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:40.582Z",
+          "checkedAt": "2026-11-03T19:45:44.324Z",
           "flags": []
         },
         "sourceUrl": "https://kakirasugar.com/wp-content/uploads/2026/10/JD-Superintendent-Civil.pdf",
         "applicationUrl": "https://kakirasugar.com/jobs-listing/",
-        "lastCheckedAt": "2026-11-03T11:22:40.582Z",
+        "lastCheckedAt": "2026-11-03T19:45:44.324Z",
         "pagePath": "jobs/uganda/superintendent-civil-kakira-sugar/"
       }
     },
@@ -340,12 +422,12 @@
           "contentHash": "5f4ca72abd1bf74271c699aed59dbe987b10836dcea0b397603a45219f75fb2d",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:40.805Z",
+          "checkedAt": "2026-11-03T19:45:44.409Z",
           "flags": []
         },
         "sourceUrl": "https://hsc.go.ug/upf/HSC%20_COMPLETE_EXTERNAL_ADVERT_NO._2_OF_OCTOBER_2026.pdf",
         "applicationUrl": "https://hsc.go.ug/upf/HSC%20_COMPLETE_EXTERNAL_ADVERT_NO._2_OF_OCTOBER_2026.pdf",
-        "lastCheckedAt": "2026-11-03T11:22:40.805Z",
+        "lastCheckedAt": "2026-11-03T19:45:44.409Z",
         "pagePath": "jobs/uganda/hsc-external-advert-no-2-of-october-2026-multiple-posts-health-service-commission/"
       }
     },
@@ -378,12 +460,12 @@
           "contentHash": "7b57a43cfb6a54991d9a35bfa0365b2d2f1826b1161373e94ebf8b7c50c05383",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:40.805Z",
+          "checkedAt": "2026-11-03T19:45:44.409Z",
           "flags": []
         },
         "sourceUrl": "https://hsc.go.ug/upf/HSC_COMPLETE_INTERNAL_ADVERT_NO._1_OF_OCTOBER_2026.pdf",
         "applicationUrl": "https://hsc.go.ug/upf/HSC_COMPLETE_INTERNAL_ADVERT_NO._1_OF_OCTOBER_2026.pdf",
-        "lastCheckedAt": "2026-11-03T11:22:40.805Z",
+        "lastCheckedAt": "2026-11-03T19:45:44.409Z",
         "pagePath": "jobs/uganda/hsc-internal-advert-no-1-of-october-2026-multiple-posts-health-service-commission/"
       }
     },
@@ -416,55 +498,14 @@
           "contentHash": "9b69483d841cdc51d7971aa1755fe884f8a7f5912247154cb5a57d119cf7059f",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:38.940Z",
+          "checkedAt": "2026-11-03T19:45:49.879Z",
           "flags": []
         },
         "sourceUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
         "applicationUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-        "lastCheckedAt": "2026-11-03T11:22:38.940Z",
+        "lastCheckedAt": "2026-11-03T19:45:49.879Z",
         "descriptionPath": "data/jobs/uganda/e809ee86f039aa8e304f20259d8ce751.json",
         "pagePath": "jobs/uganda/associate-sexual-reproductive-maternal-and-newborn-health-clinton-health-access-initiative/"
-      }
-    },
-    {
-      "id": "educate:8336549",
-      "slug": "finance-officer-educate",
-      "closedAt": null,
-      "job": {
-        "id": "educate:8336549",
-        "source": "Educate! Careers",
-        "sourceId": "educate",
-        "sourceType": "official-employer",
-        "level": "Entry level",
-        "sector": "NGO & Humanitarian",
-        "title": "Finance Officer",
-        "employer": "Educate!",
-        "location": "Kampala, Uganda",
-        "district": "Kampala",
-        "workplace": "On-site or field-based",
-        "employmentType": "See official listing",
-        "category": "NGO & Humanitarian",
-        "education": "See official listing",
-        "experience": "1 years requested",
-        "publishedAt": "2026-10-30T08:17:11-04:00",
-        "deadline": null,
-        "deadlineStatus": "Check the official deadline",
-        "summary": "Who We Are! 🌍 Africa has the world’s youngest and fastest-growing population. By 2035, the continent is poised to contribute more young people to the global workforce each year than the rest of the world combined. At Educate! we're obsessed with impact. We leverage iterative learning to build highly scalable youth employment solutions aimed at unlocking the potential of the wo",
-        "indicators": [
-          "1 years of experience"
-        ],
-        "verification": {
-          "contentHash": "9754e062c9369af2cd79d2259e2963d8a7c48fd37c6823737e9ede536490a07c",
-          "status": "official-source",
-          "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:33.604Z",
-          "flags": []
-        },
-        "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
-        "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
-        "lastCheckedAt": "2026-11-03T11:22:33.604Z",
-        "descriptionPath": "data/jobs/uganda/89924c80b480e6f153c2f4c9cb03ef3f.json",
-        "pagePath": "jobs/uganda/finance-officer-educate/"
       }
     },
     {
@@ -498,12 +539,12 @@
           "contentHash": "d047b6d82251f3a3fbfcf386c061b005840a6dccc0ea660a706d957442e64d35",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:46.936Z",
+          "checkedAt": "2026-11-03T19:45:44.918Z",
           "flags": []
         },
         "sourceUrl": "https://sunking.pinpointhq.com/en/postings/67f8535f-8b19-424b-b2c7-833295f51a8e",
         "applicationUrl": "https://sunking.pinpointhq.com/en/postings/67f8535f-8b19-424b-b2c7-833295f51a8e",
-        "lastCheckedAt": "2026-11-03T11:22:46.936Z",
+        "lastCheckedAt": "2026-11-03T19:45:44.918Z",
         "descriptionPath": "data/jobs/uganda/abe7ca8500357c5c5ff6ff2dfd18aea3.json",
         "pagePath": "jobs/uganda/fraud-analyst-uganda-sun-king/"
       }
@@ -540,12 +581,12 @@
           "contentHash": "293d3e35d27c6f0b8ceef8a640e8d3cfd15c90dda377e948ab0eb51812949828",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:28.757Z",
+          "checkedAt": "2026-11-03T19:45:41.475Z",
           "flags": []
         },
         "sourceUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
         "applicationUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
-        "lastCheckedAt": "2026-11-03T11:22:28.757Z",
+        "lastCheckedAt": "2026-11-03T19:45:41.475Z",
         "descriptionPath": "data/jobs/uganda/24353f6425c8e8672e5d1acf7a6995fa.json",
         "pagePath": "jobs/uganda/ict-technical-assistant-uganda-isingiro-norwegian-refugee-council/"
       }
@@ -579,12 +620,12 @@
           "contentHash": "cc67100ec100cd933a266c5d74e75a2c52417847e97fd24a5e2d8f44bbd8e406",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:44.718Z",
+          "checkedAt": "2026-11-03T19:45:43.679Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
-        "lastCheckedAt": "2026-11-03T11:22:44.718Z",
+        "lastCheckedAt": "2026-11-03T19:45:43.679Z",
         "descriptionPath": "data/jobs/uganda/fa97457f396af18fdef19f57c9422de5.json",
         "pagePath": "jobs/uganda/plant-operator-officer-brac-international/"
       }
@@ -620,12 +661,12 @@
           "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:34.844Z",
+          "checkedAt": "2026-11-03T19:45:42.776Z",
           "flags": []
         },
         "sourceUrl": "https://apply.workable.com/j/E538BBAB7A",
         "applicationUrl": "https://apply.workable.com/j/E538BBAB7A/apply",
-        "lastCheckedAt": "2026-11-03T11:22:34.844Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.776Z",
         "pagePath": "jobs/uganda/project-assistant-shame-to-action-s2a-project-wateraid/"
       }
     },
@@ -660,12 +701,12 @@
           "contentHash": "d51a1cb9f9944661e540861060ec93472e886a8cb14af3d270dca8def8553110",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:44.724Z",
+          "checkedAt": "2026-11-03T19:45:43.683Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
-        "lastCheckedAt": "2026-11-03T11:22:44.724Z",
+        "lastCheckedAt": "2026-11-03T19:45:43.683Z",
         "descriptionPath": "data/jobs/uganda/12445ee7f5bc2017fdf8d8b40ebafa28.json",
         "pagePath": "jobs/uganda/quality-assurance-officer-brac-international/"
       }
@@ -699,12 +740,12 @@
           "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:35.660Z",
+          "checkedAt": "2026-11-03T19:45:43.054Z",
           "flags": []
         },
         "sourceUrl": "https://apply.workable.com/j/594A289C53",
         "applicationUrl": "https://apply.workable.com/j/594A289C53/apply",
-        "lastCheckedAt": "2026-11-03T11:22:35.660Z",
+        "lastCheckedAt": "2026-11-03T19:45:43.054Z",
         "pagePath": "jobs/uganda/research-analyst-uganda-laterite/"
       }
     },
@@ -737,7 +778,7 @@
           "contentHash": "20af89103c2f6b97887ca4e02ad254c024d528a822aa032057bc669adb221573",
           "status": "official-source",
           "label": "Reviewed by Pathway Forum",
-          "checkedAt": "2026-11-03T11:22:34.484Z",
+          "checkedAt": "2026-11-03T19:45:42.593Z",
           "flags": [],
           "reviewedFlags": [
             "Review recruitment language"
@@ -747,7 +788,7 @@
         },
         "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef",
         "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/3b64016b-0865-47f4-b343-5b4445f7aaef/application",
-        "lastCheckedAt": "2026-11-03T11:22:34.484Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.593Z",
         "descriptionPath": "data/jobs/uganda/7352202f73a019c44841a48f9a1629b0.json",
         "pagePath": "jobs/uganda/sales-executive-fort-portal-m-kopa/"
       }
@@ -781,12 +822,12 @@
           "contentHash": "c343491397accb77279de45de4955bc2fd7229d25943d1c2ed66c66e788c31ab",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:23.022Z",
+          "checkedAt": "2026-11-03T19:45:39.861Z",
           "flags": []
         },
         "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
         "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
-        "lastCheckedAt": "2026-11-03T11:22:23.022Z",
+        "lastCheckedAt": "2026-11-03T19:45:39.861Z",
         "descriptionPath": "data/jobs/uganda/e37615089c81f509681d70120ca38eb0.json",
         "pagePath": "jobs/uganda/uganda-finance-associate-one-acre-fund/"
       }
@@ -822,12 +863,12 @@
           "contentHash": "d7cf7528adff2bbb1ce50ef90afe2294d78a3b44a11510e635762f84c9b7210d",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:18.506Z",
+          "checkedAt": "2026-11-03T19:45:37.422Z",
           "flags": []
         },
         "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
         "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7890",
-        "lastCheckedAt": "2026-11-03T11:22:18.506Z",
+        "lastCheckedAt": "2026-11-03T19:45:37.422Z",
         "descriptionPath": "data/jobs/uganda/13c66eff6eee5f3c6c0519ffbc62975b.json",
         "pagePath": "jobs/uganda/manager-payments-mtn-uganda/"
       }
@@ -861,12 +902,12 @@
           "contentHash": "d67adb3a3b8c8dfb55d76928e50875fbf80be7756a5ee1d44884af00f4d67cbd",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:29.991Z",
+          "checkedAt": "2026-11-03T19:45:42.066Z",
           "flags": []
         },
         "sourceUrl": "https://drc.ngo/jobs/job?id=177062",
         "applicationUrl": "https://drc.ngo/jobs/job?id=177062",
-        "lastCheckedAt": "2026-11-03T11:22:29.991Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.066Z",
         "pagePath": "jobs/uganda/engineering-and-shelter-team-leader-danish-refugee-council/"
       }
     },
@@ -901,12 +942,12 @@
           "contentHash": "b31cea069bbfae87b185f57d9be22d97d5b64363a20d239be8575fc42aa2c71e",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:40.581Z",
+          "checkedAt": "2026-11-03T19:45:44.323Z",
           "flags": []
         },
         "sourceUrl": "https://kakirasugar.com/wp-content/uploads/2026/10/EA-to-Project-Director_JD.pdf",
         "applicationUrl": "https://kakirasugar.com/jobs-listing/",
-        "lastCheckedAt": "2026-11-03T11:22:40.581Z",
+        "lastCheckedAt": "2026-11-03T19:45:44.323Z",
         "pagePath": "jobs/uganda/executive-assistant-to-project-director-kakira-sugar/"
       }
     },
@@ -939,13 +980,52 @@
           "contentHash": "464400bd387ef909c28661200aede92611706dc859af62060e9e6c3484f16689",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:37.950Z",
+          "checkedAt": "2026-11-03T19:45:43.575Z",
           "flags": []
         },
         "sourceUrl": "https://eadb.org/site/assets/files/4227/eadb_manager_procurement_advert_and_jd.pdf",
         "applicationUrl": "https://eadb.org/site/assets/files/4227/eadb_manager_procurement_advert_and_jd.pdf",
-        "lastCheckedAt": "2026-11-03T11:22:37.950Z",
+        "lastCheckedAt": "2026-11-03T19:45:43.575Z",
         "pagePath": "jobs/uganda/manager-procurement-east-african-development-bank/"
+      }
+    },
+    {
+      "id": "mtn-uganda:7928",
+      "slug": "manager-digital-channels-mtn-uganda",
+      "closedAt": null,
+      "job": {
+        "id": "mtn-uganda:7928",
+        "source": "MTN Uganda Careers",
+        "sourceId": "mtn-uganda",
+        "sourceType": "official-employer",
+        "level": "Senior / management",
+        "sector": "Telecom",
+        "title": "Manager - Digital Channels",
+        "employer": "MTN Uganda",
+        "location": "Uganda",
+        "district": "Uganda",
+        "workplace": "On-site or field-based",
+        "employmentType": "Full-time",
+        "category": "Telecom",
+        "education": "See official listing",
+        "experience": "See official listing",
+        "publishedAt": "2026-11-03T12:39:23+00:00",
+        "deadline": "2026-11-11T21:00:00.000Z",
+        "deadlineStatus": "Check live deadline",
+        "summary": "Job Title: Manager – Digital Channels Reporting to: Senior Manager Commercial Operations Division – Commercial Operations Mission/ Core purpose of the Job The Manager Digital Channels is responsible for accelerating customer, agent and merchant adoption, active usage and commercial growth of the MoMo App, Agent App and merchant solutions. The role owns channel growth strategies",
+        "indicators": [],
+        "verification": {
+          "contentHash": "29af82049dde37016d870c2ee6ec6beaf3bd31124f870b8110f1787cae24b16b",
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-03T19:45:37.421Z",
+          "flags": []
+        },
+        "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7928",
+        "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7928",
+        "lastCheckedAt": "2026-11-03T19:45:37.421Z",
+        "descriptionPath": "data/jobs/uganda/642bbf1d19bbdd3d06c72ca52a426b93.json",
+        "pagePath": "jobs/uganda/manager-digital-channels-mtn-uganda/"
       }
     },
     {
@@ -979,12 +1059,12 @@
           "contentHash": "ddb5758dd59e74c5f7083d74d07598e004945a71d5027bf36c842df0603503ad",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:34.697Z",
+          "checkedAt": "2026-11-03T19:45:42.947Z",
           "flags": []
         },
         "sourceUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
         "applicationUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
-        "lastCheckedAt": "2026-11-03T11:22:34.697Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.947Z",
         "descriptionPath": "data/jobs/uganda/c8eb9cca5e67d0d04d7f8b46db4a87d2.json",
         "pagePath": "jobs/uganda/consultant-digital-family-planning-register-application-uganda-country-program-path/"
       }
@@ -1018,7 +1098,7 @@
           "contentHash": "70f127832b6261e4edb3a3d7f74cdf2e4a360cf761a557f934e0506cb0f02f44",
           "status": "official-source",
           "label": "Reviewed by Pathway Forum",
-          "checkedAt": "2026-11-03T11:22:34.485Z",
+          "checkedAt": "2026-11-03T19:45:42.594Z",
           "flags": [],
           "reviewedFlags": [
             "Review recruitment language"
@@ -1028,7 +1108,7 @@
         },
         "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
         "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/cfc05b2b-f8c6-4f13-968b-275e39d08ba2/application",
-        "lastCheckedAt": "2026-11-03T11:22:34.485Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.594Z",
         "descriptionPath": "data/jobs/uganda/ff533362a9cfa93761f56dad063ef755.json",
         "pagePath": "jobs/uganda/field-sales-manager-mukono-m-kopa/"
       }
@@ -1062,7 +1142,7 @@
           "contentHash": "66d3c3109c4173977e2579b828647967591c97e31079f96a1e27859ebe211201",
           "status": "official-source",
           "label": "Reviewed by Pathway Forum",
-          "checkedAt": "2026-11-03T11:22:34.477Z",
+          "checkedAt": "2026-11-03T19:45:42.588Z",
           "flags": [],
           "reviewedFlags": [
             "Review recruitment language"
@@ -1072,7 +1152,7 @@
         },
         "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7",
         "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/5f72226a-412c-4b5f-a647-85c37b1e4ad7/application",
-        "lastCheckedAt": "2026-11-03T11:22:34.477Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.588Z",
         "descriptionPath": "data/jobs/uganda/8e9056890687b7f831fb8f4e4dc48dee.json",
         "pagePath": "jobs/uganda/finance-manager-uganda-m-kopa/"
       }
@@ -1106,12 +1186,12 @@
           "contentHash": "c717ae22f06a7198c7fc235cc16c75d947254574ba8121bcded62dd4959db288",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:23.020Z",
+          "checkedAt": "2026-11-03T19:45:39.860Z",
           "flags": []
         },
         "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
         "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
-        "lastCheckedAt": "2026-11-03T11:22:23.020Z",
+        "lastCheckedAt": "2026-11-03T19:45:39.860Z",
         "descriptionPath": "data/jobs/uganda/8cb9ef6c22472559b8be751ec9869cc1.json",
         "pagePath": "jobs/uganda/global-mel-manager-senior-manager-one-acre-fund/"
       }
@@ -1145,12 +1225,12 @@
           "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:34.843Z",
+          "checkedAt": "2026-11-03T19:45:42.776Z",
           "flags": []
         },
         "sourceUrl": "https://apply.workable.com/j/D095CE9724",
         "applicationUrl": "https://apply.workable.com/j/D095CE9724/apply",
-        "lastCheckedAt": "2026-11-03T11:22:34.843Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.776Z",
         "pagePath": "jobs/uganda/head-of-business-development-and-partnerships-wateraid/"
       }
     },
@@ -1183,12 +1263,12 @@
           "contentHash": "2e653adb86772a31dd6ee5d84537f432c73569a2d36b3a66c160536bb31650cd",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:33.606Z",
+          "checkedAt": "2026-11-03T19:45:42.480Z",
           "flags": []
         },
         "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
         "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
-        "lastCheckedAt": "2026-11-03T11:22:33.606Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.480Z",
         "descriptionPath": "data/jobs/uganda/18cdff3219b17ccf5f91586285715ac9.json",
         "pagePath": "jobs/uganda/head-of-finance-operations-uganda-educate/"
       }
@@ -1222,12 +1302,12 @@
           "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:34.844Z",
+          "checkedAt": "2026-11-03T19:45:42.776Z",
           "flags": []
         },
         "sourceUrl": "https://apply.workable.com/j/BB1627BC45",
         "applicationUrl": "https://apply.workable.com/j/BB1627BC45/apply",
-        "lastCheckedAt": "2026-11-03T11:22:34.844Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.776Z",
         "pagePath": "jobs/uganda/head-of-programmes-wateraid/"
       }
     },
@@ -1260,12 +1340,12 @@
           "contentHash": "511d99bfe8614b001e989b8a3344f23a23e8b89a97c92b4d4b58437d9d46d9c3",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:34.229Z",
+          "checkedAt": "2026-11-03T19:45:42.517Z",
           "flags": []
         },
         "sourceUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
         "applicationUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
-        "lastCheckedAt": "2026-11-03T11:22:34.229Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.517Z",
         "descriptionPath": "data/jobs/uganda/607226aceed0ad84a38573aac0c62893.json",
         "pagePath": "jobs/uganda/head-of-sales-network-jumia-full-time-jumia/"
       }
@@ -1301,12 +1381,12 @@
           "contentHash": "01940a4223eddea3526f14e9ef0918e4a58a14b86d259dd0fbee12dc0298928c",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:20.423Z",
+          "checkedAt": "2026-11-03T19:45:38.402Z",
           "flags": []
         },
         "sourceUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions",
         "applicationUrl": "https://jobs.smartrecruiters.com/StandardBankGroup/744000157127420-investment-banking-vice-president-debt-financing-solutions?oga=true",
-        "lastCheckedAt": "2026-11-03T11:22:20.424Z",
+        "lastCheckedAt": "2026-11-03T19:45:38.402Z",
         "descriptionPath": "data/jobs/uganda/cffa448bfbf0fe3adbe540cb03a99cca.json",
         "pagePath": "jobs/uganda/investment-banking-vice-president-debt-financing-solutions-stanbic-bank-uganda/"
       }
@@ -1342,12 +1422,12 @@
           "contentHash": "f70868c88a92a616ada994119f52ebb6fc95b89e3f76553e0fdcbd611f0a6ebd",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:44.720Z",
+          "checkedAt": "2026-11-03T19:45:43.681Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
-        "lastCheckedAt": "2026-11-03T11:22:44.720Z",
+        "lastCheckedAt": "2026-11-03T19:45:43.681Z",
         "descriptionPath": "data/jobs/uganda/4e980a1978422433301782eb93010ea5.json",
         "pagePath": "jobs/uganda/production-manager-brac-international/"
       }
@@ -1381,12 +1461,12 @@
           "contentHash": "fe1a551d1d52ae074df89f7773cf830a1582ae2b47ebe5f0ebc376deb5143d21",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:38.942Z",
+          "checkedAt": "2026-11-03T19:45:49.880Z",
           "flags": []
         },
         "sourceUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
         "applicationUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-        "lastCheckedAt": "2026-11-03T11:22:38.942Z",
+        "lastCheckedAt": "2026-11-03T19:45:49.880Z",
         "descriptionPath": "data/jobs/uganda/739bd5df8bb671e65487a53f1982de8a.json",
         "pagePath": "jobs/uganda/program-manager-sexual-reproductive-maternal-and-newborn-health-clinton-health-access-initiative/"
       }
@@ -1422,7 +1502,7 @@
           "contentHash": "fb49bdd6cb19011dfaf55c8c2e0710ad9cec89306fd1733447c45752b631c2c4",
           "status": "official-source",
           "label": "Reviewed by Pathway Forum",
-          "checkedAt": "2026-11-03T11:22:34.479Z",
+          "checkedAt": "2026-11-03T19:45:42.589Z",
           "flags": [],
           "reviewedFlags": [
             "Review recruitment language"
@@ -1432,7 +1512,7 @@
         },
         "sourceUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d",
         "applicationUrl": "https://jobs.ashbyhq.com/m-kopa/ac87dffb-3a32-4197-94da-4cdb250d230d/application",
-        "lastCheckedAt": "2026-11-03T11:22:34.479Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.589Z",
         "descriptionPath": "data/jobs/uganda/cfc90f61d61752e1f21e074025956519.json",
         "pagePath": "jobs/uganda/retention-manager-m-kopa/"
       }
@@ -1466,12 +1546,12 @@
           "contentHash": "1259e70f1d2776d349a75ae0221ca89ae372a3f20ccf5f18ff3e95d8cad57d27",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:44.730Z",
+          "checkedAt": "2026-11-03T19:45:43.684Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
-        "lastCheckedAt": "2026-11-03T11:22:44.730Z",
+        "lastCheckedAt": "2026-11-03T19:45:43.684Z",
         "descriptionPath": "data/jobs/uganda/8ba243c80dd99fe6d1d997c55ab5e076.json",
         "pagePath": "jobs/uganda/sales-marketing-manager-brac-international/"
       }
@@ -1507,12 +1587,12 @@
           "contentHash": "74dd8ab20f8a884539d4462f33af5b3039eab16acfa61170da0863eb8469ed9f",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:38.944Z",
+          "checkedAt": "2026-11-03T19:45:49.881Z",
           "flags": []
         },
         "sourceUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
         "applicationUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-        "lastCheckedAt": "2026-11-03T11:22:38.944Z",
+        "lastCheckedAt": "2026-11-03T19:45:49.881Z",
         "descriptionPath": "data/jobs/uganda/18d9cfd3301b4cd3529cff272d9c5035.json",
         "pagePath": "jobs/uganda/senior-associate-sexual-reproductive-maternal-and-newborn-health-clinton-health-access-initiative/"
       }
@@ -1548,12 +1628,12 @@
           "contentHash": "9a2e82efbb04b51620f5f73c788b706a52c8d9afb2fc9d15504d78b4f63d1e08",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:33.608Z",
+          "checkedAt": "2026-11-03T19:45:42.480Z",
           "flags": []
         },
         "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
         "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
-        "lastCheckedAt": "2026-11-03T11:22:33.608Z",
+        "lastCheckedAt": "2026-11-03T19:45:42.480Z",
         "descriptionPath": "data/jobs/uganda/46bc354d64824a84660e7dbc768d80bf.json",
         "pagePath": "jobs/uganda/senior-software-qa-engineer-educate/"
       }
@@ -1589,14 +1669,55 @@
           "contentHash": "ad819cf20a12533b6cd06404b0c5054c0b27d83834157a726d64d110128e87a9",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-03T11:22:23.021Z",
+          "checkedAt": "2026-11-03T19:45:39.860Z",
           "flags": []
         },
         "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8345580",
         "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8345580",
-        "lastCheckedAt": "2026-11-03T11:22:23.021Z",
+        "lastCheckedAt": "2026-11-03T19:45:39.860Z",
         "descriptionPath": "data/jobs/uganda/cd99adbb55749a15177f884337abc3e0.json",
         "pagePath": "jobs/uganda/uganda-field-operations-lead-fixed-term-one-acre-fund/"
+      }
+    },
+    {
+      "id": "educate:8336549",
+      "slug": "finance-officer-educate",
+      "closedAt": "2026-11-03T19:46:10.576Z",
+      "job": {
+        "id": "educate:8336549",
+        "source": "Educate! Careers",
+        "sourceId": "educate",
+        "sourceType": "official-employer",
+        "level": "Entry level",
+        "sector": "NGO & Humanitarian",
+        "title": "Finance Officer",
+        "employer": "Educate!",
+        "location": "Kampala, Uganda",
+        "district": "Kampala",
+        "workplace": "On-site or field-based",
+        "employmentType": "See official listing",
+        "category": "NGO & Humanitarian",
+        "education": "See official listing",
+        "experience": "1 years requested",
+        "publishedAt": "2026-10-30T08:17:11-04:00",
+        "deadline": null,
+        "deadlineStatus": "Check the official deadline",
+        "summary": "Who We Are! 🌍 Africa has the world’s youngest and fastest-growing population. By 2035, the continent is poised to contribute more young people to the global workforce each year than the rest of the world combined. At Educate! we're obsessed with impact. We leverage iterative learning to build highly scalable youth employment solutions aimed at unlocking the potential of the wo",
+        "indicators": [
+          "1 years of experience"
+        ],
+        "verification": {
+          "contentHash": "9754e062c9369af2cd79d2259e2963d8a7c48fd37c6823737e9ede536490a07c",
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-03T11:22:33.604Z",
+          "flags": []
+        },
+        "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
+        "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8336549",
+        "lastCheckedAt": "2026-11-03T11:22:33.604Z",
+        "descriptionPath": "data/jobs/uganda/89924c80b480e6f153c2f4c9cb03ef3f.json",
+        "pagePath": "jobs/uganda/finance-officer-educate/"
       }
     },
     {

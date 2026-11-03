@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-03T10:54:26.488Z",
+  "updatedAt": "2026-11-03T18:27:40.126Z",
   "entries": [
     {
       "id": "himalayas:landor:https://himalayas.app/companies/landor/jobs/prospective-next-gen-intern",
@@ -83,7 +83,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/4de5d399fc68d4ef57c080ada4558135.json",
         "pagePath": "jobs/remote/prospective-next-gen-intern-landor/"
       }
@@ -169,7 +169,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
       }
@@ -259,7 +259,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -349,7 +349,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }
@@ -434,7 +434,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/a496c03db07bfc1501fcca5070ffd5a7.json",
         "pagePath": "jobs/remote/food-delivery-ai-response-evaluator-micro1/"
       }
@@ -519,7 +519,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
         "pagePath": "jobs/remote/junior-lawyer-micro1/"
       }
@@ -604,7 +604,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/7d3614df140be046282d1b065a75c05c.json",
         "pagePath": "jobs/remote/evaluation-specialist-recent-grad-micro1/"
       }
@@ -689,7 +689,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/1e7e87998ec239f5da49edb14d648e73.json",
         "pagePath": "jobs/remote/antifraud-analyst-junior-banco-plata-s-a-institucion-de-banca-multiple/"
       }
@@ -774,7 +774,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/1c42c00c311f3af0a608862a12e1597a.json",
         "pagePath": "jobs/remote/puzzle-solver-coding-micro1/"
       }
@@ -864,7 +864,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/97da486ee14f4b06d18d28425d08ff92.json",
         "pagePath": "jobs/remote/recruiting-coordinator-terac/"
       }
@@ -949,7 +949,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-03T10:54:24.091Z",
+        "lastSeenAt": "2026-11-03T18:27:36.903Z",
         "descriptionPath": "data/jobs/remote/14a1c5fca9d4ee72a1517284b784ef36.json",
         "pagePath": "jobs/remote/video-data-annotator-micro1/"
       }

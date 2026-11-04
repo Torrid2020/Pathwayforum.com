@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-04T06:24:09.967Z",
+  "generatedAt": "2026-11-04T15:27:35.950Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 14,
+  "jobCount": 15,
   "sources": {
     "Jobicy anywhere": "ok",
     "Jobicy anywhere intern": "ok",
@@ -33,6 +33,46 @@
   },
   "methodology": "Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",
   "jobs": [
+    {
+      "id": "jobicy:149992",
+      "source": "Jobicy",
+      "sourceId": "149992",
+      "title": "Graduate Talent Scientist",
+      "company": "Canonical",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+      "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. ",
+      "employmentType": "Full-time",
+      "level": "Entry-Level, Junior",
+      "salary": null,
+      "eligibility": {
+        "label": "EMEA",
+        "regions": [
+          "africa"
+        ],
+        "countries": [],
+        "confidence": "review"
+      },
+      "publishedAt": "2026-11-04T03:30:05+00:00",
+      "expiresAt": null,
+      "applicationUrl": "https://jobicy.com/jobs/149992-graduate-talent-scientist",
+      "sourceUrl": "https://jobicy.com/jobs/149992-graduate-talent-scientist",
+      "studentFit": {
+        "score": 83,
+        "reasons": [
+          "Student or entry-level language",
+          "Internship"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
+      "descriptionPath": "data/jobs/remote/7e005b9bc2a1b4ace4a8604b48e7e281.json",
+      "pagePath": "jobs/remote/graduate-talent-scientist-canonical/"
+    },
     {
       "id": "himalayas:landor:https://himalayas.app/companies/landor/jobs/prospective-next-gen-intern",
       "source": "Himalayas",
@@ -110,7 +150,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/4de5d399fc68d4ef57c080ada4558135.json",
       "pagePath": "jobs/remote/prospective-next-gen-intern-landor/"
     },
@@ -191,7 +231,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
       "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
     },
@@ -276,7 +316,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
       "pagePath": "jobs/remote/engineering-phd-micro1/"
     },
@@ -315,7 +355,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/2787708a7a28c44cf939435b7c03bb0f.json",
       "pagePath": "jobs/remote/marketing-associate-canonical/"
     },
@@ -400,7 +440,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
       "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
     },
@@ -485,7 +525,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
       "pagePath": "jobs/remote/video-annotation-micro1/"
     },
@@ -570,7 +610,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
       "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
     },
@@ -650,7 +690,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/a496c03db07bfc1501fcca5070ffd5a7.json",
       "pagePath": "jobs/remote/food-delivery-ai-response-evaluator-micro1/"
     },
@@ -730,7 +770,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
       "pagePath": "jobs/remote/junior-lawyer-micro1/"
     },
@@ -810,7 +850,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/7d3614df140be046282d1b065a75c05c.json",
       "pagePath": "jobs/remote/evaluation-specialist-recent-grad-micro1/"
     },
@@ -890,7 +930,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/1e7e87998ec239f5da49edb14d648e73.json",
       "pagePath": "jobs/remote/antifraud-analyst-junior-banco-plata-s-a-institucion-de-banca-multiple/"
     },
@@ -970,7 +1010,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/1c42c00c311f3af0a608862a12e1597a.json",
       "pagePath": "jobs/remote/puzzle-solver-coding-micro1/"
     },
@@ -1055,7 +1095,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/97da486ee14f4b06d18d28425d08ff92.json",
       "pagePath": "jobs/remote/recruiting-coordinator-terac/"
     },
@@ -1135,7 +1175,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "lastSeenAt": "2026-11-04T15:27:35.950Z",
       "descriptionPath": "data/jobs/remote/14a1c5fca9d4ee72a1517284b784ef36.json",
       "pagePath": "jobs/remote/video-data-annotator-micro1/"
     }

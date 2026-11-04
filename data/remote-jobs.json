@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-02T20:48:01.965Z",
+  "generatedAt": "2026-11-04T06:24:09.967Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 11,
+  "jobCount": 14,
   "sources": {
     "Jobicy anywhere": "ok",
     "Jobicy anywhere intern": "ok",
@@ -110,7 +110,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/4de5d399fc68d4ef57c080ada4558135.json",
       "pagePath": "jobs/remote/prospective-next-gen-intern-landor/"
     },
@@ -191,9 +191,218 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
       "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
+    },
+    {
+      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/engineering-phd",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/micro1/jobs/engineering-phd",
+      "title": "Engineering PhD",
+      "company": "micro1",
+      "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
+      "summary": "Role: Engineering PhD Opportunity SnapshotPay: $80–95/hour Duration: Short-term pilot — approximately 2–3 weeks Project kickoff:Ideally end of week( November 8th) Location: Fully remote You’ll need: PhD or PhD candidate in electrical, mechanical, chemical, industrial, or aerospac",
+      "employmentType": "Full-time",
+      "level": "Entry-level",
+      "salary": {
+        "min": 80,
+        "max": 95,
+        "currency": "USD",
+        "period": "hourly"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-04T04:54:42.000Z",
+      "expiresAt": "2027-01-03T04:54:41.000Z",
+      "applicationUrl": "https://himalayas.app/companies/micro1/jobs/engineering-phd?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/micro1/jobs/engineering-phd",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
+      "pagePath": "jobs/remote/engineering-phd-micro1/"
+    },
+    {
+      "id": "jobicy:149941",
+      "source": "Jobicy",
+      "sourceId": "149941",
+      "title": "Marketing Associate",
+      "company": "Canonical",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+      "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT.",
+      "employmentType": "Full-time",
+      "level": "Entry-Level, Junior",
+      "salary": null,
+      "eligibility": {
+        "label": "APAC,  EMEA,  LATAM,  Canada,  USA",
+        "regions": [
+          "southAmerica"
+        ],
+        "countries": [],
+        "confidence": "review"
+      },
+      "publishedAt": "2026-11-04T03:22:25+00:00",
+      "expiresAt": null,
+      "applicationUrl": "https://jobicy.com/jobs/149941-marketing-associate",
+      "sourceUrl": "https://jobicy.com/jobs/149941-marketing-associate",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "descriptionPath": "data/jobs/remote/2787708a7a28c44cf939435b7c03bb0f.json",
+      "pagePath": "jobs/remote/marketing-associate-canonical/"
+    },
+    {
+      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user",
+      "title": "Hospitality Worker (Toast POS User)",
+      "company": "micro1",
+      "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
+      "summary": "Role Title: Hospitality Worker (Toast POS User) Role Type: ContractorLocation: Remotemicro1 is engaging hospitality workers to contribute to a customer initiative related to restaurant technology.",
+      "employmentType": "Contract",
+      "level": "Entry-level",
+      "salary": {
+        "min": 28,
+        "max": 92,
+        "currency": "USD",
+        "period": "hourly"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-03T21:36:40.000Z",
+      "expiresAt": "2027-01-02T21:36:38.000Z",
+      "applicationUrl": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
+      "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
+      "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/video-annotation",
@@ -276,7 +485,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
       "pagePath": "jobs/remote/video-annotation-micro1/"
     },
@@ -361,7 +570,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
       "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
     },
@@ -441,7 +650,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/a496c03db07bfc1501fcca5070ffd5a7.json",
       "pagePath": "jobs/remote/food-delivery-ai-response-evaluator-micro1/"
     },
@@ -521,7 +730,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
       "pagePath": "jobs/remote/junior-lawyer-micro1/"
     },
@@ -601,7 +810,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/7d3614df140be046282d1b065a75c05c.json",
       "pagePath": "jobs/remote/evaluation-specialist-recent-grad-micro1/"
     },
@@ -681,7 +890,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/1e7e87998ec239f5da49edb14d648e73.json",
       "pagePath": "jobs/remote/antifraud-analyst-junior-banco-plata-s-a-institucion-de-banca-multiple/"
     },
@@ -761,7 +970,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/1c42c00c311f3af0a608862a12e1597a.json",
       "pagePath": "jobs/remote/puzzle-solver-coding-micro1/"
     },
@@ -846,7 +1055,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/97da486ee14f4b06d18d28425d08ff92.json",
       "pagePath": "jobs/remote/recruiting-coordinator-terac/"
     },
@@ -926,7 +1135,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-02T20:48:01.965Z",
+      "lastSeenAt": "2026-11-04T06:24:09.967Z",
       "descriptionPath": "data/jobs/remote/14a1c5fca9d4ee72a1517284b784ef36.json",
       "pagePath": "jobs/remote/video-data-annotator-micro1/"
     }

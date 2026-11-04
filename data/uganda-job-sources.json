@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-11-04T11:29:39.469Z",
+  "updatedAt": "2026-11-04T19:59:00.371Z",
   "policy": "Official career directory. Connected means a recruitment adapter responded; it does not imply a current suitable vacancy. Manual review sources are not automatically imported without structured data.",
   "sources": [
     {
@@ -17,7 +17,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "nssf-uganda",
@@ -35,7 +35,7 @@
       "contentFetches": 1,
       "status": "manual-review",
       "message": "Careers URL is unchanged and reachable. Featured titles are readable, but deadlines require a separate advert request; manual review under the one-request limit.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "mtn-uganda",
@@ -52,7 +52,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "airtel-uganda",
@@ -69,7 +69,7 @@
       "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "uganda-airlines",
@@ -86,7 +86,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "ura",
@@ -103,7 +103,7 @@
       "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "ucaa",
@@ -120,7 +120,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 6 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "totalenergies",
@@ -137,7 +137,7 @@
       "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "makerere",
@@ -154,7 +154,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "stanbic",
@@ -171,7 +171,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "absa",
@@ -188,7 +188,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "finca",
@@ -205,7 +205,7 @@
       "contentFetches": null,
       "status": "unavailable",
       "message": "FINCA advert requires parser review",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "brac-bank",
@@ -222,7 +222,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "equity",
@@ -239,7 +239,7 @@
       "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "centenary",
@@ -256,7 +256,7 @@
       "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "world-vision",
@@ -273,7 +273,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Official employer source checked.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "givedirectly",
@@ -290,7 +290,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "one-acre-fund",
@@ -307,7 +307,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "living-goods",
@@ -324,7 +324,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "brac-international",
@@ -341,7 +341,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 15 vacancy records read; 4 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "irc",
@@ -358,7 +358,7 @@
       "contentFetches": null,
       "status": "manual-review",
       "message": "Career page reached; no structured vacancies available. Review the official page manually.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "mercy-corps",
@@ -375,7 +375,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 6 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "save-children",
@@ -392,7 +392,7 @@
       "contentFetches": null,
       "status": "unavailable",
       "message": "HTTP 403",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "drc",
@@ -409,7 +409,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "nrc",
@@ -426,7 +426,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "plan",
@@ -443,7 +443,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "unicef",
@@ -460,7 +460,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "wfp",
@@ -477,7 +477,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "unhcr",
@@ -494,7 +494,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "diageo",
@@ -511,7 +511,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "path",
@@ -528,7 +528,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "educate",
@@ -545,7 +545,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 2 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "jumia",
@@ -562,7 +562,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 1 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "m-kopa",
@@ -573,13 +573,13 @@
       "method": "ashby",
       "adapter": "m-kopa",
       "trust": "official",
-      "recordsRead": 68,
+      "recordsRead": 65,
       "publishedCount": 4,
       "reviewCount": 0,
       "contentFetches": null,
       "status": "connected",
-      "message": "Automatic collector checked the recruitment source. 68 vacancy records read; 4 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "message": "Automatic collector checked the recruitment source. 65 vacancy records read; 4 passed publication filters.",
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "wateraid",
@@ -596,7 +596,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 11 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "chai",
@@ -613,7 +613,7 @@
       "contentFetches": null,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 3 vacancy records read; 3 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "sunking",
@@ -625,13 +625,13 @@
       "adapter": "https://sunking.pinpointhq.com/postings.json",
       "trust": "official",
       "singleFetch": true,
-      "recordsRead": 185,
+      "recordsRead": 186,
       "publishedCount": 1,
       "reviewCount": 0,
       "contentFetches": 1,
       "status": "connected",
-      "message": "Automatic collector checked the recruitment source. 185 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "message": "Automatic collector checked the recruitment source. 186 vacancy records read; 1 passed publication filters.",
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "laterite",
@@ -649,7 +649,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 4 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "vivo-energy",
@@ -667,7 +667,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 21 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "tugende",
@@ -685,7 +685,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "kakira",
@@ -703,7 +703,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 5 vacancy records read; 5 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "eadb",
@@ -721,7 +721,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 2 vacancy records read; 1 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "hsc",
@@ -739,7 +739,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "One entry per advert; summary/complete copies are grouped. Only adverts with an unexpired date on the official list are published.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "esc",
@@ -757,7 +757,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Only recent recruitment adverts are eligible; warnings, interviews, shortlists and expired notices are excluded.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "jsc",
@@ -775,7 +775,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Only recent recruitment adverts are eligible; warnings, interviews, shortlists and expired notices are excluded.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "iom",
@@ -793,7 +793,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Automatic collector checked the recruitment source. 0 vacancy records read; 0 passed publication filters.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "fhi360",
@@ -811,7 +811,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "One Uganda-filtered Workday list request; descriptions and any dates not supplied by the list remain on the official advert.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "baylor-uganda",
@@ -829,7 +829,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Official recruitment page explicitly reports no open positions.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "kcca",
@@ -847,7 +847,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Only adverts with a readable, future closing date are published; old adverts are excluded.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "udb",
@@ -865,7 +865,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Official recruitment page explicitly reports no open positions.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "uetcl",
@@ -883,7 +883,7 @@
       "contentFetches": 1,
       "status": "manual-review",
       "message": "Vacancy titles are readable, but closing dates are inside separate adverts. Manual review is required under the one-request limit; no undated archived jobs are imported.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     },
     {
       "id": "ucc",
@@ -901,7 +901,7 @@
       "contentFetches": 1,
       "status": "connected",
       "message": "Official recruitment page explicitly reports no open positions.",
-      "checkedAt": "2026-11-04T11:29:39.469Z"
+      "checkedAt": "2026-11-04T19:59:00.371Z"
     }
   ],
   "aggregators": [

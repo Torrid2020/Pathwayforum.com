@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-04T21:53:24.570Z",
+  "updatedAt": "2026-11-05T02:29:29.336Z",
   "entries": [
     {
       "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
@@ -85,7 +85,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
         "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
       }
@@ -130,7 +130,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/7e005b9bc2a1b4ace4a8604b48e7e281.json",
         "pagePath": "jobs/remote/graduate-talent-scientist-canonical/"
       }
@@ -216,7 +216,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/4de5d399fc68d4ef57c080ada4558135.json",
         "pagePath": "jobs/remote/prospective-next-gen-intern-landor/"
       }
@@ -302,7 +302,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
       }
@@ -392,7 +392,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -436,7 +436,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/2787708a7a28c44cf939435b7c03bb0f.json",
         "pagePath": "jobs/remote/marketing-associate-canonical/"
       }
@@ -526,7 +526,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -616,7 +616,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -706,7 +706,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }
@@ -791,7 +791,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/a496c03db07bfc1501fcca5070ffd5a7.json",
         "pagePath": "jobs/remote/food-delivery-ai-response-evaluator-micro1/"
       }
@@ -876,7 +876,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
         "pagePath": "jobs/remote/junior-lawyer-micro1/"
       }
@@ -961,94 +961,9 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/7d3614df140be046282d1b065a75c05c.json",
         "pagePath": "jobs/remote/evaluation-specialist-recent-grad-micro1/"
-      }
-    },
-    {
-      "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
-      "slug": "antifraud-analyst-junior-banco-plata-s-a-institucion-de-banca-multiple",
-      "closedAt": null,
-      "job": {
-        "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
-        "source": "Himalayas",
-        "sourceId": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
-        "title": "Antifraud Analyst Junior",
-        "company": "Banco Plata, S.A., Institución de Banca Múltiple",
-        "logo": "https://cdn-images.himalayas.app/cu15rhdxs9omvo0ml1kwr014ai5y",
-        "summary": "We are looking for a proactive JuniorAntifraud Analyst to strengthen our Fraud Prevention team.",
-        "employmentType": "Full-time",
-        "level": "Entry-level",
-        "salary": null,
-        "eligibility": {
-          "label": "Worldwide",
-          "regions": [
-            "africa",
-            "southAmerica",
-            "asia"
-          ],
-          "countries": [],
-          "confidence": "verified"
-        },
-        "timezoneRestrictions": [
-          -11,
-          -10,
-          -9.5,
-          -9,
-          -8,
-          -7,
-          -6,
-          -5,
-          -4,
-          -3.5,
-          -3,
-          -2,
-          -1,
-          0,
-          1,
-          2,
-          3,
-          3.5,
-          4,
-          4.5,
-          5,
-          5.5,
-          5.75,
-          6,
-          6.5,
-          7,
-          8,
-          8.75,
-          9,
-          9.5,
-          10,
-          10.5,
-          11,
-          12,
-          12.75,
-          13,
-          14
-        ],
-        "publishedAt": "2026-10-19T06:26:40.000Z",
-        "expiresAt": "2026-12-18T06:26:39.000Z",
-        "applicationUrl": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior?utm_source=api",
-        "sourceUrl": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
-        "studentFit": {
-          "score": 65,
-          "reasons": [
-            "Student or entry-level language"
-          ],
-          "maxYears": null,
-          "evidence": true
-        },
-        "safety": {
-          "status": "passed",
-          "flags": []
-        },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
-        "descriptionPath": "data/jobs/remote/1e7e87998ec239f5da49edb14d648e73.json",
-        "pagePath": "jobs/remote/antifraud-analyst-junior-banco-plata-s-a-institucion-de-banca-multiple/"
       }
     },
     {
@@ -1131,7 +1046,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/1c42c00c311f3af0a608862a12e1597a.json",
         "pagePath": "jobs/remote/puzzle-solver-coding-micro1/"
       }
@@ -1221,7 +1136,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/97da486ee14f4b06d18d28425d08ff92.json",
         "pagePath": "jobs/remote/recruiting-coordinator-terac/"
       }
@@ -1306,9 +1221,94 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "lastSeenAt": "2026-11-05T02:29:25.664Z",
         "descriptionPath": "data/jobs/remote/14a1c5fca9d4ee72a1517284b784ef36.json",
         "pagePath": "jobs/remote/video-data-annotator-micro1/"
+      }
+    },
+    {
+      "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
+      "slug": "antifraud-analyst-junior-banco-plata-s-a-institucion-de-banca-multiple",
+      "closedAt": "2026-11-05T02:29:29.336Z",
+      "job": {
+        "id": "himalayas:banco-plata-s-a-institucion-de-banca-multiple:https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
+        "title": "Antifraud Analyst Junior",
+        "company": "Banco Plata, S.A., Institución de Banca Múltiple",
+        "logo": "https://cdn-images.himalayas.app/cu15rhdxs9omvo0ml1kwr014ai5y",
+        "summary": "We are looking for a proactive JuniorAntifraud Analyst to strengthen our Fraud Prevention team.",
+        "employmentType": "Full-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-10-19T06:26:40.000Z",
+        "expiresAt": "2026-12-18T06:26:39.000Z",
+        "applicationUrl": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/banco-plata-s-a-institucion-de-banca-multiple/jobs/antifraud-analyst-junior",
+        "studentFit": {
+          "score": 65,
+          "reasons": [
+            "Student or entry-level language"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-04T21:53:20.401Z",
+        "descriptionPath": "data/jobs/remote/1e7e87998ec239f5da49edb14d648e73.json",
+        "pagePath": "jobs/remote/antifraud-analyst-junior-banco-plata-s-a-institucion-de-banca-multiple/"
       }
     },
     {

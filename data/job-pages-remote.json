@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-07T18:48:41.311Z",
+  "updatedAt": "2026-11-07T22:46:44.326Z",
   "entries": [
     {
       "id": "jobicy:149992",
@@ -42,7 +42,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/7e005b9bc2a1b4ace4a8604b48e7e281.json",
         "pagePath": "jobs/remote/graduate-talent-scientist-canonical/"
       }
@@ -128,7 +128,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
       }
@@ -172,7 +172,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/e3d4bd0ea885e2d65e8cc4a489bca4ec.json",
         "pagePath": "jobs/remote/software-developer-in-observability-canonical/"
       }
@@ -262,7 +262,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
         "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
       }
@@ -281,12 +281,7 @@
         "summary": "Role: Engineering PhD Opportunity SnapshotPay: $80–95/hour Duration: Short-term pilot — approximately 2–3 weeks Project kickoff:Ideally end of week( November 8th) Location: Fully remote You’ll need: PhD or PhD candidate in electrical, mechanical, chemical, industrial, or aerospac",
         "employmentType": "Full-time",
         "level": "Entry-level",
-        "salary": {
-          "min": 80,
-          "max": 95,
-          "currency": "USD",
-          "period": "hourly"
-        },
+        "salary": null,
         "eligibility": {
           "label": "Worldwide",
           "regions": [
@@ -352,7 +347,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -396,7 +391,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/2787708a7a28c44cf939435b7c03bb0f.json",
         "pagePath": "jobs/remote/marketing-associate-canonical/"
       }
@@ -415,12 +410,7 @@
         "summary": "Role Title: Hospitality Worker (Toast POS User) Role Type: ContractorLocation: Remotemicro1 is engaging hospitality workers to contribute to a customer initiative related to restaurant technology.",
         "employmentType": "Contract",
         "level": "Entry-level",
-        "salary": {
-          "min": 28,
-          "max": 92,
-          "currency": "USD",
-          "period": "hourly"
-        },
+        "salary": null,
         "eligibility": {
           "label": "Worldwide",
           "regions": [
@@ -486,7 +476,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -505,12 +495,7 @@
         "summary": "Role Title: Video Annotation Role Type: ContractorLocation: Remotemicro1 is engaging Video Annotation experts to contribute to a dynamic customer project focused on high-impact data labeling.",
         "employmentType": "Contract",
         "level": "Entry-level",
-        "salary": {
-          "min": 15,
-          "max": 25,
-          "currency": "USD",
-          "period": "hourly"
-        },
+        "salary": null,
         "eligibility": {
           "label": "Worldwide",
           "regions": [
@@ -576,7 +561,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -666,7 +651,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }
@@ -751,7 +736,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/a496c03db07bfc1501fcca5070ffd5a7.json",
         "pagePath": "jobs/remote/food-delivery-ai-response-evaluator-micro1/"
       }
@@ -836,7 +821,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
         "pagePath": "jobs/remote/junior-lawyer-micro1/"
       }
@@ -921,7 +906,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/7d3614df140be046282d1b065a75c05c.json",
         "pagePath": "jobs/remote/evaluation-specialist-recent-grad-micro1/"
       }
@@ -1006,7 +991,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/1c42c00c311f3af0a608862a12e1597a.json",
         "pagePath": "jobs/remote/puzzle-solver-coding-micro1/"
       }
@@ -1096,7 +1081,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/97da486ee14f4b06d18d28425d08ff92.json",
         "pagePath": "jobs/remote/recruiting-coordinator-terac/"
       }
@@ -1181,7 +1166,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/14a1c5fca9d4ee72a1517284b784ef36.json",
         "pagePath": "jobs/remote/video-data-annotator-micro1/"
       }
@@ -1228,7 +1213,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-07T18:48:39.752Z",
+        "lastSeenAt": "2026-11-07T22:46:40.365Z",
         "descriptionPath": "data/jobs/remote/8de489ffd63ba68ebfccccb743814866.json",
         "pagePath": "jobs/remote/qa-tester-future-roles-testlio/"
       }

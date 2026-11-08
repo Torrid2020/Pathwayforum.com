@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-08T02:29:59.590Z",
+  "updatedAt": "2026-11-08T10:23:57.781Z",
   "entries": [
     {
       "id": "jobicy:149992",
@@ -42,9 +42,611 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/7e005b9bc2a1b4ace4a8604b48e7e281.json",
         "pagePath": "jobs/remote/graduate-talent-scientist-canonical/"
+      }
+    },
+    {
+      "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/identity-trust-fraud-intelligence-expert-ai-community",
+      "slug": "identity-trust-fraud-intelligence-expert-ai-community-telus-digital",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/identity-trust-fraud-intelligence-expert-ai-community",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/telus-digital/jobs/identity-trust-fraud-intelligence-expert-ai-community",
+        "title": "Identity Trust & Fraud Intelligence Expert (AI Community)",
+        "company": "TELUS Digital",
+        "logo": "https://cdn-images.himalayas.app/308dt0lvrypdu9cu9rt8eh58o73q",
+        "summary": "About the Role: At TELUS Digital, we are building the \"Shield of Trust\" for global digital identity.",
+        "employmentType": "Part-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-08T04:04:56.000Z",
+        "expiresAt": "2026-12-06T08:06:50.000Z",
+        "applicationUrl": "https://himalayas.app/companies/telus-digital/jobs/identity-trust-fraud-intelligence-expert-ai-community?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/telus-digital/jobs/identity-trust-fraud-intelligence-expert-ai-community",
+        "studentFit": {
+          "score": 77,
+          "reasons": [
+            "Student or entry-level language",
+            "Part-time"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
+        "descriptionPath": "data/jobs/remote/d71b22256c46fd6d14745ddcb8a02ecc.json",
+        "pagePath": "jobs/remote/identity-trust-fraud-intelligence-expert-ai-community-telus-digital/"
+      }
+    },
+    {
+      "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/global-ai-expert-evaluator",
+      "slug": "global-ai-expert-evaluator-telus-digital",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/global-ai-expert-evaluator",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/telus-digital/jobs/global-ai-expert-evaluator",
+        "title": "Global AI Expert & Evaluator",
+        "company": "TELUS Digital",
+        "logo": "https://cdn-images.himalayas.app/308dt0lvrypdu9cu9rt8eh58o73q",
+        "summary": "TELUS Digital is building a global community of experts to evaluate, challenge and improve advanced AI systems.",
+        "employmentType": "Part-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-08T04:04:43.000Z",
+        "expiresAt": "2026-12-06T08:35:15.000Z",
+        "applicationUrl": "https://himalayas.app/companies/telus-digital/jobs/global-ai-expert-evaluator?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/telus-digital/jobs/global-ai-expert-evaluator",
+        "studentFit": {
+          "score": 77,
+          "reasons": [
+            "Student or entry-level language",
+            "Part-time"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
+        "descriptionPath": "data/jobs/remote/b7d2db55b68c2f0841ac0af734f63194.json",
+        "pagePath": "jobs/remote/global-ai-expert-evaluator-telus-digital/"
+      }
+    },
+    {
+      "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/rsi-training-ready-made-dataset-expert",
+      "slug": "rsi-training-ready-made-dataset-expert-telus-digital",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/rsi-training-ready-made-dataset-expert",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/telus-digital/jobs/rsi-training-ready-made-dataset-expert",
+        "title": "RSI Training & Ready-Made Dataset Expert",
+        "company": "TELUS Digital",
+        "logo": "https://cdn-images.himalayas.app/308dt0lvrypdu9cu9rt8eh58o73q",
+        "summary": "TELUS Digital is building a global community of experts to support the development and evaluation of advanced Artificial Intelligence systems.",
+        "employmentType": "Part-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-08T04:04:40.000Z",
+        "expiresAt": "2026-12-06T08:47:07.000Z",
+        "applicationUrl": "https://himalayas.app/companies/telus-digital/jobs/rsi-training-ready-made-dataset-expert?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/telus-digital/jobs/rsi-training-ready-made-dataset-expert",
+        "studentFit": {
+          "score": 77,
+          "reasons": [
+            "Student or entry-level language",
+            "Part-time"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
+        "descriptionPath": "data/jobs/remote/eccec684728ea52ce850f7dec7dc3c79.json",
+        "pagePath": "jobs/remote/rsi-training-ready-made-dataset-expert-telus-digital/"
+      }
+    },
+    {
+      "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-specialist",
+      "slug": "ai-development-programmatic-reasoning-specialist-telus-digital",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-specialist",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-specialist",
+        "title": "AI Development & Programmatic Reasoning Specialist",
+        "company": "TELUS Digital",
+        "logo": "https://cdn-images.himalayas.app/308dt0lvrypdu9cu9rt8eh58o73q",
+        "summary": "About the Role: At TELUS Digital, we are building the future of software development.",
+        "employmentType": "Part-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-08T04:04:37.000Z",
+        "expiresAt": "2026-12-06T08:56:56.000Z",
+        "applicationUrl": "https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-specialist?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-specialist",
+        "studentFit": {
+          "score": 77,
+          "reasons": [
+            "Student or entry-level language",
+            "Part-time"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
+        "descriptionPath": "data/jobs/remote/9ea7aa6552481879abcb0bd627b354db.json",
+        "pagePath": "jobs/remote/ai-development-programmatic-reasoning-specialist-telus-digital/"
+      }
+    },
+    {
+      "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-expert-ai-community",
+      "slug": "ai-development-programmatic-reasoning-expert-ai-community-telus-digital",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-expert-ai-community",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-expert-ai-community",
+        "title": "AI Development & Programmatic Reasoning Expert (AI Community)",
+        "company": "TELUS Digital",
+        "logo": "https://cdn-images.himalayas.app/308dt0lvrypdu9cu9rt8eh58o73q",
+        "summary": "About the Role: At TELUS Digital, we are building the future of software development.",
+        "employmentType": "Part-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-08T04:04:36.000Z",
+        "expiresAt": "2026-12-06T08:59:49.000Z",
+        "applicationUrl": "https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-expert-ai-community?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/telus-digital/jobs/ai-development-programmatic-reasoning-expert-ai-community",
+        "studentFit": {
+          "score": 77,
+          "reasons": [
+            "Student or entry-level language",
+            "Part-time"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
+        "descriptionPath": "data/jobs/remote/9a505abe207c8ce168766ff3f3a09a1a.json",
+        "pagePath": "jobs/remote/ai-development-programmatic-reasoning-expert-ai-community-telus-digital/"
+      }
+    },
+    {
+      "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/3d-spatial-data-expert-ai-community",
+      "slug": "3d-spatial-data-expert-ai-community-telus-digital",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/3d-spatial-data-expert-ai-community",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/telus-digital/jobs/3d-spatial-data-expert-ai-community",
+        "title": "3D Spatial Data Expert (AI Community)",
+        "company": "TELUS Digital",
+        "logo": "https://cdn-images.himalayas.app/308dt0lvrypdu9cu9rt8eh58o73q",
+        "summary": "About the Role: At TELUS Digital, we are teaching AI to move from 2D screens into 3D reality.",
+        "employmentType": "Part-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-08T04:04:34.000Z",
+        "expiresAt": "2026-12-06T09:05:21.000Z",
+        "applicationUrl": "https://himalayas.app/companies/telus-digital/jobs/3d-spatial-data-expert-ai-community?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/telus-digital/jobs/3d-spatial-data-expert-ai-community",
+        "studentFit": {
+          "score": 77,
+          "reasons": [
+            "Student or entry-level language",
+            "Part-time"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
+        "descriptionPath": "data/jobs/remote/c5f9e417f0c79e017bde090108965c2c.json",
+        "pagePath": "jobs/remote/3d-spatial-data-expert-ai-community-telus-digital/"
+      }
+    },
+    {
+      "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/full-stack-ai-logic-expert-ai-community-5029362594",
+      "slug": "full-stack-ai-logic-expert-ai-community-telus-digital",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/full-stack-ai-logic-expert-ai-community-5029362594",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/telus-digital/jobs/full-stack-ai-logic-expert-ai-community-5029362594",
+        "title": "Full-Stack AI Logic Expert (AI Community)",
+        "company": "TELUS Digital",
+        "logo": "https://cdn-images.himalayas.app/308dt0lvrypdu9cu9rt8eh58o73q",
+        "summary": "About the Role: At TELUS Digital, we are bridging the gap between how a human thinks and how a machine writes code.",
+        "employmentType": "Part-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-08T04:04:33.000Z",
+        "expiresAt": "2026-12-06T09:07:10.000Z",
+        "applicationUrl": "https://himalayas.app/companies/telus-digital/jobs/full-stack-ai-logic-expert-ai-community-5029362594?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/telus-digital/jobs/full-stack-ai-logic-expert-ai-community-5029362594",
+        "studentFit": {
+          "score": 77,
+          "reasons": [
+            "Student or entry-level language",
+            "Part-time"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
+        "descriptionPath": "data/jobs/remote/e9a87453db75072f4ef022c16ff79811.json",
+        "pagePath": "jobs/remote/full-stack-ai-logic-expert-ai-community-telus-digital/"
       }
     },
     {
@@ -128,9 +730,53 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
+      }
+    },
+    {
+      "id": "jobicy:148299",
+      "slug": "accounts-payable-clerk-entry-level-opportunity-canonical",
+      "closedAt": null,
+      "job": {
+        "id": "jobicy:148299",
+        "source": "Jobicy",
+        "sourceId": "148299",
+        "title": "Accounts Payable Clerk (Entry Level Opportunity)",
+        "company": "Canonical",
+        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+        "summary": "The role of an Accounts Payable Clerk at CanonicalWe have an exciting opportunity for an Accounts Payable Clerk to join our growing team. If you are passionate about the technology industry and want to work for a company that aligns with your interests, we might be the place for ",
+        "employmentType": "Full-time",
+        "level": "Entry-Level, Junior",
+        "salary": null,
+        "eligibility": {
+          "label": "EMEA,  UK",
+          "regions": [
+            "africa"
+          ],
+          "countries": [],
+          "confidence": "review"
+        },
+        "publishedAt": "2026-11-08T02:50:04+00:00",
+        "expiresAt": null,
+        "applicationUrl": "https://jobicy.com/jobs/148299-accounts-payable-clerk-entry-level-opportunity-2",
+        "sourceUrl": "https://jobicy.com/jobs/148299-accounts-payable-clerk-entry-level-opportunity-2",
+        "studentFit": {
+          "score": 65,
+          "reasons": [
+            "Student or entry-level language"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
+        "descriptionPath": "data/jobs/remote/76b4d5e4a34dd7ac14b4b89c906f16ff.json",
+        "pagePath": "jobs/remote/accounts-payable-clerk-entry-level-opportunity-canonical/"
       }
     },
     {
@@ -172,7 +818,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/e3d4bd0ea885e2d65e8cc4a489bca4ec.json",
         "pagePath": "jobs/remote/software-developer-in-observability-canonical/"
       }
@@ -257,7 +903,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
         "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
       }
@@ -342,7 +988,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -386,7 +1032,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/2787708a7a28c44cf939435b7c03bb0f.json",
         "pagePath": "jobs/remote/marketing-associate-canonical/"
       }
@@ -471,7 +1117,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -556,7 +1202,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -646,7 +1292,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }
@@ -731,7 +1377,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/a496c03db07bfc1501fcca5070ffd5a7.json",
         "pagePath": "jobs/remote/food-delivery-ai-response-evaluator-micro1/"
       }
@@ -816,7 +1462,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
         "pagePath": "jobs/remote/junior-lawyer-micro1/"
       }
@@ -901,7 +1547,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/7d3614df140be046282d1b065a75c05c.json",
         "pagePath": "jobs/remote/evaluation-specialist-recent-grad-micro1/"
       }
@@ -986,7 +1632,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/1c42c00c311f3af0a608862a12e1597a.json",
         "pagePath": "jobs/remote/puzzle-solver-coding-micro1/"
       }
@@ -1076,7 +1722,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/97da486ee14f4b06d18d28425d08ff92.json",
         "pagePath": "jobs/remote/recruiting-coordinator-terac/"
       }
@@ -1161,7 +1807,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/14a1c5fca9d4ee72a1517284b784ef36.json",
         "pagePath": "jobs/remote/video-data-annotator-micro1/"
       }
@@ -1208,7 +1854,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-08T02:29:58.177Z",
+        "lastSeenAt": "2026-11-08T10:23:55.460Z",
         "descriptionPath": "data/jobs/remote/8de489ffd63ba68ebfccccb743814866.json",
         "pagePath": "jobs/remote/qa-tester-future-roles-testlio/"
       }

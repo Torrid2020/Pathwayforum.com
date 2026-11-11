@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-11T11:24:43.013Z",
+  "updatedAt": "2026-11-11T19:50:24.224Z",
   "entries": [
     {
       "id": "mtn-uganda:7803",
@@ -33,12 +33,12 @@
           "contentHash": "6a160c37a94ce99c303a586246a79172f02c6bf989af7aa78c3b2a55faee478d",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:28.094Z",
+          "checkedAt": "2026-11-11T19:50:11.324Z",
           "flags": []
         },
         "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7803",
         "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7803",
-        "lastCheckedAt": "2026-11-11T11:24:28.094Z",
+        "lastCheckedAt": "2026-11-11T19:50:11.324Z",
         "descriptionPath": "data/jobs/uganda/7e2df327cf975e6612de47b318b9e65f.json",
         "pagePath": "jobs/uganda/specialist-products-quality-assurance-testing-mtn-uganda/"
       }
@@ -72,12 +72,12 @@
           "contentHash": "fb6225fd9e9052d7cdbc06295bc09b9122dd7998d7edd7812f48a32890421361",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:35.435Z",
+          "checkedAt": "2026-11-11T19:50:20.513Z",
           "flags": []
         },
         "sourceUrl": "https://kakirasugar.com/wp-content/uploads/2026/11/REGISTERED-MIDWIFE.pdf",
         "applicationUrl": "https://kakirasugar.com/jobs-listing/",
-        "lastCheckedAt": "2026-11-11T11:24:35.435Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.513Z",
         "pagePath": "jobs/uganda/registered-midwife-kakira-sugar/"
       }
     },
@@ -110,12 +110,12 @@
           "contentHash": "82425ad07028f5cec12427672e295cec9631fa14d2120ee867f86150378ff454",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:35.435Z",
+          "checkedAt": "2026-11-11T19:50:20.513Z",
           "flags": []
         },
         "sourceUrl": "https://kakirasugar.com/wp-content/uploads/2026/10/JD-Superintendent-Civil.pdf",
         "applicationUrl": "https://kakirasugar.com/jobs-listing/",
-        "lastCheckedAt": "2026-11-11T11:24:35.435Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.513Z",
         "pagePath": "jobs/uganda/superintendent-civil-kakira-sugar/"
       }
     },
@@ -150,12 +150,12 @@
           "contentHash": "4d042354f99462d6cf7e0600e50aa133554de13918efc9dd55a65463db5e073f",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:28.092Z",
+          "checkedAt": "2026-11-11T19:50:11.323Z",
           "flags": []
         },
         "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7942",
         "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7942",
-        "lastCheckedAt": "2026-11-11T11:24:28.092Z",
+        "lastCheckedAt": "2026-11-11T19:50:11.323Z",
         "descriptionPath": "data/jobs/uganda/3aacf6e4be468860c8070eb87e69e85d.json",
         "pagePath": "jobs/uganda/coordinator-project-support-and-capex-technology-mtn-uganda/"
       }
@@ -227,12 +227,12 @@
           "contentHash": "5f4ca72abd1bf74271c699aed59dbe987b10836dcea0b397603a45219f75fb2d",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.017Z",
+          "checkedAt": "2026-11-11T19:50:19.685Z",
           "flags": []
         },
         "sourceUrl": "https://hsc.go.ug/upf/HSC%20_COMPLETE_EXTERNAL_ADVERT_NO._2_OF_OCTOBER_2026.pdf",
         "applicationUrl": "https://hsc.go.ug/upf/HSC%20_COMPLETE_EXTERNAL_ADVERT_NO._2_OF_OCTOBER_2026.pdf",
-        "lastCheckedAt": "2026-11-11T11:24:36.017Z",
+        "lastCheckedAt": "2026-11-11T19:50:19.685Z",
         "pagePath": "jobs/uganda/hsc-external-advert-no-2-of-october-2026-multiple-posts-health-service-commission/"
       }
     },
@@ -265,13 +265,132 @@
           "contentHash": "7b57a43cfb6a54991d9a35bfa0365b2d2f1826b1161373e94ebf8b7c50c05383",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.017Z",
+          "checkedAt": "2026-11-11T19:50:19.686Z",
           "flags": []
         },
         "sourceUrl": "https://hsc.go.ug/upf/HSC_COMPLETE_INTERNAL_ADVERT_NO._1_OF_OCTOBER_2026.pdf",
         "applicationUrl": "https://hsc.go.ug/upf/HSC_COMPLETE_INTERNAL_ADVERT_NO._1_OF_OCTOBER_2026.pdf",
-        "lastCheckedAt": "2026-11-11T11:24:36.017Z",
+        "lastCheckedAt": "2026-11-11T19:50:19.686Z",
         "pagePath": "jobs/uganda/hsc-internal-advert-no-1-of-october-2026-multiple-posts-health-service-commission/"
+      }
+    },
+    {
+      "id": "nrc:22107",
+      "slug": "cleaner-uganda-kampala-norwegian-refugee-council",
+      "closedAt": null,
+      "job": {
+        "id": "nrc:22107",
+        "source": "Norwegian Refugee Council Careers",
+        "sourceId": "nrc",
+        "sourceType": "official-employer",
+        "level": "Entry level",
+        "sector": "NGO & Humanitarian",
+        "title": "Cleaner Uganda Kampala",
+        "employer": "Norwegian Refugee Council",
+        "location": "Kampala, Uganda",
+        "district": "Kampala",
+        "workplace": "On-site or field-based",
+        "employmentType": "Full-time",
+        "category": "NGO & Humanitarian",
+        "education": "See official listing",
+        "experience": "1 years requested",
+        "publishedAt": "2026-11-11T13:00:28+00:00",
+        "deadline": "2026-11-16T21:00:00.000Z",
+        "deadlineStatus": "Check live deadline",
+        "summary": "Generic responsibilities Adhere to NRC policies, tools, handbooks and guidelines Prepare and develop status reports as required by management Promote and share ideas for improvement Perform according to the work and development plan Development of holistic and needs based programmes, including cash-based interventions and market based programmes. Specific Responsibilities Clean",
+        "indicators": [
+          "1 years of experience"
+        ],
+        "verification": {
+          "contentHash": "c2b02a0d2555df5871b76f73e2ee8c26d0eee8b0cbcab4ed855938ac8e9ee3ce",
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-11T19:50:17.395Z",
+          "flags": []
+        },
+        "sourceUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/22107",
+        "applicationUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/22107",
+        "lastCheckedAt": "2026-11-11T19:50:17.395Z",
+        "descriptionPath": "data/jobs/uganda/d04b7d3256bb0de6a09265925600848d.json",
+        "pagePath": "jobs/uganda/cleaner-uganda-kampala-norwegian-refugee-council/"
+      }
+    },
+    {
+      "id": "drc:https://drc.ngo/jobs/job?id=177159",
+      "slug": "administrative-assistant-danish-refugee-council",
+      "closedAt": null,
+      "job": {
+        "id": "drc:https://drc.ngo/jobs/job?id=177159",
+        "source": "Danish Refugee Council Careers",
+        "sourceId": "drc",
+        "sourceType": "official-employer",
+        "level": "Entry level",
+        "sector": "NGO & Humanitarian",
+        "title": "Administrative Assistant",
+        "employer": "Danish Refugee Council",
+        "location": "Arua, Uganda",
+        "district": "Arua",
+        "workplace": "On-site or field-based",
+        "employmentType": "See official listing",
+        "category": "NGO & Humanitarian",
+        "education": "See official listing",
+        "experience": "2 years requested",
+        "publishedAt": "2026-11-11T20:59:59.000Z",
+        "deadline": "2026-11-17T20:59:59.000Z",
+        "deadlineStatus": "Check live deadline",
+        "summary": "purpose of the role: The Administrative Assistant will provide support for the daily functioning of the office and the implementation of DRC programs at the Arua Regional Office, collaborate with the support team and program staff to ensure the timely completion of administrative tasks, and provide the necessary support to other teams in his/her area of responsibility. This rol",
+        "indicators": [
+          "Early-career title",
+          "2 years of experience"
+        ],
+        "verification": {
+          "contentHash": "6ecaa000a6f08b9fc086af183df964dc88159379ab3f4187440c486db2a51e16",
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-11T19:50:16.399Z",
+          "flags": []
+        },
+        "sourceUrl": "https://drc.ngo/jobs/job?id=177159",
+        "applicationUrl": "https://drc.ngo/jobs/job?id=177159",
+        "lastCheckedAt": "2026-11-11T19:50:16.399Z",
+        "pagePath": "jobs/uganda/administrative-assistant-danish-refugee-council/"
+      }
+    },
+    {
+      "id": "dfcu:-careers-credit-control-officer-1-position-4-",
+      "slug": "credit-control-officer-1-position-dfcu-bank",
+      "closedAt": null,
+      "job": {
+        "id": "dfcu:-careers-credit-control-officer-1-position-4-",
+        "source": "dfcu Bank Careers",
+        "sourceType": "official-employer",
+        "title": "CREDIT CONTROL OFFICER (1 POSITION)",
+        "level": "Entry level",
+        "employer": "dfcu Bank",
+        "location": "Uganda",
+        "district": "Uganda",
+        "workplace": "On-site or field-based",
+        "employmentType": "See official listing",
+        "category": "Project & Programme",
+        "education": "See official listing",
+        "experience": "See official listing",
+        "publishedAt": "2026-10-10T20:59:59.000Z",
+        "deadline": "2026-11-19T20:59:59.000Z",
+        "deadlineStatus": "Closes in 9 days",
+        "summary": "dfcu Bank is hiring a Credit Control Officer for retail credit documentation and collateral. Law degree and LDC diploma required. Apply by 19 Nov 2026",
+        "indicators": [],
+        "verification": {
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-11T19:50:09.162Z",
+          "flags": []
+        },
+        "sourceUrl": "https://www.dfcugroup.com/careers/credit-control-officer-1-position-4/",
+        "applicationUrl": "https://careers.dfcugroup.com/",
+        "lastCheckedAt": "2026-11-11T19:50:09.162Z",
+        "sourceId": "dfcu",
+        "sector": "Banking",
+        "pagePath": "jobs/uganda/credit-control-officer-1-position-dfcu-bank/"
       }
     },
     {
@@ -305,12 +424,12 @@
           "contentHash": "aa462ac293f7703235785c92c8a6418343923af6a07ea2fdfb3fde4d5a1fa80f",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.197Z",
+          "checkedAt": "2026-11-11T19:50:18.204Z",
           "flags": []
         },
         "sourceUrl": "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings/job/Kampala-Uganda-The-Republic-Of/Programme-Assistant--Cooperating-Partner-Management-Team---CPMT--SC5-Kampala_JR128311",
         "applicationUrl": "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings/job/Kampala-Uganda-The-Republic-Of/Programme-Assistant--Cooperating-Partner-Management-Team---CPMT--SC5-Kampala_JR128311",
-        "lastCheckedAt": "2026-11-11T11:24:34.197Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.204Z",
         "descriptionPath": "data/jobs/uganda/6c1f37ba4d155de93396ea8786e84676.json",
         "pagePath": "jobs/uganda/programme-assistant-cooperating-partner-management-team-cpmt-sc5-kampala-world-food-programme/"
       }
@@ -344,12 +463,12 @@
           "contentHash": "6ddcf3b1665f1d0031a7f6c8afe3ae829f17546b5481eaa599f0da400bbf1c17",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.196Z",
+          "checkedAt": "2026-11-11T19:50:18.204Z",
           "flags": []
         },
         "sourceUrl": "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings/job/Moroto-Uganda-The-Republic-Of/Programme-Associate---Cash-Based-Transfers--CBT--SC6---Moroto_JR128357",
         "applicationUrl": "https://wd3.myworkdaysite.com/recruiting/wfp/job_openings/job/Moroto-Uganda-The-Republic-Of/Programme-Associate---Cash-Based-Transfers--CBT--SC6---Moroto_JR128357",
-        "lastCheckedAt": "2026-11-11T11:24:34.196Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.204Z",
         "descriptionPath": "data/jobs/uganda/5a9b6744281187fc27adc3a7cb7cb25a.json",
         "pagePath": "jobs/uganda/programme-associate-cash-based-transfers-cbt-sc6-moroto-world-food-programme/"
       }
@@ -386,12 +505,12 @@
           "contentHash": "5d3dfbf20e3e4135f4313632098b80ed031affa099116ca66217a3f4514664cd",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.923Z",
+          "checkedAt": "2026-11-11T19:50:20.560Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcva/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcva/",
-        "lastCheckedAt": "2026-11-11T11:24:36.923Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.560Z",
         "descriptionPath": "data/jobs/uganda/0380bae8c33d4640d80a4e047c716c16.json",
         "pagePath": "jobs/uganda/assistant-officer-aim-support-and-reporting-brac-international/"
       }
@@ -425,12 +544,12 @@
           "contentHash": "9b69483d841cdc51d7971aa1755fe884f8a7f5912247154cb5a57d119cf7059f",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:35.050Z",
+          "checkedAt": "2026-11-11T19:50:18.948Z",
           "flags": []
         },
         "sourceUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
         "applicationUrl": "https://careers-chai.icims.com/jobs/15676/associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-        "lastCheckedAt": "2026-11-11T11:24:35.050Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.948Z",
         "descriptionPath": "data/jobs/uganda/e809ee86f039aa8e304f20259d8ce751.json",
         "pagePath": "jobs/uganda/associate-sexual-reproductive-maternal-and-newborn-health-clinton-health-access-initiative/"
       }
@@ -466,12 +585,12 @@
           "contentHash": "121914be71126ad6cef7aa48d17bea2bd0126feaead6820ed419fe5962884616",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.923Z",
+          "checkedAt": "2026-11-11T19:50:20.560Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpu/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpu/",
-        "lastCheckedAt": "2026-11-11T11:24:36.923Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.560Z",
         "descriptionPath": "data/jobs/uganda/92332d87bfad65f6ee1461a37541c055.json",
         "pagePath": "jobs/uganda/driver-gulu-brac-international/"
       }
@@ -507,12 +626,12 @@
           "contentHash": "c0098c914246770d1be39f06971d13bed123603920d50396398ea02680cea7a2",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.924Z",
+          "checkedAt": "2026-11-11T19:50:20.560Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpq/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpq/",
-        "lastCheckedAt": "2026-11-11T11:24:36.924Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.560Z",
         "descriptionPath": "data/jobs/uganda/97d56e3b2fc36c6929c95d6c13274932.json",
         "pagePath": "jobs/uganda/driver-kampala-brac-international/"
       }
@@ -548,12 +667,12 @@
           "contentHash": "d047b6d82251f3a3fbfcf386c061b005840a6dccc0ea660a706d957442e64d35",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.208Z",
+          "checkedAt": "2026-11-11T19:50:19.998Z",
           "flags": []
         },
         "sourceUrl": "https://sunking.pinpointhq.com/en/postings/67f8535f-8b19-424b-b2c7-833295f51a8e",
         "applicationUrl": "https://sunking.pinpointhq.com/en/postings/67f8535f-8b19-424b-b2c7-833295f51a8e",
-        "lastCheckedAt": "2026-11-11T11:24:36.208Z",
+        "lastCheckedAt": "2026-11-11T19:50:19.998Z",
         "descriptionPath": "data/jobs/uganda/abe7ca8500357c5c5ff6ff2dfd18aea3.json",
         "pagePath": "jobs/uganda/fraud-analyst-uganda-sun-king/"
       }
@@ -590,12 +709,12 @@
           "contentHash": "293d3e35d27c6f0b8ceef8a640e8d3cfd15c90dda377e948ab0eb51812949828",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:32.741Z",
+          "checkedAt": "2026-11-11T19:50:17.395Z",
           "flags": []
         },
         "sourceUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
         "applicationUrl": "https://ekum.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_2019/job/20449",
-        "lastCheckedAt": "2026-11-11T11:24:32.741Z",
+        "lastCheckedAt": "2026-11-11T19:50:17.395Z",
         "descriptionPath": "data/jobs/uganda/24353f6425c8e8672e5d1acf7a6995fa.json",
         "pagePath": "jobs/uganda/ict-technical-assistant-uganda-isingiro-norwegian-refugee-council/"
       }
@@ -629,12 +748,12 @@
           "contentHash": "cc67100ec100cd933a266c5d74e75a2c52417847e97fd24a5e2d8f44bbd8e406",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.926Z",
+          "checkedAt": "2026-11-11T19:50:20.562Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8c/",
-        "lastCheckedAt": "2026-11-11T11:24:36.926Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.562Z",
         "descriptionPath": "data/jobs/uganda/fa97457f396af18fdef19f57c9422de5.json",
         "pagePath": "jobs/uganda/plant-operator-officer-brac-international/"
       }
@@ -670,12 +789,12 @@
           "contentHash": "0daa39849962fb357a7879890da285936587a1831b21a1c870812c3a352cdd12",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.928Z",
+          "checkedAt": "2026-11-11T19:50:20.563Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcv8/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcv8/",
-        "lastCheckedAt": "2026-11-11T11:24:36.928Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.563Z",
         "descriptionPath": "data/jobs/uganda/2c1d765c7c96f8b38edec5e75a8edfd1.json",
         "pagePath": "jobs/uganda/program-officer-multiple-locations-brac-international/"
       }
@@ -711,12 +830,12 @@
           "contentHash": "d51a1cb9f9944661e540861060ec93472e886a8cb14af3d270dca8def8553110",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.929Z",
+          "checkedAt": "2026-11-11T19:50:20.564Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8g/",
-        "lastCheckedAt": "2026-11-11T11:24:36.929Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.564Z",
         "descriptionPath": "data/jobs/uganda/12445ee7f5bc2017fdf8d8b40ebafa28.json",
         "pagePath": "jobs/uganda/quality-assurance-officer-brac-international/"
       }
@@ -750,12 +869,12 @@
           "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.695Z",
+          "checkedAt": "2026-11-11T19:50:18.459Z",
           "flags": []
         },
         "sourceUrl": "https://apply.workable.com/j/594A289C53",
         "applicationUrl": "https://apply.workable.com/j/594A289C53/apply",
-        "lastCheckedAt": "2026-11-11T11:24:34.695Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.459Z",
         "pagePath": "jobs/uganda/research-analyst-uganda-laterite/"
       }
     },
@@ -788,12 +907,12 @@
           "contentHash": "20af89103c2f6b97887ca4e02ad254c024d528a822aa032057bc669adb221573",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.334Z",
+          "checkedAt": "2026-11-11T19:50:18.279Z",
           "flags": []
         },
         "sourceUrl": "https://jobs.ashbyhq.com/M-KOPA/3b64016b-0865-47f4-b343-5b4445f7aaef",
         "applicationUrl": "https://jobs.ashbyhq.com/M-KOPA/3b64016b-0865-47f4-b343-5b4445f7aaef/application",
-        "lastCheckedAt": "2026-11-11T11:24:34.334Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.279Z",
         "descriptionPath": "data/jobs/uganda/7352202f73a019c44841a48f9a1629b0.json",
         "pagePath": "jobs/uganda/sales-executive-fort-portal-m-kopa/"
       }
@@ -827,12 +946,12 @@
           "contentHash": "c343491397accb77279de45de4955bc2fd7229d25943d1c2ed66c66e788c31ab",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:31.202Z",
+          "checkedAt": "2026-11-11T19:50:14.751Z",
           "flags": []
         },
         "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
         "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=7692994",
-        "lastCheckedAt": "2026-11-11T11:24:31.202Z",
+        "lastCheckedAt": "2026-11-11T19:50:14.751Z",
         "descriptionPath": "data/jobs/uganda/e37615089c81f509681d70120ca38eb0.json",
         "pagePath": "jobs/uganda/uganda-finance-associate-one-acre-fund/"
       }
@@ -866,12 +985,12 @@
           "contentHash": "29af82049dde37016d870c2ee6ec6beaf3bd31124f870b8110f1787cae24b16b",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:28.095Z",
+          "checkedAt": "2026-11-11T19:50:11.325Z",
           "flags": []
         },
         "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7928",
         "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7928",
-        "lastCheckedAt": "2026-11-11T11:24:28.095Z",
+        "lastCheckedAt": "2026-11-11T19:50:11.325Z",
         "descriptionPath": "data/jobs/uganda/642bbf1d19bbdd3d06c72ca52a426b93.json",
         "pagePath": "jobs/uganda/manager-digital-channels-mtn-uganda/"
       }
@@ -907,12 +1026,12 @@
           "contentHash": "330fc976edf4fb96236972c0710460e56f937e674f4f5f8f5a0d8a3bdc4e84d4",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:28.094Z",
+          "checkedAt": "2026-11-11T19:50:11.324Z",
           "flags": []
         },
         "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7941",
         "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7941",
-        "lastCheckedAt": "2026-11-11T11:24:28.094Z",
+        "lastCheckedAt": "2026-11-11T19:50:11.324Z",
         "descriptionPath": "data/jobs/uganda/e066137fe7ec194b4f52f5c851b22210.json",
         "pagePath": "jobs/uganda/senior-analyst-customer-value-management-marketing-mtn-uganda/"
       }
@@ -948,12 +1067,12 @@
           "contentHash": "9c090e02d9f5cc4baf2e98183540960808e1ac43448c78b2bf5cdf13b633ac6e",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:28.093Z",
+          "checkedAt": "2026-11-11T19:50:11.324Z",
           "flags": []
         },
         "sourceUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7917",
         "applicationUrl": "https://ehle.fa.em2.oraclecloud.com/hcmUI/CandidateExperience/en/sites/CX_1/job/7917",
-        "lastCheckedAt": "2026-11-11T11:24:28.093Z",
+        "lastCheckedAt": "2026-11-11T19:50:11.324Z",
         "descriptionPath": "data/jobs/uganda/55fbb4e915043842325c25d8bc54fcbc.json",
         "pagePath": "jobs/uganda/general-manager-growth-and-new-business-enterprise-management-mtn-uganda/"
       }
@@ -984,16 +1103,53 @@
         "verification": {
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:25.345Z",
+          "checkedAt": "2026-11-11T19:50:09.162Z",
           "flags": []
         },
         "sourceUrl": "https://worldvision.wd1.myworkdayjobs.com/WorldVisionInternational/job/Bugiri-Uganda/Project-Officer---FMNR_JR52883",
         "applicationUrl": "https://worldvision.wd1.myworkdayjobs.com/WorldVisionInternational/job/Bugiri-Uganda/Project-Officer---FMNR_JR52883",
-        "lastCheckedAt": "2026-11-11T11:24:25.345Z",
+        "lastCheckedAt": "2026-11-11T19:50:09.162Z",
         "sourceId": "world-vision",
         "sector": "NGO & Humanitarian",
         "descriptionPath": "data/jobs/uganda/f5b678d38da1be09d6c8da5a2cabeea6.json",
         "pagePath": "jobs/uganda/project-officer-fmnr-world-vision/"
+      }
+    },
+    {
+      "id": "dfcu:-careers-team-leader-reconciliation-1-position-",
+      "slug": "team-leader-8211-reconciliation-1-position-dfcu-bank",
+      "closedAt": null,
+      "job": {
+        "id": "dfcu:-careers-team-leader-reconciliation-1-position-",
+        "source": "dfcu Bank Careers",
+        "sourceType": "official-employer",
+        "title": "TEAM LEADER &#8211; RECONCILIATION (1 POSITION)",
+        "level": "Senior / management",
+        "employer": "dfcu Bank",
+        "location": "Uganda",
+        "district": "Uganda",
+        "workplace": "On-site or field-based",
+        "employmentType": "See official listing",
+        "category": "Project & Programme",
+        "education": "See official listing",
+        "experience": "See official listing",
+        "publishedAt": "2026-11-11T20:59:59.000Z",
+        "deadline": "2026-11-19T20:59:59.000Z",
+        "deadlineStatus": "Closes in 9 days",
+        "summary": "dfcu Bank is hiring a Team Leader – Reconciliation in Technology, Digital & Operations. Requires 7 years’ experience. Apply by 19 November 2026.",
+        "indicators": [],
+        "verification": {
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-11T19:50:09.162Z",
+          "flags": []
+        },
+        "sourceUrl": "https://www.dfcugroup.com/careers/team-leader-reconciliation-1-position/",
+        "applicationUrl": "https://careers.dfcugroup.com/",
+        "lastCheckedAt": "2026-11-11T19:50:09.162Z",
+        "sourceId": "dfcu",
+        "sector": "Banking",
+        "pagePath": "jobs/uganda/team-leader-8211-reconciliation-1-position-dfcu-bank/"
       }
     },
     {
@@ -1025,12 +1181,12 @@
           "contentHash": "464400bd387ef909c28661200aede92611706dc859af62060e9e6c3484f16689",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:35.338Z",
+          "checkedAt": "2026-11-11T19:50:18.878Z",
           "flags": []
         },
         "sourceUrl": "https://eadb.org/site/assets/files/4352/manager_credit_risk_advert_and_jd.pdf",
         "applicationUrl": "https://eadb.org/site/assets/files/4352/manager_credit_risk_advert_and_jd.pdf",
-        "lastCheckedAt": "2026-11-11T11:24:35.338Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.878Z",
         "pagePath": "jobs/uganda/manager-credit-risk-east-african-development-bank/"
       }
     },
@@ -1063,12 +1219,12 @@
           "contentHash": "464400bd387ef909c28661200aede92611706dc859af62060e9e6c3484f16689",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:35.338Z",
+          "checkedAt": "2026-11-11T19:50:18.878Z",
           "flags": []
         },
         "sourceUrl": "https://eadb.org/site/assets/files/4351/manager_legal_services_advert_and_jd.pdf",
         "applicationUrl": "https://eadb.org/site/assets/files/4351/manager_legal_services_advert_and_jd.pdf",
-        "lastCheckedAt": "2026-11-11T11:24:35.338Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.878Z",
         "pagePath": "jobs/uganda/manager-legal-services-east-african-development-bank/"
       }
     },
@@ -1101,12 +1257,12 @@
           "contentHash": "78e09cfdec432914d47f31a074717184caaa49fc5839fd2c7926364af34a9504",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:31.146Z",
+          "checkedAt": "2026-11-11T19:50:14.775Z",
           "flags": []
         },
         "sourceUrl": "https://job-boards.greenhouse.io/givedirectly/jobs/4751454005",
         "applicationUrl": "https://job-boards.greenhouse.io/givedirectly/jobs/4751454005",
-        "lastCheckedAt": "2026-11-11T11:24:31.146Z",
+        "lastCheckedAt": "2026-11-11T19:50:14.775Z",
         "descriptionPath": "data/jobs/uganda/22f386327d0d982b7bc977997a83b763.json",
         "pagePath": "jobs/uganda/associate-field-manager-external-relations-givedirectly/"
       }
@@ -1142,12 +1298,12 @@
           "contentHash": "ddb5758dd59e74c5f7083d74d07598e004945a71d5027bf36c842df0603503ad",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.578Z",
+          "checkedAt": "2026-11-11T19:50:18.397Z",
           "flags": []
         },
         "sourceUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
         "applicationUrl": "https://path.wd1.myworkdayjobs.com/External/job/Uganda-Kampala-Country-Program-Office/Consultant---Digital-Family-Planning-Register-Application--Uganda-Country-Program_JR2738",
-        "lastCheckedAt": "2026-11-11T11:24:34.578Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.397Z",
         "descriptionPath": "data/jobs/uganda/c8eb9cca5e67d0d04d7f8b46db4a87d2.json",
         "pagePath": "jobs/uganda/consultant-digital-family-planning-register-application-uganda-country-program-path/"
       }
@@ -1181,12 +1337,12 @@
           "contentHash": "70f127832b6261e4edb3a3d7f74cdf2e4a360cf761a557f934e0506cb0f02f44",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.335Z",
+          "checkedAt": "2026-11-11T19:50:18.280Z",
           "flags": []
         },
         "sourceUrl": "https://jobs.ashbyhq.com/M-KOPA/cfc05b2b-f8c6-4f13-968b-275e39d08ba2",
         "applicationUrl": "https://jobs.ashbyhq.com/M-KOPA/cfc05b2b-f8c6-4f13-968b-275e39d08ba2/application",
-        "lastCheckedAt": "2026-11-11T11:24:34.335Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.280Z",
         "descriptionPath": "data/jobs/uganda/ff533362a9cfa93761f56dad063ef755.json",
         "pagePath": "jobs/uganda/field-sales-manager-mukono-m-kopa/"
       }
@@ -1220,12 +1376,12 @@
           "contentHash": "c717ae22f06a7198c7fc235cc16c75d947254574ba8121bcded62dd4959db288",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:31.200Z",
+          "checkedAt": "2026-11-11T19:50:14.748Z",
           "flags": []
         },
         "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
         "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8132333",
-        "lastCheckedAt": "2026-11-11T11:24:31.200Z",
+        "lastCheckedAt": "2026-11-11T19:50:14.748Z",
         "descriptionPath": "data/jobs/uganda/8cb9ef6c22472559b8be751ec9869cc1.json",
         "pagePath": "jobs/uganda/global-mel-manager-senior-manager-one-acre-fund/"
       }
@@ -1259,12 +1415,12 @@
           "contentHash": "2e653adb86772a31dd6ee5d84537f432c73569a2d36b3a66c160536bb31650cd",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.230Z",
+          "checkedAt": "2026-11-11T19:50:18.207Z",
           "flags": []
         },
         "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
         "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8248862",
-        "lastCheckedAt": "2026-11-11T11:24:34.230Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.207Z",
         "descriptionPath": "data/jobs/uganda/18cdff3219b17ccf5f91586285715ac9.json",
         "pagePath": "jobs/uganda/head-of-finance-operations-uganda-educate/"
       }
@@ -1298,12 +1454,12 @@
           "contentHash": "511d99bfe8614b001e989b8a3344f23a23e8b89a97c92b4d4b58437d9d46d9c3",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.264Z",
+          "checkedAt": "2026-11-11T19:50:18.236Z",
           "flags": []
         },
         "sourceUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
         "applicationUrl": "https://job-boards.eu.greenhouse.io/jumia/jobs/4906703101",
-        "lastCheckedAt": "2026-11-11T11:24:34.264Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.236Z",
         "descriptionPath": "data/jobs/uganda/607226aceed0ad84a38573aac0c62893.json",
         "pagePath": "jobs/uganda/head-of-sales-network-jumia-full-time-jumia/"
       }
@@ -1337,12 +1493,12 @@
           "contentHash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.757Z",
+          "checkedAt": "2026-11-11T19:50:18.506Z",
           "flags": []
         },
         "sourceUrl": "https://apply.workable.com/j/7C039F19C4",
         "applicationUrl": "https://apply.workable.com/j/7C039F19C4/apply",
-        "lastCheckedAt": "2026-11-11T11:24:34.757Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.506Z",
         "pagePath": "jobs/uganda/marketing-manager-vivo-energy/"
       }
     },
@@ -1377,12 +1533,12 @@
           "contentHash": "f70868c88a92a616ada994119f52ebb6fc95b89e3f76553e0fdcbd611f0a6ebd",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.927Z",
+          "checkedAt": "2026-11-11T19:50:20.563Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu84/",
-        "lastCheckedAt": "2026-11-11T11:24:36.927Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.563Z",
         "descriptionPath": "data/jobs/uganda/4e980a1978422433301782eb93010ea5.json",
         "pagePath": "jobs/uganda/production-manager-brac-international/"
       }
@@ -1416,14 +1572,94 @@
           "contentHash": "fe1a551d1d52ae074df89f7773cf830a1582ae2b47ebe5f0ebc376deb5143d21",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:35.051Z",
+          "checkedAt": "2026-11-11T19:50:18.949Z",
           "flags": []
         },
         "sourceUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
         "applicationUrl": "https://careers-chai.icims.com/jobs/15673/program-manager%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-        "lastCheckedAt": "2026-11-11T11:24:35.051Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.949Z",
         "descriptionPath": "data/jobs/uganda/739bd5df8bb671e65487a53f1982de8a.json",
         "pagePath": "jobs/uganda/program-manager-sexual-reproductive-maternal-and-newborn-health-clinton-health-access-initiative/"
+      }
+    },
+    {
+      "id": "sunking:617595",
+      "slug": "regional-business-manager-clean-cooking-lpg-uganda-sun-king",
+      "closedAt": null,
+      "job": {
+        "id": "sunking:617595",
+        "source": "Sun King Careers",
+        "sourceId": "sunking",
+        "sourceType": "official-employer",
+        "level": "Senior / management",
+        "sector": "Energy",
+        "title": "Regional Business Manager, Clean Cooking (LPG)- Uganda.",
+        "employer": "Sun King",
+        "location": "Kampala, Uganda",
+        "district": "Kampala",
+        "workplace": "On-site",
+        "employmentType": "Full-time",
+        "category": "Energy",
+        "education": "See official listing",
+        "experience": "See official listing",
+        "publishedAt": null,
+        "deadline": null,
+        "deadlineStatus": "Check the official deadline",
+        "summary": "Job Location: Kampala, Uganda. About the role: The Regional Business Manager – Clean Cooking (LPG), Uganda at Sun King will launch and grow our PAYG LPG clean cooking business in Uganda, working from our Kampala office. You will set up the regional sales structure, recruit and build the field team and Energy Officer network, and turn the launch strategy into results on the grou",
+        "indicators": [],
+        "verification": {
+          "contentHash": "d7ad88c20821e85513545f938a7ea0b931bc5fb9075e223fbd15367cd69ecc2d",
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-11T19:50:19.998Z",
+          "flags": []
+        },
+        "sourceUrl": "https://sunking.pinpointhq.com/en/postings/418d690b-ed14-47d5-9578-72a5dd49ed30",
+        "applicationUrl": "https://sunking.pinpointhq.com/en/postings/418d690b-ed14-47d5-9578-72a5dd49ed30",
+        "lastCheckedAt": "2026-11-11T19:50:19.998Z",
+        "descriptionPath": "data/jobs/uganda/5ff520e7b26ad8c8090509a946072d80.json",
+        "pagePath": "jobs/uganda/regional-business-manager-clean-cooking-lpg-uganda-sun-king/"
+      }
+    },
+    {
+      "id": "sunking:617917",
+      "slug": "regional-distribution-manager-clean-cooking-lpg-uganda-sun-king",
+      "closedAt": null,
+      "job": {
+        "id": "sunking:617917",
+        "source": "Sun King Careers",
+        "sourceId": "sunking",
+        "sourceType": "official-employer",
+        "level": "Senior / management",
+        "sector": "Energy",
+        "title": "Regional Distribution Manager, Clean Cooking (LPG)- Uganda",
+        "employer": "Sun King",
+        "location": "Kampala, Uganda",
+        "district": "Kampala",
+        "workplace": "On-site",
+        "employmentType": "Full-time",
+        "category": "Energy",
+        "education": "See official listing",
+        "experience": "4 years requested",
+        "publishedAt": null,
+        "deadline": null,
+        "deadlineStatus": "Check the official deadline",
+        "summary": "Location: Kampala, Uganda About the role: The Regional Distribution Manager at Sun King will build and run the last-mile distribution engine for our PAYG LPG clean cooking business in Kamapala Uganda and largely field-based, you will grow and manage the Sun King Rider Network, run regional depot and stock operations, and secure reliable gas supply, so that every customer gets t",
+        "indicators": [
+          "4 years of experience"
+        ],
+        "verification": {
+          "contentHash": "5c33204d8c4be5fecbe83a3a0d6e4c0423612f412d9444faef4e2b460fcb7054",
+          "status": "official-source",
+          "label": "Official employer source",
+          "checkedAt": "2026-11-11T19:50:19.999Z",
+          "flags": []
+        },
+        "sourceUrl": "https://sunking.pinpointhq.com/en/postings/4a31dff1-183b-45dd-ab1f-9c56c59a5986",
+        "applicationUrl": "https://sunking.pinpointhq.com/en/postings/4a31dff1-183b-45dd-ab1f-9c56c59a5986",
+        "lastCheckedAt": "2026-11-11T19:50:19.999Z",
+        "descriptionPath": "data/jobs/uganda/818e1576da2f09249c42197bd59bbde8.json",
+        "pagePath": "jobs/uganda/regional-distribution-manager-clean-cooking-lpg-uganda-sun-king/"
       }
     },
     {
@@ -1457,12 +1693,12 @@
           "contentHash": "fb49bdd6cb19011dfaf55c8c2e0710ad9cec89306fd1733447c45752b631c2c4",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.333Z",
+          "checkedAt": "2026-11-11T19:50:18.278Z",
           "flags": []
         },
         "sourceUrl": "https://jobs.ashbyhq.com/M-KOPA/ac87dffb-3a32-4197-94da-4cdb250d230d",
         "applicationUrl": "https://jobs.ashbyhq.com/M-KOPA/ac87dffb-3a32-4197-94da-4cdb250d230d/application",
-        "lastCheckedAt": "2026-11-11T11:24:34.333Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.278Z",
         "descriptionPath": "data/jobs/uganda/cfc90f61d61752e1f21e074025956519.json",
         "pagePath": "jobs/uganda/retention-manager-m-kopa/"
       }
@@ -1496,12 +1732,12 @@
           "contentHash": "1259e70f1d2776d349a75ae0221ca89ae372a3f20ccf5f18ff3e95d8cad57d27",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.930Z",
+          "checkedAt": "2026-11-11T19:50:20.565Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zu8y/",
-        "lastCheckedAt": "2026-11-11T11:24:36.930Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.565Z",
         "descriptionPath": "data/jobs/uganda/8ba243c80dd99fe6d1d997c55ab5e076.json",
         "pagePath": "jobs/uganda/sales-marketing-manager-brac-international/"
       }
@@ -1537,12 +1773,12 @@
           "contentHash": "74dd8ab20f8a884539d4462f33af5b3039eab16acfa61170da0863eb8469ed9f",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:35.052Z",
+          "checkedAt": "2026-11-11T19:50:18.949Z",
           "flags": []
         },
         "sourceUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
         "applicationUrl": "https://careers-chai.icims.com/jobs/15672/senior-associate%2c-sexual%2c-reproductive%2c-maternal-and-newborn-health/job",
-        "lastCheckedAt": "2026-11-11T11:24:35.052Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.949Z",
         "descriptionPath": "data/jobs/uganda/18d9cfd3301b4cd3529cff272d9c5035.json",
         "pagePath": "jobs/uganda/senior-associate-sexual-reproductive-maternal-and-newborn-health-clinton-health-access-initiative/"
       }
@@ -1576,12 +1812,12 @@
           "contentHash": "41c750e9ce504b6d706f1ca469a5fea7b89f9fcf6a8c0525096c5a348da06fd8",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.930Z",
+          "checkedAt": "2026-11-11T19:50:20.566Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpw/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpw/",
-        "lastCheckedAt": "2026-11-11T11:24:36.930Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.566Z",
         "descriptionPath": "data/jobs/uganda/74d841d9630e24e9b8877b26111c7b68.json",
         "pagePath": "jobs/uganda/senior-officer-human-resource-arua-brac-international/"
       }
@@ -1615,12 +1851,12 @@
           "contentHash": "0d4687a0d4e225c4eb6b378a1522c9efd03431467045763121d24bfe57069e27",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.931Z",
+          "checkedAt": "2026-11-11T19:50:20.566Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcph/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcph/",
-        "lastCheckedAt": "2026-11-11T11:24:36.931Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.566Z",
         "descriptionPath": "data/jobs/uganda/1b9f0846116ed58761bfb6bcc34c3716.json",
         "pagePath": "jobs/uganda/senior-officer-human-resource-fort-portal-brac-international/"
       }
@@ -1654,12 +1890,12 @@
           "contentHash": "40e6589b07e27ab6a15787ce1e9b9c11515f62de080cff5857f53aa5508dbb0c",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.931Z",
+          "checkedAt": "2026-11-11T19:50:20.566Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcp3/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcp3/",
-        "lastCheckedAt": "2026-11-11T11:24:36.931Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.566Z",
         "descriptionPath": "data/jobs/uganda/336b100fd806f2caa538949265d5395f.json",
         "pagePath": "jobs/uganda/senior-officer-human-resource-gulu-brac-international/"
       }
@@ -1693,12 +1929,12 @@
           "contentHash": "bc6f9ff75eca1df7234d4e39f690f6e2431c8fc28dc42da0a0af5567e1bd4903",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.931Z",
+          "checkedAt": "2026-11-11T19:50:20.567Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpm/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpm/",
-        "lastCheckedAt": "2026-11-11T11:24:36.931Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.567Z",
         "descriptionPath": "data/jobs/uganda/ff969322980dfc804bf782cbd7a74e95.json",
         "pagePath": "jobs/uganda/senior-officer-human-resource-kamuli-brac-international/"
       }
@@ -1732,12 +1968,12 @@
           "contentHash": "f83113abaf79ca2a594950a18dca04ba19bb1e8bc12954fdcb81061f997ab4e6",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.932Z",
+          "checkedAt": "2026-11-11T19:50:20.567Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpj/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcpj/",
-        "lastCheckedAt": "2026-11-11T11:24:36.932Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.567Z",
         "descriptionPath": "data/jobs/uganda/6ca2bafa91222e668851ed966d522c09.json",
         "pagePath": "jobs/uganda/senior-officer-human-resource-mbale-brac-international/"
       }
@@ -1771,12 +2007,12 @@
           "contentHash": "635a6e450d86b166136d0cc0cd15589490a6b2f2bd5149248674c6b2eb528189",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.932Z",
+          "checkedAt": "2026-11-11T19:50:20.567Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcp1/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcp1/",
-        "lastCheckedAt": "2026-11-11T11:24:36.932Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.567Z",
         "descriptionPath": "data/jobs/uganda/5028c05cb0334c81a6d5e85fc9236d0e.json",
         "pagePath": "jobs/uganda/senior-officer-human-resource-pallisa-brac-international/"
       }
@@ -1812,12 +2048,12 @@
           "contentHash": "a23103d09635d56f19dacfbef3185ae3692641db8cb2b944cb62e9f2472a8b7d",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.933Z",
+          "checkedAt": "2026-11-11T19:50:20.568Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcvb/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcvb/",
-        "lastCheckedAt": "2026-11-11T11:24:36.933Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.568Z",
         "descriptionPath": "data/jobs/uganda/ac5c413415f1578a4e0edc017c587fbc.json",
         "pagePath": "jobs/uganda/senior-officer-information-technology-iganga-brac-international/"
       }
@@ -1853,12 +2089,12 @@
           "contentHash": "8bda710d6b59894e1db94d4d8e3fcf512eb1b098a02d4d7c15ed15890234aa3a",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.932Z",
+          "checkedAt": "2026-11-11T19:50:20.567Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcv5/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcv5/",
-        "lastCheckedAt": "2026-11-11T11:24:36.932Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.567Z",
         "descriptionPath": "data/jobs/uganda/f7ab8db6624e9f132d457cea76883260.json",
         "pagePath": "jobs/uganda/senior-officer-information-technology-kampala-brac-international/"
       }
@@ -1894,12 +2130,12 @@
           "contentHash": "14477dec8ed778d2354bc10c5562ec512c559553883aca4ac0a9b6550b99e563",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:36.932Z",
+          "checkedAt": "2026-11-11T19:50:20.568Z",
           "flags": []
         },
         "sourceUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcve/",
         "applicationUrl": "https://bracinternational.hire.trakstar.com/jobs/fk0zcve/",
-        "lastCheckedAt": "2026-11-11T11:24:36.932Z",
+        "lastCheckedAt": "2026-11-11T19:50:20.568Z",
         "descriptionPath": "data/jobs/uganda/25c2f3a0e5bf20bac21ab814a4410677.json",
         "pagePath": "jobs/uganda/senior-officer-information-technology-gulu-brac-international/"
       }
@@ -1935,12 +2171,12 @@
           "contentHash": "9a2e82efbb04b51620f5f73c788b706a52c8d9afb2fc9d15504d78b4f63d1e08",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:34.231Z",
+          "checkedAt": "2026-11-11T19:50:18.207Z",
           "flags": []
         },
         "sourceUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
         "applicationUrl": "https://job-boards.greenhouse.io/educate/jobs/8158594",
-        "lastCheckedAt": "2026-11-11T11:24:34.231Z",
+        "lastCheckedAt": "2026-11-11T19:50:18.207Z",
         "descriptionPath": "data/jobs/uganda/46bc354d64824a84660e7dbc768d80bf.json",
         "pagePath": "jobs/uganda/senior-software-qa-engineer-educate/"
       }
@@ -1976,12 +2212,12 @@
           "contentHash": "332ddd57f91757ed0fb78416a0947d64e6aab984ea2a28f66a8d6bcfee6b2c46",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:31.200Z",
+          "checkedAt": "2026-11-11T19:50:14.749Z",
           "flags": []
         },
         "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8358985",
         "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8358985",
-        "lastCheckedAt": "2026-11-11T11:24:31.200Z",
+        "lastCheckedAt": "2026-11-11T19:50:14.749Z",
         "descriptionPath": "data/jobs/uganda/249bb63ca8d025fa01d5d81ea33ab081.json",
         "pagePath": "jobs/uganda/uganda-agroforestry-lead-fixed-term-one-acre-fund/"
       }
@@ -2017,12 +2253,12 @@
           "contentHash": "ad819cf20a12533b6cd06404b0c5054c0b27d83834157a726d64d110128e87a9",
           "status": "official-source",
           "label": "Official employer source",
-          "checkedAt": "2026-11-11T11:24:31.201Z",
+          "checkedAt": "2026-11-11T19:50:14.749Z",
           "flags": []
         },
         "sourceUrl": "https://oneacrefund.org/vacancies/?gh_jid=8345580",
         "applicationUrl": "https://oneacrefund.org/vacancies/?gh_jid=8345580",
-        "lastCheckedAt": "2026-11-11T11:24:31.201Z",
+        "lastCheckedAt": "2026-11-11T19:50:14.749Z",
         "descriptionPath": "data/jobs/uganda/cd99adbb55749a15177f884337abc3e0.json",
         "pagePath": "jobs/uganda/uganda-field-operations-lead-fixed-term-one-acre-fund/"
       }

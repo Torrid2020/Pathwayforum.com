@@ -1,7 +1,95 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-12T18:57:22.053Z",
+  "updatedAt": "2026-11-13T00:26:09.335Z",
   "entries": [
+    {
+      "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
+      "slug": "full-stack-developer-intern-asg-company",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
+        "title": "Full Stack Developer Intern",
+        "company": "ASG Company",
+        "logo": "https://cdn-images.himalayas.app/7g0puyzmb0x66ua8z3yowipafac5",
+        "summary": "What is this job about? ASG Platform is looking for a Full Stack Developer Intern to assist our demanding customer website infrastructure and our Full Stack Developers.",
+        "employmentType": "Internship",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-12T19:30:29.000Z",
+        "expiresAt": "2027-02-08T18:50:22.000Z",
+        "applicationUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
+        "studentFit": {
+          "score": 100,
+          "reasons": [
+            "Student or entry-level language",
+            "Internship",
+            "Training opportunity",
+            "1 years or less"
+          ],
+          "maxYears": 1,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
+        "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
+        "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
+      }
+    },
     {
       "id": "himalayas:kalam:https://himalayas.app/companies/kalam/jobs/polish-english-opi-vri-interpretation",
       "slug": "polish-english-opi-vri-interpretation-kalam",
@@ -84,7 +172,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/9a962cd4903ab02ecaf3466e7ddfbf0f.json",
         "pagePath": "jobs/remote/polish-english-opi-vri-interpretation-kalam/"
       }
@@ -129,7 +217,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/b28d72c99d7165c81ca05494a0bd8794.json",
         "pagePath": "jobs/remote/graduate-hr-generalist-apac-canonical/"
       }
@@ -174,7 +262,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/10cdbb2d76ad40c234e89f40ff9e38dd.json",
         "pagePath": "jobs/remote/graduate-hr-generalist-americas-canonical/"
       }
@@ -260,7 +348,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/d71b22256c46fd6d14745ddcb8a02ecc.json",
         "pagePath": "jobs/remote/identity-trust-fraud-intelligence-expert-ai-community-telus-digital/"
       }
@@ -346,7 +434,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/b7d2db55b68c2f0841ac0af734f63194.json",
         "pagePath": "jobs/remote/global-ai-expert-evaluator-telus-digital/"
       }
@@ -432,7 +520,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/eccec684728ea52ce850f7dec7dc3c79.json",
         "pagePath": "jobs/remote/rsi-training-ready-made-dataset-expert-telus-digital/"
       }
@@ -518,7 +606,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/9ea7aa6552481879abcb0bd627b354db.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-specialist-telus-digital/"
       }
@@ -604,7 +692,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/9a505abe207c8ce168766ff3f3a09a1a.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-expert-ai-community-telus-digital/"
       }
@@ -690,7 +778,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/c5f9e417f0c79e017bde090108965c2c.json",
         "pagePath": "jobs/remote/3d-spatial-data-expert-ai-community-telus-digital/"
       }
@@ -776,7 +864,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/e9a87453db75072f4ef022c16ff79811.json",
         "pagePath": "jobs/remote/full-stack-ai-logic-expert-ai-community-telus-digital/"
       }
@@ -862,9 +950,187 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
+      }
+    },
+    {
+      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
+      "slug": "junior-machine-learning-engineer-micro1",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
+        "title": "Junior Machine Learning Engineer",
+        "company": "micro1",
+        "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
+        "summary": "Junior Machine Learning EngineerPay: $60–$120/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible—you choose the hours and days you work, including weekends if desired We are looking for highly skilled Machine Learning Experts to contr",
+        "employmentType": "Contract",
+        "level": "Entry-level",
+        "salary": {
+          "min": 60,
+          "max": 120,
+          "currency": "USD",
+          "period": "hourly"
+        },
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-12T20:20:32.000Z",
+        "expiresAt": "2027-01-11T20:20:32.000Z",
+        "applicationUrl": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
+        "studentFit": {
+          "score": 65,
+          "reasons": [
+            "Student or entry-level language"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
+        "descriptionPath": "data/jobs/remote/0f366f0fb441b29a9c0e1c5ec97adf48.json",
+        "pagePath": "jobs/remote/junior-machine-learning-engineer-micro1/"
+      }
+    },
+    {
+      "id": "jobicy:161675",
+      "slug": "junior-ubuntu-software-engineer-canonical",
+      "closedAt": null,
+      "job": {
+        "id": "jobicy:161675",
+        "source": "Jobicy",
+        "sourceId": "161675",
+        "title": "Junior Ubuntu Software Engineer",
+        "company": "Canonical",
+        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+        "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. ",
+        "employmentType": "Full-time",
+        "level": "Entry-Level, Junior",
+        "salary": null,
+        "eligibility": {
+          "label": "EMEA,  LATAM,  Canada,  USA",
+          "regions": [
+            "southAmerica"
+          ],
+          "countries": [],
+          "confidence": "review"
+        },
+        "publishedAt": "2026-11-12T16:51:38+00:00",
+        "expiresAt": null,
+        "applicationUrl": "https://jobicy.com/jobs/161675-junior-ubuntu-software-engineer",
+        "sourceUrl": "https://jobicy.com/jobs/161675-junior-ubuntu-software-engineer",
+        "studentFit": {
+          "score": 65,
+          "reasons": [
+            "Student or entry-level language"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
+        "descriptionPath": "data/jobs/remote/fe91102bcc01037f270c9dd02ee2b711.json",
+        "pagePath": "jobs/remote/junior-ubuntu-software-engineer-canonical/"
+      }
+    },
+    {
+      "id": "jobicy:161672",
+      "slug": "graduate-software-engineer-open-source-and-linux-canonical-ubuntu-canonical",
+      "closedAt": null,
+      "job": {
+        "id": "jobicy:161672",
+        "source": "Jobicy",
+        "sourceId": "161672",
+        "title": "Graduate Software Engineer, Open Source and Linux, Canonical Ubuntu",
+        "company": "Canonical",
+        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+        "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT.",
+        "employmentType": "Full-time",
+        "level": "Any",
+        "salary": null,
+        "eligibility": {
+          "label": "EMEA,  LATAM,  Canada,  USA",
+          "regions": [
+            "southAmerica"
+          ],
+          "countries": [],
+          "confidence": "review"
+        },
+        "publishedAt": "2026-11-12T16:51:33+00:00",
+        "expiresAt": null,
+        "applicationUrl": "https://jobicy.com/jobs/161672-graduate-software-engineer-open-source-and-linux-canonical-ubuntu-2",
+        "sourceUrl": "https://jobicy.com/jobs/161672-graduate-software-engineer-open-source-and-linux-canonical-ubuntu-2",
+        "studentFit": {
+          "score": 65,
+          "reasons": [
+            "Student or entry-level language"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
+        "descriptionPath": "data/jobs/remote/48b49dbda45cd222b98b7344ad9c5755.json",
+        "pagePath": "jobs/remote/graduate-software-engineer-open-source-and-linux-canonical-ubuntu-canonical/"
       }
     },
     {
@@ -947,7 +1213,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/ba5fdd8a0d9ed73d5e49567a79bac828.json",
         "pagePath": "jobs/remote/sales-development-representative-sdr-bdr-cloudspot-gmbh/"
       }
@@ -1037,7 +1303,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/ead05e31640db94d9f7eeec963a0a85e.json",
         "pagePath": "jobs/remote/ai-conversation-evaluator-micro1/"
       }
@@ -1127,7 +1393,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/3181374a50d313a7311afd5366c51343.json",
         "pagePath": "jobs/remote/stem-quant-bachelor-micro1/"
       }
@@ -1217,7 +1483,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/856eb689aa39e44bca3e4ec2c0913f1d.json",
         "pagePath": "jobs/remote/open-source-contributor-micro1/"
       }
@@ -1261,7 +1527,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/e3d4bd0ea885e2d65e8cc4a489bca4ec.json",
         "pagePath": "jobs/remote/software-developer-in-observability-canonical/"
       }
@@ -1346,7 +1612,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
         "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
       }
@@ -1431,7 +1697,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -1516,7 +1782,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -1601,7 +1867,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -1691,7 +1957,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }
@@ -1776,7 +2042,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
         "pagePath": "jobs/remote/junior-lawyer-micro1/"
       }
@@ -1861,7 +2127,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/7d3614df140be046282d1b065a75c05c.json",
         "pagePath": "jobs/remote/evaluation-specialist-recent-grad-micro1/"
       }
@@ -1946,7 +2212,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/1c42c00c311f3af0a608862a12e1597a.json",
         "pagePath": "jobs/remote/puzzle-solver-coding-micro1/"
       }
@@ -2036,97 +2302,9 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-12T18:57:19.745Z",
+        "lastSeenAt": "2026-11-13T00:26:07.221Z",
         "descriptionPath": "data/jobs/remote/97da486ee14f4b06d18d28425d08ff92.json",
         "pagePath": "jobs/remote/recruiting-coordinator-terac/"
-      }
-    },
-    {
-      "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-      "slug": "full-stack-developer-intern-asg-company",
-      "closedAt": "2026-11-12T18:57:22.053Z",
-      "job": {
-        "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-        "source": "Himalayas",
-        "sourceId": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-        "title": "Full Stack Developer Intern",
-        "company": "ASG Company",
-        "logo": "https://cdn-images.himalayas.app/7g0puyzmb0x66ua8z3yowipafac5",
-        "summary": "What is this job about? ASG Platform is looking for a Full Stack Developer Intern to assist our demanding customer website infrastructure and our Full Stack Developers.",
-        "employmentType": "Internship",
-        "level": "Entry-level",
-        "salary": null,
-        "eligibility": {
-          "label": "Worldwide",
-          "regions": [
-            "africa",
-            "southAmerica",
-            "asia"
-          ],
-          "countries": [],
-          "confidence": "verified"
-        },
-        "timezoneRestrictions": [
-          -11,
-          -10,
-          -9.5,
-          -9,
-          -8,
-          -7,
-          -6,
-          -5,
-          -4,
-          -3.5,
-          -3,
-          -2,
-          -1,
-          0,
-          1,
-          2,
-          3,
-          3.5,
-          4,
-          4.5,
-          5,
-          5.5,
-          5.75,
-          6,
-          6.5,
-          7,
-          8,
-          8.75,
-          9,
-          9.5,
-          10,
-          10.5,
-          11,
-          12,
-          12.75,
-          13,
-          14
-        ],
-        "publishedAt": "2026-11-11T19:30:11.000Z",
-        "expiresAt": "2027-02-08T18:50:22.000Z",
-        "applicationUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern?utm_source=api",
-        "sourceUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-        "studentFit": {
-          "score": 100,
-          "reasons": [
-            "Student or entry-level language",
-            "Internship",
-            "Training opportunity",
-            "1 years or less"
-          ],
-          "maxYears": 1,
-          "evidence": true
-        },
-        "safety": {
-          "status": "passed",
-          "flags": []
-        },
-        "lastSeenAt": "2026-11-12T11:12:31.814Z",
-        "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
-        "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
       }
     },
     {

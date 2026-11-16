@@ -1,95 +1,7 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-16T11:20:15.884Z",
+  "updatedAt": "2026-11-16T22:03:17.594Z",
   "entries": [
-    {
-      "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-      "slug": "full-stack-developer-intern-asg-company",
-      "closedAt": null,
-      "job": {
-        "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-        "source": "Himalayas",
-        "sourceId": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-        "title": "Full Stack Developer Intern",
-        "company": "ASG Company",
-        "logo": "https://cdn-images.himalayas.app/7g0puyzmb0x66ua8z3yowipafac5",
-        "summary": "What is this job about? ASG Platform is looking for a Full Stack Developer Intern to assist our demanding customer website infrastructure and our Full Stack Developers.",
-        "employmentType": "Internship",
-        "level": "Entry-level",
-        "salary": null,
-        "eligibility": {
-          "label": "Worldwide",
-          "regions": [
-            "africa",
-            "southAmerica",
-            "asia"
-          ],
-          "countries": [],
-          "confidence": "verified"
-        },
-        "timezoneRestrictions": [
-          -11,
-          -10,
-          -9.5,
-          -9,
-          -8,
-          -7,
-          -6,
-          -5,
-          -4,
-          -3.5,
-          -3,
-          -2,
-          -1,
-          0,
-          1,
-          2,
-          3,
-          3.5,
-          4,
-          4.5,
-          5,
-          5.5,
-          5.75,
-          6,
-          6.5,
-          7,
-          8,
-          8.75,
-          9,
-          9.5,
-          10,
-          10.5,
-          11,
-          12,
-          12.75,
-          13,
-          14
-        ],
-        "publishedAt": "2026-11-13T19:30:17.000Z",
-        "expiresAt": "2027-02-08T18:50:22.000Z",
-        "applicationUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern?utm_source=api",
-        "sourceUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-        "studentFit": {
-          "score": 100,
-          "reasons": [
-            "Student or entry-level language",
-            "Internship",
-            "Training opportunity",
-            "1 years or less"
-          ],
-          "maxYears": 1,
-          "evidence": true
-        },
-        "safety": {
-          "status": "passed",
-          "flags": []
-        },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
-        "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
-        "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
-      }
-    },
     {
       "id": "himalayas:kalam:https://himalayas.app/companies/kalam/jobs/polish-english-opi-vri-interpretation",
       "slug": "polish-english-opi-vri-interpretation-kalam",
@@ -172,7 +84,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/9a962cd4903ab02ecaf3466e7ddfbf0f.json",
         "pagePath": "jobs/remote/polish-english-opi-vri-interpretation-kalam/"
       }
@@ -258,7 +170,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/e63db35c536a6a870d7d6207a405be0a.json",
         "pagePath": "jobs/remote/internship-law-policy-and-research-spring-2027-outright-international/"
       }
@@ -303,7 +215,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/1be1760243e7d8196102d983879b44fd.json",
         "pagePath": "jobs/remote/compliance-engineer-intern-certik/"
       }
@@ -348,7 +260,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/b28d72c99d7165c81ca05494a0bd8794.json",
         "pagePath": "jobs/remote/graduate-hr-generalist-apac-canonical/"
       }
@@ -393,7 +305,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/10cdbb2d76ad40c234e89f40ff9e38dd.json",
         "pagePath": "jobs/remote/graduate-hr-generalist-americas-canonical/"
       }
@@ -479,7 +391,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/d71b22256c46fd6d14745ddcb8a02ecc.json",
         "pagePath": "jobs/remote/identity-trust-fraud-intelligence-expert-ai-community-telus-digital/"
       }
@@ -565,7 +477,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/b7d2db55b68c2f0841ac0af734f63194.json",
         "pagePath": "jobs/remote/global-ai-expert-evaluator-telus-digital/"
       }
@@ -651,7 +563,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/eccec684728ea52ce850f7dec7dc3c79.json",
         "pagePath": "jobs/remote/rsi-training-ready-made-dataset-expert-telus-digital/"
       }
@@ -737,7 +649,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/9ea7aa6552481879abcb0bd627b354db.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-specialist-telus-digital/"
       }
@@ -823,7 +735,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/9a505abe207c8ce168766ff3f3a09a1a.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-expert-ai-community-telus-digital/"
       }
@@ -909,7 +821,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/c5f9e417f0c79e017bde090108965c2c.json",
         "pagePath": "jobs/remote/3d-spatial-data-expert-ai-community-telus-digital/"
       }
@@ -995,7 +907,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/e9a87453db75072f4ef022c16ff79811.json",
         "pagePath": "jobs/remote/full-stack-ai-logic-expert-ai-community-telus-digital/"
       }
@@ -1081,7 +993,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
       }
@@ -1171,7 +1083,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/96da898c324109b797fa072c607c9f0b.json",
         "pagePath": "jobs/remote/expert-talent-pool-annotation-associate-clera/"
       }
@@ -1215,7 +1127,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/ae475a556fac498305c4052b3262e607.json",
         "pagePath": "jobs/remote/entry-level-communications-specialist-canonical/"
       }
@@ -1259,7 +1171,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/2428fb32da6bd7aca60293f5cbbc1b08.json",
         "pagePath": "jobs/remote/video-collection-latam-freelance-ai-trainer-project-invisible-technologies/"
       }
@@ -1349,7 +1261,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/8e5ac6ef8fda2132de6d5cfb7d181cfd.json",
         "pagePath": "jobs/remote/safety-testing-associate-clera/"
       }
@@ -1439,7 +1351,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/5d78d6450c6c64d073811a4e583aec7e.json",
         "pagePath": "jobs/remote/physical-ai-data-collection-associate-clera/"
       }
@@ -1529,7 +1441,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/493fd3440923548ca7f1f0325e4a4194.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-remote-contract-xperteez-technology/"
       }
@@ -1614,7 +1526,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/0f366f0fb441b29a9c0e1c5ec97adf48.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-micro1/"
       }
@@ -1658,7 +1570,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/fe91102bcc01037f270c9dd02ee2b711.json",
         "pagePath": "jobs/remote/junior-ubuntu-software-engineer-canonical/"
       }
@@ -1702,7 +1614,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/48b49dbda45cd222b98b7344ad9c5755.json",
         "pagePath": "jobs/remote/graduate-software-engineer-open-source-and-linux-canonical-ubuntu-canonical/"
       }
@@ -1787,7 +1699,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/ba5fdd8a0d9ed73d5e49567a79bac828.json",
         "pagePath": "jobs/remote/sales-development-representative-sdr-bdr-cloudspot-gmbh/"
       }
@@ -1872,7 +1784,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/ead05e31640db94d9f7eeec963a0a85e.json",
         "pagePath": "jobs/remote/ai-conversation-evaluator-micro1/"
       }
@@ -1957,7 +1869,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/3181374a50d313a7311afd5366c51343.json",
         "pagePath": "jobs/remote/stem-quant-bachelor-micro1/"
       }
@@ -2042,7 +1954,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/856eb689aa39e44bca3e4ec2c0913f1d.json",
         "pagePath": "jobs/remote/open-source-contributor-micro1/"
       }
@@ -2127,7 +2039,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
         "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
       }
@@ -2212,7 +2124,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -2297,7 +2209,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -2382,7 +2294,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -2472,7 +2384,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }
@@ -2557,15 +2469,103 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "lastSeenAt": "2026-11-16T22:03:14.714Z",
         "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
         "pagePath": "jobs/remote/junior-lawyer-micro1/"
       }
     },
     {
+      "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
+      "slug": "full-stack-developer-intern-asg-company",
+      "closedAt": "2026-11-16T22:03:17.594Z",
+      "job": {
+        "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
+        "title": "Full Stack Developer Intern",
+        "company": "ASG Company",
+        "logo": "https://cdn-images.himalayas.app/7g0puyzmb0x66ua8z3yowipafac5",
+        "summary": "What is this job about? ASG Platform is looking for a Full Stack Developer Intern to assist our demanding customer website infrastructure and our Full Stack Developers.",
+        "employmentType": "Internship",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-13T19:30:17.000Z",
+        "expiresAt": "2027-02-08T18:50:22.000Z",
+        "applicationUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
+        "studentFit": {
+          "score": 100,
+          "reasons": [
+            "Student or entry-level language",
+            "Internship",
+            "Training opportunity",
+            "1 years or less"
+          ],
+          "maxYears": 1,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-16T11:20:12.754Z",
+        "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
+        "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
+      }
+    },
+    {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding-8442281333",
       "slug": "puzzle-solver-coding-micro1",
-      "closedAt": null,
+      "closedAt": "2026-11-16T22:03:17.594Z",
       "job": {
         "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/puzzle-solver-coding-8442281333",
         "source": "Himalayas",

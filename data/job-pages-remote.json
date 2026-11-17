@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-17T04:28:57.725Z",
+  "updatedAt": "2026-11-17T14:25:22.419Z",
   "entries": [
     {
       "id": "himalayas:kalam:https://himalayas.app/companies/kalam/jobs/polish-english-opi-vri-interpretation",
@@ -84,7 +84,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/9a962cd4903ab02ecaf3466e7ddfbf0f.json",
         "pagePath": "jobs/remote/polish-english-opi-vri-interpretation-kalam/"
       }
@@ -170,7 +170,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/e63db35c536a6a870d7d6207a405be0a.json",
         "pagePath": "jobs/remote/internship-law-policy-and-research-spring-2027-outright-international/"
       }
@@ -215,7 +215,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/1be1760243e7d8196102d983879b44fd.json",
         "pagePath": "jobs/remote/compliance-engineer-intern-certik/"
       }
@@ -260,43 +260,43 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/b28d72c99d7165c81ca05494a0bd8794.json",
         "pagePath": "jobs/remote/graduate-hr-generalist-apac-canonical/"
       }
     },
     {
-      "id": "jobicy:161093",
-      "slug": "graduate-hr-generalist-americas-canonical",
+      "id": "jobicy:150701",
+      "slug": "part-time-virtual-travel-assistant-affiliate-recruiter-management-the-flex",
       "closedAt": null,
       "job": {
-        "id": "jobicy:161093",
+        "id": "jobicy:150701",
         "source": "Jobicy",
-        "sourceId": "161093",
-        "title": "Graduate HR Generalist - Americas",
-        "company": "Canonical",
-        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
-        "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. ",
+        "sourceId": "150701",
+        "title": "Part-Time Virtual Travel Assistant & Affiliate Recruiter Management",
+        "company": "The Flex",
+        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/5b85d3fa-221.jpeg",
+        "summary": "We seek a detail-oriented and proactive Virtual Assistant Affiliate Recruiter to manage reviews across various Online Travel Agencies (OTAs) and our market exposure. Responsibilities:1. Travel Booking Management:Book accommodations, flights, and other travel-related services on p",
         "employmentType": "Full-time",
         "level": "Any",
         "salary": null,
         "eligibility": {
-          "label": "LATAM,  Canada,  USA",
+          "label": "APAC,  Philippines",
           "regions": [
-            "southAmerica"
+            "asia"
           ],
           "countries": [],
           "confidence": "verified"
         },
-        "publishedAt": "2026-11-10T12:43:24+00:00",
+        "publishedAt": "2026-11-17T02:45:28+00:00",
         "expiresAt": null,
-        "applicationUrl": "https://jobicy.com/jobs/161093-graduate-hr-generalist-americas",
-        "sourceUrl": "https://jobicy.com/jobs/161093-graduate-hr-generalist-americas",
+        "applicationUrl": "https://jobicy.com/jobs/150701-part-time-virtual-travel-assistant-affiliate-recruiter-management",
+        "sourceUrl": "https://jobicy.com/jobs/150701-part-time-virtual-travel-assistant-affiliate-recruiter-management",
         "studentFit": {
-          "score": 83,
+          "score": 77,
           "reasons": [
             "Student or entry-level language",
-            "Internship"
+            "Part-time"
           ],
           "maxYears": null,
           "evidence": true
@@ -305,9 +305,9 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
-        "descriptionPath": "data/jobs/remote/10cdbb2d76ad40c234e89f40ff9e38dd.json",
-        "pagePath": "jobs/remote/graduate-hr-generalist-americas-canonical/"
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
+        "descriptionPath": "data/jobs/remote/21e24aa8607b05ce4a8fdb9c274e375a.json",
+        "pagePath": "jobs/remote/part-time-virtual-travel-assistant-affiliate-recruiter-management-the-flex/"
       }
     },
     {
@@ -391,7 +391,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/d71b22256c46fd6d14745ddcb8a02ecc.json",
         "pagePath": "jobs/remote/identity-trust-fraud-intelligence-expert-ai-community-telus-digital/"
       }
@@ -477,7 +477,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/b7d2db55b68c2f0841ac0af734f63194.json",
         "pagePath": "jobs/remote/global-ai-expert-evaluator-telus-digital/"
       }
@@ -563,7 +563,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/eccec684728ea52ce850f7dec7dc3c79.json",
         "pagePath": "jobs/remote/rsi-training-ready-made-dataset-expert-telus-digital/"
       }
@@ -649,7 +649,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/9ea7aa6552481879abcb0bd627b354db.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-specialist-telus-digital/"
       }
@@ -735,7 +735,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/9a505abe207c8ce168766ff3f3a09a1a.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-expert-ai-community-telus-digital/"
       }
@@ -821,7 +821,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/c5f9e417f0c79e017bde090108965c2c.json",
         "pagePath": "jobs/remote/3d-spatial-data-expert-ai-community-telus-digital/"
       }
@@ -907,7 +907,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/e9a87453db75072f4ef022c16ff79811.json",
         "pagePath": "jobs/remote/full-stack-ai-logic-expert-ai-community-telus-digital/"
       }
@@ -993,31 +993,26 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
       }
     },
     {
-      "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate",
-      "slug": "expert-talent-pool-annotation-associate-clera",
+      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
+      "slug": "junior-machine-learning-engineer-micro1",
       "closedAt": null,
       "job": {
-        "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate",
+        "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
         "source": "Himalayas",
-        "sourceId": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate",
-        "title": "Expert Talent Pool, Annotation Associate",
-        "company": "Clera",
-        "logo": null,
-        "summary": "About the RoleJoin an expert network supporting AI training projects as an annotation specialist.",
-        "employmentType": "Full-time",
+        "sourceId": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
+        "title": "Junior Machine Learning Engineer",
+        "company": "micro1",
+        "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
+        "summary": "Junior Machine Learning EngineerPay: $60–$120/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible—you choose the hours and days you work, including weekends if desired We are looking for highly skilled Machine Learning Experts to contr",
+        "employmentType": "Contract",
         "level": "Entry-level",
-        "salary": {
-          "min": 15,
-          "max": 35,
-          "currency": "USD",
-          "period": "hourly"
-        },
+        "salary": null,
         "eligibility": {
           "label": "Worldwide",
           "regions": [
@@ -1067,10 +1062,10 @@
           13,
           14
         ],
-        "publishedAt": "2026-11-16T03:58:31.000Z",
-        "expiresAt": "2027-01-15T03:58:30.000Z",
-        "applicationUrl": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate?utm_source=api",
-        "sourceUrl": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate",
+        "publishedAt": "2026-11-17T08:20:17.000Z",
+        "expiresAt": "2027-01-16T08:20:17.000Z",
+        "applicationUrl": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
         "studentFit": {
           "score": 65,
           "reasons": [
@@ -1083,9 +1078,9 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
-        "descriptionPath": "data/jobs/remote/96da898c324109b797fa072c607c9f0b.json",
-        "pagePath": "jobs/remote/expert-talent-pool-annotation-associate-clera/"
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
+        "descriptionPath": "data/jobs/remote/0f366f0fb441b29a9c0e1c5ec97adf48.json",
+        "pagePath": "jobs/remote/junior-machine-learning-engineer-micro1/"
       }
     },
     {
@@ -1127,7 +1122,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/ae475a556fac498305c4052b3262e607.json",
         "pagePath": "jobs/remote/entry-level-communications-specialist-canonical/"
       }
@@ -1171,7 +1166,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/2428fb32da6bd7aca60293f5cbbc1b08.json",
         "pagePath": "jobs/remote/video-collection-latam-freelance-ai-trainer-project-invisible-technologies/"
       }
@@ -1261,7 +1256,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/5d78d6450c6c64d073811a4e583aec7e.json",
         "pagePath": "jobs/remote/physical-ai-data-collection-associate-clera/"
       }
@@ -1351,94 +1346,9 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/493fd3440923548ca7f1f0325e4a4194.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-remote-contract-xperteez-technology/"
-      }
-    },
-    {
-      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
-      "slug": "junior-machine-learning-engineer-micro1",
-      "closedAt": null,
-      "job": {
-        "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
-        "source": "Himalayas",
-        "sourceId": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
-        "title": "Junior Machine Learning Engineer",
-        "company": "micro1",
-        "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
-        "summary": "Junior Machine Learning EngineerPay: $60–$120/hour Location: Global, fully remote Job Type: Contractor (~15 hours per week) Schedule: Flexible—you choose the hours and days you work, including weekends if desired We are looking for highly skilled Machine Learning Experts to contr",
-        "employmentType": "Contract",
-        "level": "Entry-level",
-        "salary": null,
-        "eligibility": {
-          "label": "Worldwide",
-          "regions": [
-            "africa",
-            "southAmerica",
-            "asia"
-          ],
-          "countries": [],
-          "confidence": "verified"
-        },
-        "timezoneRestrictions": [
-          -11,
-          -10,
-          -9.5,
-          -9,
-          -8,
-          -7,
-          -6,
-          -5,
-          -4,
-          -3.5,
-          -3,
-          -2,
-          -1,
-          0,
-          1,
-          2,
-          3,
-          3.5,
-          4,
-          4.5,
-          5,
-          5.5,
-          5.75,
-          6,
-          6.5,
-          7,
-          8,
-          8.75,
-          9,
-          9.5,
-          10,
-          10.5,
-          11,
-          12,
-          12.75,
-          13,
-          14
-        ],
-        "publishedAt": "2026-11-12T20:20:32.000Z",
-        "expiresAt": "2027-01-11T20:20:32.000Z",
-        "applicationUrl": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer?utm_source=api",
-        "sourceUrl": "https://himalayas.app/companies/micro1/jobs/junior-machine-learning-engineer",
-        "studentFit": {
-          "score": 65,
-          "reasons": [
-            "Student or entry-level language"
-          ],
-          "maxYears": null,
-          "evidence": true
-        },
-        "safety": {
-          "status": "passed",
-          "flags": []
-        },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
-        "descriptionPath": "data/jobs/remote/0f366f0fb441b29a9c0e1c5ec97adf48.json",
-        "pagePath": "jobs/remote/junior-machine-learning-engineer-micro1/"
       }
     },
     {
@@ -1480,7 +1390,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/fe91102bcc01037f270c9dd02ee2b711.json",
         "pagePath": "jobs/remote/junior-ubuntu-software-engineer-canonical/"
       }
@@ -1524,7 +1434,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/48b49dbda45cd222b98b7344ad9c5755.json",
         "pagePath": "jobs/remote/graduate-software-engineer-open-source-and-linux-canonical-ubuntu-canonical/"
       }
@@ -1609,7 +1519,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/ba5fdd8a0d9ed73d5e49567a79bac828.json",
         "pagePath": "jobs/remote/sales-development-representative-sdr-bdr-cloudspot-gmbh/"
       }
@@ -1694,7 +1604,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/ead05e31640db94d9f7eeec963a0a85e.json",
         "pagePath": "jobs/remote/ai-conversation-evaluator-micro1/"
       }
@@ -1779,7 +1689,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/3181374a50d313a7311afd5366c51343.json",
         "pagePath": "jobs/remote/stem-quant-bachelor-micro1/"
       }
@@ -1864,7 +1774,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/856eb689aa39e44bca3e4ec2c0913f1d.json",
         "pagePath": "jobs/remote/open-source-contributor-micro1/"
       }
@@ -1949,7 +1859,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
         "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
       }
@@ -2034,7 +1944,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -2119,7 +2029,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -2204,7 +2114,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -2294,7 +2204,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }
@@ -2379,9 +2289,144 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "lastSeenAt": "2026-11-17T14:25:19.204Z",
         "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
         "pagePath": "jobs/remote/junior-lawyer-micro1/"
+      }
+    },
+    {
+      "id": "jobicy:161093",
+      "slug": "graduate-hr-generalist-americas-canonical",
+      "closedAt": "2026-11-17T14:25:22.419Z",
+      "job": {
+        "id": "jobicy:161093",
+        "source": "Jobicy",
+        "sourceId": "161093",
+        "title": "Graduate HR Generalist - Americas",
+        "company": "Canonical",
+        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+        "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation and IoT. ",
+        "employmentType": "Full-time",
+        "level": "Any",
+        "salary": null,
+        "eligibility": {
+          "label": "LATAM,  Canada,  USA",
+          "regions": [
+            "southAmerica"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "publishedAt": "2026-11-10T12:43:24+00:00",
+        "expiresAt": null,
+        "applicationUrl": "https://jobicy.com/jobs/161093-graduate-hr-generalist-americas",
+        "sourceUrl": "https://jobicy.com/jobs/161093-graduate-hr-generalist-americas",
+        "studentFit": {
+          "score": 83,
+          "reasons": [
+            "Student or entry-level language",
+            "Internship"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "descriptionPath": "data/jobs/remote/10cdbb2d76ad40c234e89f40ff9e38dd.json",
+        "pagePath": "jobs/remote/graduate-hr-generalist-americas-canonical/"
+      }
+    },
+    {
+      "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate",
+      "slug": "expert-talent-pool-annotation-associate-clera",
+      "closedAt": "2026-11-17T14:25:22.419Z",
+      "job": {
+        "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate",
+        "title": "Expert Talent Pool, Annotation Associate",
+        "company": "Clera",
+        "logo": null,
+        "summary": "About the RoleJoin an expert network supporting AI training projects as an annotation specialist.",
+        "employmentType": "Full-time",
+        "level": "Entry-level",
+        "salary": {
+          "min": 15,
+          "max": 35,
+          "currency": "USD",
+          "period": "hourly"
+        },
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-16T03:58:31.000Z",
+        "expiresAt": "2027-01-15T03:58:30.000Z",
+        "applicationUrl": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/clera/jobs/expert-talent-pool-annotation-associate",
+        "studentFit": {
+          "score": 65,
+          "reasons": [
+            "Student or entry-level language"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-17T04:28:55.094Z",
+        "descriptionPath": "data/jobs/remote/96da898c324109b797fa072c607c9f0b.json",
+        "pagePath": "jobs/remote/expert-talent-pool-annotation-associate-clera/"
       }
     },
     {

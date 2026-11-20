@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-20T11:52:29.717Z",
+  "updatedAt": "2026-11-20T20:21:40.194Z",
   "entries": [
     {
       "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
@@ -66,7 +66,7 @@
           13,
           14
         ],
-        "publishedAt": "2026-11-19T19:30:33.000Z",
+        "publishedAt": "2026-11-20T19:30:27.000Z",
         "expiresAt": "2027-02-15T18:16:39.000Z",
         "applicationUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern?utm_source=api",
         "sourceUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
@@ -85,7 +85,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
         "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
       }
@@ -172,7 +172,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/9a962cd4903ab02ecaf3466e7ddfbf0f.json",
         "pagePath": "jobs/remote/polish-english-opi-vri-interpretation-kalam/"
       }
@@ -263,7 +263,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/28e22de232087c381c578036af6d3dae.json",
         "pagePath": "jobs/remote/sales-development-associate-clera/"
       }
@@ -349,9 +349,99 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/e63db35c536a6a870d7d6207a405be0a.json",
         "pagePath": "jobs/remote/internship-law-policy-and-research-spring-2027-outright-international/"
+      }
+    },
+    {
+      "id": "jobicy:153136",
+      "slug": "compliance-engineer-intern-certik",
+      "closedAt": null,
+      "job": {
+        "id": "jobicy:153136",
+        "source": "Jobicy",
+        "sourceId": "153136",
+        "title": "Compliance Engineer Intern",
+        "company": "CertiK",
+        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/03/Jobicy-210308091023-955845.jpg",
+        "summary": "About the Company Born from groundbreaking research at Columbia University and Yale University, CertiK is a leading Web3 security company focused on securing blockchain protocols, smart contracts, and decentralized applications through cutting-edge security research, formal verif",
+        "employmentType": "Internship",
+        "level": "Entry-Level, Junior",
+        "salary": null,
+        "eligibility": {
+          "label": "APAC,  Europe",
+          "regions": [
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "publishedAt": "2026-11-14T02:50:33+00:00",
+        "expiresAt": null,
+        "applicationUrl": "https://jobicy.com/jobs/153136-compliance-engineer-intern",
+        "sourceUrl": "https://jobicy.com/jobs/153136-compliance-engineer-intern",
+        "studentFit": {
+          "score": 83,
+          "reasons": [
+            "Student or entry-level language",
+            "Internship"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
+        "descriptionPath": "data/jobs/remote/1be1760243e7d8196102d983879b44fd.json",
+        "pagePath": "jobs/remote/compliance-engineer-intern-certik/"
+      }
+    },
+    {
+      "id": "jobicy:150701",
+      "slug": "part-time-virtual-travel-assistant-affiliate-recruiter-management-the-flex",
+      "closedAt": null,
+      "job": {
+        "id": "jobicy:150701",
+        "source": "Jobicy",
+        "sourceId": "150701",
+        "title": "Part-Time Virtual Travel Assistant & Affiliate Recruiter Management",
+        "company": "The Flex",
+        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/5b85d3fa-221.jpeg",
+        "summary": "We seek a detail-oriented and proactive Virtual Assistant Affiliate Recruiter to manage reviews across various Online Travel Agencies (OTAs) and our market exposure. Responsibilities:1. Travel Booking Management:Book accommodations, flights, and other travel-related services on p",
+        "employmentType": "Full-time",
+        "level": "Any",
+        "salary": null,
+        "eligibility": {
+          "label": "APAC,  Philippines",
+          "regions": [
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "publishedAt": "2026-11-17T02:45:28+00:00",
+        "expiresAt": null,
+        "applicationUrl": "https://jobicy.com/jobs/150701-part-time-virtual-travel-assistant-affiliate-recruiter-management",
+        "sourceUrl": "https://jobicy.com/jobs/150701-part-time-virtual-travel-assistant-affiliate-recruiter-management",
+        "studentFit": {
+          "score": 77,
+          "reasons": [
+            "Student or entry-level language",
+            "Part-time"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
+        "descriptionPath": "data/jobs/remote/21e24aa8607b05ce4a8fdb9c274e375a.json",
+        "pagePath": "jobs/remote/part-time-virtual-travel-assistant-affiliate-recruiter-management-the-flex/"
       }
     },
     {
@@ -435,7 +525,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/d71b22256c46fd6d14745ddcb8a02ecc.json",
         "pagePath": "jobs/remote/identity-trust-fraud-intelligence-expert-ai-community-telus-digital/"
       }
@@ -521,7 +611,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/b7d2db55b68c2f0841ac0af734f63194.json",
         "pagePath": "jobs/remote/global-ai-expert-evaluator-telus-digital/"
       }
@@ -607,7 +697,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/eccec684728ea52ce850f7dec7dc3c79.json",
         "pagePath": "jobs/remote/rsi-training-ready-made-dataset-expert-telus-digital/"
       }
@@ -693,7 +783,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/9ea7aa6552481879abcb0bd627b354db.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-specialist-telus-digital/"
       }
@@ -779,7 +869,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/9a505abe207c8ce168766ff3f3a09a1a.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-expert-ai-community-telus-digital/"
       }
@@ -865,7 +955,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/c5f9e417f0c79e017bde090108965c2c.json",
         "pagePath": "jobs/remote/3d-spatial-data-expert-ai-community-telus-digital/"
       }
@@ -951,7 +1041,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/e9a87453db75072f4ef022c16ff79811.json",
         "pagePath": "jobs/remote/full-stack-ai-logic-expert-ai-community-telus-digital/"
       }
@@ -1037,7 +1127,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
       }
@@ -1123,7 +1213,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/a877b3aeee0394cb5477e8565dee65f2.json",
         "pagePath": "jobs/remote/smm-specialist-growe-talents/"
       }
@@ -1213,7 +1303,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/1bcb521098e044cfef94077b102ab11c.json",
         "pagePath": "jobs/remote/retail-customer-support-specialist-micro1/"
       }
@@ -1298,7 +1388,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/a3d83a90c1b7f2ba81d79bfeb15c47cd.json",
         "pagePath": "jobs/remote/polish-ai-data-rater-welocalize/"
       }
@@ -1383,7 +1473,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/b575790900048527fcfcf276542471a6.json",
         "pagePath": "jobs/remote/dutch-ai-data-rater-welocalize/"
       }
@@ -1468,7 +1558,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/ba5fdd8a0d9ed73d5e49567a79bac828.json",
         "pagePath": "jobs/remote/sales-development-representative-sdr-bdr-cloudspot-gmbh/"
       }
@@ -1558,7 +1648,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/493fd3440923548ca7f1f0325e4a4194.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-remote-contract-xperteez-technology/"
       }
@@ -1648,7 +1738,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/1187c817182dd4f6b926a56d473bb675.json",
         "pagePath": "jobs/remote/video-data-entry-specialist-latam-micro1/"
       }
@@ -1738,7 +1828,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/cedf0358b0c583537f88b3cf8a1e3373.json",
         "pagePath": "jobs/remote/at-home-video-recorder-latam-micro1/"
       }
@@ -1828,7 +1918,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/2aa640f4cb16cfffaeb8d7e60bde8b9d.json",
         "pagePath": "jobs/remote/professional-shopper-micro1/"
       }
@@ -1913,99 +2003,9 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/0f366f0fb441b29a9c0e1c5ec97adf48.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-micro1/"
-      }
-    },
-    {
-      "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate",
-      "slug": "physical-ai-data-collection-associate-clera",
-      "closedAt": null,
-      "job": {
-        "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate",
-        "source": "Himalayas",
-        "sourceId": "https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate",
-        "title": "Physical AI Data Collection Associate",
-        "company": "Clera",
-        "logo": null,
-        "summary": "About the Role Join a team supporting physical AI projects by collecting high-quality data from real-world human movement and manipulation.",
-        "employmentType": "Full-time",
-        "level": "Entry-level",
-        "salary": {
-          "min": 20,
-          "max": 40,
-          "currency": "USD",
-          "period": "hourly"
-        },
-        "eligibility": {
-          "label": "Worldwide",
-          "regions": [
-            "africa",
-            "southAmerica",
-            "asia"
-          ],
-          "countries": [],
-          "confidence": "verified"
-        },
-        "timezoneRestrictions": [
-          -11,
-          -10,
-          -9.5,
-          -9,
-          -8,
-          -7,
-          -6,
-          -5,
-          -4,
-          -3.5,
-          -3,
-          -2,
-          -1,
-          0,
-          1,
-          2,
-          3,
-          3.5,
-          4,
-          4.5,
-          5,
-          5.5,
-          5.75,
-          6,
-          6.5,
-          7,
-          8,
-          8.75,
-          9,
-          9.5,
-          10,
-          10.5,
-          11,
-          12,
-          12.75,
-          13,
-          14
-        ],
-        "publishedAt": "2026-11-16T01:15:47.000Z",
-        "expiresAt": "2027-01-15T01:15:47.000Z",
-        "applicationUrl": "https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate?utm_source=api",
-        "sourceUrl": "https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate",
-        "studentFit": {
-          "score": 65,
-          "reasons": [
-            "Student or entry-level language"
-          ],
-          "maxYears": null,
-          "evidence": true
-        },
-        "safety": {
-          "status": "passed",
-          "flags": []
-        },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
-        "descriptionPath": "data/jobs/remote/5d78d6450c6c64d073811a4e583aec7e.json",
-        "pagePath": "jobs/remote/physical-ai-data-collection-associate-clera/"
       }
     },
     {
@@ -2088,7 +2088,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/ead05e31640db94d9f7eeec963a0a85e.json",
         "pagePath": "jobs/remote/ai-conversation-evaluator-micro1/"
       }
@@ -2173,7 +2173,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/856eb689aa39e44bca3e4ec2c0913f1d.json",
         "pagePath": "jobs/remote/open-source-contributor-micro1/"
       }
@@ -2258,7 +2258,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
         "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
       }
@@ -2343,7 +2343,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -2428,7 +2428,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -2513,7 +2513,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -2603,15 +2603,105 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "lastSeenAt": "2026-11-20T20:21:36.289Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }
     },
     {
+      "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate",
+      "slug": "physical-ai-data-collection-associate-clera",
+      "closedAt": "2026-11-20T20:21:40.194Z",
+      "job": {
+        "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate",
+        "title": "Physical AI Data Collection Associate",
+        "company": "Clera",
+        "logo": null,
+        "summary": "About the Role Join a team supporting physical AI projects by collecting high-quality data from real-world human movement and manipulation.",
+        "employmentType": "Full-time",
+        "level": "Entry-level",
+        "salary": {
+          "min": 20,
+          "max": 40,
+          "currency": "USD",
+          "period": "hourly"
+        },
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-16T01:15:47.000Z",
+        "expiresAt": "2027-01-15T01:15:47.000Z",
+        "applicationUrl": "https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/clera/jobs/physical-ai-data-collection-associate",
+        "studentFit": {
+          "score": 65,
+          "reasons": [
+            "Student or entry-level language"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-20T11:52:28.610Z",
+        "descriptionPath": "data/jobs/remote/5d78d6450c6c64d073811a4e583aec7e.json",
+        "pagePath": "jobs/remote/physical-ai-data-collection-associate-clera/"
+      }
+    },
+    {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-lawyer",
       "slug": "junior-lawyer-micro1",
-      "closedAt": null,
+      "closedAt": "2026-11-20T20:21:40.194Z",
       "job": {
         "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/junior-lawyer",
         "source": "Himalayas",
@@ -2691,96 +2781,6 @@
         "lastSeenAt": "2026-11-20T11:52:28.610Z",
         "descriptionPath": "data/jobs/remote/499ddcdee0b6692e1d4d451a495e1e96.json",
         "pagePath": "jobs/remote/junior-lawyer-micro1/"
-      }
-    },
-    {
-      "id": "jobicy:153136",
-      "slug": "compliance-engineer-intern-certik",
-      "closedAt": "2026-11-20T03:16:16.530Z",
-      "job": {
-        "id": "jobicy:153136",
-        "source": "Jobicy",
-        "sourceId": "153136",
-        "title": "Compliance Engineer Intern",
-        "company": "CertiK",
-        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2021/03/Jobicy-210308091023-955845.jpg",
-        "summary": "About the Company Born from groundbreaking research at Columbia University and Yale University, CertiK is a leading Web3 security company focused on securing blockchain protocols, smart contracts, and decentralized applications through cutting-edge security research, formal verif",
-        "employmentType": "Internship",
-        "level": "Entry-Level, Junior",
-        "salary": null,
-        "eligibility": {
-          "label": "APAC,  Europe",
-          "regions": [
-            "asia"
-          ],
-          "countries": [],
-          "confidence": "verified"
-        },
-        "publishedAt": "2026-11-14T02:50:33+00:00",
-        "expiresAt": null,
-        "applicationUrl": "https://jobicy.com/jobs/153136-compliance-engineer-intern",
-        "sourceUrl": "https://jobicy.com/jobs/153136-compliance-engineer-intern",
-        "studentFit": {
-          "score": 83,
-          "reasons": [
-            "Student or entry-level language",
-            "Internship"
-          ],
-          "maxYears": null,
-          "evidence": true
-        },
-        "safety": {
-          "status": "passed",
-          "flags": []
-        },
-        "lastSeenAt": "2026-11-19T21:35:41.808Z",
-        "descriptionPath": "data/jobs/remote/1be1760243e7d8196102d983879b44fd.json",
-        "pagePath": "jobs/remote/compliance-engineer-intern-certik/"
-      }
-    },
-    {
-      "id": "jobicy:150701",
-      "slug": "part-time-virtual-travel-assistant-affiliate-recruiter-management-the-flex",
-      "closedAt": "2026-11-19T21:35:44.733Z",
-      "job": {
-        "id": "jobicy:150701",
-        "source": "Jobicy",
-        "sourceId": "150701",
-        "title": "Part-Time Virtual Travel Assistant & Affiliate Recruiter Management",
-        "company": "The Flex",
-        "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/5b85d3fa-221.jpeg",
-        "summary": "We seek a detail-oriented and proactive Virtual Assistant Affiliate Recruiter to manage reviews across various Online Travel Agencies (OTAs) and our market exposure. Responsibilities:1. Travel Booking Management:Book accommodations, flights, and other travel-related services on p",
-        "employmentType": "Full-time",
-        "level": "Any",
-        "salary": null,
-        "eligibility": {
-          "label": "APAC,  Philippines",
-          "regions": [
-            "asia"
-          ],
-          "countries": [],
-          "confidence": "verified"
-        },
-        "publishedAt": "2026-11-17T02:45:28+00:00",
-        "expiresAt": null,
-        "applicationUrl": "https://jobicy.com/jobs/150701-part-time-virtual-travel-assistant-affiliate-recruiter-management",
-        "sourceUrl": "https://jobicy.com/jobs/150701-part-time-virtual-travel-assistant-affiliate-recruiter-management",
-        "studentFit": {
-          "score": 77,
-          "reasons": [
-            "Student or entry-level language",
-            "Part-time"
-          ],
-          "maxYears": null,
-          "evidence": true
-        },
-        "safety": {
-          "status": "passed",
-          "flags": []
-        },
-        "lastSeenAt": "2026-11-19T13:08:47.516Z",
-        "descriptionPath": "data/jobs/remote/21e24aa8607b05ce4a8fdb9c274e375a.json",
-        "pagePath": "jobs/remote/part-time-virtual-travel-assistant-affiliate-recruiter-management-the-flex/"
       }
     },
     {

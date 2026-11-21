@@ -1,39 +1,5 @@
 {
-  "generatedAt": "2026-11-20T02:32:30.599Z",
-  "jobCount": 1,
-  "jobs": [
-    {
-      "id": "dfcu:-careers-people-culture-operations-officer-grade-df5-1-position-",
-      "source": "dfcu Bank Careers",
-      "sourceType": "official-employer",
-      "title": "PEOPLE & CULTURE OPERATIONS OFFICER (GRADE: DF5) 1 POSITION",
-      "level": "Entry level",
-      "employer": "dfcu Bank",
-      "location": "Uganda",
-      "district": "Uganda",
-      "workplace": "On-site or field-based",
-      "employmentType": "See official listing",
-      "category": "Administration",
-      "education": "See official listing",
-      "experience": "See official listing",
-      "publishedAt": "2026-11-11T20:59:59.000Z",
-      "deadline": "2026-11-18T20:59:59.000Z",
-      "deadlineStatus": "Expired",
-      "summary": "dfcu Bank is hiring a People Culture Operations Officer. Human Resource Management, Industrial and Organizational Psychology required. Apply by 18 Nov 2026",
-      "indicators": [],
-      "verification": {
-        "status": "review",
-        "label": "Needs review",
-        "checkedAt": "2026-11-20T02:32:30.599Z",
-        "flags": [
-          "Expired"
-        ]
-      },
-      "sourceUrl": "https://www.dfcugroup.com/careers/people-culture-operations-officer-grade-df5-1-position/",
-      "applicationUrl": "https://careers.dfcugroup.com/",
-      "lastCheckedAt": "2026-11-20T02:32:30.599Z",
-      "sourceId": "dfcu",
-      "sector": "Banking"
-    }
-  ]
+  "generatedAt": "2026-11-21T02:45:28.333Z",
+  "jobCount": 0,
+  "jobs": []
 }

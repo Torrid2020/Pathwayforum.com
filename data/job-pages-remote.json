@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-22T21:45:54.898Z",
+  "updatedAt": "2026-11-23T02:45:45.351Z",
   "entries": [
     {
       "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
@@ -85,7 +85,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
         "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
       }
@@ -172,9 +172,100 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/9a962cd4903ab02ecaf3466e7ddfbf0f.json",
         "pagePath": "jobs/remote/polish-english-opi-vri-interpretation-kalam/"
+      }
+    },
+    {
+      "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/sales-development-associate-4520581748",
+      "slug": "sales-development-associate-clera-abc92416",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:clera:https://himalayas.app/companies/clera/jobs/sales-development-associate-4520581748",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/clera/jobs/sales-development-associate-4520581748",
+        "title": "Sales Development Associate",
+        "company": "Clera",
+        "logo": null,
+        "summary": "About the Role Join an early-stage sales team at a data and infrastructure company, partnering with the sales director to turn technical interest into qualified business opportunities.",
+        "employmentType": "Full-time",
+        "level": "Entry-level",
+        "salary": {
+          "min": 60000,
+          "max": 80000,
+          "currency": "USD",
+          "period": "annual"
+        },
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-23T00:12:59.000Z",
+        "expiresAt": "2027-01-22T00:12:56.000Z",
+        "applicationUrl": "https://himalayas.app/companies/clera/jobs/sales-development-associate-4520581748?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/clera/jobs/sales-development-associate-4520581748",
+        "studentFit": {
+          "score": 83,
+          "reasons": [
+            "Student or entry-level language",
+            "Internship"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
+        "descriptionPath": "data/jobs/remote/abc924169754a172417d5de9b34a061a.json",
+        "pagePath": "jobs/remote/sales-development-associate-clera-abc92416/"
       }
     },
     {
@@ -258,7 +349,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/e63db35c536a6a870d7d6207a405be0a.json",
         "pagePath": "jobs/remote/internship-law-policy-and-research-spring-2027-outright-international/"
       }
@@ -344,7 +435,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/d71b22256c46fd6d14745ddcb8a02ecc.json",
         "pagePath": "jobs/remote/identity-trust-fraud-intelligence-expert-ai-community-telus-digital/"
       }
@@ -430,7 +521,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/b7d2db55b68c2f0841ac0af734f63194.json",
         "pagePath": "jobs/remote/global-ai-expert-evaluator-telus-digital/"
       }
@@ -516,7 +607,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/eccec684728ea52ce850f7dec7dc3c79.json",
         "pagePath": "jobs/remote/rsi-training-ready-made-dataset-expert-telus-digital/"
       }
@@ -602,7 +693,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/9ea7aa6552481879abcb0bd627b354db.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-specialist-telus-digital/"
       }
@@ -688,7 +779,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/9a505abe207c8ce168766ff3f3a09a1a.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-expert-ai-community-telus-digital/"
       }
@@ -774,7 +865,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/c5f9e417f0c79e017bde090108965c2c.json",
         "pagePath": "jobs/remote/3d-spatial-data-expert-ai-community-telus-digital/"
       }
@@ -860,7 +951,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/e9a87453db75072f4ef022c16ff79811.json",
         "pagePath": "jobs/remote/full-stack-ai-logic-expert-ai-community-telus-digital/"
       }
@@ -946,7 +1037,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
       }
@@ -1032,9 +1123,99 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/a877b3aeee0394cb5477e8565dee65f2.json",
         "pagePath": "jobs/remote/smm-specialist-growe-talents/"
+      }
+    },
+    {
+      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/mathlib-contributor",
+      "slug": "mathlib-contributor-micro1",
+      "closedAt": null,
+      "job": {
+        "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/mathlib-contributor",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/micro1/jobs/mathlib-contributor",
+        "title": "Mathlib Contributor",
+        "company": "micro1",
+        "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
+        "summary": "Mathlib Contributor Pay: $60–$120/hour equivalent, paid per accepted task Location: Global, fully remote Job Type: Contractor Time Commitment: 15+ hours per week Schedule: Flexible micro1 is looking for contributors with publicly verifiable mathlib experience to support a project",
+        "employmentType": "Contract",
+        "level": "Entry-level",
+        "salary": {
+          "min": 60,
+          "max": 120,
+          "currency": "USD",
+          "period": "hourly"
+        },
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-23T02:20:28.000Z",
+        "expiresAt": "2027-01-22T02:20:28.000Z",
+        "applicationUrl": "https://himalayas.app/companies/micro1/jobs/mathlib-contributor?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/micro1/jobs/mathlib-contributor",
+        "studentFit": {
+          "score": 65,
+          "reasons": [
+            "Student or entry-level language"
+          ],
+          "maxYears": null,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
+        "descriptionPath": "data/jobs/remote/9f2c9141e927503c9f5b26b61771574b.json",
+        "pagePath": "jobs/remote/mathlib-contributor-micro1/"
       }
     },
     {
@@ -1122,7 +1303,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/dc06745349187ebc214478753085de19.json",
         "pagePath": "jobs/remote/talent-support-specialist-micro1/"
       }
@@ -1207,7 +1388,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/859faf58c2cb43bf2c8618e1a7bc746c.json",
         "pagePath": "jobs/remote/kinyarwanda-language-specialist-ai-trainer-invisible-technologies/"
       }
@@ -1297,7 +1478,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/370242a7db2ffd495c5fadc73ced0579.json",
         "pagePath": "jobs/remote/product-setup-specialist-operations-launchbrightly/"
       }
@@ -1382,7 +1563,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/1bcb521098e044cfef94077b102ab11c.json",
         "pagePath": "jobs/remote/retail-customer-support-specialist-micro1/"
       }
@@ -1467,7 +1648,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/a3d83a90c1b7f2ba81d79bfeb15c47cd.json",
         "pagePath": "jobs/remote/polish-ai-data-rater-welocalize/"
       }
@@ -1552,7 +1733,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/b575790900048527fcfcf276542471a6.json",
         "pagePath": "jobs/remote/dutch-ai-data-rater-welocalize/"
       }
@@ -1637,7 +1818,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/ba5fdd8a0d9ed73d5e49567a79bac828.json",
         "pagePath": "jobs/remote/sales-development-representative-sdr-bdr-cloudspot-gmbh/"
       }
@@ -1722,7 +1903,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/493fd3440923548ca7f1f0325e4a4194.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-remote-contract-xperteez-technology/"
       }
@@ -1807,7 +1988,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/1187c817182dd4f6b926a56d473bb675.json",
         "pagePath": "jobs/remote/video-data-entry-specialist-latam-micro1/"
       }
@@ -1892,7 +2073,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/cedf0358b0c583537f88b3cf8a1e3373.json",
         "pagePath": "jobs/remote/at-home-video-recorder-latam-micro1/"
       }
@@ -1977,7 +2158,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/2aa640f4cb16cfffaeb8d7e60bde8b9d.json",
         "pagePath": "jobs/remote/professional-shopper-micro1/"
       }
@@ -2062,7 +2243,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/0f366f0fb441b29a9c0e1c5ec97adf48.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-micro1/"
       }
@@ -2147,7 +2328,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/ead05e31640db94d9f7eeec963a0a85e.json",
         "pagePath": "jobs/remote/ai-conversation-evaluator-micro1/"
       }
@@ -2232,7 +2413,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/856eb689aa39e44bca3e4ec2c0913f1d.json",
         "pagePath": "jobs/remote/open-source-contributor-micro1/"
       }
@@ -2317,7 +2498,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
         "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
       }
@@ -2402,7 +2583,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -2487,7 +2668,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -2572,7 +2753,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -2662,7 +2843,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-22T21:45:53.580Z",
+        "lastSeenAt": "2026-11-23T02:45:43.505Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
       }

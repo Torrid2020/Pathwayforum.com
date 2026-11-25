@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "updatedAt": "2026-11-25T14:24:48.429Z",
+  "updatedAt": "2026-11-25T23:37:18.704Z",
   "entries": [
     {
       "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
@@ -66,7 +66,7 @@
           13,
           14
         ],
-        "publishedAt": "2026-11-24T19:30:25.000Z",
+        "publishedAt": "2026-11-25T19:30:16.000Z",
         "expiresAt": "2027-02-15T18:16:39.000Z",
         "applicationUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern?utm_source=api",
         "sourceUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
@@ -85,7 +85,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
         "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
       }
@@ -172,7 +172,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/9a962cd4903ab02ecaf3466e7ddfbf0f.json",
         "pagePath": "jobs/remote/polish-english-opi-vri-interpretation-kalam/"
       }
@@ -258,7 +258,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/e63db35c536a6a870d7d6207a405be0a.json",
         "pagePath": "jobs/remote/internship-law-policy-and-research-spring-2027-outright-international/"
       }
@@ -344,7 +344,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/d71b22256c46fd6d14745ddcb8a02ecc.json",
         "pagePath": "jobs/remote/identity-trust-fraud-intelligence-expert-ai-community-telus-digital/"
       }
@@ -430,7 +430,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/b7d2db55b68c2f0841ac0af734f63194.json",
         "pagePath": "jobs/remote/global-ai-expert-evaluator-telus-digital/"
       }
@@ -516,7 +516,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/eccec684728ea52ce850f7dec7dc3c79.json",
         "pagePath": "jobs/remote/rsi-training-ready-made-dataset-expert-telus-digital/"
       }
@@ -602,7 +602,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/9ea7aa6552481879abcb0bd627b354db.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-specialist-telus-digital/"
       }
@@ -688,7 +688,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/9a505abe207c8ce168766ff3f3a09a1a.json",
         "pagePath": "jobs/remote/ai-development-programmatic-reasoning-expert-ai-community-telus-digital/"
       }
@@ -774,7 +774,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/c5f9e417f0c79e017bde090108965c2c.json",
         "pagePath": "jobs/remote/3d-spatial-data-expert-ai-community-telus-digital/"
       }
@@ -860,7 +860,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/e9a87453db75072f4ef022c16ff79811.json",
         "pagePath": "jobs/remote/full-stack-ai-logic-expert-ai-community-telus-digital/"
       }
@@ -946,95 +946,9 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/8db8d7ba29c8ff39f41491a3655994d0.json",
         "pagePath": "jobs/remote/business-analyst-junior-antifraud-disputes-banco-plata-s-a-institucion-de-banca-multiple/"
-      }
-    },
-    {
-      "id": "himalayas:growe-talents:https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
-      "slug": "smm-specialist-growe-talents",
-      "closedAt": null,
-      "job": {
-        "id": "himalayas:growe-talents:https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
-        "source": "Himalayas",
-        "sourceId": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
-        "title": "SMM Specialist",
-        "company": "Growe Talents",
-        "logo": "https://cdn-images.himalayas.app/ehszroxgzwoydv8o8aax41121nt4",
-        "summary": "Our client is an international online gaming company focused on delivering engaging and innovative gaming experiences, leveraging modern technologies to provide high-quality products and services for a global audience.",
-        "employmentType": "Full-time",
-        "level": "Entry-level",
-        "salary": null,
-        "eligibility": {
-          "label": "Worldwide",
-          "regions": [
-            "africa",
-            "southAmerica",
-            "asia"
-          ],
-          "countries": [],
-          "confidence": "verified"
-        },
-        "timezoneRestrictions": [
-          -11,
-          -10,
-          -9.5,
-          -9,
-          -8,
-          -7,
-          -6,
-          -5,
-          -4,
-          -3.5,
-          -3,
-          -2,
-          -1,
-          0,
-          1,
-          2,
-          3,
-          3.5,
-          4,
-          4.5,
-          5,
-          5.5,
-          5.75,
-          6,
-          6.5,
-          7,
-          8,
-          8.75,
-          9,
-          9.5,
-          10,
-          10.5,
-          11,
-          12,
-          12.75,
-          13,
-          14
-        ],
-        "publishedAt": "2026-11-19T16:39:00.000Z",
-        "expiresAt": "2027-01-17T12:18:18.000Z",
-        "applicationUrl": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist?utm_source=api",
-        "sourceUrl": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
-        "studentFit": {
-          "score": 73,
-          "reasons": [
-            "Student or entry-level language",
-            "1 years or less"
-          ],
-          "maxYears": 1,
-          "evidence": true
-        },
-        "safety": {
-          "status": "passed",
-          "flags": []
-        },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
-        "descriptionPath": "data/jobs/remote/a877b3aeee0394cb5477e8565dee65f2.json",
-        "pagePath": "jobs/remote/smm-specialist-growe-talents/"
       }
     },
     {
@@ -1122,7 +1036,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/17ed4a78226a20056881c98f9f23604d.json",
         "pagePath": "jobs/remote/cozi-specialist-micro1/"
       }
@@ -1212,7 +1126,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/52151e3f14ee392e4e41e91f0c7a1382.json",
         "pagePath": "jobs/remote/tripit-specialist-micro1/"
       }
@@ -1302,7 +1216,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/295d5356ad603006fc8669cc28b80b3b.json",
         "pagePath": "jobs/remote/aws-console-specialist-micro1/"
       }
@@ -1348,7 +1262,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/c191bcf5ed68b35c7e6574c7afea466b.json",
         "pagePath": "jobs/remote/graduate-sales-development-representative-canonical/"
       }
@@ -1394,7 +1308,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/8947b093d24c8fa1aa481ced45dd492d.json",
         "pagePath": "jobs/remote/cloud-field-engineer-canonical/"
       }
@@ -1440,7 +1354,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/532ec5e6850dafb6e8c09d686aa37c10.json",
         "pagePath": "jobs/remote/ubuntu-sales-engineer-entry-level-canonical/"
       }
@@ -1525,7 +1439,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/3c38d8afe010d46c0eb50fc77a15d7e5.json",
         "pagePath": "jobs/remote/founding-business-development-representative-bdr-clera/"
       }
@@ -1610,7 +1524,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/1bcb521098e044cfef94077b102ab11c.json",
         "pagePath": "jobs/remote/retail-customer-support-specialist-micro1/"
       }
@@ -1700,7 +1614,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/9f2c9141e927503c9f5b26b61771574b.json",
         "pagePath": "jobs/remote/mathlib-contributor-micro1/"
       }
@@ -1785,7 +1699,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/859faf58c2cb43bf2c8618e1a7bc746c.json",
         "pagePath": "jobs/remote/kinyarwanda-language-specialist-ai-trainer-invisible-technologies/"
       }
@@ -1870,7 +1784,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/a3d83a90c1b7f2ba81d79bfeb15c47cd.json",
         "pagePath": "jobs/remote/polish-ai-data-rater-welocalize/"
       }
@@ -1955,7 +1869,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/b575790900048527fcfcf276542471a6.json",
         "pagePath": "jobs/remote/dutch-ai-data-rater-welocalize/"
       }
@@ -2040,7 +1954,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/ba5fdd8a0d9ed73d5e49567a79bac828.json",
         "pagePath": "jobs/remote/sales-development-representative-sdr-bdr-cloudspot-gmbh/"
       }
@@ -2125,7 +2039,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/493fd3440923548ca7f1f0325e4a4194.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-remote-contract-xperteez-technology/"
       }
@@ -2210,7 +2124,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/1187c817182dd4f6b926a56d473bb675.json",
         "pagePath": "jobs/remote/video-data-entry-specialist-latam-micro1/"
       }
@@ -2295,7 +2209,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/cedf0358b0c583537f88b3cf8a1e3373.json",
         "pagePath": "jobs/remote/at-home-video-recorder-latam-micro1/"
       }
@@ -2380,7 +2294,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/2aa640f4cb16cfffaeb8d7e60bde8b9d.json",
         "pagePath": "jobs/remote/professional-shopper-micro1/"
       }
@@ -2465,7 +2379,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/0f366f0fb441b29a9c0e1c5ec97adf48.json",
         "pagePath": "jobs/remote/junior-machine-learning-engineer-micro1/"
       }
@@ -2550,7 +2464,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/ead05e31640db94d9f7eeec963a0a85e.json",
         "pagePath": "jobs/remote/ai-conversation-evaluator-micro1/"
       }
@@ -2635,7 +2549,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/856eb689aa39e44bca3e4ec2c0913f1d.json",
         "pagePath": "jobs/remote/open-source-contributor-micro1/"
       }
@@ -2720,7 +2634,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
         "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
       }
@@ -2805,7 +2719,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
         "pagePath": "jobs/remote/engineering-phd-micro1/"
       }
@@ -2890,7 +2804,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
         "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
       }
@@ -2975,7 +2889,7 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
         "pagePath": "jobs/remote/video-annotation-micro1/"
       }
@@ -3065,9 +2979,95 @@
           "status": "passed",
           "flags": []
         },
-        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "lastSeenAt": "2026-11-25T23:37:17.898Z",
         "descriptionPath": "data/jobs/remote/002992882ea7db16a6a23421f65795ad.json",
         "pagePath": "jobs/remote/recruiting-coordinator-careerswift/"
+      }
+    },
+    {
+      "id": "himalayas:growe-talents:https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
+      "slug": "smm-specialist-growe-talents",
+      "closedAt": "2026-11-25T23:37:18.704Z",
+      "job": {
+        "id": "himalayas:growe-talents:https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
+        "source": "Himalayas",
+        "sourceId": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
+        "title": "SMM Specialist",
+        "company": "Growe Talents",
+        "logo": "https://cdn-images.himalayas.app/ehszroxgzwoydv8o8aax41121nt4",
+        "summary": "Our client is an international online gaming company focused on delivering engaging and innovative gaming experiences, leveraging modern technologies to provide high-quality products and services for a global audience.",
+        "employmentType": "Full-time",
+        "level": "Entry-level",
+        "salary": null,
+        "eligibility": {
+          "label": "Worldwide",
+          "regions": [
+            "africa",
+            "southAmerica",
+            "asia"
+          ],
+          "countries": [],
+          "confidence": "verified"
+        },
+        "timezoneRestrictions": [
+          -11,
+          -10,
+          -9.5,
+          -9,
+          -8,
+          -7,
+          -6,
+          -5,
+          -4,
+          -3.5,
+          -3,
+          -2,
+          -1,
+          0,
+          1,
+          2,
+          3,
+          3.5,
+          4,
+          4.5,
+          5,
+          5.5,
+          5.75,
+          6,
+          6.5,
+          7,
+          8,
+          8.75,
+          9,
+          9.5,
+          10,
+          10.5,
+          11,
+          12,
+          12.75,
+          13,
+          14
+        ],
+        "publishedAt": "2026-11-19T16:39:00.000Z",
+        "expiresAt": "2027-01-17T12:18:18.000Z",
+        "applicationUrl": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist?utm_source=api",
+        "sourceUrl": "https://himalayas.app/companies/growe-talents/jobs/smm-specialist",
+        "studentFit": {
+          "score": 73,
+          "reasons": [
+            "Student or entry-level language",
+            "1 years or less"
+          ],
+          "maxYears": 1,
+          "evidence": true
+        },
+        "safety": {
+          "status": "passed",
+          "flags": []
+        },
+        "lastSeenAt": "2026-11-25T14:24:45.539Z",
+        "descriptionPath": "data/jobs/remote/a877b3aeee0394cb5477e8565dee65f2.json",
+        "pagePath": "jobs/remote/smm-specialist-growe-talents/"
       }
     },
     {

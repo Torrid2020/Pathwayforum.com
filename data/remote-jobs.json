@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-26T08:18:42.923Z",
+  "generatedAt": "2026-11-26T19:00:05.728Z",
   "targetRegions": [
     "Africa",
     "South America",
     "Asia"
   ],
-  "jobCount": 35,
+  "jobCount": 41,
   "sources": {
-    "Jobicy anywhere": "ok",
+    "Jobicy anywhere": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=anywhere",
     "Jobicy anywhere intern": "ok",
     "Jobicy anywhere junior": "ok",
     "Jobicy anywhere graduate": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=anywhere&tag=graduate",
-    "Jobicy apac": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=apac",
-    "Jobicy apac intern": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=apac&tag=intern",
+    "Jobicy apac": "ok",
+    "Jobicy apac intern": "ok",
     "Jobicy apac junior": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=apac&tag=junior",
     "Jobicy apac graduate": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=apac&tag=graduate",
     "Jobicy latam": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=latam",
     "Jobicy latam intern": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=latam&tag=intern",
-    "Jobicy latam junior": "ok",
-    "Jobicy latam graduate": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=latam&tag=graduate",
+    "Jobicy latam junior": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=latam&tag=junior",
+    "Jobicy latam graduate": "ok",
     "Jobicy emea": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=emea",
     "Jobicy emea intern": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=emea&tag=intern",
     "Jobicy emea junior": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=emea&tag=junior",
-    "Jobicy emea graduate": "Error: 429 https://jobicy.com/api/v2/remote-jobs?count=200&geo=emea&tag=graduate",
+    "Jobicy emea graduate": "ok",
     "Himalayas 1": "ok",
     "Himalayas 2": "ok",
     "Himalayas 3": "ok",
@@ -33,89 +33,6 @@
   },
   "methodology": "Automated source, location, student-fit and safety screening. Applicants must confirm all details on the official listing.",
   "jobs": [
-    {
-      "id": "himalayas:asg-company:https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-      "title": "Full Stack Developer Intern",
-      "company": "ASG Company",
-      "logo": "https://cdn-images.himalayas.app/7g0puyzmb0x66ua8z3yowipafac5",
-      "summary": "What is this job about? ASG Platform is looking for a Full Stack Developer Intern to assist our demanding customer website infrastructure and our Full Stack Developers.",
-      "employmentType": "Internship",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-11-25T19:30:16.000Z",
-      "expiresAt": "2027-02-15T18:16:39.000Z",
-      "applicationUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/asg-company/jobs/full-stack-developer-intern",
-      "studentFit": {
-        "score": 100,
-        "reasons": [
-          "Student or entry-level language",
-          "Internship",
-          "Training opportunity",
-          "1 years or less"
-        ],
-        "maxYears": 1,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
-      "descriptionPath": "data/jobs/remote/b58d3c98f46d292946d31292aa988829.json",
-      "pagePath": "jobs/remote/full-stack-developer-intern-asg-company/"
-    },
     {
       "id": "himalayas:kalam:https://himalayas.app/companies/kalam/jobs/polish-english-opi-vri-interpretation",
       "source": "Himalayas",
@@ -194,7 +111,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/9a962cd4903ab02ecaf3466e7ddfbf0f.json",
       "pagePath": "jobs/remote/polish-english-opi-vri-interpretation-kalam/"
     },
@@ -275,9 +192,738 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/e63db35c536a6a870d7d6207a405be0a.json",
       "pagePath": "jobs/remote/internship-law-policy-and-research-spring-2027-outright-international/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-japan",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-japan",
+      "title": "SELFIES- Japan",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T12:21:09.000Z",
+      "expiresAt": "2026-12-26T12:20:04.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-japan?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-japan",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/0b2ea5bfbed3f9241f6adc4e3df826eb.json",
+      "pagePath": "jobs/remote/selfies-japan-telus-international-ai-inc/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-jordan",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-jordan",
+      "title": "SELFIES- Jordan",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T12:07:16.000Z",
+      "expiresAt": "2026-12-26T12:06:43.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-jordan?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-jordan",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/29806577d01f496fc7d2a7155b97b343.json",
+      "pagePath": "jobs/remote/selfies-jordan-telus-international-ai-inc/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-georgia",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-georgia",
+      "title": "SELFIES- Georgia",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T12:06:18.000Z",
+      "expiresAt": "2026-12-26T12:05:52.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-georgia?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-georgia",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/f61725663dd75f8cf7aef2108b6da05a.json",
+      "pagePath": "jobs/remote/selfies-georgia-telus-international-ai-inc/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-cyprus",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-cyprus",
+      "title": "SELFIES- Cyprus",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T12:04:49.000Z",
+      "expiresAt": "2026-12-26T12:04:22.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-cyprus?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-cyprus",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/317f3ef758eb9b5c0d82c5f372133160.json",
+      "pagePath": "jobs/remote/selfies-cyprus-telus-international-ai-inc/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-bahrain",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-bahrain",
+      "title": "SELFIES- Bahrain",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T12:04:05.000Z",
+      "expiresAt": "2026-12-26T12:03:11.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-bahrain?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-bahrain",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/0355e72f22628797902e9ed1ad9dc0dd.json",
+      "pagePath": "jobs/remote/selfies-bahrain-telus-international-ai-inc/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-uruguay",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-uruguay",
+      "title": "SELFIES- Uruguay",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T11:51:30.000Z",
+      "expiresAt": "2026-12-26T11:51:01.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-uruguay?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-uruguay",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/f204c40df3ec6a94c0e12c489aab2aed.json",
+      "pagePath": "jobs/remote/selfies-uruguay-telus-international-ai-inc/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-suriname",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-suriname",
+      "title": "SELFIES- Suriname",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T11:50:53.000Z",
+      "expiresAt": "2026-12-26T11:49:43.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-suriname?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-suriname",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/00f7e82138b63773b0330507448dc64f.json",
+      "pagePath": "jobs/remote/selfies-suriname-telus-international-ai-inc/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-chile",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-chile",
+      "title": "SELFIES- Chile",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T08:47:09.000Z",
+      "expiresAt": "2026-12-26T08:46:21.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-chile?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-chile",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/718439e89fb1b51f431cc6337ac6f6e6.json",
+      "pagePath": "jobs/remote/selfies-chile-telus-international-ai-inc/"
+    },
+    {
+      "id": "himalayas:telus-international-ai-inc:https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-bolivia",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-bolivia",
+      "title": "SELFIES- Bolivia",
+      "company": "TELUS International AI Inc",
+      "logo": "https://cdn-images.himalayas.app/omzyubeqs0dlp6huhehruwkpipyy",
+      "summary": "QUICK INCOME IN JUST 30 MINUTES! CLICK HERE TO APPLY AND GET STARTED!",
+      "employmentType": "Part-time",
+      "level": "Entry-level",
+      "salary": null,
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T08:46:16.000Z",
+      "expiresAt": "2026-12-26T08:45:10.000Z",
+      "applicationUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-bolivia?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/telus-international-ai-inc/jobs/selfies-bolivia",
+      "studentFit": {
+        "score": 77,
+        "reasons": [
+          "Student or entry-level language",
+          "Part-time"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/5eaad8a44e0459b8b530e360f016be7f.json",
+      "pagePath": "jobs/remote/selfies-bolivia-telus-international-ai-inc/"
     },
     {
       "id": "himalayas:telus-digital:https://himalayas.app/companies/telus-digital/jobs/identity-trust-fraud-intelligence-expert-ai-community",
@@ -356,7 +1002,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/d71b22256c46fd6d14745ddcb8a02ecc.json",
       "pagePath": "jobs/remote/identity-trust-fraud-intelligence-expert-ai-community-telus-digital/"
     },
@@ -437,7 +1083,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/b7d2db55b68c2f0841ac0af734f63194.json",
       "pagePath": "jobs/remote/global-ai-expert-evaluator-telus-digital/"
     },
@@ -518,7 +1164,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/eccec684728ea52ce850f7dec7dc3c79.json",
       "pagePath": "jobs/remote/rsi-training-ready-made-dataset-expert-telus-digital/"
     },
@@ -599,7 +1245,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/9ea7aa6552481879abcb0bd627b354db.json",
       "pagePath": "jobs/remote/ai-development-programmatic-reasoning-specialist-telus-digital/"
     },
@@ -680,7 +1326,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/9a505abe207c8ce168766ff3f3a09a1a.json",
       "pagePath": "jobs/remote/ai-development-programmatic-reasoning-expert-ai-community-telus-digital/"
     },
@@ -761,7 +1407,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/c5f9e417f0c79e017bde090108965c2c.json",
       "pagePath": "jobs/remote/3d-spatial-data-expert-ai-community-telus-digital/"
     },
@@ -842,9 +1488,94 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/e9a87453db75072f4ef022c16ff79811.json",
       "pagePath": "jobs/remote/full-stack-ai-logic-expert-ai-community-telus-digital/"
+    },
+    {
+      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user-6179024574",
+      "source": "Himalayas",
+      "sourceId": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user-6179024574",
+      "title": "Hospitality Worker (Toast POS User)",
+      "company": "micro1",
+      "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
+      "summary": "Role Title: Hospitality Worker (Toast POS User) Role Type: Contractor Location: Remote micro1 is engaging hospitality workers to contribute to a customer initiative related to restaurant technology.",
+      "employmentType": "Contract",
+      "level": "Entry-level",
+      "salary": {
+        "min": 28,
+        "max": 92,
+        "currency": "USD",
+        "period": "hourly"
+      },
+      "eligibility": {
+        "label": "Worldwide",
+        "regions": [
+          "africa",
+          "southAmerica",
+          "asia"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "timezoneRestrictions": [
+        -11,
+        -10,
+        -9.5,
+        -9,
+        -8,
+        -7,
+        -6,
+        -5,
+        -4,
+        -3.5,
+        -3,
+        -2,
+        -1,
+        0,
+        1,
+        2,
+        3,
+        3.5,
+        4,
+        4.5,
+        5,
+        5.5,
+        5.75,
+        6,
+        6.5,
+        7,
+        8,
+        8.75,
+        9,
+        9.5,
+        10,
+        10.5,
+        11,
+        12,
+        12.75,
+        13,
+        14
+      ],
+      "publishedAt": "2026-11-26T12:20:49.000Z",
+      "expiresAt": "2027-01-25T12:20:49.000Z",
+      "applicationUrl": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user-6179024574?utm_source=api",
+      "sourceUrl": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user-6179024574",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/0a2cda66d6ab7984da92e0310d6f6c57.json",
+      "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1-0a2cda66/"
     },
     {
       "id": "jobicy:149520",
@@ -883,7 +1614,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/3db21f8f1ee3144d360be770818e1825.json",
       "pagePath": "jobs/remote/junior-linux-kernel-engineer-ubuntu-canonical/"
     },
@@ -968,7 +1699,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/17ed4a78226a20056881c98f9f23604d.json",
       "pagePath": "jobs/remote/cozi-specialist-micro1/"
     },
@@ -1053,94 +1784,9 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/52151e3f14ee392e4e41e91f0c7a1382.json",
       "pagePath": "jobs/remote/tripit-specialist-micro1/"
-    },
-    {
-      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/aws-console-specialist",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/micro1/jobs/aws-console-specialist",
-      "title": "AWS Console Specialist",
-      "company": "micro1",
-      "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
-      "summary": "Role Title: AWS Console Specialist Role Type: Contractor Location: Remote micro1 is engaging AWS Console Specialists to contribute to a dynamic customer project focused on cloud infrastructure and operations.",
-      "employmentType": "Contract",
-      "level": "Entry-level",
-      "salary": {
-        "min": 70,
-        "max": 130,
-        "currency": "USD",
-        "period": "hourly"
-      },
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-11-25T08:20:44.000Z",
-      "expiresAt": "2027-01-24T08:20:44.000Z",
-      "applicationUrl": "https://himalayas.app/companies/micro1/jobs/aws-console-specialist?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/micro1/jobs/aws-console-specialist",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
-      "descriptionPath": "data/jobs/remote/295d5356ad603006fc8669cc28b80b3b.json",
-      "pagePath": "jobs/remote/aws-console-specialist-micro1/"
     },
     {
       "id": "jobicy:149555",
@@ -1179,7 +1825,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/c191bcf5ed68b35c7e6574c7afea466b.json",
       "pagePath": "jobs/remote/graduate-sales-development-representative-canonical/"
     },
@@ -1220,7 +1866,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/8947b093d24c8fa1aa481ced45dd492d.json",
       "pagePath": "jobs/remote/cloud-field-engineer-canonical/"
     },
@@ -1261,7 +1907,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/532ec5e6850dafb6e8c09d686aa37c10.json",
       "pagePath": "jobs/remote/ubuntu-sales-engineer-entry-level-canonical/"
     },
@@ -1341,7 +1987,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/3c38d8afe010d46c0eb50fc77a15d7e5.json",
       "pagePath": "jobs/remote/founding-business-development-representative-bdr-clera/"
     },
@@ -1421,9 +2067,48 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/1bcb521098e044cfef94077b102ab11c.json",
       "pagePath": "jobs/remote/retail-customer-support-specialist-micro1/"
+    },
+    {
+      "id": "jobicy:164019",
+      "source": "Jobicy",
+      "sourceId": "164019",
+      "title": "Software Engineer - Python - Cloud - graduate level",
+      "company": "Canonical",
+      "logo": "https://jobicy.com/data/server-nyc0409/galaxy/mercury/2025/06/b4d068a9-221-1.png",
+      "summary": "Canonical is a leading provider of open source software and operating systems to the global enterprise and technology markets. Our platform, Ubuntu, is very widely used in breakthrough enterprise initiatives such as public cloud, data science, AI, engineering innovation, and IoT.",
+      "employmentType": "Full-time",
+      "level": "Any",
+      "salary": null,
+      "eligibility": {
+        "label": "LATAM,  Canada,  USA",
+        "regions": [
+          "southAmerica"
+        ],
+        "countries": [],
+        "confidence": "verified"
+      },
+      "publishedAt": "2026-11-23T18:31:30+00:00",
+      "expiresAt": null,
+      "applicationUrl": "https://jobicy.com/jobs/164019-software-engineer-python-cloud-graduate-level",
+      "sourceUrl": "https://jobicy.com/jobs/164019-software-engineer-python-cloud-graduate-level",
+      "studentFit": {
+        "score": 65,
+        "reasons": [
+          "Student or entry-level language"
+        ],
+        "maxYears": null,
+        "evidence": true
+      },
+      "safety": {
+        "status": "passed",
+        "flags": []
+      },
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
+      "descriptionPath": "data/jobs/remote/9b954860152ac4a0cf52f2eaabb2c96e.json",
+      "pagePath": "jobs/remote/software-engineer-python-cloud-graduate-level-canonical/"
     },
     {
       "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/mathlib-contributor",
@@ -1506,7 +2191,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/9f2c9141e927503c9f5b26b61771574b.json",
       "pagePath": "jobs/remote/mathlib-contributor-micro1/"
     },
@@ -1586,7 +2271,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/859faf58c2cb43bf2c8618e1a7bc746c.json",
       "pagePath": "jobs/remote/kinyarwanda-language-specialist-ai-trainer-invisible-technologies/"
     },
@@ -1666,7 +2351,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/a3d83a90c1b7f2ba81d79bfeb15c47cd.json",
       "pagePath": "jobs/remote/polish-ai-data-rater-welocalize/"
     },
@@ -1746,7 +2431,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/b575790900048527fcfcf276542471a6.json",
       "pagePath": "jobs/remote/dutch-ai-data-rater-welocalize/"
     },
@@ -1826,7 +2511,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/ba5fdd8a0d9ed73d5e49567a79bac828.json",
       "pagePath": "jobs/remote/sales-development-representative-sdr-bdr-cloudspot-gmbh/"
     },
@@ -1906,7 +2591,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/493fd3440923548ca7f1f0325e4a4194.json",
       "pagePath": "jobs/remote/junior-machine-learning-engineer-remote-contract-xperteez-technology/"
     },
@@ -1986,7 +2671,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/1187c817182dd4f6b926a56d473bb675.json",
       "pagePath": "jobs/remote/video-data-entry-specialist-latam-micro1/"
     },
@@ -2066,7 +2751,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/cedf0358b0c583537f88b3cf8a1e3373.json",
       "pagePath": "jobs/remote/at-home-video-recorder-latam-micro1/"
     },
@@ -2146,7 +2831,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/2aa640f4cb16cfffaeb8d7e60bde8b9d.json",
       "pagePath": "jobs/remote/professional-shopper-micro1/"
     },
@@ -2226,7 +2911,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/0f366f0fb441b29a9c0e1c5ec97adf48.json",
       "pagePath": "jobs/remote/junior-machine-learning-engineer-micro1/"
     },
@@ -2306,7 +2991,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/ead05e31640db94d9f7eeec963a0a85e.json",
       "pagePath": "jobs/remote/ai-conversation-evaluator-micro1/"
     },
@@ -2386,7 +3071,7 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/856eb689aa39e44bca3e4ec2c0913f1d.json",
       "pagePath": "jobs/remote/open-source-contributor-micro1/"
     },
@@ -2466,249 +3151,9 @@
         "status": "passed",
         "flags": []
       },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
+      "lastSeenAt": "2026-11-26T19:00:05.728Z",
       "descriptionPath": "data/jobs/remote/1911f97cb16f264b0a9655dab0ec046d.json",
       "pagePath": "jobs/remote/generalist-for-data-annotation-micro1/"
-    },
-    {
-      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/engineering-phd",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/micro1/jobs/engineering-phd",
-      "title": "Engineering PhD",
-      "company": "micro1",
-      "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
-      "summary": "Role: Engineering PhD Opportunity Snapshot Pay: $80–95/hour Duration: Short-term pilot — approximately 2–3 weeks Project kickoff:Ideally end of week( November 8th) Location: Fully remote You’ll need: PhD or PhD candidate in electrical, mechanical, chemical, industrial, or aerospa",
-      "employmentType": "Full-time",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-11-04T04:54:42.000Z",
-      "expiresAt": "2027-01-03T04:54:41.000Z",
-      "applicationUrl": "https://himalayas.app/companies/micro1/jobs/engineering-phd?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/micro1/jobs/engineering-phd",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
-      "descriptionPath": "data/jobs/remote/6a24ee32113e8ad3e22f22a22ebd7ede.json",
-      "pagePath": "jobs/remote/engineering-phd-micro1/"
-    },
-    {
-      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user",
-      "title": "Hospitality Worker (Toast POS User)",
-      "company": "micro1",
-      "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
-      "summary": "Role Title: Hospitality Worker (Toast POS User) Role Type: Contractor Location: Remote micro1 is engaging hospitality workers to contribute to a customer initiative related to restaurant technology.",
-      "employmentType": "Contract",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-11-03T21:36:40.000Z",
-      "expiresAt": "2027-01-02T21:36:38.000Z",
-      "applicationUrl": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/micro1/jobs/hospitality-worker-toast-pos-user",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
-      "descriptionPath": "data/jobs/remote/8529fb4009a2d071bd90942480e02df5.json",
-      "pagePath": "jobs/remote/hospitality-worker-toast-pos-user-micro1/"
-    },
-    {
-      "id": "himalayas:micro1:https://himalayas.app/companies/micro1/jobs/video-annotation",
-      "source": "Himalayas",
-      "sourceId": "https://himalayas.app/companies/micro1/jobs/video-annotation",
-      "title": "Video Annotation",
-      "company": "micro1",
-      "logo": "https://cdn-images.himalayas.app/91oa56akgt3qjqc1nh3uoruub40c",
-      "summary": "Role Title: Video Annotation Role Type: Contractor Location: Remote micro1 is engaging Video Annotation experts to contribute to a dynamic customer project focused on high-impact data labeling.",
-      "employmentType": "Contract",
-      "level": "Entry-level",
-      "salary": null,
-      "eligibility": {
-        "label": "Worldwide",
-        "regions": [
-          "africa",
-          "southAmerica",
-          "asia"
-        ],
-        "countries": [],
-        "confidence": "verified"
-      },
-      "timezoneRestrictions": [
-        -11,
-        -10,
-        -9.5,
-        -9,
-        -8,
-        -7,
-        -6,
-        -5,
-        -4,
-        -3.5,
-        -3,
-        -2,
-        -1,
-        0,
-        1,
-        2,
-        3,
-        3.5,
-        4,
-        4.5,
-        5,
-        5.5,
-        5.75,
-        6,
-        6.5,
-        7,
-        8,
-        8.75,
-        9,
-        9.5,
-        10,
-        10.5,
-        11,
-        12,
-        12.75,
-        13,
-        14
-      ],
-      "publishedAt": "2026-11-02T12:20:14.000Z",
-      "expiresAt": "2027-01-01T12:20:14.000Z",
-      "applicationUrl": "https://himalayas.app/companies/micro1/jobs/video-annotation?utm_source=api",
-      "sourceUrl": "https://himalayas.app/companies/micro1/jobs/video-annotation",
-      "studentFit": {
-        "score": 65,
-        "reasons": [
-          "Student or entry-level language"
-        ],
-        "maxYears": null,
-        "evidence": true
-      },
-      "safety": {
-        "status": "passed",
-        "flags": []
-      },
-      "lastSeenAt": "2026-11-26T08:18:42.923Z",
-      "descriptionPath": "data/jobs/remote/efb99fa1af4752f4070ff22813fd33f8.json",
-      "pagePath": "jobs/remote/video-annotation-micro1/"
     }
   ]
 }
